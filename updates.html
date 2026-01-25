@@ -14,16 +14,38 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html" style="color: var(--navy-blue);">RAGAB</a>
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="updates.html">Updates</a>
-                <a class="nav-link active fw-bold" href="value.html">The Lab</a>
-            </div>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm" style="border-bottom: 1px solid #ddd;">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html" style="color: #1e3799; font-family: 'Inter', sans-serif; letter-spacing: -1px;">
+            RaGaB.de
+        </a>
+        
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link px-3" href="index.html">Home</a>
+            
+            <a class="nav-link active px-3" href="updates.html">Updates</a>
+            
+            <a class="nav-link px-3" href="value.html">The Lab</a>
         </div>
-    </nav>
+    </div>
+</nav>
+
+<style>
+    /* Navigation Typography Standard */
+    .nav-link { 
+        color: #94a3b8 !important; /* Muted Grey for Inactive */
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        transition: 0.2s;
+    }
+    .nav-link.active { 
+        color: #1e3799 !important; /* Navy Blue for Active */
+        font-weight: 800 !important; 
+    }
+    .nav-link:hover {
+        color: #1e3799 !important;
+    }
+</style>
 
     <div class="container mt-5">
         <h2 class="mb-4" style="color: var(--forest-green);">Updates & Insights</h2>
