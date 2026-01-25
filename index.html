@@ -3,59 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed RaGab | Engineering & Beyond</title>
+    <title>Ahmed Ragab | Engineering & Life</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f7f6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        .bento-card { background: white; border-radius: 15px; padding: 25px; height: 100%; border: 1px solid #e0e0e0; }
-        .hero-text { padding: 60px 0; text-align: center; }
-        .category-label { font-size: 0.8rem; text-transform: uppercase; color: #007bff; font-weight: bold; }
+        body { background-color: #f4f7f6; font-family: 'Inter', sans-serif; color: #333; }
+        .bento-grid { display: grid; grid-template-columns: repeat(3, 1 row); grid-gap: 20px; padding: 40px 0; }
+        .bento-item { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .hero-tile { grid-column: span 2; background: #2d3436; color: white; }
+        .tech-tile { grid-row: span 2; }
+        @media (max-width: 768px) { .bento-grid { grid-template-columns: 1fr; } .hero-tile { grid-column: span 1; } }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <header class="hero-text">
-        <h1 class="display-4 fw-bold">Ahmed Ragab</h1>
-        <p class="lead"> ADAS/AD Engineering Manager | Fitness & Nutrition Coach | Finance & Real Estate Enthusiast</p>
-    </header>
-
-    <div class="row g-4">
-        <div class="col-md-8">
-            <div class="bento-card">
-                <span class="category-label">The Professional Journey</span>
-                <h3 class="mt-2">Embedded Automotive Specialist</h3>
-                <p>experiencing ADAS in commercial vehicles since 2010. From MATLAB/Simulink models to ASPICE-compliant production software.</p>
-                <hr>
-                <p><em>Ask me about: ASPICE, Rapid Prototyping, and High-Efficiency global cross-functional leadership.</em></p>
+    <div class="container">
+        <div class="bento-grid">
+            <div class="bento-item hero-tile">
+                <h2>Engineering is the art of balancing the note.</h2>
+                <p>I am Ahmed Ragab. For 15+ years, I have navigated the high-stakes V-Model of ADAS and Embedded Software...</p>
             </div>
-        </div>
 
-        <div class="col-md-4">
-            <div class="bento-card">
-                <span class="category-label">Fitness & Nutrition</span>
-                <h3>Coaching</h3>
-                <p>Helping others bridge the gap between sedentary office life and peak physical health.</p>
+            <div class="bento-item tech-tile">
+                <h4>70+ Engineers. 4 SOPs.</h4>
+                <p>I build scalable ecosystems. From ASPICE Level 2 to Rapid Prototyping via MicroAutoBox.</p>
             </div>
-        </div>
 
-        <div class="col-md-4">
-            <div class="bento-card">
-                <span class="category-label">Finance</span>
-                <h3>Passed CFA L1 Exam on 1st attempt/Real Estate Investor</h3>
-                <p>Navigating the German real estate market with an engineering mindset.</p>
+            <div class="bento-item">
+                <h4>Group Dynamics > Stats</h4>
+                <p>Leadership honed on the handball court and the fitness studio.</p>
             </div>
-        </div>
 
-        <div class="col-md-8">
-            <div class="bento-card">
-                <span class="category-label">My Story</span>
-                <h3>Egyptian Roots, German Citizenship</h3>
-                <p>A journey from the streets of Cairo to the innovation hubs of Hannover. Fluent in Arabic, English, and German.</p>
+            <div class="bento-item">
+                <h4>Anticipation Glasses</h4>
+                <p>Evaluating property in Hannover or system architecture through the Investment Triangle.</p>
             </div>
         </div>
     </div>
-</div>
-
 </body>
 </html>
