@@ -6,36 +6,61 @@
     <title>Ahmed Ragab | Engineering & Life</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f7f6; font-family: 'Inter', sans-serif; color: #333; }
-        .bento-grid { display: grid; grid-template-columns: repeat(3, 1 row); grid-gap: 20px; padding: 40px 0; }
-        .bento-item { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-        .hero-tile { grid-column: span 2; background: #2d3436; color: white; }
-        .tech-tile { grid-row: span 2; }
-        @media (max-width: 768px) { .bento-grid { grid-template-columns: 1fr; } .hero-tile { grid-column: span 1; } }
+        body { background-color: #f0f2f5; font-family: 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; padding: 40px 0; }
+        .bento-grid { 
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            grid-auto-rows: 220px; 
+            gap: 20px; 
+            max-width: 1100px;
+            margin: auto;
+        }
+        .bento-item { background: white; padding: 25px; border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: center; }
+        
+        /* Specific Tile Sizing */
+        .hero-tile { grid-column: span 2; grid-row: span 1; background: #1e272e; color: white; }
+        .career-tile { grid-column: span 1; grid-row: span 2; background: #ffffff; border-left: 5px solid #0984e3; }
+        .fitness-tile { grid-column: span 1; grid-row: span 1; }
+        .finance-tile { grid-column: span 1; grid-row: span 1; }
+        .mindset-tile { grid-column: span 2; grid-row: span 1; background: #dfe6e9; }
+
+        h4 { font-weight: 700; margin-bottom: 10px; color: #2d3436; }
+        .hero-tile h4 { color: #74b9ff; }
+        p { font-size: 0.95rem; line-height: 1.5; margin: 0; color: #636e72; }
+        .hero-tile p, .mindset-tile p { color: #2d3436; }
+        
+        @media (max-width: 992px) { .bento-grid { grid-template-columns: 1fr; grid-auto-rows: auto; } .hero-tile, .career-tile, .mindset-tile { grid-column: span 1; grid-row: span 1; } }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="bento-grid">
+            
             <div class="bento-item hero-tile">
-                <h2>Engineering is the art of balancing the note.</h2>
-                <p>I am Ahmed Ragab. For 15+ years, I have navigated the high-stakes V-Model of ADAS and Embedded Software...</p>
+                <h4>Engineering is the art of balancing the note.</h4>
+                <p>From a 9-month wall of silence in Paderborn to leading global ADAS teams. I am a bridge-builder between continents and complex systems.</p>
             </div>
 
-            <div class="bento-item tech-tile">
+            <div class="bento-item career-tile">
                 <h4>70+ Engineers. 4 SOPs.</h4>
-                <p>I build scalable ecosystems. From ASPICE Level 2 to Rapid Prototyping via MicroAutoBox.</p>
+                <p>Reducing problem reports by 40% isn't just about code—it's about ASPICE discipline and Rapid Prototyping (MicroAutoBox) as an industry standard.</p>
             </div>
 
-            <div class="bento-item">
+            <div class="bento-item fitness-tile">
                 <h4>Group Dynamics > Stats</h4>
-                <p>Leadership honed on the handball court and the fitness studio.</p>
+                <p>Honing engagement and accountability through functional fitness and handball coaching.</p>
             </div>
 
-            <div class="bento-item">
+            <div class="bento-item finance-tile">
                 <h4>Anticipation Glasses</h4>
-                <p>Evaluating property in Hannover or system architecture through the Investment Triangle.</p>
+                <p>Balancing the triangle of Time, Risk, and Reward in German Real Estate and technical architecture.</p>
             </div>
+
+            <div class="bento-item mindset-tile">
+                <h4>The "Changed Note" Philosophy</h4>
+                <p>I view mistakes as opportunities. Like a guitar riff in the middle of a song, a calculated risk can destroy a moment or make it strangely superior. I choose to lead with that creative courage.</p>
+            </div>
+
         </div>
     </div>
 </body>
