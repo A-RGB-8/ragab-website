@@ -48,6 +48,29 @@
     .nav-link:hover {
         color: #1e3799 !important;
     }
+    /* Mobile D-Pad Styling */
+.d-pad { 
+    display: grid; 
+    grid-template-columns: repeat(3, 60px); 
+    grid-template-rows: repeat(2, 60px); 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+.d-btn { 
+    width: 60px; height: 60px; 
+    background: #f1f2f6; 
+    border: 1px solid #ddd; 
+    border-radius: 12px; 
+    display: flex; align-items: center; justify-content: center; 
+    font-size: 1.5rem; color: #1e3799; 
+    cursor: pointer; touch-action: manipulation;
+}
+.d-btn:active { background: #dfe6e9; transform: scale(0.95); }
+.up { grid-column: 2; }
+.left { grid-column: 1; grid-row: 2; }
+.down { grid-column: 2; grid-row: 2; }
+.right { grid-column: 3; grid-row: 2; }
 </style>
 
     <div class="container" id="selection-screen">
@@ -105,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('selection-screen').style.display = 'none';
         document.getElementById('action-zone').style.display = 'block';
 
-        let timeLeft = (type === 'quote') ? 20 : 60;
+        let timeLeft = (type === 'quote') ? 10 : 60;
         updateTimerDisplay(timeLeft);
 
         if (type === 'quote') {
@@ -117,9 +140,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>`;
         } else {
             document.getElementById('content-area').innerHTML = `
-                <canvas id="snakeCanvas" width="400" height="400" style="background:#000; display:block; margin:auto; border-radius:10px;"></canvas>
-                <p class="mt-3 text-muted">Use Arrow Keys to move the snake.</p>`;
-            startSnakeGame();
+            <canvas id="snakeCanvas" width="300" height="300" style="background:#000; display:block; margin:auto; border-radius:10px; max-width: 100%;"></canvas>
+            <div class="d-pad">
+                <div class="d-btn up" id="up"><i class="fa-solid fa-caret-up"></i></div>
+                <div class="d-btn left" id="left"><i class="fa-solid fa-caret-left"></i></div>
+                <div class="d-btn down" id="down"><i class="fa-solid fa-caret-down"></i></div>
+                <div class="d-btn right" id="right"><i class="fa-solid fa-caret-right"></i></div>
+            </div>`;
+        startSnakeGame();
         }
 
         timerInterval = setInterval(() => {
@@ -151,54 +179,66 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>`;
     }
 
-    // Include the startSnakeGame function inside this listener as well...
     function startSnakeGame() {
-        const canvas = document.getElementById("snakeCanvas");
-        if(!canvas) return;
-        const ctx = canvas.getContext("2d");
-        const box = 20;
-        let snake = [{x: 9 * box, y: 10 * box}];
-        let food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
-        let d;
+    const canvas = document.getElementById("snakeCanvas");
+    if(!canvas) return;
+    const ctx = canvas.getContext("2d");
+    const box = 20;
+    let snake = [{x: 7 * box, y: 8 * box}];
+    let food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
+    let d;
 
-        document.addEventListener("keydown", (e) => {
-            if(e.keyCode == 37 && d != "RIGHT") d = "LEFT";
-            else if(e.keyCode == 38 && d != "DOWN") d = "UP";
-            else if(e.keyCode == 39 && d != "LEFT") d = "RIGHT";
-            else if(e.keyCode == 40 && d != "UP") d = "DOWN";
-        });
+    // Keyboard controls
+    document.addEventListener("keydown", (e) => {
+        if(e.keyCode == 37 && d != "RIGHT") d = "LEFT";
+        if(e.keyCode == 38 && d != "DOWN") d = "UP";
+        if(e.keyCode == 39 && d != "LEFT") d = "RIGHT";
+        if(e.keyCode == 40 && d != "UP") d = "DOWN";
+    });
 
-        function draw() {
-            ctx.fillStyle = "black";
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            for(let i = 0; i < snake.length; i++) {
-                ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd";
-                ctx.fillRect(snake[i].x, snake[i].y, box, box);
-            }
-            ctx.fillStyle = "#0a3d21";
-            ctx.fillRect(food.x, food.y, box, box);
-            let snakeX = snake[0].x;
-            let snakeY = snake[0].y;
-            if(d == "LEFT") snakeX -= box;
-            if(d == "UP") snakeY -= box;
-            if(d == "RIGHT") snakeX += box;
-            if(d == "DOWN") snakeY += box;
+    // 3. Mobile Button Listeners
+    document.getElementById('up').addEventListener('click', () => { if(d != "DOWN") d = "UP"; });
+    document.getElementById('down').addEventListener('click', () => { if(d != "UP") d = "DOWN"; });
+    document.getElementById('left').addEventListener('click', () => { if(d != "RIGHT") d = "LEFT"; });
+    document.getElementById('right').addEventListener('click', () => { if(d != "LEFT") d = "RIGHT"; });
 
-            if(snakeX == food.x && snakeY == food.y) {
-                food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
-            } else {
-                snake.pop();
-            }
-            let newHead = { x: snakeX, y: snakeY };
-            if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height) {
-                snake = [{x: 9 * box, y: 10 * box}];
-                d = null;
-            } else {
-                snake.unshift(newHead);
-            }
+    function draw() {
+        ctx.fillStyle = "black";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        for(let i = 0; i < snake.length; i++) {
+            ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd";
+            ctx.fillRect(snake[i].x, snake[i].y, box, box);
         }
-        setInterval(draw, 100);
+
+        ctx.fillStyle = "#0a3d21";
+        ctx.fillRect(food.x, food.y, box, box);
+
+        let snakeX = snake[0].x;
+        let snakeY = snake[0].y;
+
+        if(d == "LEFT") snakeX -= box;
+        if(d == "UP") snakeY -= box;
+        if(d == "RIGHT") snakeX += box;
+        if(d == "DOWN") snakeY += box;
+
+        if(snakeX == food.x && snakeY == food.y) {
+            food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
+        } else {
+            snake.pop();
+        }
+
+        let newHead = { x: snakeX, y: snakeY };
+
+        if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height) {
+            snake = [{x: 7 * box, y: 8 * box}];
+            d = null;
+        } else {
+            snake.unshift(newHead);
+        }
     }
+    let gameRun = setInterval(draw, 100);
+}
 });
     </script>
 </body>
