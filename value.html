@@ -106,8 +106,12 @@ function startPath(type) {
             </div>
         `;
     } else {
-        // Placeholder for the Game we will build next
-        document.getElementById('content-area').innerHTML = `<h3>[Game Loading...]</h3>`;
+        // Inject Canvas for the Game
+        document.getElementById('content-area').innerHTML = `
+            <canvas id="snakeCanvas" width="400" height="400" style="background:#000; border-radius:10px; box-shadow: 0 0 20px rgba(0,0,0,0.2);"></canvas>
+            <p class="mt-3 text-muted">Use Arrow Keys to navigate</p>
+        `;
+        startSnakeGame();
     }
 
     // Start the countdown
@@ -126,6 +130,72 @@ function updateTimerDisplay(seconds) {
     const secs = seconds % 60;
     document.getElementById('timer').innerText = 
         `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+}
+
+function startSnakeGame() {
+    const canvas = document.getElementById("snakeCanvas");
+    const ctx = canvas.getContext("2d");
+    const box = 20;
+    let snake = [{x: 9 * box, y: 10 * box}];
+    let food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
+    let d;
+
+    document.addEventListener("keydown", direction);
+    function direction(event) {
+        if(event.keyCode == 37 && d != "RIGHT") d = "LEFT";
+        else if(event.keyCode == 38 && d != "DOWN") d = "UP";
+        else if(event.keyCode == 39 && d != "LEFT") d = "RIGHT";
+        else if(event.keyCode == 40 && d != "UP") d = "DOWN";
+    }
+
+    function draw() {
+        ctx.fillStyle = "black";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        for(let i = 0; i < snake.length; i++) {
+            ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd"; // Blue snake
+            ctx.fillRect(snake[i].x, snake[i].y, box, box);
+        }
+
+        ctx.fillStyle = "#0a3d21"; // Green food
+        ctx.fillRect(food.x, food.y, box, box);
+
+        let snakeX = snake[0].x;
+        let snakeY = snake[0].y;
+
+        if( d == "LEFT") snakeX -= box;
+        if( d == "UP") snakeY -= box;
+        if( d == "RIGHT") snakeX += box;
+        if( d == "DOWN") snakeY += box;
+
+        if(snakeX == food.x && snakeY == food.y) {
+            food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
+        } else {
+            snake.pop();
+        }
+
+        let newHead = { x: snakeX, y: snakeY };
+
+        // Game Over logic (collision)
+        if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height || collision(newHead, snake)) {
+            // Instead of stopping, we just reset the snake to keep the player engaged for the full 60s
+            snake = [{x: 9 * box, y: 10 * box}];
+            d = null;
+        } else {
+            snake.unshift(newHead);
+        }
+    }
+
+    function collision(head, array) {
+        for(let i = 0; i < array.length; i++) {
+            if(head.x == array[i].x && head.y == array[i].y) return true;
+        }
+        return false;
+    }
+
+    let game = setInterval(draw, 100);
+    // Ensure game stops when timer hits 0
+    setTimeout(() => { clearInterval(game); }, 60000);
 }
 
 function revealNews() {
