@@ -54,14 +54,14 @@
         <h2 class="mb-5" style="color: var(--forest-green);">Choose your Path to the News</h2>
         <div class="row g-4">
             <div class="col-md-6">
-                <div class="choice-card" onclick="startPath('game')">
+                <div class="choice-card" id="btn-game">
                     <div class="icon-big"><i class="fa-solid fa-gamepad"></i></div>
                     <h4>The 1-Minute Challenge</h4>
                     <p class="text-muted">Play a quick game of Snake. Focus is the key to clarity.</p>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="choice-card" onclick="startPath('quote')">
+                <div class="choice-card" id="btn-quote">
                     <div class="icon-big"><i class="fa-solid fa-quote-left"></i></div>
                     <h4>The 20-Second Insight</h4>
                     <p class="text-muted">Reflect on a quote that shaped my mindset.</p>
@@ -77,140 +77,129 @@
     </div>
 
     <script>
-        // 1. Your curated list of quotes
-const quotes = [
-    "Engineering is the art of balancing the note.",
-    "A mistake is not a failure; it's a changed note in the middle of a song.",
-    "The 9-month wall taught me that grit is the foundation of any technical achievement.",
-    "Group Dynamics > Individual Stats: Balance innovation with precision.",
-    "No risk is a missed opportunity; too much risk is a broken timeline."
-];
+// Ensure the script runs ONLY after the page is fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    
+    // 1. Data Store
+    const quotes = [
+        "Engineering is the art of balancing the note.",
+        "A mistake is not a failure; it's a changed note in the middle of a song.",
+        "The 9-month wall taught me that grit is the foundation of any technical achievement.",
+        "Group Dynamics > Individual Stats: Balance innovation with precision.",
+        "No risk is a missed opportunity; too much risk is a broken timeline."
+    ];
 
-let timerInterval;
+    let timerInterval;
 
-function startPath(type) {
-    // Hide selection, show action zone
-    document.getElementById('selection-screen').style.display = 'none';
-    document.getElementById('action-zone').style.display = 'block';
+    // 2. Attach Event Listeners (Modern Approach)
+    const btnGame = document.getElementById('btn-game');
+    const btnQuote = document.getElementById('btn-quote');
 
-    let timeLeft = (type === 'quote') ? 20 : 60; // 20s for quote, 60s for game
-    updateTimerDisplay(timeLeft);
+    if(btnGame) btnGame.addEventListener('click', () => startPath('game'));
+    if(btnQuote) btnQuote.addEventListener('click', () => startPath('quote'));
 
-    if (type === 'quote') {
-        // Display a random quote
-        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-        document.getElementById('content-area').innerHTML = `
-            <div class="py-5">
-                <i class="fa-solid fa-quote-left mb-3" style="color: var(--navy-blue); font-size: 2rem;"></i>
-                <h3 class="fw-normal" style="line-height: 1.5;">${randomQuote}</h3>
-            </div>
-        `;
-    } else {
-        // Inject Canvas for the Game
-        document.getElementById('content-area').innerHTML = `
-            <canvas id="snakeCanvas" width="400" height="400" style="background:#000; border-radius:10px; box-shadow: 0 0 20px rgba(0,0,0,0.2);"></canvas>
-            <p class="mt-3 text-muted">Use Arrow Keys to navigate</p>
-        `;
-        startSnakeGame();
-    }
+    // 3. Core Logic
+    function startPath(type) {
+        console.log("Path started:", type); // Debug check in Browser Console (F12)
+        
+        document.getElementById('selection-screen').style.display = 'none';
+        document.getElementById('action-zone').style.display = 'block';
 
-    // Start the countdown
-    timerInterval = setInterval(() => {
-        timeLeft--;
+        let timeLeft = (type === 'quote') ? 20 : 60;
         updateTimerDisplay(timeLeft);
-        if (timeLeft <= 0) {
-            clearInterval(timerInterval);
-            revealNews();
-        }
-    }, 1000);
-}
 
-function updateTimerDisplay(seconds) {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    document.getElementById('timer').innerText = 
-        `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-}
-
-function startSnakeGame() {
-    const canvas = document.getElementById("snakeCanvas");
-    const ctx = canvas.getContext("2d");
-    const box = 20;
-    let snake = [{x: 9 * box, y: 10 * box}];
-    let food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
-    let d;
-
-    document.addEventListener("keydown", direction);
-    function direction(event) {
-        if(event.keyCode == 37 && d != "RIGHT") d = "LEFT";
-        else if(event.keyCode == 38 && d != "DOWN") d = "UP";
-        else if(event.keyCode == 39 && d != "LEFT") d = "RIGHT";
-        else if(event.keyCode == 40 && d != "UP") d = "DOWN";
-    }
-
-    function draw() {
-        ctx.fillStyle = "black";
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-        for(let i = 0; i < snake.length; i++) {
-            ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd"; // Blue snake
-            ctx.fillRect(snake[i].x, snake[i].y, box, box);
-        }
-
-        ctx.fillStyle = "#0a3d21"; // Green food
-        ctx.fillRect(food.x, food.y, box, box);
-
-        let snakeX = snake[0].x;
-        let snakeY = snake[0].y;
-
-        if( d == "LEFT") snakeX -= box;
-        if( d == "UP") snakeY -= box;
-        if( d == "RIGHT") snakeX += box;
-        if( d == "DOWN") snakeY += box;
-
-        if(snakeX == food.x && snakeY == food.y) {
-            food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
+        if (type === 'quote') {
+            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            document.getElementById('content-area').innerHTML = `
+                <div class="py-5 text-center">
+                    <i class="fa-solid fa-quote-left mb-3" style="color: #1e3799; font-size: 2rem;"></i>
+                    <h3 class="fw-normal" style="line-height: 1.5; color: #2f3640;">${randomQuote}</h3>
+                </div>`;
         } else {
-            snake.pop();
+            document.getElementById('content-area').innerHTML = `
+                <canvas id="snakeCanvas" width="400" height="400" style="background:#000; display:block; margin:auto; border-radius:10px;"></canvas>
+                <p class="mt-3 text-muted">Use Arrow Keys to move the snake.</p>`;
+            startSnakeGame();
         }
 
-        let newHead = { x: snakeX, y: snakeY };
-
-        // Game Over logic (collision)
-        if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height || collision(newHead, snake)) {
-            // Instead of stopping, we just reset the snake to keep the player engaged for the full 60s
-            snake = [{x: 9 * box, y: 10 * box}];
-            d = null;
-        } else {
-            snake.unshift(newHead);
-        }
+        timerInterval = setInterval(() => {
+            timeLeft--;
+            updateTimerDisplay(timeLeft);
+            if (timeLeft <= 0) {
+                clearInterval(timerInterval);
+                revealNews();
+            }
+        }, 1000);
     }
 
-    function collision(head, array) {
-        for(let i = 0; i < array.length; i++) {
-            if(head.x == array[i].x && head.y == array[i].y) return true;
-        }
-        return false;
+    function updateTimerDisplay(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        document.getElementById('timer').innerText = 
+            `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     }
 
-    let game = setInterval(draw, 100);
-    // Ensure game stops when timer hits 0
-    setTimeout(() => { clearInterval(game); }, 60000);
-}
+    function revealNews() {
+        document.getElementById('timer').innerHTML = "Insight Unlocked";
+        document.getElementById('content-area').innerHTML = `
+            <div class="text-start p-4">
+                <h2 style="color: #0a3d21;">Daily Industry Briefing</h2>
+                <hr>
+                <p><strong>ADAS/AD:</strong> Vision-based systems are pivoting toward end-to-end transformer architectures.</p>
+                <p><strong>Finance:</strong> Real estate yields in Lower Saxony are stabilizing as interest rates plateau.</p>
+                <p><strong>Health:</strong> Zone 2 training remains the gold standard for executive cognitive longevity.</p>
+            </div>`;
+    }
 
-function revealNews() {
-    document.getElementById('timer').innerHTML = "Insight Unlocked";
-    document.getElementById('content-area').innerHTML = `
-        <h2 style="color: var(--forest-green);">Daily Industry Briefing</h2>
-        <hr>
-        <div class="text-start">
-            <p><strong>ADAS/AD:</strong> Fetching latest headlines...</p>
-            <p><strong>Finance:</strong> Fetching European market trends...</p>
-            <p><strong>Health/Fitness:</strong> Fetching performance research...</p>
-        </div>
-    `;
-}
+    // Include the startSnakeGame function inside this listener as well...
+    function startSnakeGame() {
+        const canvas = document.getElementById("snakeCanvas");
+        if(!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const box = 20;
+        let snake = [{x: 9 * box, y: 10 * box}];
+        let food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
+        let d;
+
+        document.addEventListener("keydown", (e) => {
+            if(e.keyCode == 37 && d != "RIGHT") d = "LEFT";
+            else if(e.keyCode == 38 && d != "DOWN") d = "UP";
+            else if(e.keyCode == 39 && d != "LEFT") d = "RIGHT";
+            else if(e.keyCode == 40 && d != "UP") d = "DOWN";
+        });
+
+        function draw() {
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            for(let i = 0; i < snake.length; i++) {
+                ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd";
+                ctx.fillRect(snake[i].x, snake[i].y, box, box);
+            }
+            ctx.fillStyle = "#0a3d21";
+            ctx.fillRect(food.x, food.y, box, box);
+            let snakeX = snake[0].x;
+            let snakeY = snake[0].y;
+            if(d == "LEFT") snakeX -= box;
+            if(d == "UP") snakeY -= box;
+            if(d == "RIGHT") snakeX += box;
+            if(d == "DOWN") snakeY += box;
+
+            if(snakeX == food.x && snakeY == food.y) {
+                food = { x: Math.floor(Math.random() * 19 + 1) * box, y: Math.floor(Math.random() * 19 + 1) * box };
+            } else {
+                snake.pop();
+            }
+            let newHead = { x: snakeX, y: snakeY };
+            if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height) {
+                snake = [{x: 9 * box, y: 10 * box}];
+                d = null;
+            } else {
+                snake.unshift(newHead);
+            }
         }
+        setInterval(draw, 100);
+    }
+});
     </script>
 </body>
 </html>
