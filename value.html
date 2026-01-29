@@ -77,10 +77,69 @@
     </div>
 
     <script>
-        function startPath(type) {
-            document.getElementById('selection-screen').style.display = 'none';
-            document.getElementById('action-zone').style.display = 'block';
-            // Logic for Timer and News Reveal will go here tomorrow
+        // 1. Your curated list of quotes
+const quotes = [
+    "Engineering is the art of balancing the note.",
+    "A mistake is not a failure; it's a changed note in the middle of a song.",
+    "The 9-month wall taught me that grit is the foundation of any technical achievement.",
+    "Group Dynamics > Individual Stats: Balance innovation with precision.",
+    "No risk is a missed opportunity; too much risk is a broken timeline."
+];
+
+let timerInterval;
+
+function startPath(type) {
+    // Hide selection, show action zone
+    document.getElementById('selection-screen').style.display = 'none';
+    document.getElementById('action-zone').style.display = 'block';
+
+    let timeLeft = (type === 'quote') ? 20 : 60; // 20s for quote, 60s for game
+    updateTimerDisplay(timeLeft);
+
+    if (type === 'quote') {
+        // Display a random quote
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        document.getElementById('content-area').innerHTML = `
+            <div class="py-5">
+                <i class="fa-solid fa-quote-left mb-3" style="color: var(--navy-blue); font-size: 2rem;"></i>
+                <h3 class="fw-normal" style="line-height: 1.5;">${randomQuote}</h3>
+            </div>
+        `;
+    } else {
+        // Placeholder for the Game we will build next
+        document.getElementById('content-area').innerHTML = `<h3>[Game Loading...]</h3>`;
+    }
+
+    // Start the countdown
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        updateTimerDisplay(timeLeft);
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            revealNews();
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay(seconds) {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    document.getElementById('timer').innerText = 
+        `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+}
+
+function revealNews() {
+    document.getElementById('timer').innerHTML = "Insight Unlocked";
+    document.getElementById('content-area').innerHTML = `
+        <h2 style="color: var(--forest-green);">Daily Industry Briefing</h2>
+        <hr>
+        <div class="text-start">
+            <p><strong>ADAS/AD:</strong> Fetching latest headlines...</p>
+            <p><strong>Finance:</strong> Fetching European market trends...</p>
+            <p><strong>Health/Fitness:</strong> Fetching performance research...</p>
+        </div>
+    `;
+}
         }
     </script>
 </body>
