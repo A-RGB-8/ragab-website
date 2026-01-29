@@ -80,13 +80,18 @@
                 <div class="choice-card" id="btn-game">
                     <div class="icon-big"><i class="fa-solid fa-gamepad"></i></div>
                     <h4>The 1-Minute Challenge</h4>
-                    <p class="text-muted">Play a quick game of Snake. Focus is the key to clarity.</p>
+                    <p class="text-muted">Play Snake. Choose your pace:</p>
+                    <div class="d-flex justify-content-center gap-2 mt-3">
+                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="200">Slow</button>
+                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="133">Moderate</button>
+                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="100">Fast</button>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="choice-card" id="btn-quote">
                     <div class="icon-big"><i class="fa-solid fa-quote-left"></i></div>
-                    <h4>The 20-Second Insight</h4>
+                    <h4>The 5-Second Insight</h4>
                     <p class="text-muted">Reflect on a quote that shaped my mindset.</p>
                 </div>
             </div>
@@ -100,146 +105,158 @@
     </div>
 
     <script>
-// Ensure the script runs ONLY after the page is fully loaded
-document.addEventListener('DOMContentLoaded', () => {
-    
-    // 1. Data Store
-    const quotes = [
-        "Engineering is the art of balancing the note.",
-        "A mistake is not a failure; it's a changed note in the middle of a song.",
-        "The 9-month wall taught me that grit is the foundation of any technical achievement.",
-        "Group Dynamics > Individual Stats: Balance innovation with precision.",
-        "No risk is a missed opportunity; too much risk is a broken timeline."
-    ];
-
-    let timerInterval;
-
-    // 2. Attach Event Listeners (Modern Approach)
-    const btnGame = document.getElementById('btn-game');
-    const btnQuote = document.getElementById('btn-quote');
-
-    if(btnGame) btnGame.addEventListener('click', () => startPath('game'));
-    if(btnQuote) btnQuote.addEventListener('click', () => startPath('quote'));
-
-    // 3. Core Logic
-    function startPath(type) {
-        console.log("Path started:", type); // Debug check in Browser Console (F12)
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // 1. Data Store
+            const quotes = [
+                "Engineering is the art of balancing the note.",
+                "A mistake is not a failure; it's a changed note in the middle of a song.",
+                "The 9-month wall taught me that grit is the foundation of any technical achievement.",
+                "Group Dynamics > Individual Stats: Balance innovation with precision.",
+                "No risk is a missed opportunity; too much risk is a broken timeline."
+            ];
         
-        document.getElementById('selection-screen').style.display = 'none';
-        document.getElementById('action-zone').style.display = 'block';
-
-        let timeLeft = (type === 'quote') ? 10 : 60;
-        updateTimerDisplay(timeLeft);
-
-        if (type === 'quote') {
-            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-            document.getElementById('content-area').innerHTML = `
-                <div class="py-5 text-center">
-                    <i class="fa-solid fa-quote-left mb-3" style="color: #1e3799; font-size: 2rem;"></i>
-                    <h3 class="fw-normal" style="line-height: 1.5; color: #2f3640;">${randomQuote}</h3>
-                </div>`;
-        } else {
-            document.getElementById('content-area').innerHTML = `
-            <canvas id="snakeCanvas" width="300" height="300" style="background:#000; display:block; margin:auto; border-radius:10px; max-width: 100%;"></canvas>
-            <div class="d-pad">
-                <div class="d-btn up" id="up"><i class="fa-solid fa-caret-up"></i></div>
-                <div class="d-btn left" id="left"><i class="fa-solid fa-caret-left"></i></div>
-                <div class="d-btn down" id="down"><i class="fa-solid fa-caret-down"></i></div>
-                <div class="d-btn right" id="right"><i class="fa-solid fa-caret-right"></i></div>
-            </div>`;
-        startSnakeGame();
-        }
-
-        timerInterval = setInterval(() => {
-            timeLeft--;
-            updateTimerDisplay(timeLeft);
-            if (timeLeft <= 0) {
-                clearInterval(timerInterval);
-                revealNews();
+            let timerInterval;
+            let gameInterval; // To clear the game when time is up
+        
+            // 2. Attach Event Listeners
+            const btnQuote = document.getElementById('btn-quote');
+            if(btnQuote) btnQuote.addEventListener('click', () => startPath('quote'));
+        
+            // Speed buttons for the game
+            document.querySelectorAll('.speed-btn').forEach(button => {
+                button.addEventListener('click', (e) => {
+                    e.stopPropagation(); 
+                    const speed = parseInt(e.target.getAttribute('data-speed'));
+                    startPath('game', speed);
+                });
+            });
+        
+            // 3. Core Logic
+            function startPath(type, speed = 100) {
+                document.getElementById('selection-screen').style.display = 'none';
+                document.getElementById('action-zone').style.display = 'block';
+        
+                let timeLeft = (type === 'quote') ? 10 : 60; // 10s for quote, 60s for game
+                updateTimerDisplay(timeLeft);
+        
+                if (type === 'quote') {
+                    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                    document.getElementById('content-area').innerHTML = `
+                        <div class="py-5 text-center">
+                            <i class="fa-solid fa-quote-left mb-3" style="color: #1e3799; font-size: 2rem;"></i>
+                            <h3 class="fw-normal" style="line-height: 1.5; color: #2f3640;">${randomQuote}</h3>
+                        </div>`;
+                } else {
+                    document.getElementById('content-area').innerHTML = `
+                        <canvas id="snakeCanvas" width="300" height="300" style="background:#000; display:block; margin:auto; border-radius:10px; max-width: 100%;"></canvas>
+                        <div class="d-pad">
+                            <div class="d-btn up" id="up"><i class="fa-solid fa-caret-up"></i></div>
+                            <div class="d-btn left" id="left"><i class="fa-solid fa-caret-left"></i></div>
+                            <div class="d-btn down" id="down"><i class="fa-solid fa-caret-down"></i></div>
+                            <div class="d-btn right" id="right"><i class="fa-solid fa-caret-right"></i></div>
+                        </div>`;
+                    startSnakeGame(speed);
+                }
+        
+                timerInterval = setInterval(() => {
+                    timeLeft--;
+                    updateTimerDisplay(timeLeft);
+                    if (timeLeft <= 0) {
+                        clearInterval(timerInterval);
+                        clearInterval(gameInterval); // Stop game
+                        revealNews();
+                    }
+                }, 1000);
             }
-        }, 1000);
-    }
-
-    function updateTimerDisplay(seconds) {
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        document.getElementById('timer').innerText = 
-            `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-    }
-
-    function revealNews() {
-        document.getElementById('timer').innerHTML = "Insight Unlocked";
-        document.getElementById('content-area').innerHTML = `
-            <div class="text-start p-4">
-                <h2 style="color: #0a3d21;">Daily Industry Briefing</h2>
-                <hr>
-                <p><strong>ADAS/AD:</strong> Vision-based systems are pivoting toward end-to-end transformer architectures.</p>
-                <p><strong>Finance:</strong> Real estate yields in Lower Saxony are stabilizing as interest rates plateau.</p>
-                <p><strong>Health:</strong> Zone 2 training remains the gold standard for executive cognitive longevity.</p>
-            </div>`;
-    }
-
-    function startSnakeGame() {
-    const canvas = document.getElementById("snakeCanvas");
-    if(!canvas) return;
-    const ctx = canvas.getContext("2d");
-    const box = 20;
-    let snake = [{x: 7 * box, y: 8 * box}];
-    let food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
-    let d;
-
-    // Keyboard controls
-    document.addEventListener("keydown", (e) => {
-        if(e.keyCode == 37 && d != "RIGHT") d = "LEFT";
-        if(e.keyCode == 38 && d != "DOWN") d = "UP";
-        if(e.keyCode == 39 && d != "LEFT") d = "RIGHT";
-        if(e.keyCode == 40 && d != "UP") d = "DOWN";
-    });
-
-    // 3. Mobile Button Listeners
-    document.getElementById('up').addEventListener('click', () => { if(d != "DOWN") d = "UP"; });
-    document.getElementById('down').addEventListener('click', () => { if(d != "UP") d = "DOWN"; });
-    document.getElementById('left').addEventListener('click', () => { if(d != "RIGHT") d = "LEFT"; });
-    document.getElementById('right').addEventListener('click', () => { if(d != "LEFT") d = "RIGHT"; });
-
-    function draw() {
-        ctx.fillStyle = "black";
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
         
-        for(let i = 0; i < snake.length; i++) {
-            ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd";
-            ctx.fillRect(snake[i].x, snake[i].y, box, box);
-        }
-
-        ctx.fillStyle = "#0a3d21";
-        ctx.fillRect(food.x, food.y, box, box);
-
-        let snakeX = snake[0].x;
-        let snakeY = snake[0].y;
-
-        if(d == "LEFT") snakeX -= box;
-        if(d == "UP") snakeY -= box;
-        if(d == "RIGHT") snakeX += box;
-        if(d == "DOWN") snakeY += box;
-
-        if(snakeX == food.x && snakeY == food.y) {
-            food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
-        } else {
-            snake.pop();
-        }
-
-        let newHead = { x: snakeX, y: snakeY };
-
-        if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height) {
-            snake = [{x: 7 * box, y: 8 * box}];
-            d = null;
-        } else {
-            snake.unshift(newHead);
-        }
-    }
-    let gameRun = setInterval(draw, 100);
-}
-});
+            function updateTimerDisplay(seconds) {
+                const mins = Math.floor(seconds / 60);
+                const secs = seconds % 60;
+                document.getElementById('timer').innerText = 
+                    `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            }
+        
+            function revealNews() {
+                document.getElementById('timer').innerHTML = "Insight Unlocked";
+                document.getElementById('content-area').innerHTML = `
+                    <div class="text-start p-2 p-md-4">
+                        <h2 style="color: #0a3d21;">Daily Industry Briefing</h2>
+                        <hr>
+                        <div class="mb-3">
+                            <h6 class="fw-bold"><i class="fa-solid fa-car"></i> ADAS & AD</h6>
+                            <p class="small">The industry is shifting focus toward end-to-end AI architectures. Data quality is becoming more critical than sheer model size.</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="fw-bold"><i class="fa-solid fa-chart-line"></i> Strategic Investment</h6>
+                            <p class="small">Real estate in Germany (Lower Saxony) shows resilience. Focus on 'Energy Class A' properties as regulations tighten.</p>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="fw-bold"><i class="fa-solid fa-heart-pulse"></i> Performance & Health</h6>
+                            <p class="small">Consistency beats intensity. 150 mins of Zone 2 cardio per week remains the benchmark for cognitive endurance.</p>
+                        </div>
+                    </div>`;
+            }
+        
+            function startSnakeGame(speed) {
+                const canvas = document.getElementById("snakeCanvas");
+                if(!canvas) return;
+                const ctx = canvas.getContext("2d");
+                const box = 20;
+                let snake = [{x: 7 * box, y: 8 * box}];
+                let food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
+                let d;
+        
+                // Keyboard support
+                document.addEventListener("keydown", (e) => {
+                    if(e.keyCode == 37 && d != "RIGHT") d = "LEFT";
+                    if(e.keyCode == 38 && d != "DOWN") d = "UP";
+                    if(e.keyCode == 39 && d != "LEFT") d = "RIGHT";
+                    if(e.keyCode == 40 && d != "UP") d = "DOWN";
+                });
+        
+                // D-Pad support for mobile
+                document.getElementById('up').onclick = () => { if(d != "DOWN") d = "UP"; };
+                document.getElementById('down').onclick = () => { if(d != "UP") d = "DOWN"; };
+                document.getElementById('left').onclick = () => { if(d != "RIGHT") d = "LEFT"; };
+                document.getElementById('right').onclick = () => { if(d != "LEFT") d = "RIGHT"; };
+        
+                function draw() {
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    for(let i = 0; i < snake.length; i++) {
+                        ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd";
+                        ctx.fillRect(snake[i].x, snake[i].y, box, box);
+                    }
+                    ctx.fillStyle = "#0a3d21";
+                    ctx.fillRect(food.x, food.y, box, box);
+        
+                    let snakeX = snake[0].x;
+                    let snakeY = snake[0].y;
+        
+                    if(d == "LEFT") snakeX -= box;
+                    if(d == "UP") snakeY -= box;
+                    if(d == "RIGHT") snakeX += box;
+                    if(d == "DOWN") snakeY += box;
+        
+                    if(snakeX == food.x && snakeY == food.y) {
+                        food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
+                    } else {
+                        snake.pop();
+                    }
+        
+                    let newHead = { x: snakeX, y: snakeY };
+        
+                    if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height) {
+                        snake = [{x: 7 * box, y: 8 * box}]; // Reset snake pos on wall hit
+                        d = null;
+                    } else {
+                        snake.unshift(newHead);
+                    }
+                }
+                gameInterval = setInterval(draw, speed);
+            }
+        });
     </script>
 </body>
 </html>
