@@ -82,22 +82,49 @@
                 </div>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+        </script>
 </body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm" style="border-bottom: 1px solid #ddd;">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html" style="color: #1e3799; font-family: 'Inter', sans-serif; letter-spacing: -1px;">
-            RaGaB.de
-        </a>
-        
-        <div class="navbar-nav ms-auto">
-            <a class="nav-link active px-3" href="index.html">Home</a>
-            
+        <a class="navbar-brand fw-bold" href="index.html" style="color: #1e3799;">RaGaB.de</a>
+        <div class="navbar-nav ms-auto align-items-center">
+            <a class="nav-link active fw-bold px-3" href="index.html">Home</a>
             <a class="nav-link px-3" href="updates.html">Updates</a>
-            
             <a class="nav-link px-3" href="value.html">The Lab</a>
+            <a class="btn btn-sm btn-primary ms-lg-3" href="Ahmed_Ragab_CV.pdf" target="_blank" style="background-color: var(--navy-blue);">
+                <i class="fa-solid fa-file-pdf me-2"></i>Download CV
+            </a>
         </div>
     </div>
 </nav>
+
+<div class="card-box" data-bs-toggle="modal" data-bs-target="#careerModal" style="cursor: pointer;">
+    <h4>Technical Pillar: The Scaler</h4>
+    <p>Leading 70+ engineers and 4 SOPs...</p>
+    <small class="text-primary mt-2 d-block">Click to read technical details →</small>
+</div>
+
+<div class="modal fade" id="careerModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" style="color: var(--navy-blue);">Scalable Engineering Ecosystems</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Strategic Leadership</h6>
+                <p>Detailed explanation of managing 70+ engineers, implementing ASPICE Level 2, and the transition to SDV (Software Defined Vehicles)...</p>
+                <h6>Tools & Tech</h6>
+                <ul>
+                    <li>MATLAB / Simulink & MicroAutoBox</li>
+                    <li>Embedded C / C++</li>
+                    <li>AI-driven testing cycles</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
     /* Navigation Typography Standard */
