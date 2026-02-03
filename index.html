@@ -24,7 +24,7 @@
             margin: 20px auto; 
         }
 
-        .card-box { background: white; padding: 30px; border-radius: 12px; border: 1px solid var(--border-grey); height: 100%; transition: 0.3s; cursor: pointer; }
+        .card-box { background: white; padding: 30px; border-radius: 12px; border: 1px solid var(--border-grey); height: 100%; transition: 0.3s; cursor: pointer; display: flex; flex-direction: column; }
         .card-box:hover { border-color: var(--navy-blue); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
         
         .nav-link { color: #94a3b8 !important; font-weight: 500; transition: 0.2s; }
@@ -68,12 +68,13 @@
                 <div class="card-box" data-bs-toggle="modal" data-bs-target="#originModal">
                     <h4>The Origin</h4>
                     <p><strong>The 9-Month Wall:</strong> I arrived in Germany unable to speak a full sentence. That total reset taught me that grit is the foundation of any technical achievement.</p>
-                    <small class="text-primary d-block mt-3">Read Full Story →</small>
+                    <small class="text-primary d-block mt-auto pt-3">Read Full Story →</small>
                 </div>
-                <div class="card-box">
+                <div class="card-box" data-bs-toggle="modal" data-bs-target="#mindsetModal">
                     <h4>The Growth Mindset</h4>
                     <p class="highlight-text">"Engineering is the art of balancing the note."</p>
                     <p class="mt-3">I take risks based on the fact that a mistake is an opportunity. Like a guitar riff, a calculated risk makes a moment superior.</p>
+                    <small class="text-primary d-block mt-auto pt-3">Explore the Philosophy →</small>
                 </div>
             </div>
 
@@ -84,7 +85,7 @@
                     <hr style="opacity: 0.2; background-color: #fff;">
                     <h4>Technical Pillar: The Scaler</h4>
                     <p>Leading 70+ engineers and 4 SOPs. I build scalable ecosystems, from ensuring ASPICE compliancy to standardizing Rapid Prototyping.</p>
-                    <small class="text-info d-block mt-3">View Technical Deep-Dive →</small>
+                    <small class="text-info d-block mt-auto pt-3">View Technical Deep-Dive →</small>
                 </div>
             </div>
 
@@ -92,12 +93,12 @@
                 <div class="card-box" data-bs-toggle="modal" data-bs-target="#coachingModal">
                     <h4>The Coaching Mindset</h4>
                     <p><strong>Group Dynamics:</strong> My leadership style, honed through 30 years of Handball and professional fitness coaching, ensures teams give 100%.</p>
-                    <small class="text-primary d-block mt-3">Learn about the Handball Rule →</small>
+                    <small class="text-primary d-block mt-auto pt-3">Learn about the Handball Rule →</small>
                 </div>
                 <div class="card-box" data-bs-toggle="modal" data-bs-target="#investmentModal">
                     <h4>Strategic Investment</h4>
                     <p><strong>Anticipation Glasses:</strong> Applying the "Investment Triangle" (Time, Risk, Reward) to both German Real Estate and technical systems.</p>
-                    <small class="text-primary d-block mt-3">View Strategic Framework →</small>
+                    <small class="text-primary d-block mt-auto pt-3">View Strategic Framework →</small>
                 </div>
             </div>
         </div>
@@ -111,7 +112,24 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p>Your full story about curiosity, moving to Germany, and the 9-month wall goes here...</p>
+                    <p>I dreamed of becoming an astronaut... [Your Origin Text Here]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="mindsetModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: var(--slate-grey); color: white;">
+                    <h5 class="modal-title">The Growth Mindset: Balancing the Note</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <h6>Mistakes as Musical Notes</h6>
+                    <p>In music, if you hit a wrong note, you don't stop the concert—you resolve it into the next harmony. Engineering is the same. I view "technical errors" not as finalities, but as data points that refine the eventual solution.</p>
+                    <h6 class="mt-4">Calculated Risk-Taking</h6>
+                    <p>Innovation requires the departure from the "safe" path. By applying structured risk assessment, I allow my teams to experiment within the guardrails of functional safety.</p>
                 </div>
             </div>
         </div>
@@ -121,12 +139,12 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" style="color: var(--navy-blue);">Technical Deep-Dive</h5>
+                    <h5 class="modal-title" style="color: var(--navy-blue);">Technical Deep-Dive: The Scaler</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <h6>Strategic Leadership & SDV Transition</h6>
-                    <p>Detailed technical experience here...</p>
+                    <h6>ASPICE & SOP Leadership</h6>
+                    <p>Managing the lifecycle of high-volume commercial vehicle safety systems...</p>
                 </div>
             </div>
         </div>
@@ -136,11 +154,11 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: var(--forest-green); color: white;">
-                    <h5 class="modal-title">The Handball Rule</h5>
+                    <h5 class="modal-title">The Handball Rule: Leadership</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p>Details about your 30 years of Handball and Team Dynamics...</p>
+                    <p>30 years on the court teaches you that performance is a function of trust...</p>
                 </div>
             </div>
         </div>
@@ -154,7 +172,7 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body p-4">
-                    <p>Details about CFA Level 1 and German Real Estate strategy...</p>
+                    <p>Financial rigor applied to engineering R&D roadmaps...</p>
                 </div>
             </div>
         </div>
