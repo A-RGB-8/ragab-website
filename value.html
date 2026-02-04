@@ -3,96 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Added Value | Ahmed Ragab</title>
+    <title>The Lab | Ahmed Ragab</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root { --navy-blue: #1e3799; --forest-green: #0a3d21; --light-grey: #f1f2f6; }
+        :root { 
+            --navy-blue: #1e3799; 
+            --forest-green: #0a3d21; 
+            --slate-grey: #4a69bd;
+            --light-grey: #f1f2f6; 
+        }
         body { background-color: var(--light-grey); font-family: 'Inter', sans-serif; padding-top: 100px; text-align: center; }
+        
+        /* Navigation */
+        .nav-link { color: #94a3b8 !important; font-weight: 500; transition: 0.2s; }
+        .nav-link.active { color: var(--navy-blue) !important; font-weight: 800 !important; }
+
+        /* Choice Cards */
         .choice-card { background: white; padding: 40px; border-radius: 20px; border: 1px solid #ddd; transition: 0.3s; cursor: pointer; height: 100%; }
         .choice-card:hover { border-color: var(--navy-blue); transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
         .icon-big { font-size: 3rem; color: var(--navy-blue); margin-bottom: 20px; }
+        
         #action-zone { display: none; margin-top: 30px; }
         .timer-display { font-size: 2rem; font-weight: bold; color: var(--forest-green); margin-bottom: 20px; }
+
+        /* News Dashboard Styles */
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; text-align: left; }
+        .news-tile { background: white; border-radius: 12px; padding: 20px; border-top: 5px solid var(--navy-blue); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .news-tile h5 { font-weight: 800; color: var(--navy-blue); font-size: 0.9rem; text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px;}
+        .headline-link { display: block; font-size: 0.9rem; color: #2f3640; text-decoration: none; padding: 10px 0; border-bottom: 1px solid #f8f9fa; transition: 0.2s; line-height: 1.4; }
+        .headline-link:hover { color: var(--slate-grey); background: #fcfcfc; padding-left: 5px; }
+        .tag { font-size: 0.65rem; font-weight: 700; background: #eef2ff; color: var(--navy-blue); padding: 2px 6px; border-radius: 4px; margin-right: 8px; text-transform: uppercase; }
+
+        /* D-Pad */
+        .d-pad { display: grid; grid-template-columns: repeat(3, 60px); grid-template-rows: repeat(2, 60px); gap: 10px; justify-content: center; margin-top: 20px; }
+        .d-btn { width: 60px; height: 60px; background: #fff; border: 1px solid #ddd; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: var(--navy-blue); cursor: pointer; }
+        .up { grid-column: 2; }
+        .left { grid-column: 1; grid-row: 2; }
+        .down { grid-column: 2; grid-row: 2; }
+        .right { grid-column: 3; grid-row: 2; }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm" style="border-bottom: 1px solid #ddd;">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html" style="color: #1e3799; font-family: 'Inter', sans-serif; letter-spacing: -1px;">
-            RaGaB.de
-        </a>
-        
-        <div class="navbar-nav ms-auto">
-            <a class="nav-link px-3" href="index.html">Home</a>
-            
-            <a class="nav-link px-3" href="updates.html">Updates</a>
-            
-            <a class="nav-link active px-3" href="value.html">The Lab</a>
-        </div>
-    </div>
-</nav>
 
-<style>
-    /* Navigation Typography Standard */
-    .nav-link { 
-        color: #94a3b8 !important; /* Muted Grey for Inactive */
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        transition: 0.2s;
-    }
-    .nav-link.active { 
-        color: #1e3799 !important; /* Navy Blue for Active */
-        font-weight: 800 !important; 
-    }
-    .nav-link:hover {
-        color: #1e3799 !important;
-    }
-    /* Mobile D-Pad Styling */
-.d-pad { 
-    display: grid; 
-    grid-template-columns: repeat(3, 60px); 
-    grid-template-rows: repeat(2, 60px); 
-    gap: 10px; 
-    justify-content: center; 
-    margin-top: 20px; 
-}
-.d-btn { 
-    width: 60px; height: 60px; 
-    background: #f1f2f6; 
-    border: 1px solid #ddd; 
-    border-radius: 12px; 
-    display: flex; align-items: center; justify-content: center; 
-    font-size: 1.5rem; color: #1e3799; 
-    cursor: pointer; touch-action: manipulation;
-}
-.d-btn:active { background: #dfe6e9; transform: scale(0.95); }
-.up { grid-column: 2; }
-.left { grid-column: 1; grid-row: 2; }
-.down { grid-column: 2; grid-row: 2; }
-.right { grid-column: 3; grid-row: 2; }
-</style>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" style="color: var(--navy-blue);">RaGaB.de</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link px-3" href="index.html">Home</a>
+                <a class="nav-link px-3" href="updates.html">Updates</a>
+                <a class="nav-link active px-3" href="value.html">The Lab</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="container" id="selection-screen">
-        <h2 class="mb-5" style="color: var(--forest-green);">Choose your Path to the News</h2>
+        <h2 class="mb-5" style="color: var(--forest-green); font-weight: 800;">Executive Intelligence Access</h2>
         <div class="row g-4">
             <div class="col-md-6">
                 <div class="choice-card" id="btn-game">
                     <div class="icon-big"><i class="fa-solid fa-gamepad"></i></div>
-                    <h4>The 1-Minute Challenge</h4>
-                    <p class="text-muted">Play Snake. Choose your pace:</p>
+                    <h4>Focus Challenge</h4>
+                    <p class="text-muted">Win a 60s round of Snake to unlock the briefing.</p>
                     <div class="d-flex justify-content-center gap-2 mt-3">
-                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="200">Slow</button>
-                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="133">Moderate</button>
-                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="100">Fast</button>
+                        <button class="btn btn-sm btn-outline-secondary speed-btn" data-speed="150">Moderate</button>
+                        <button class="btn btn-sm btn-outline-primary speed-btn" data-speed="80">Fast</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="choice-card" id="btn-quote">
+                <div class="choice-card" id="btn-quote" onclick="startPath('quote')">
                     <div class="icon-big"><i class="fa-solid fa-quote-left"></i></div>
-                    <h4>The 5-Second Insight</h4>
-                    <p class="text-muted">Reflect on a quote that shaped my mindset.</p>
+                    <h4>Mindset Protocol</h4>
+                    <p class="text-muted">Unlock via 5s of philosophical reflection.</p>
                 </div>
             </div>
         </div>
@@ -100,171 +83,170 @@
 
     <div class="container" id="action-zone">
         <div class="timer-display" id="timer">00:00</div>
-        <div id="content-area" class="card-box p-5 bg-white border rounded">
+        <div id="content-area" class="p-4 bg-white border rounded shadow-sm" style="min-height: 400px;">
             </div>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            
-            // 1. Data Store
-            const quotes = [
-                "Engineering is the art of balancing the note.",
-                "A mistake is not a failure; it's a changed note in the middle of a song.",
-                "The 9-month wall taught me that grit is the foundation of any technical achievement.",
-                "Group Dynamics > Individual Stats: Balance innovation with precision.",
-                "Do the boring things (first): eat healthy, exercise, work hard, say I love you and spend time with your family ... nothing else matters",
+        const quotes = [
+             "Do the boring things (first): eat healthy, exercise, work hard, say I love you and spend time with your family ... nothing else matters",
+
                 "Risk comes with freedom. Security comes with limitations. Mindfulness is weighing how much freedom one wants balancing how much risk one can manage",
+
                 "Life is full of challenges. Either you pick them or they're picked for you. The most important thing is to enjoy the ride, as at the end you're not taking anything (good or bad) with you",
+
                 "Working out makes you feel weak, but it actually makes you stronger. Learning makes you feel dumb, but it actually makes you smarter. Investing (in yourself) makes you feel broke, but it actually makes you richer. Facing your fears will make you feel terrified, but it actually makes you braver. Do the hard thing ... It makes you better. Trust the process.",
+
                 "Speaking the truth comes at a price, but revealing a falsehood carries an even higher cost",
+
                 "Speak authentically or shut the hell up. The latter option is preferred when you haven't been asked",
+
                 "happiness is doing what you like to do with the people you like",
+
                 "You have never truly lived till the moment you realize that you'd happily live and die for someone else",
+
                 "No risk is a missed opportunity; too much risk is a broken timeline."
-            ];
-        
-            let timerInterval;
-            let gameInterval; // To clear the game when time is up
-        
-            // 2. Attach Event Listeners
-            const btnQuote = document.getElementById('btn-quote');
-            if(btnQuote) btnQuote.addEventListener('click', () => startPath('quote'));
-        
-            // Speed buttons for the game
-            document.querySelectorAll('.speed-btn').forEach(button => {
-                button.addEventListener('click', (e) => {
-                    e.stopPropagation(); 
-                    const speed = parseInt(e.target.getAttribute('data-speed'));
-                    startPath('game', speed);
-                });
+        ];
+
+        let timerInterval, gameInterval;
+
+        // --- SPEED BUTTONS ---
+        document.querySelectorAll('.speed-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                startPath('game', parseInt(btn.dataset.speed));
             });
-        
-            // 3. Core Logic
-            function startPath(type, speed = 100) {
-                document.getElementById('selection-screen').style.display = 'none';
-                document.getElementById('action-zone').style.display = 'block';
-        
-                let timeLeft = (type === 'quote') ? 5 : 60; // 10s for quote, 60s for game
-                updateTimerDisplay(timeLeft);
-        
-                if (type === 'quote') {
-                    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-                    document.getElementById('content-area').innerHTML = `
-                        <div class="py-5 text-center">
-                            <i class="fa-solid fa-quote-left mb-3" style="color: #1e3799; font-size: 2rem;"></i>
-                            <h3 class="fw-normal" style="line-height: 1.5; color: #2f3640;">${randomQuote}</h3>
-                        </div>`;
-                } else {
-                    document.getElementById('content-area').innerHTML = `
-                        <canvas id="snakeCanvas" width="300" height="300" style="background:#000; display:block; margin:auto; border-radius:10px; max-width: 100%;"></canvas>
-                        <div class="d-pad">
-                            <div class="d-btn up" id="up"><i class="fa-solid fa-caret-up"></i></div>
-                            <div class="d-btn left" id="left"><i class="fa-solid fa-caret-left"></i></div>
-                            <div class="d-btn down" id="down"><i class="fa-solid fa-caret-down"></i></div>
-                            <div class="d-btn right" id="right"><i class="fa-solid fa-caret-right"></i></div>
-                        </div>`;
-                    startSnakeGame(speed);
-                }
-        
-                timerInterval = setInterval(() => {
-                    timeLeft--;
-                    updateTimerDisplay(timeLeft);
-                    if (timeLeft <= 0) {
-                        clearInterval(timerInterval);
-                        clearInterval(gameInterval); // Stop game
-                        revealNews();
-                    }
-                }, 1000);
-            }
-        
-            function updateTimerDisplay(seconds) {
-                const mins = Math.floor(seconds / 60);
-                const secs = seconds % 60;
-                document.getElementById('timer').innerText = 
-                    `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-            }
-        
-            function revealNews() {
-                document.getElementById('timer').innerHTML = "Insight Unlocked";
-                document.getElementById('content-area').innerHTML = `
-                    <div class="text-start p-2 p-md-4">
-                        <h2 style="color: #0a3d21;">Daily Industry Briefing</h2>
-                        <hr>
-                        <div class="mb-3">
-                            <h6 class="fw-bold"><i class="fa-solid fa-car"></i> ADAS & AD</h6>
-                            <p class="small">The industry is shifting focus toward end-to-end AI architectures. Data quality is becoming more critical than sheer model size.</p>
-                        </div>
-                        <div class="mb-3">
-                            <h6 class="fw-bold"><i class="fa-solid fa-chart-line"></i> Strategic Investment</h6>
-                            <p class="small">Real estate in Germany (Lower Saxony) shows resilience. Focus on 'Energy Class A' properties as regulations tighten.</p>
-                        </div>
-                        <div class="mb-3">
-                            <h6 class="fw-bold"><i class="fa-solid fa-heart-pulse"></i> Performance & Health</h6>
-                            <p class="small">Consistency beats intensity. 150 mins of Zone 2 cardio per week remains the benchmark for cognitive endurance.</p>
-                        </div>
-                    </div>`;
-            }
-        
-            function startSnakeGame(speed) {
-                const canvas = document.getElementById("snakeCanvas");
-                if(!canvas) return;
-                const ctx = canvas.getContext("2d");
-                const box = 20;
-                let snake = [{x: 7 * box, y: 8 * box}];
-                let food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
-                let d;
-        
-                // Keyboard support
-                document.addEventListener("keydown", (e) => {
-                    if(e.keyCode == 37 && d != "RIGHT") d = "LEFT";
-                    if(e.keyCode == 38 && d != "DOWN") d = "UP";
-                    if(e.keyCode == 39 && d != "LEFT") d = "RIGHT";
-                    if(e.keyCode == 40 && d != "UP") d = "DOWN";
-                });
-        
-                // D-Pad support for mobile
-                document.getElementById('up').onclick = () => { if(d != "DOWN") d = "UP"; };
-                document.getElementById('down').onclick = () => { if(d != "UP") d = "DOWN"; };
-                document.getElementById('left').onclick = () => { if(d != "RIGHT") d = "LEFT"; };
-                document.getElementById('right').onclick = () => { if(d != "LEFT") d = "RIGHT"; };
-        
-                function draw() {
-                    ctx.fillStyle = "black";
-                    ctx.fillRect(0, 0, canvas.width, canvas.height);
-                    for(let i = 0; i < snake.length; i++) {
-                        ctx.fillStyle = (i == 0) ? "#1e3799" : "#4a69bd";
-                        ctx.fillRect(snake[i].x, snake[i].y, box, box);
-                    }
-                    ctx.fillStyle = "#0a3d21";
-                    ctx.fillRect(food.x, food.y, box, box);
-        
-                    let snakeX = snake[0].x;
-                    let snakeY = snake[0].y;
-        
-                    if(d == "LEFT") snakeX -= box;
-                    if(d == "UP") snakeY -= box;
-                    if(d == "RIGHT") snakeX += box;
-                    if(d == "DOWN") snakeY += box;
-        
-                    if(snakeX == food.x && snakeY == food.y) {
-                        food = { x: Math.floor(Math.random() * 14 + 1) * box, y: Math.floor(Math.random() * 14 + 1) * box };
-                    } else {
-                        snake.pop();
-                    }
-        
-                    let newHead = { x: snakeX, y: snakeY };
-        
-                    if(snakeX < 0 || snakeX >= canvas.width || snakeY < 0 || snakeY >= canvas.height) {
-                        snake = [{x: 7 * box, y: 8 * box}]; // Reset snake pos on wall hit
-                        d = null;
-                    } else {
-                        snake.unshift(newHead);
-                    }
-                }
-                gameInterval = setInterval(draw, speed);
-            }
         });
+
+        function startPath(type, speed = 100) {
+            document.getElementById('selection-screen').style.display = 'none';
+            document.getElementById('action-zone').style.display = 'block';
+            
+            let timeLeft = (type === 'quote') ? 5 : 60;
+            updateTimerDisplay(timeLeft);
+
+            if (type === 'quote') {
+                const q = quotes[Math.floor(Math.random() * quotes.length)];
+                document.getElementById('content-area').innerHTML = `<h3 class="py-5 fw-light italic">"${q}"</h3>`;
+            } else {
+                document.getElementById('content-area').innerHTML = `
+                    <canvas id="snakeCanvas" width="300" height="300" style="background:#111; display:block; margin:auto; border-radius:10px;"></canvas>
+                    <div class="d-pad">
+                        <div class="d-btn up" id="up"><i class="fa-solid fa-caret-up"></i></div>
+                        <div class="d-btn left" id="left"><i class="fa-solid fa-caret-left"></i></div>
+                        <div class="d-btn down" id="down"><i class="fa-solid fa-caret-down"></i></div>
+                        <div class="d-btn right" id="right"><i class="fa-solid fa-caret-right"></i></div>
+                    </div>`;
+                startSnakeGame(speed);
+            }
+
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                updateTimerDisplay(timeLeft);
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    clearInterval(gameInterval);
+                    revealNews();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay(s) {
+            document.getElementById('timer').innerText = `00:${s.toString().padStart(2, '0')}`;
+        }
+
+        // --- THE NEWS ENGINE ---
+        async function revealNews() {
+            const area = document.getElementById('content-area');
+            document.getElementById('timer').innerHTML = "SYSTEMS UNLOCKED";
+            area.innerHTML = `<div class="p-5"><div class="spinner-border text-primary"></div><p class="mt-3">Filtering Industry Signals...</p></div>`;
+
+            const config = [
+                { 
+                    title: "Frontier Tech", 
+                    icon: "fa-microchip", 
+                    feeds: ["https://www.wired.com/feed/rss", "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"],
+                    keywords: ["GPU", "LLM", "Robotaxi", "Humanoid", "Deployment", "AI", "Autonomous", "Trend"] 
+                },
+                { 
+                    title: "Longevity Lab", 
+                    icon: "fa-dna", 
+                    feeds: ["https://www.sciencedaily.com/rss/strange_science.xml", "https://www.nature.com/nature.rss"],
+                    keywords: ["Longevity", "Biohacking", "Research", "Aging", "Protocol"] 
+                },
+                { 
+                    title: "Macro & Markets", 
+                    icon: "fa-chart-column", 
+                    feeds: ["https://www.economist.com/finance-and-economics/rss.xml", "https://www.reutersagency.com/feed/?best-topics=business"],
+                    keywords: ["Market Trend", "German", "Macroeconomy", "Invest", "Analysis", "Economy"] 
+                },
+                { 
+                    title: "Global Progress", 
+                    icon: "fa-leaf", 
+                    feeds: ["https://www.goodnewsnetwork.org/category/news/world/feed/"],
+                    keywords: ["Sustainability", "Human Rights", "Energy Transition", "Good news", "Climate"] 
+                }
+            ];
+
+            try {
+                let html = `<div class="news-grid">`;
+                for (const cat of config) {
+                    let items = [];
+                    for (const url of cat.feeds) {
+                        const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`);
+                        const data = await res.json();
+                        if (data.items) items = [...items, ...data.items];
+                    }
+
+                    // Multi-keyword filter
+                    const filtered = items.filter(i => 
+                        cat.keywords.some(k => (i.title + i.description).toLowerCase().includes(k.toLowerCase()))
+                    ).slice(0, 4);
+
+                    html += `<div class="news-tile"><h5><i class="fa-solid ${cat.icon} me-2"></i>${cat.title}</h5>`;
+                    (filtered.length ? filtered : items.slice(0, 4)).forEach(item => {
+                        html += `<a href="${item.link}" target="_blank" class="headline-link"><span class="tag">Live</span>${item.title}</a>`;
+                    });
+                    html += `</div>`;
+                }
+                area.innerHTML = html + `</div>`;
+            } catch (e) {
+                area.innerHTML = `<p class="text-danger">Failed to fetch live signals. Ensure you are online.</p>`;
+            }
+        }
+
+        // --- SNAKE LOGIC (Standard) ---
+        function startSnakeGame(speed) {
+            const canvas = document.getElementById("snakeCanvas");
+            const ctx = canvas.getContext("2d");
+            const box = 20;
+            let snake = [{x: 8 * box, y: 8 * box}], d, food = {x: 40, y: 40};
+
+            document.addEventListener("keydown", e => {
+                if(e.keyCode==37 && d!="RIGHT") d="LEFT"; if(e.keyCode==38 && d!="DOWN") d="UP";
+                if(e.keyCode==39 && d!="LEFT") d="RIGHT"; if(e.keyCode==40 && d!="UP") d="DOWN";
+            });
+            ['up','down','left','right'].forEach(id => document.getElementById(id).onclick = () => {
+                const dir = id.toUpperCase();
+                if(dir=="UP" && d!="DOWN") d="UP"; if(dir=="DOWN" && d!="UP") d="DOWN";
+                if(dir=="LEFT" && d!="RIGHT") d="LEFT"; if(dir=="RIGHT" && d!="LEFT") d="RIGHT";
+            });
+
+            gameInterval = setInterval(() => {
+                ctx.fillStyle = "#111"; ctx.fillRect(0,0,300,300);
+                for(let i=0; i<snake.length; i++){
+                    ctx.fillStyle = i==0 ? "#1e3799" : "#4a69bd";
+                    ctx.fillRect(snake[i].x, snake[i].y, box-2, box-2);
+                }
+                ctx.fillStyle = "#2ecc71"; ctx.fillRect(food.x, food.y, box-2, box-2);
+                let headX = snake[0].x, headY = snake[0].y;
+                if(d=="LEFT") headX-=box; if(d=="UP") headY-=box; if(d=="RIGHT") headX+=box; if(d=="DOWN") headY+=box;
+                if(headX==food.x && headY==food.y) food={x:Math.floor(Math.random()*14+1)*box, y:Math.floor(Math.random()*14+1)*box};
+                else snake.pop();
+                if(headX<0 || headX>=300 || headY<0 || headY>=300) { headX=8*box; headY=8*box; d=null; }
+                snake.unshift({x:headX, y:headY});
+            }, speed);
+        }
     </script>
 </body>
 </html>
