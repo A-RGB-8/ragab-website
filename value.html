@@ -34,6 +34,7 @@
         .headline-link { display: block; font-size: 0.9rem; color: #2f3640; text-decoration: none; padding: 10px 0; border-bottom: 1px solid #f8f9fa; transition: 0.2s; line-height: 1.4; }
         .headline-link:hover { color: var(--slate-grey); background: #fcfcfc; padding-left: 5px; }
         .tag { font-size: 0.65rem; font-weight: 700; background: #eef2ff; color: var(--navy-blue); padding: 2px 6px; border-radius: 4px; margin-right: 8px; text-transform: uppercase; }
+        .reason-text { font-size: 0.75rem; color: #64748b; font-style: italic; margin-top: 8px; display: block; }
 
         /* D-Pad */
         .d-pad { display: grid; grid-template-columns: repeat(3, 60px); grid-template-rows: repeat(2, 60px); gap: 10px; justify-content: center; margin-top: 20px; }
@@ -90,21 +91,13 @@
     <script>
         const quotes = [
              "Do the boring things (first): eat healthy, exercise, work hard, say I love you and spend time with your family ... nothing else matters",
-
                 "Risk comes with freedom. Security comes with limitations. Mindfulness is weighing how much freedom one wants balancing how much risk one can manage",
-
                 "Life is full of challenges. Either you pick them or they're picked for you. The most important thing is to enjoy the ride, as at the end you're not taking anything (good or bad) with you",
-
                 "Working out makes you feel weak, but it actually makes you stronger. Learning makes you feel dumb, but it actually makes you smarter. Investing (in yourself) makes you feel broke, but it actually makes you richer. Facing your fears will make you feel terrified, but it actually makes you braver. Do the hard thing ... It makes you better. Trust the process.",
-
                 "Speaking the truth comes at a price, but revealing a falsehood carries an even higher cost",
-
                 "Speak authentically or shut the hell up. The latter option is preferred when you haven't been asked",
-
                 "happiness is doing what you like to do with the people you like",
-
                 "You have never truly lived till the moment you realize that you'd happily live and die for someone else",
-
                 "No risk is a missed opportunity; too much risk is a broken timeline."
         ];
 
@@ -163,10 +156,9 @@
 
             const config = [
                 { 
-                    title: "Frontier Tech", 
-                    icon: "fa-microchip", 
-                    feeds: ["https://www.wired.com/feed/rss", "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"],
-                    keywords: ["GPU", "LLM", "Robotaxi", "Humanoid", "Deployment", "AI", "Autonomous", "Trend"] 
+                    title: "Automated Driving Tech", 
+                    icon: "fa-car-side", 
+                    isAI: true 
                 },
                 { 
                     title: "Longevity Lab", 
@@ -191,22 +183,37 @@
             try {
                 let html = `<div class="news-grid">`;
                 for (const cat of config) {
-                    let items = [];
-                    for (const url of cat.feeds) {
-                        const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`);
-                        const data = await res.json();
-                        if (data.items) items = [...items, ...data.items];
-                    }
-
-                    // Multi-keyword filter
-                    const filtered = items.filter(i => 
-                        cat.keywords.some(k => (i.title + i.description).toLowerCase().includes(k.toLowerCase()))
-                    ).slice(0, 4);
-
                     html += `<div class="news-tile"><h5><i class="fa-solid ${cat.icon} me-2"></i>${cat.title}</h5>`;
-                    (filtered.length ? filtered : items.slice(0, 4)).forEach(item => {
-                        html += `<a href="${item.link}" target="_blank" class="headline-link"><span class="tag">Live</span>${item.title}</a>`;
-                    });
+                    
+                    if (cat.isAI) {
+                        try {
+                            // Fetching the JSON produced by your Python Scout
+                            const res = await fetch('./top_news.json');
+                            const aiNews = await res.json();
+                            html += `
+                                <a href="${aiNews.url}" target="_blank" class="headline-link">
+                                    <span class="tag">AI Curated</span>${aiNews.headline}
+                                </a>
+                                <span class="reason-text">${aiNews.reason}</span>
+                            `;
+                        } catch (e) {
+                            html += `<p class="text-muted small">Agent offline. Check automation status.</p>`;
+                        }
+                    } else {
+                        let items = [];
+                        for (const url of cat.feeds) {
+                            const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`);
+                            const data = await res.json();
+                            if (data.items) items = [...items, ...data.items];
+                        }
+                        const filtered = items.filter(i => 
+                            cat.keywords.some(k => (i.title + i.description).toLowerCase().includes(k.toLowerCase()))
+                        ).slice(0, 4);
+
+                        (filtered.length ? filtered : items.slice(0, 4)).forEach(item => {
+                            html += `<a href="${item.link}" target="_blank" class="headline-link"><span class="tag">Live</span>${item.title}</a>`;
+                        });
+                    }
                     html += `</div>`;
                 }
                 area.innerHTML = html + `</div>`;
@@ -215,7 +222,7 @@
             }
         }
 
-        // --- SNAKE LOGIC (Standard) ---
+        // --- SNAKE LOGIC ---
         function startSnakeGame(speed) {
             const canvas = document.getElementById("snakeCanvas");
             const ctx = canvas.getContext("2d");
