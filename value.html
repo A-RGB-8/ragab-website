@@ -152,6 +152,7 @@
         async function revealNews() {
             const area = document.getElementById('content-area');
             document.getElementById('timer').innerHTML = "SYSTEMS UNLOCKED";
+<<<<<<< HEAD
             area.innerHTML = `<div class="p-5"><div class="spinner-border text-primary"></div><p class="mt-3">Filtering Industry Signals...</p></div>`;
 
             const config = [
@@ -179,9 +180,18 @@
                     keywords: ["Sustainability", "Human Rights", "Energy Transition", "Good news", "Climate"] 
                 }
             ];
+=======
+            area.innerHTML = `<div class="p-5"><div class="spinner-border text-primary"></div><p class="mt-3">Agent is Batch-Processing Signals...</p></div>`;
+>>>>>>> 622d3ad (V1 Deployment: Multi-category AI News Agent and UI Integration)
 
             try {
+                // 1. Fetch the Batch AI Data
+                const res = await fetch('./top_news.json?v=' + new Date().getTime());
+                const aiNewsArray = await res.json();
+
+                // 2. Build the Grid
                 let html = `<div class="news-grid">`;
+<<<<<<< HEAD
                 for (const cat of config) {
                     html += `<div class="news-tile"><h5><i class="fa-solid ${cat.icon} me-2"></i>${cat.title}</h5>`;
                     
@@ -216,9 +226,35 @@
                     }
                     html += `</div>`;
                 }
+=======
+                
+                // Define icons for our categories
+                const iconMap = {
+                    "Automated Driving Tech": "fa-car-side",
+                    "Longevity Lab": "fa-dna",
+                    "Finance & Business": "fa-chart-line",
+                    "AI & Robotics": "fa-robot",
+                    "Global Progress": "fa-earth-americas"
+                };
+
+                aiNewsArray.forEach(item => {
+                    const icon = iconMap[item.category] || "fa-newspaper";
+                    html += `
+                        <div class="news-tile">
+                            <h5><i class="fa-solid ${icon} me-2"></i>${item.category}</h5>
+                            <a href="${item.url}" target="_blank" class="headline-link">
+                                <span class="tag">AI Curated</span>${item.headline}
+                            </a>
+                            <span class="reason-text">${item.reason}</span>
+                        </div>
+                    `;
+                });
+
+>>>>>>> 622d3ad (V1 Deployment: Multi-category AI News Agent and UI Integration)
                 area.innerHTML = html + `</div>`;
             } catch (e) {
-                area.innerHTML = `<p class="text-danger">Failed to fetch live signals. Ensure you are online.</p>`;
+                console.error(e);
+                area.innerHTML = `<p class="text-danger">Failed to sync with NAA Agent. Check repository status.</p>`;
             }
         }
 
