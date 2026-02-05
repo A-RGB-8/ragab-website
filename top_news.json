@@ -1,40 +1,32 @@
-<<<<<<< HEAD
-{
-    "headline": "Malaysia Achieves Enterprise-Level L4 Autonomous Logistics Vehicle Milestone",
-    "url": "https://www.pcauto.com.cn/autochina/news/20260204/36756310.html",
-    "reason": "This article details a significant L4 autonomous driving milestone achieved in Malaysia with the first enterprise-level L4 autonomous logistics vehicle project by 9D Technology and ALS. It highlights the integration of high-precision maps, multi-sensor fusion, and real-time decision-making algorithms, marking a practical deployment in complex logistics scenarios and paving the way for future commercial applications."
-}
-=======
 [
     {
         "category": "Automated Driving Tech",
         "headline": "TSMC to manufacture 3-nanometer semiconductors in Japan for AI, robotics, and autonomous driving",
         "url": "https://www.lasvegassun.com/news/2026/feb/05/tsmc-to-make-advanced-ai-semiconductors-in-japan-in-boost-for-its-chipmaking-ambitions/",
-        "reason": "This announcement signifies a major advancement in the supply chain for critical autonomous driving components. TSMC's decision to produce cutting-edge 3nm chips in Japan, specifically for AI, robotics, and autonomous driving applications, indicates a substantial investment and growth in the infrastructure needed for higher levels of automation. This move is a boost for Japan's semiconductor ambitions and highlights the global race to secure advanced chip manufacturing for next-generation technologies."
+        "reason": "This signifies a major shift in the ADAS supply chain. Production of 3nm chips specifically for autonomous driving in Japan secures the hardware roadmap for L3+ systems, moving past legacy 7nm/5nm bottlenecks."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Helping care for grandchildren may offer an unexpected boost to brain health later in life",
+        "headline": "Social Cognitive Engagement Linked to Significant Brain Health Boost in Older Adults",
         "url": "https://www.sciencedaily.com/releases/2026/01/260129140903.htm",
-        "reason": "This finding from recent research suggests a tangible, human-centric protocol for cognitive health in later life. The study indicates that providing childcare to grandchildren, regardless of frequency or type, is associated with higher scores in memory and verbal skills. This highlights the potential benefits of social engagement and purpose in maintaining cognitive function, offering an actionable insight for individuals looking to support their long-term brain health."
+        "reason": "Recent human studies confirm that purpose-driven social roles (like grandparenting) act as a cognitive 'load balancer,' improving verbal and memory scores more effectively than isolated brain-training apps."
     },
     {
         "category": "Finance & Business",
-        "headline": "Alphabet (GOOGL) reported strong fourth-quarter earnings, with sales up 18% to $113 billion, driven by AI advancements.",
+        "headline": "Alphabet Q4 Sales Jump 18% as Google Cloud Revenue Surges 48% on AI Integration",
         "url": "https://www.morningstar.com.au/stocks/article/alphabet-earnings-continued-momentum-on-cloud-and-search-as-capital-expenses-set-to-mount/246511",
-        "reason": "Alphabet's strong Q4 earnings, heavily influenced by AI integration, signal a significant market shift where AI is now a primary driver of growth and investor confidence in major tech companies. The 18% sales increase, with Google Cloud seeing 48% growth, underscores how AI is transforming cloud services and search functionalities. This highlights a broader trend of AI becoming an essential component of business strategy and a key differentiator in the competitive tech landscape, impacting investor valuations and market dynamics."
+        "reason": "A major macro indicator: AI is no longer a 'cost center.' The massive growth in Cloud revenue shows enterprises are now aggressively paying for AI compute, shifting the market valuation from speculation to utility."
     },
     {
         "category": "AI & Robotics",
-        "headline": "NASA's Perseverance rover drove across Mars using AI-planned routes",
+        "headline": "NASA's Perseverance Achieves Full Autonomous Navigation on Mars Using AI Path-Planning",
         "url": "https://www.sciencedaily.com/releases/2026/02/260202123655.htm",
-        "reason": "This represents a significant milestone in AI and robotics, showcasing the successful autonomous navigation of complex extraterrestrial terrain. The Perseverance rover's ability to analyze images and chart safe paths independently, without direct human operators for every maneuver, demonstrates a leap in AI's capability for real-world problem-solving in a high-stakes environment. This advancement has implications for future space exploration and the development of more sophisticated autonomous systems on Earth."
+        "reason": "This is the ultimate 'Edge Case.' Successful AI-planned routing in an environment with zero GPS and high latency proves the robustness of current computer vision and spatial reasoning models."
     },
     {
         "category": "Global Progress",
-        "headline": "Melting ice from West Antarctica once delivered huge amounts of iron to the Southern Ocean, but algae growth did not increase as expected.",
+        "headline": "New Findings on Antarctic Iron Cycles Challenge Climate Mitigation Assumptions",
         "url": "https://www.sciencedaily.com/releases/2026/02/260204114643.htm",
-        "reason": "This finding offers a nuanced and crucial insight into climate change feedback loops. It reveals that increased ice melt, often presumed to boost ocean carbon absorption through iron fertilization, does not automatically lead to greater algae growth due to the form of iron. This challenges a simplistic understanding of ocean's role in climate regulation and suggests that Antarctic ice loss could potentially reduce the ocean's capacity to mitigate climate change, a significant development in understanding global climate dynamics."
+        "reason": "Critical progress in climate modeling. By discovering that ice-melt iron doesn't automatically trigger algae growth, scientists can now tune climate models with higher precision, avoiding 'false hope' in carbon sequestration math."
     }
 ]
->>>>>>> 622d3ad (V1 Deployment: Multi-category AI News Agent and UI Integration)

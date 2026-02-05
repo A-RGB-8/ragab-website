@@ -152,37 +152,7 @@
         async function revealNews() {
             const area = document.getElementById('content-area');
             document.getElementById('timer').innerHTML = "SYSTEMS UNLOCKED";
-<<<<<<< HEAD
-            area.innerHTML = `<div class="p-5"><div class="spinner-border text-primary"></div><p class="mt-3">Filtering Industry Signals...</p></div>`;
-
-            const config = [
-                { 
-                    title: "Automated Driving Tech", 
-                    icon: "fa-car-side", 
-                    isAI: true 
-                },
-                { 
-                    title: "Longevity Lab", 
-                    icon: "fa-dna", 
-                    feeds: ["https://www.sciencedaily.com/rss/strange_science.xml", "https://www.nature.com/nature.rss"],
-                    keywords: ["Longevity", "Biohacking", "Research", "Aging", "Protocol"] 
-                },
-                { 
-                    title: "Macro & Markets", 
-                    icon: "fa-chart-column", 
-                    feeds: ["https://www.economist.com/finance-and-economics/rss.xml", "https://www.reutersagency.com/feed/?best-topics=business"],
-                    keywords: ["Market Trend", "German", "Macroeconomy", "Invest", "Analysis", "Economy"] 
-                },
-                { 
-                    title: "Global Progress", 
-                    icon: "fa-leaf", 
-                    feeds: ["https://www.goodnewsnetwork.org/category/news/world/feed/"],
-                    keywords: ["Sustainability", "Human Rights", "Energy Transition", "Good news", "Climate"] 
-                }
-            ];
-=======
             area.innerHTML = `<div class="p-5"><div class="spinner-border text-primary"></div><p class="mt-3">Agent is Batch-Processing Signals...</p></div>`;
->>>>>>> 622d3ad (V1 Deployment: Multi-category AI News Agent and UI Integration)
 
             try {
                 // 1. Fetch the Batch AI Data
@@ -191,42 +161,6 @@
 
                 // 2. Build the Grid
                 let html = `<div class="news-grid">`;
-<<<<<<< HEAD
-                for (const cat of config) {
-                    html += `<div class="news-tile"><h5><i class="fa-solid ${cat.icon} me-2"></i>${cat.title}</h5>`;
-                    
-                    if (cat.isAI) {
-                        try {
-                            // Fetching the JSON produced by your Python Scout
-                            const res = await fetch('./top_news.json');
-                            const aiNews = await res.json();
-                            html += `
-                                <a href="${aiNews.url}" target="_blank" class="headline-link">
-                                    <span class="tag">AI Curated</span>${aiNews.headline}
-                                </a>
-                                <span class="reason-text">${aiNews.reason}</span>
-                            `;
-                        } catch (e) {
-                            html += `<p class="text-muted small">Agent offline. Check automation status.</p>`;
-                        }
-                    } else {
-                        let items = [];
-                        for (const url of cat.feeds) {
-                            const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`);
-                            const data = await res.json();
-                            if (data.items) items = [...items, ...data.items];
-                        }
-                        const filtered = items.filter(i => 
-                            cat.keywords.some(k => (i.title + i.description).toLowerCase().includes(k.toLowerCase()))
-                        ).slice(0, 4);
-
-                        (filtered.length ? filtered : items.slice(0, 4)).forEach(item => {
-                            html += `<a href="${item.link}" target="_blank" class="headline-link"><span class="tag">Live</span>${item.title}</a>`;
-                        });
-                    }
-                    html += `</div>`;
-                }
-=======
                 
                 // Define icons for our categories
                 const iconMap = {
@@ -250,7 +184,6 @@
                     `;
                 });
 
->>>>>>> 622d3ad (V1 Deployment: Multi-category AI News Agent and UI Integration)
                 area.innerHTML = html + `</div>`;
             } catch (e) {
                 console.error(e);
