@@ -2,7 +2,7 @@ name: Daily NAA Scout
 
 on:
   schedule:
-    - cron: '0 08 * * *' # Runs every day at 08:00 UTC
+    - cron: '42 04 * * *' # Runs every day at 04:42 UTC
   workflow_dispatch:      # Allows you to run it manually with one click
 
 jobs:

@@ -1,0 +1,11 @@
+{
+  "name": "Python & GitHub Actions",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "github.vscode-github-actions"
+      ]
+    }
+  }
+}
