@@ -11,37 +11,101 @@
         ]
     },
     "mindset": {
-        "title": "The Growth Mindset",
+        "title": "The Growth Mindset: Calculated Risky Adventure",
         "body": [
-            "<h6>Mistakes as Musical Notes</h6>",
-            "<p class='mb-4'>In music, if you hit a wrong note, you don't stop the concert—you resolve it into the next harmony. Engineering is the same. I view 'technical errors' not as finalities, but as data points that refine the eventual solution.</p>",
-            "<h6>Calculated Risk-Taking</h6>",
-            "<p>Innovation requires the departure from the 'safe' path. By applying structured risk assessment, I allow my teams to experiment within the guardrails of functional safety.</p>"
+            "<h6 class='text-primary fw-bold'>Beyond the Theory</h6>",
+            "<p class='mb-4'>You can read books about the Growth Mindset and believe in the theory, but you cannot advocate for it until you have been tested. To me, it isn't a soft skill; it is a <strong>calculated risk adventure</strong>. I allow myself and the people around me to make mistakes—but only once. A mistake is a data point; a repetition is a system failure.</p>",
+            
+            "<h6 class='text-primary fw-bold'>Curiosity as a Competitive Advantage</h6>",
+            "<p class='mb-4'>If I have one talent, it is curiosity. I leverage it to make difficult decisions that others avoid. Every high-stakes pivot in my life was rewarded handsomely, though often preceded by significant 'work and suffering.' That is the price of the adventure.</p>",
+
+            "<div class='row mb-4'>",
+                "<div class='col-md-6'>",
+                    "<ul class='small'>",
+                        "<li><strong>The Pivot:</strong> Leaving a secure job for a post-grad degree.</li>",
+                        "<li><strong>The Reset:</strong> Moving to Germany with zero language skills.</li>",
+                        "<li><strong>The Crisis:</strong> Starting my career in 2008 at a below-average wage to enter the right field.</li>",
+                    "</ul>",
+                "</div>",
+                "<div class='col-md-6'>",
+                    "<ul class='small'>",
+                        "<li><strong>The Gamble:</strong> Sinking every dime into real estate to learn the mechanics.</li>",
+                        "<li><strong>The Failure:</strong> Starting a drop-shipping company that failed but taught me 'Business 101.'</li>",
+                        "<li><strong>The Grind:</strong> Taking the CFA in my 40s while balancing fatherhood and an ADAS career.</li>",
+                    "</ul>",
+                "</div>",
+            "</div>",
+
+            "<div class='p-3 bg-light border-start border-4 border-slate-grey'>",
+                "<h6>The Iteration Loop</h6>",
+                "<p class='mb-0 fw-bold' style='color: #4a69bd;'>I am curious. I learn. I fail. I learn even more. Then, and only then, I grow. Growth is a system that keeps getting examined.</p>",
+            "</div>"
         ]
     },
     "career": {
-        "title": "The Tech I Love: The Scaler",
+        "title": "Automotive, Embedded SW, AI & Robotics",
         "body": [
-            "<h6>ASPICE & SOP Leadership</h6>",
-            "<p class='mb-4'>Managing the lifecycle of high-volume commercial vehicle safety systems requires a balance of rigid process compliance and agile execution. My focus is on the <strong>full ASPICE V-Model</strong>, moving from concept to Start of Production (SOP) across global markets.</p>",
-            "<h6>Architectural Robustness</h6>",
-            "<p class='mb-4'>I specialize in building scalable ecosystems. This includes accelerating development efficiency by <strong>30%</strong> through standardized rapid prototyping and ensuring high-integrity software releases in Embedded C and MATLAB/Simulink environments.</p>",
-            "<h6>Global Magnitude</h6>",
-            "<p>Leading an organization of <strong>70+ engineers</strong> across four continents, I bridge the gap between complex technical requirements and measurable business impact.</p>"
+            "<h6 class='text-primary fw-bold'>The Architect's Origin</h6>",
+            "<p class='mb-4'>Since childhood, my answer to 'what do you want to be when you grow up?' was unconventional: <em>'I want to be a God.'</em> This wasn't about ego; it was a fascination with <strong>autonomous intelligent systems</strong>. The moment I brought my first microcontroller to life in undergrad, my mission was set: building intelligent systems that protect people and the planet. Today, I lead R&D for commercial vehicle ADAS—designing 'big toys for big boys' that save lives.</p>",
+            
+            "<h6 class='text-primary fw-bold'>Systems Engineering & Philosophy</h6>",
+            "<p class='mb-4'>Since 2009, I have evolved a core philosophy: I don't just lead teams; I build <strong>robust development architectures</strong>. My approach is rooted in the 'V-Model' of both software and people, ensuring that scalability is baked into the process from day one.</p>",
+
+            "<div class='row mb-4'>",
+                "<div class='col-md-6'>",
+                    "<ul>",
+                        "<li><strong>30% Faster</strong> pre-dev cycles via rapid prototyping.</li>",
+                        "<li><strong>ASPICE Mastery:</strong> Closing gaps with lean, systematic solutions.</li>",
+                        "<li><strong>Automation First:</strong> Scripting away failures (like broken dashboards).</li>",
+                    "</ul>",
+                "</div>",
+                "<div class='col-md-6'>",
+                    "<ul>",
+                        "<li><strong>40% Reduction</strong> in problem reports via high-integrity handling.</li>",
+                        "<li><strong>Human Scaling:</strong> Strengthening strengths via proactive coaching.</li>",
+                        "<li><strong>Global Reach:</strong> Coordinating hundreds of FTEs for Tier-1 OEMs.</li>",
+                    "</ul>",
+                "</div>",
+            "</div>",
+
+            "<div class='p-3 bg-light border-start border-4 border-success'>",
+                "<h6>The Leadership Algorithm: 'Lead by Example'</h6>",
+                "<p class='mb-0 small text-secondary'>I believe a leader must remain <strong>functional in the field</strong>. I maintain my technical edge—taking on dev tasks and deep-dive reviews—to ensure I never ask for an output I don't fundamentally understand. I act as the <strong>high-bandwidth bridge</strong> between strategic vision and the tactical reality of the engineering floor.</p>",
+            "</div>"
         ]
     },
     "fitness": {
         "title": "My Fitness Journey",
         "body": [
-            "<p class='mb-4'>30 years on the handball court teaches you that performance is a function of trust and accountability. As a professional fitness coach, I apply the same principles of 'load management' and 'progressive overload' to team leadership.</p>",
-            "<p>Strengthening strengths and weakening weaknesses is not just a gym philosophy—it is how I develop high-performing engineering teams.</p>"
+            "<h6 class='text-primary fw-bold'>The Restless Engine</h6>",
+            "<p class='mb-4'>My mother always described me as 'restless.' I had a biological need to move—ALWAYS. I started sports at age six and haven't stopped since. After five years of Karate and reaching a brown belt, I hit a bureaucratic wall: a three-year wait for the black belt. Being too restless to wait, I pivoted to Handball at age 11, and that is where my real training began.</p>",
+            
+            "<h6 class='text-primary fw-bold'>The Five-Year Breakthrough</h6>",
+            "<p class='mb-4'>I’ll be honest: I was the 'talentless' player. I was fit enough to make the team but made enough mistakes to be the target of frustration. I spent five years training relentlessly—gym sessions, basketball, tennis, volleyball, even Judo and Kung Fu—all to find the missing edge. One day, the work paid off. I became a key high-scorer for the U18s and was scouted for the First Team. It taught me that <strong>consistency eventually overcomes a lack of initial calibration.</strong></p>",
+
+            "<div class='p-3 bg-light border-start border-4 border-primary mb-4'>",
+                "<h6>Certified Optimization</h6>",
+                "<p class='mb-0'>After moving to Germany, I decided to codify this experience. I became a <strong>Certified Fitness & Nutrition Coach</strong> specializing in <strong>Functional Training</strong>. Today, I apply the same 'high-performance' logic to individuals and teams that I apply to my engineering projects.</p>",
+            "</div>",
+
+            "<p class='small text-muted italic'><em>'Sports reinforced teamwork, accountability, and leadership in environments where performance mattered more than background.'</em></p>"
         ]
     },
     "investment": {
         "title": "Me, My Finance & I",
         "body": [
-            "<p class='mb-4'>Financial rigor applied to engineering R&D roadmaps. My background includes passing the <strong>CFA Level 1</strong> exam on the first attempt, bringing a unique analytical perspective to project budget management and risk assessment.</p>",
-            "<p>From German real estate investment to technical system trade-offs, I use the 'Investment Triangle' (Time, Risk, Reward) to ensure every decision scales value effectively.</p>"
+            "<h6 class='text-primary fw-bold'>From Saving to Systems</h6>",
+            "<p class='mb-4'>I grew up in a classic Egyptian middle-class household. My father, a chemical engineer, taught me that security comes from a well-paying job and disciplined saving. To this day, I have a visceral hatred for 'waste'—whether it is inefficient code or unnecessary luxury. For years, the term 'budget' felt in-born, but I realized that saving alone doesn't scale wealth; it only preserves it.</p>",
+            
+            "<h6 class='text-primary fw-bold'>The Analytical Deep-Dive</h6>",
+            "<p class='mb-4'>To understand the 'Difference between rich and middle-class,' I did what any engineer would do: I reverse-engineered the system. I didn't just read books; I took an unpaid internship at a Real Estate firm, renovated homes with my own hands to understand the 'hardware' of property, and eventually acquired multiple investment objects in Germany.</p>",
+
+            "<div class='p-3 bg-light border-start border-4 border-warning mb-4'>",
+                "<h6>CFA Level 1: The First-Pass Success</h6>",
+                "<p class='mb-0'>I codified this knowledge by challenging the <strong>CFA Level 1 exam</strong>—and passing on the first attempt. This isn't just a certificate; it's a commitment to professional-grade analytical rigor. I now view every engineering R&D roadmap through the 'Investment Triangle': <strong>Risk, Return, and Time-to-Value.</strong></p>",
+            "</div>",
+
+            "<p class='small text-muted italic'><em>'In the Lab, money is not for spending; it is a resource to be allocated for maximum system growth.'</em></p>"
         ]
     }
 }
