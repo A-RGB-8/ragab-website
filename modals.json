@@ -1,0 +1,47 @@
+{
+    "origin": {
+        "title": "My Origin",
+        "body": [
+            "<p class='mb-4'>My engineering journey began with curiosity and precision. As a child in Egypt, I dreamed of becoming an astronaut or pilot. When poor eyesight made that path impossible, my fascination shifted to the machines themselves—aircraft, rockets, and automated systems that operate with extreme accuracy and minimal human intervention.</p>",
+            "<p class='mb-4'>I studied engineering in Egypt, but early on I realized that technical knowledge alone was not enough. I wanted to build things, not just understand them. This led me to the <strong>Information Technology Institute (ITI)</strong> in Giza, where I specialized in applied mechatronics. Shortly after, I made one of the most defining decisions of my life: moving alone to Germany to pursue my master’s degree.</p>",
+            "<p class='mb-4'>That transition was far from smooth. The language barrier was severe, financial conditions changed unexpectedly, and I found myself navigating a new country with limited resources and no support network. Those years shaped me profoundly. I learned discipline, self-reliance, and how to stay functional and focused under sustained pressure.</p>",
+            "<p class='mb-4'>Alongside my studies, I pursued hands-on experience through industry projects, moving from software testing into development and control-related work. Sports—especially handball—played a crucial role in my integration, reinforcing teamwork, accountability, and leadership in environments where performance mattered more than background.</p>",
+            "<p class='mb-4'>I entered the automotive industry during the global financial crisis, a period that tested both resilience and adaptability. This journey culminated in joining <strong>WABCO (ZF)</strong>, where I stepped into <strong>ADAS development</strong>—work that aligned precisely with the original motivation that led me to engineering: building intelligent, safety-critical systems with real impact.</p>",
+            "<div class='p-3 bg-light border-start border-4 border-primary mt-4'><p class='mb-0 fw-bold' style='color: #1e3799;'>Today, I bring the perspective of someone who has built a career across cultures, languages, and uncertainty. I lead through credibility rather than title, continuously learning—whether the challenge is technical, organizational, or human.</p></div>"
+        ]
+    },
+    "mindset": {
+        "title": "The Growth Mindset",
+        "body": [
+            "<h6>Mistakes as Musical Notes</h6>",
+            "<p class='mb-4'>In music, if you hit a wrong note, you don't stop the concert—you resolve it into the next harmony. Engineering is the same. I view 'technical errors' not as finalities, but as data points that refine the eventual solution.</p>",
+            "<h6>Calculated Risk-Taking</h6>",
+            "<p>Innovation requires the departure from the 'safe' path. By applying structured risk assessment, I allow my teams to experiment within the guardrails of functional safety.</p>"
+        ]
+    },
+    "career": {
+        "title": "The Tech I Love: The Scaler",
+        "body": [
+            "<h6>ASPICE & SOP Leadership</h6>",
+            "<p class='mb-4'>Managing the lifecycle of high-volume commercial vehicle safety systems requires a balance of rigid process compliance and agile execution. My focus is on the <strong>full ASPICE V-Model</strong>, moving from concept to Start of Production (SOP) across global markets.</p>",
+            "<h6>Architectural Robustness</h6>",
+            "<p class='mb-4'>I specialize in building scalable ecosystems. This includes accelerating development efficiency by <strong>30%</strong> through standardized rapid prototyping and ensuring high-integrity software releases in Embedded C and MATLAB/Simulink environments.</p>",
+            "<h6>Global Magnitude</h6>",
+            "<p>Leading an organization of <strong>70+ engineers</strong> across four continents, I bridge the gap between complex technical requirements and measurable business impact.</p>"
+        ]
+    },
+    "fitness": {
+        "title": "My Fitness Journey",
+        "body": [
+            "<p class='mb-4'>30 years on the handball court teaches you that performance is a function of trust and accountability. As a professional fitness coach, I apply the same principles of 'load management' and 'progressive overload' to team leadership.</p>",
+            "<p>Strengthening strengths and weakening weaknesses is not just a gym philosophy—it is how I develop high-performing engineering teams.</p>"
+        ]
+    },
+    "investment": {
+        "title": "Me, My Finance & I",
+        "body": [
+            "<p class='mb-4'>Financial rigor applied to engineering R&D roadmaps. My background includes passing the <strong>CFA Level 1</strong> exam on the first attempt, bringing a unique analytical perspective to project budget management and risk assessment.</p>",
+            "<p>From German real estate investment to technical system trade-offs, I use the 'Investment Triangle' (Time, Risk, Reward) to ensure every decision scales value effectively.</p>"
+        ]
+    }
+}

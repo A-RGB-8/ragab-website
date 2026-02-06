@@ -81,23 +81,23 @@
             <div class="hero-section">
                 <div class="card-box shadow-lg" data-bs-toggle="modal" data-bs-target="#careerModal">
                     <h2>I am Ahmed Ragab.</h2>
-                    <p class="lead mb-4">For 15+ years, I have navigated the high-stakes V-Model of ADAS and Embedded Software.</p>
+                    [cite_start]<p class="lead mb-4">For 15+ years, I have navigated the high-stakes V-Model of ADAS and Embedded Software. [cite: 7, 37]</p>
                     <hr style="opacity: 0.2; background-color: #fff;">
                     <h4>Technical Pillar: The Scaler</h4>
-                    <p>Leading 70+ engineers and 4 SOPs. I build scalable ecosystems, from ensuring ASPICE compliancy to standardizing Rapid Prototyping.</p>
+                    <p>Leading 70+ engineers and 4 SOPs. [cite_start]I build scalable ecosystems, from ensuring ASPICE compliancy to standardizing Rapid Prototyping. [cite: 9, 19, 30]</p>
                     <small class="text-info d-block mt-auto pt-3">View Technical Deep-Dive →</small>
                 </div>
             </div>
 
             <div class="side-col">
-                <div class="card-box" data-bs-toggle="modal" data-bs-target="#coachingModal">
+                <div class="card-box" data-bs-toggle="modal" data-bs-target="#fitnessModal">
                     <h4>The Coaching Mindset</h4>
-                    <p><strong>Group Dynamics:</strong> My leadership style, honed through 30 years of Handball and professional fitness coaching, ensures teams give 100%.</p>
+                    [cite_start]<p><strong>Group Dynamics:</strong> My leadership style, honed through 30 years of Handball and professional fitness coaching, ensures teams give 100%. [cite: 57, 58]</p>
                     <small class="text-primary d-block mt-auto pt-3">Learn about the Handball Rule →</small>
                 </div>
                 <div class="card-box" data-bs-toggle="modal" data-bs-target="#investmentModal">
                     <h4>Strategic Investment</h4>
-                    <p><strong>Anticipation Glasses:</strong> Applying the "Investment Triangle" (Time, Risk, Reward) to both German Real Estate and technical systems.</p>
+                    <p><strong>Anticipation Glasses:</strong> Applying the "Investment Triangle" (Time, Risk, Reward) to technical systems. [cite_start]CFA Level 1 mindset. [cite: 61]</p>
                     <small class="text-primary d-block mt-auto pt-3">View Strategic Framework →</small>
                 </div>
             </div>
@@ -108,11 +108,13 @@
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: var(--navy-blue); color: white;">
-                    <h5 class="modal-title">My Origin Story</h5>
+                    <h5 class="modal-title fw-bold" id="originTitle">Loading...</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body p-4">
-                    <p>I dreamed of becoming an astronaut... [Your Origin Text Here]</p>
+                <div class="modal-body p-4" id="originBody"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="value.html" class="btn btn-primary" style="background-color: var(--navy-blue);">Visit The Lab</a>
                 </div>
             </div>
         </div>
@@ -122,15 +124,10 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: var(--slate-grey); color: white;">
-                    <h5 class="modal-title">The Growth Mindset: Balancing the Note</h5>
+                    <h5 class="modal-title" id="mindsetTitle">Loading...</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body p-4">
-                    <h6>Mistakes as Musical Notes</h6>
-                    <p>In music, if you hit a wrong note, you don't stop the concert—you resolve it into the next harmony. Engineering is the same. I view "technical errors" not as finalities, but as data points that refine the eventual solution.</p>
-                    <h6 class="mt-4">Calculated Risk-Taking</h6>
-                    <p>Innovation requires the departure from the "safe" path. By applying structured risk assessment, I allow my teams to experiment within the guardrails of functional safety.</p>
-                </div>
+                <div class="modal-body p-4" id="mindsetBody"></div>
             </div>
         </div>
     </div>
@@ -139,27 +136,22 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" style="color: var(--navy-blue);">Technical Deep-Dive: The Scaler</h5>
+                    <h5 class="modal-title" style="color: var(--navy-blue);" id="careerTitle">Loading...</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body p-4">
-                    <h6>ASPICE & SOP Leadership</h6>
-                    <p>Managing the lifecycle of high-volume commercial vehicle safety systems...</p>
-                </div>
+                <div class="modal-body p-4" id="careerBody"></div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="coachingModal" tabindex="-1">
+    <div class="modal fade" id="fitnessModal" tabindex="-1">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: var(--forest-green); color: white;">
-                    <h5 class="modal-title">The Handball Rule: Leadership</h5>
+                    <h5 class="modal-title" id="fitnessTitle">Loading...</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body p-4">
-                    <p>30 years on the court teaches you that performance is a function of trust...</p>
-                </div>
+                <div class="modal-body p-4" id="fitnessBody"></div>
             </div>
         </div>
     </div>
@@ -168,16 +160,50 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: var(--slate-grey); color: white;">
-                    <h5 class="modal-title">Strategic Investment Framework</h5>
+                    <h5 class="modal-title" id="investmentTitle">Loading...</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body p-4">
-                    <p>Financial rigor applied to engineering R&D roadmaps...</p>
-                </div>
+                <div class="modal-body p-4" id="investmentBody"></div>
             </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('modals.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Mapping JSON keys to HTML IDs
+                    const mappings = {
+                        'origin': 'origin',
+                        'mindset': 'mindset',
+                        'career': 'career',
+                        'fitness': 'fitness',
+                        'investment': 'investment'
+                    };
+
+                    Object.keys(mappings).forEach(key => {
+                        const titleEl = document.getElementById(`${mappings[key]}Title`);
+                        const bodyEl = document.getElementById(`${mappings[key]}Body`);
+                        
+                        if (data[key]) {
+                            if (titleEl) titleEl.innerText = data[key].title;
+                            
+                            // This check handles both single strings and arrays of strings
+                            if (bodyEl) {
+                                if (Array.isArray(data[key].body)) {
+                                    bodyEl.innerHTML = data[key].body.join(''); // Joins the lines together
+                                } else {
+                                    bodyEl.innerHTML = data[key].body; // Falls back to old string format
+                                }
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading modal data:', error));
+        });
+    </script>
 </body>
 </html>
