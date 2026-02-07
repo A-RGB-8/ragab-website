@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed Ragab | ADAS Leader & Consultant</title>
+    <title>Ahmed RaGab | R&D Leader & More </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -16,12 +16,31 @@
         }
         body { background-color: var(--light-grey); font-family: 'Inter', system-ui, sans-serif; color: #2f3640; padding-top: 80px; padding-bottom: 50px; }
         
+        /* Mobile-First Responsive Grid */
         .main-wrapper { 
             display: grid; 
-            grid-template-columns: 320px 1fr 320px; 
-            gap: 24px; 
+            grid-template-columns: 1fr; 
+            gap: 20px; 
             max-width: 1300px; 
             margin: 20px auto; 
+            padding: 0 15px;
+        }
+
+        /* Tablet View */
+        @media (min-width: 768px) and (max-width: 1149px) {
+            .main-wrapper { grid-template-columns: 1fr 1fr; }
+            .hero-section { grid-column: span 2; order: -1; }
+        }
+
+        /* Desktop View */
+        @media (min-width: 1150px) {
+            .main-wrapper { grid-template-columns: 320px 1fr 320px; }
+            .hero-section { order: 0; }
+        }
+
+        /* Mobile Priority */
+        @media (max-width: 767px) {
+            .hero-section { order: -1; }
         }
 
         .card-box { background: white; padding: 30px; border-radius: 12px; border: 1px solid var(--border-grey); height: 100%; transition: 0.3s; cursor: pointer; display: flex; flex-direction: column; }
@@ -34,15 +53,12 @@
         h4 { font-weight: 700; font-size: 0.9rem; color: var(--forest-green); margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1.5px; }
         p { line-height: 1.7; font-size: 0.98rem; margin-bottom: 0; }
         
-        .hero-section .card-box { background: var(--navy-blue); color: #ffffff; border: none; }
+        .hero-section .card-box { background: var(--navy-blue); color: #ffffff; border: none; cursor: default; }
         .hero-section h4 { color: #82ccdd; }
         .side-col .card-box { border-top: 4px solid var(--forest-green); }
         .highlight-text { border-left: 4px solid var(--slate-grey); padding-left: 15px; color: var(--forest-green); font-weight: 600; }
-
-        @media (max-width: 1150px) { 
-            .main-wrapper { grid-template-columns: 1fr; padding: 0 15px; }
-            .hero-section { order: -1; }
-        }
+        
+        .btn-hero { padding: 10px 20px; font-weight: 600; transition: 0.3s; border-radius: 8px; }
     </style>
 </head>
 <body>
@@ -52,11 +68,7 @@
             <a class="navbar-brand fw-bold" href="index.html" style="color: var(--navy-blue);">RaGaB.de</a>
             <div class="navbar-nav ms-auto align-items-center">
                 <a class="nav-link active px-3" href="index.html">Home</a>
-                <a class="nav-link px-3" href="updates.html">Updates</a>
-                <a class="nav-link px-3" href="value.html">The Lab</a>
-                <a class="btn btn-sm btn-primary ms-lg-3" href="AhmedRagabCV.pdf" target="_blank" style="background-color: var(--navy-blue);">
-                    <i class="fa-solid fa-file-pdf me-2"></i>Download CV
-                </a>
+                <a class="nav-link px-3" href="value.html">Relevant News</a>
             </div>
         </div>
     </nav>
@@ -65,9 +77,9 @@
         <div class="main-wrapper">
             
             <div class="side-col">
-                <div class="card-box" data-bs-toggle="modal" data-bs-target="#originModal">
+                <div class="card-box mb-3" data-bs-toggle="modal" data-bs-target="#originModal">
                     <h4>My Origin</h4>
-                    <p><strong>The 9-Month Wall:</strong> I arrived in Germany unable to speak a full sentence. That total reset taught me that grit is the foundation of any technical achievement.</p>
+                    <p><strong>The 9-Month Wall:</strong> I arrived in Germany unable to speak a full sentence. That total reset taught me that grit is the foundation of achievement.</p>
                     <small class="text-primary d-block mt-auto pt-3">Read Full Story →</small>
                 </div>
                 <div class="card-box" data-bs-toggle="modal" data-bs-target="#mindsetModal">
@@ -79,121 +91,63 @@
             </div>
 
             <div class="hero-section">
-                <div class="card-box shadow-lg" data-bs-toggle="modal" data-bs-target="#careerModal">
+                <div class="card-box shadow-lg">
                     <h2>Ahmed RaGab.</h2>
                     <p class="lead mb-4">A tech enthusiast, an R&D leader and world citizen</p>
                     <hr style="opacity: 0.2; background-color: #fff;">
                     <h4>Engineering Manager</h4>
-                    <p>Leading R&D engineers, achieving 4 SOPs (and counting), building scalable ecosystems, ensuring ASPICE compliancy, standardizing Rapid Prototyping and recently involving AI in SW development processes</p>
-                    <small class="text-info d-block mt-auto pt-3">View the tech I love →</small>
+                    <p class="mb-4">Leading R&D engineers, achieving 4 SOPs (and counting), building scalable ecosystems, ensuring ASPICE compliancy, and standardizing Rapid Prototyping.</p>
+                    
+                    <div class="mt-auto pt-3 d-flex flex-wrap gap-2">
+                        <a href="AhmedRagabCV.pdf" target="_blank" class="btn btn-info btn-hero text-white">
+                            <i class="fa-solid fa-file-pdf me-2"></i>Download CV
+                        </a>
+                        <a href="https://www.linkedin.com/in/a-rgb" target="_blank" class="btn btn-outline-light btn-hero">
+                            <i class="fa-brands fa-linkedin me-2"></i>LinkedIn Profile
+                        </a>
+                        <button class="btn btn-link text-info text-decoration-none w-100 text-start mt-2 p-0" data-bs-toggle="modal" data-bs-target="#careerModal">
+                            View the tech I love →
+                        </button>
+                    </div>
                 </div>
             </div>
 
             <div class="side-col">
-                <div class="card-box" data-bs-toggle="modal" data-bs-target="#fitnessModal">
+                <div class="card-box mb-3" data-bs-toggle="modal" data-bs-target="#fitnessModal">
                     <h4>My Fitness Journey</h4>
-                    <p><strong>Talentless & Relentless:</strong> I learned one thing; either you find an execuse or you find a way</p>
+                    <p><strong>Talentless & Relentless:</strong> I learned one thing; either you find an excuse or you find a way.</p>
                     <small class="text-primary d-block mt-auto pt-3">Read More About It →</small>
                 </div>
                 <div class="card-box" data-bs-toggle="modal" data-bs-target="#investmentModal">
                     <h4>Finance/Business</h4>
-                    <p><strong>Rich is relative:</strong> Real Estate Investor and Passing CFA Level 1 exam shaped my financial literacy </p>
+                    <p><strong>Rich is relative:</strong> Real Estate Investor and Passing CFA Level 1 exam shaped my financial literacy.</p>
                     <small class="text-primary d-block mt-auto pt-3">Read About it Here →</small>
                 </div>
             </div>
+
         </div>
     </div>
 
-    <div class="modal fade" id="originModal" tabindex="-1">
-        <div class="modal-dialog modal-lg modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header" style="background-color: var(--navy-blue); color: white;">
-                    <h5 class="modal-title fw-bold" id="originTitle">Loading...</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body p-4" id="originBody"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="mindsetModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header" style="background-color: var(--slate-grey); color: white;">
-                    <h5 class="modal-title" id="mindsetTitle">Loading...</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body p-4" id="mindsetBody"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="careerModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" style="color: var(--navy-blue);" id="careerTitle">Loading...</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body p-4" id="careerBody"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="fitnessModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header" style="background-color: var(--forest-green); color: white;">
-                    <h5 class="modal-title" id="fitnessTitle">Loading...</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body p-4" id="fitnessBody"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="investmentModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header" style="background-color: var(--slate-grey); color: white;">
-                    <h5 class="modal-title" id="investmentTitle">Loading...</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body p-4" id="investmentBody"></div>
-            </div>
-        </div>
-    </div>
+    <div class="modal fade" id="originModal" tabindex="-1"><div class="modal-dialog modal-lg modal-dialog-scrollable"><div class="modal-content"><div class="modal-header" style="background-color: var(--navy-blue); color: white;"><h5 class="modal-title fw-bold" id="originTitle">Loading...</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body p-4" id="originBody"></div></div></div></div>
+    <div class="modal fade" id="mindsetModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header" style="background-color: var(--slate-grey); color: white;"><h5 class="modal-title" id="mindsetTitle">Loading...</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body p-4" id="mindsetBody"></div></div></div></div>
+    <div class="modal fade" id="careerModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" style="color: var(--navy-blue);" id="careerTitle">Loading...</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body p-4" id="careerBody"></div></div></div></div>
+    <div class="modal fade" id="fitnessModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header" style="background-color: var(--forest-green); color: white;"><h5 class="modal-title" id="fitnessTitle">Loading...</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body p-4" id="fitnessBody"></div></div></div></div>
+    <div class="modal fade" id="investmentModal" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header" style="background-color: var(--slate-grey); color: white;"><h5 class="modal-title" id="investmentTitle">Loading...</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body p-4" id="investmentBody"></div></div></div></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             fetch('modals.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Mapping JSON keys to HTML IDs
-                    const mappings = {
-                        'origin': 'origin',
-                        'mindset': 'mindset',
-                        'career': 'career',
-                        'fitness': 'fitness',
-                        'investment': 'investment'
-                    };
-
+                    const mappings = { 'origin': 'origin', 'mindset': 'mindset', 'career': 'career', 'fitness': 'fitness', 'investment': 'investment' };
                     Object.keys(mappings).forEach(key => {
                         const titleEl = document.getElementById(`${mappings[key]}Title`);
                         const bodyEl = document.getElementById(`${mappings[key]}Body`);
-                        
                         if (data[key]) {
                             if (titleEl) titleEl.innerText = data[key].title;
-                            
-                            // This check handles both single strings and arrays of strings
                             if (bodyEl) {
-                                if (Array.isArray(data[key].body)) {
-                                    bodyEl.innerHTML = data[key].body.join(''); // Joins the lines together
-                                } else {
-                                    bodyEl.innerHTML = data[key].body; // Falls back to old string format
-                                }
+                                bodyEl.innerHTML = Array.isArray(data[key].body) ? data[key].body.join('') : data[key].body;
                             }
                         }
                     });
