@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed RaGab | R&D Leader & More </title>
+    <title>Ahmed RaGaB | R&D Leader & More </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -14,51 +14,59 @@
             --light-grey: #f1f2f6;
             --border-grey: #ced4da;
         }
+        
+        /* 1. GLOBAL STYLES (Mobile First & Decorative) */
         body { background-color: var(--light-grey); font-family: 'Inter', system-ui, sans-serif; color: #2f3640; padding-top: 80px; padding-bottom: 50px; }
         
-        /* Mobile-First Responsive Grid */
         .main-wrapper { 
             display: grid; 
-            grid-template-columns: 1fr; 
-            gap: 20px; 
-            max-width: 1300px; 
-            margin: 20px auto; 
+            grid-template-columns: 1fr; /* Default: 1 column */
+            gap: 15px; 
+            max-width: 1250px; 
+            margin: 10px auto; 
             padding: 0 15px;
+            align-items: start; /* CRITICAL: Makes cards hug their text */
         }
 
-        /* Tablet View */
+        .card-box { 
+            background: white; 
+            padding: 20px 25px; 
+            border-radius: 12px; 
+            border: 1px solid var(--border-grey); 
+            height: auto; /* Hug content */
+            transition: 0.3s; 
+            cursor: pointer; 
+            display: flex; 
+            flex-direction: column; 
+        }
+        
+        .hero-section .card-box { background: var(--navy-blue); color: #ffffff; border: none; cursor: default; padding: 30px; }
+        .hero-section h4 { color: #82ccdd; }
+        .side-col .card-box { border-top: 4px solid var(--forest-green); }
+        
+        h2 { font-weight: 800; font-size: 1.8rem; margin-bottom: 15px; }
+        h4 { font-weight: 700; font-size: 0.8rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        p { line-height: 1.5; font-size: 0.92rem; margin-bottom: 0; }
+        .highlight-text { border-left: 4px solid var(--slate-grey); padding-left: 15px; color: var(--forest-green); font-weight: 600; }
+        .btn-hero { padding: 8px 18px; font-weight: 600; font-size: 0.85rem; border-radius: 8px; }
+
+        /* 2. TABLET VIEW (768px - 1149px) */
         @media (min-width: 768px) and (max-width: 1149px) {
             .main-wrapper { grid-template-columns: 1fr 1fr; }
             .hero-section { grid-column: span 2; order: -1; }
         }
 
-        /* Desktop View */
+        /* 3. DESKTOP VIEW (1150px+) */
         @media (min-width: 1150px) {
-            .main-wrapper { grid-template-columns: 320px 1fr 320px; }
+            .main-wrapper { grid-template-columns: 300px 1fr 300px; }
             .hero-section { order: 0; }
         }
 
-        /* Mobile Priority */
+        /* 4. MOBILE SPECIFIC (Under 767px) */
         @media (max-width: 767px) {
             .hero-section { order: -1; }
+            h2 { font-size: 1.5rem; } /* Scale down header for small screens */
         }
-
-        .card-box { background: white; padding: 30px; border-radius: 12px; border: 1px solid var(--border-grey); height: 100%; transition: 0.3s; cursor: pointer; display: flex; flex-direction: column; }
-        .card-box:hover { border-color: var(--navy-blue); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        
-        .nav-link { color: #94a3b8 !important; font-weight: 500; transition: 0.2s; }
-        .nav-link.active { color: var(--navy-blue) !important; font-weight: 800 !important; }
-        
-        h2 { font-weight: 800; font-size: 2.2rem; color: #ffffff; margin-bottom: 20px; }
-        h4 { font-weight: 700; font-size: 0.9rem; color: var(--forest-green); margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1.5px; }
-        p { line-height: 1.7; font-size: 0.98rem; margin-bottom: 0; }
-        
-        .hero-section .card-box { background: var(--navy-blue); color: #ffffff; border: none; cursor: default; }
-        .hero-section h4 { color: #82ccdd; }
-        .side-col .card-box { border-top: 4px solid var(--forest-green); }
-        .highlight-text { border-left: 4px solid var(--slate-grey); padding-left: 15px; color: var(--forest-green); font-weight: 600; }
-        
-        .btn-hero { padding: 10px 20px; font-weight: 600; transition: 0.3s; border-radius: 8px; }
     </style>
 </head>
 <body>
@@ -92,7 +100,7 @@
 
             <div class="hero-section">
                 <div class="card-box shadow-lg">
-                    <h2>Ahmed RaGab.</h2>
+                    <h2>Ahmed RaGaB</h2>
                     <p class="lead mb-4">A tech enthusiast, an R&D leader and world citizen</p>
                     <hr style="opacity: 0.2; background-color: #fff;">
                     <h4>Engineering Manager</h4>
