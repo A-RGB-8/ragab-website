@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Waymo under scrutiny after hitting child near Santa Monica elementary school",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw6bJAPvyDkhFRkvuqZ-py9YZTBLRo8xnL-eqd7BmvJixs2tr8vycTbomP9J7upKtdj0vk0GxA5KncbtyMR-gpY0uclb55QYOLgh5AJwNpk5tepJcSmcUnCvVcMWwiqKO-F3rbAiJEeKhoSVJ53Cy94V_S0kTWCnCGDM1toFZPoevE_RKGDVuTSjVeFvnzcXHVZRhq2fNZvw13HJiwGibBvLIj6mxXeJTa7NN1zEIngWZzjYq3KXwH",
-        "reason": "This headline is impactful due to the direct negative consequence of automated driving technology involving a child, triggering a federal safety investigation and raising significant public safety concerns. It highlights the ongoing challenges and scrutiny faced by companies in this sector."
+        "headline": "Automated driving is staging a comeback with the help of AI",
+        "url": "https://www.wardsauto.com/automakers/automated-driving-staging-comeback-help-ai",
+        "reason": "The article highlights that advancements in AI, particularly Visual Language Models (VLMs), are revolutionizing the development and testing of automated driving software. Companies like TomTom are mapping vast distances daily due to AI and increased real-world data, with industry experts believing the technology is nearing readiness for more mainstream adoption by 2030. This signifies a critical shift in how autonomous driving systems are being created and validated."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Top 10 Longevity & Anti-Aging Breakthroughs of 2025: What the Year Taught Us About Extending Human Healthspan",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk_J2Hmbs6sS2UTkaJGwy_hmQNPv7OlwQYHLNsSgFnTibIuyMdyVNl1pT0X1HWO1-eE4ZWsxkpD5RUFMrG6Pdal4k60L_1Mt2Z146NmVPs5HISsOqwSLQBzgBtFEHY-QX5yC3YCsfgoDScpXT-CgQtX5zhHFH-wgKm502g7UbFb_q4eKpzcZ5aQHgudWcTzmzF-xvO2bzikJEbHg==",
-        "reason": "This headline represents a comprehensive look at the year's advancements in longevity research, focusing on actionable insights and key findings from significant studies like the NIA Interventions Testing Program. It offers a consolidated view of impactful discoveries related to healthspan extension."
+        "headline": "Scientists Extend Lifespan by over 70% in Elderly Male Mice with New Treatment",
+        "url": "https://www.generationlab.io/news/scientists-extend-lifespan-by-over-70-in-elderly-male-mice-with-new-treatment",
+        "reason": "This research, published in the journal Aging, demonstrates that a combination of oxytocin and an Alk5 inhibitor significantly improved both lifespan and healthspan in older male mice. The study's findings offer a promising actionable protocol for extending healthy life, at least in a mammalian model, and highlight potential sex-specific differences in aging therapies."
     },
     {
         "category": "Finance & Business",
-        "headline": "Amazon the latest big spender\u2013 Amazon's announcement that it plans to spend $200 billion this year on data centers, chips and other equipment was the latest eye-catching headline around AI investment.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgoxT7A-AD47vbv7strBId6Z7oQc15O6me2iAghwFd9S82c43juL-H4t9eO9Wj66bHF4bpeVrDOI4aQdcgfJHmgnjALuJjACnabvSzFVKHi51dLH0S0rXA7RiZIYLSGgxnEJyKJcRJxjDwjh9dC3eV_hgNp65alyBBNzJksvBxHtFULPBQa3p_20pgeeGwFDrSmsNcqA==",
-        "reason": "Amazon's massive $200 billion investment in AI infrastructure signifies a significant shift and intensified competition in the tech sector. This substantial capital expenditure highlights the growing importance of AI and its potential to reshape the market, influencing stock performance and future business strategies."
+        "headline": "Oracle Shares Dip Following Announcement of $50 Billion AI Infrastructure Plan",
+        "url": "https://www.crescendo.ai/latest-ai-news-and-ai-breakthroughs-that-matter-most-2026-2025/",
+        "reason": "Oracle's ambitious plan to invest $50 billion in AI infrastructure, while signaling a strong intent to compete in the AI cloud market, has caused its shares to decline. This indicates market caution regarding the scale of debt and potential dilution, despite the company's strategic vision for accommodating generative AI demands. The 'why' here is the market's immediate reaction to a massive capital expenditure tied to a high-growth, but intensely competitive, sector."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Robotics is entering a \u201ccognitive\u201d era in 2026. Beyond pre-programmed assembly arms, AI is enabling robots to learn and adapt in complex environments. Two sub-trends stand out: general-purpose humanoids and improved autonomy in drones/vehicles.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoYV_k5jPLBwVFoqZXbrSpCSImAozmUltu-OCp7KihFK15o58B6a1yGG5C50-E-MgqUqJE7P2lTJxezILjlQuNZxwFXuQBfdQahkyhE21g8ADmVjaT3dzynyBzXqUlBYlUkiQrHK_yRYNXCYAj12iRkbd0eJbmhkTfiaQkcBGamgEIqz01AuHK0FSygCRYAs-oQgKoF2CWNrg=",
-        "reason": "This headline signifies a major shift in robotics, moving from pre-programmed tasks to AI-driven learning and adaptation. The emergence of 'cognitive' robots, particularly general-purpose humanoids like Tesla's Optimus Gen3, indicates a significant advancement in human-robot interaction and capabilities."
+        "headline": "SpaceX and xAI to Merge as Musk Eyes Fully Autonomous Space Exploration",
+        "url": "https://www.crescendo.ai/latest-ai-news-and-ai-breakthroughs-that-matter-most-2026-2025/",
+        "reason": "The merger of SpaceX and xAI signals a significant strategic shift towards deeply integrating AI models like 'Grok' into space exploration. The goal is to accelerate the development of fully autonomous spacecraft and robotic colonies by combining aerospace engineering with advanced generative AI. This integration is expected to automate complex mission trajectories and real-time decision-making, potentially creating a powerhouse that can outpace competitors."
     },
     {
         "category": "Global Progress",
-        "headline": "The Sustainable Development Goals Report 2025 - UN Statistics Division",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtsfoLN9uIQYBCSpqkGaFNKn_70gmveujEas_H7SJxI27duuVqEuoUpCSSdP-HA5tTXpS2xy1I6UQsubyMbvFMOLGXAcOffEvOMfJykqcmFYXSe21ZD1yxbeel1_te6t1lh6hMnZQImJCYjXd9rnH9Cm6pbJec9ASjpeGaveH9BinLCrh0wPFHbm83uTlXLEzydnM=",
-        "reason": "While the report highlights significant challenges, it also details progress in areas like social protection, reduced child marriage, and increased female parliamentary representation. This provides a crucial, albeit nuanced, picture of global efforts towards sustainable development, highlighting both achievements and areas needing urgent attention."
+        "headline": "Tiny marine plankton that build calcium carbonate shells play an outsized role in regulating Earth's climate",
+        "url": "https://www.sciencedaily.com/releases/2026/02/260208110318.htm",
+        "reason": "New research reveals that these microscopic organisms are crucial for climate regulation by sequestering carbon from the atmosphere and transferring it to the deep ocean. This finding underscores the vital, often overlooked, role of marine life in Earth's climate systems and highlights a positive natural mechanism for carbon capture."
     }
 ]
