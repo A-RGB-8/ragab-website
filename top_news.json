@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Automated driving is staging a comeback with the help of AI",
-        "url": "https://www.wardsauto.com/automakers/automated-driving-staging-comeback-help-ai",
-        "reason": "The article highlights that advancements in AI, particularly Visual Language Models (VLMs), are revolutionizing the development and testing of automated driving software. Companies like TomTom are mapping vast distances daily due to AI and increased real-world data, with industry experts believing the technology is nearing readiness for more mainstream adoption by 2030. This signifies a critical shift in how autonomous driving systems are being created and validated."
+        "headline": "Hands-Free Driving Systems Confuse Drivers, but Carmakers Push for More",
+        "url": "https://www.wsj.com/articles/hands-free-driving-systems-confuse-drivers-but-carmakers-push-for-more-2026-02-11",
+        "reason": "This headline indicates a significant challenge in the adoption of automated driving technology, where current systems may be confusing drivers, leading to potential safety issues. The fact that carmakers are still pushing forward despite these challenges suggests a determined, albeit potentially risky, path toward higher levels of automation. The article also mentions NHTSA investigations into Tesla's 'Full Self-Driving' and Waymo's robotaxis, as well as fatal crashes involving Ford's BlueCruise, highlighting the ongoing scrutiny and critical nature of these developments."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Scientists Extend Lifespan by over 70% in Elderly Male Mice with New Treatment",
-        "url": "https://www.generationlab.io/news/scientists-extend-lifespan-by-over-70-in-elderly-male-mice-with-new-treatment",
-        "reason": "This research, published in the journal Aging, demonstrates that a combination of oxytocin and an Alk5 inhibitor significantly improved both lifespan and healthspan in older male mice. The study's findings offer a promising actionable protocol for extending healthy life, at least in a mammalian model, and highlight potential sex-specific differences in aging therapies."
+        "headline": "Human Longevity Lab Will Study Methods to Slow or Reverse Aging",
+        "url": "https://www.northwestern.edu/newscenter/stories/2024/02/human-longevity-lab.html",
+        "reason": "This article announces the launch of the Human Longevity Laboratory at Northwestern University, a dedicated research facility focused on understanding and intervening in the aging process. The lab's comprehensive protocol, including assessments of various bodily systems and molecular profiling, along with the explicit goal of validating interventions to slow or reverse aging, signifies a major step forward in human-centric longevity research. The initiative also aims to enroll diverse participants, ensuring broad applicability of findings and potentially leading to actionable protocols."
     },
     {
         "category": "Finance & Business",
-        "headline": "Oracle Shares Dip Following Announcement of $50 Billion AI Infrastructure Plan",
-        "url": "https://www.crescendo.ai/latest-ai-news-and-ai-breakthroughs-that-matter-most-2026-2025/",
-        "reason": "Oracle's ambitious plan to invest $50 billion in AI infrastructure, while signaling a strong intent to compete in the AI cloud market, has caused its shares to decline. This indicates market caution regarding the scale of debt and potential dilution, despite the company's strategic vision for accommodating generative AI demands. The 'why' here is the market's immediate reaction to a massive capital expenditure tied to a high-growth, but intensely competitive, sector."
+        "headline": "St. James's Place Leads European Wealth Managers' Tumble on AI Threat",
+        "url": "https://www.wsj.com/articles/st-james-s-place-leads-european-wealth-managers-tumble-on-ai-threat-a064d51b",
+        "reason": "This headline points to a significant macro-economic shift in the finance sector, where the perceived threat of AI is causing a substantial downturn in the wealth management industry. The article indicates that investors are quickly divesting from companies they believe are vulnerable to AI disruption, suggesting a major reallocation of capital and a potential restructuring of the financial services landscape. This signals a broad market sentiment shift driven by technological advancement."
     },
     {
         "category": "AI & Robotics",
-        "headline": "SpaceX and xAI to Merge as Musk Eyes Fully Autonomous Space Exploration",
-        "url": "https://www.crescendo.ai/latest-ai-news-and-ai-breakthroughs-that-matter-most-2026-2025/",
-        "reason": "The merger of SpaceX and xAI signals a significant strategic shift towards deeply integrating AI models like 'Grok' into space exploration. The goal is to accelerate the development of fully autonomous spacecraft and robotic colonies by combining aerospace engineering with advanced generative AI. This integration is expected to automate complex mission trajectories and real-time decision-making, potentially creating a powerhouse that can outpace competitors."
+        "headline": "Outperforms Google and NVIDIA! Alibaba Launches RynnBrain Robotics Model: Equipping Robots with a 'Thinking Brain'",
+        "url": "https://www.alizila.com/alibaba-launches-rynnbrain-robotics-model/",
+        "reason": "This headline marks a significant breakthrough in AI and robotics by announcing Alibaba's RynnBrain model, which reportedly outperforms leading AI developers like Google and NVIDIA in embodied intelligence evaluations. The model's focus on equipping robots with perception, decision-making, and execution capabilities for autonomous task completion, including spatiotemporal memory and reasoning, represents a substantial advancement in human-robot interaction and robotic dexterity. The open-source nature of the model also suggests a move towards democratizing advanced AI capabilities in robotics."
     },
     {
         "category": "Global Progress",
-        "headline": "Tiny marine plankton that build calcium carbonate shells play an outsized role in regulating Earth's climate",
-        "url": "https://www.sciencedaily.com/releases/2026/02/260208110318.htm",
-        "reason": "New research reveals that these microscopic organisms are crucial for climate regulation by sequestering carbon from the atmosphere and transferring it to the deep ocean. This finding underscores the vital, often overlooked, role of marine life in Earth's climate systems and highlights a positive natural mechanism for carbon capture."
+        "headline": "Developed nations may have achieved their promise of $100 billion to help developing countries cope with climate change in 2022",
+        "url": "https://www.reuters.com/business/environment/developed-nations-may-have-met-100bn-climate-finance-goal-2022-sources-2023-11-15/",
+        "reason": "While acknowledging that the $100 billion figure is far below actual needs, the article reports that developed nations may have finally met their long-standing climate finance promise for 2022. This represents a potential step forward in international climate cooperation, addressing a significant point of mistrust in past climate talks and potentially paving the way for more robust agreements to tackle climate change. The news comes ahead of the COP28 summit, highlighting its relevance to ongoing global climate discussions."
     }
 ]
