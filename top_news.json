@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Hands-Free Driving Systems Confuse Drivers, but Carmakers Push for More",
-        "url": "https://www.wsj.com/articles/hands-free-driving-systems-confuse-drivers-but-carmakers-push-for-more-2026-02-11",
-        "reason": "This headline indicates a significant challenge in the adoption of automated driving technology, where current systems may be confusing drivers, leading to potential safety issues. The fact that carmakers are still pushing forward despite these challenges suggests a determined, albeit potentially risky, path toward higher levels of automation. The article also mentions NHTSA investigations into Tesla's 'Full Self-Driving' and Waymo's robotaxis, as well as fatal crashes involving Ford's BlueCruise, highlighting the ongoing scrutiny and critical nature of these developments."
+        "headline": "Waymo introduces 6th generation autonomous driving system to robotaxis, enabling safer driving in rain, snow and pitch-black roads",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaXIpXzMwL4P5UDQTZwbgD_STenNvubeBS-A8yecGsA03xrnk51es5o0-qbK4NKLJxrCOYM5bF_-RWEpbRyq1xY3FXvc27iBDLdBU8l8aDn92KbhBHWyVFsMMhZU1i3SK4Z4Zi9O5P64x_U5YC0h0oi7KTx0PCEmxBWqC_Yo5fJ8g= ",
+        "reason": "Waymo's new generation of its autonomous driving system incorporates significantly enhanced sensors and vision capabilities, allowing it to operate more safely and reliably in adverse weather conditions and low-light environments. This advancement represents a key milestone in overcoming operational challenges for self-driving technology."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Human Longevity Lab Will Study Methods to Slow or Reverse Aging",
-        "url": "https://www.northwestern.edu/newscenter/stories/2024/02/human-longevity-lab.html",
-        "reason": "This article announces the launch of the Human Longevity Laboratory at Northwestern University, a dedicated research facility focused on understanding and intervening in the aging process. The lab's comprehensive protocol, including assessments of various bodily systems and molecular profiling, along with the explicit goal of validating interventions to slow or reverse aging, signifies a major step forward in human-centric longevity research. The initiative also aims to enroll diverse participants, ensuring broad applicability of findings and potentially leading to actionable protocols."
+        "headline": "Scientists Extend Lifespan by over 70% in Elderly Male Mice with New Treatment",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ5_mCKayPOWrLwdGljougm0I_Zcvrvw42xxK2irsRp6sj20P9PLe_jEW-xdlIxodS0htLymOq6tmrqceNuDWdRiED7MA5DT7BzAclCNrEMRC1MnJIX4gxX2srdTk=",
+        "reason": "A new study published in the journal Aging demonstrates that a combination treatment of oxytocin and an Alk5 inhibitor significantly extended both lifespan and healthspan in elderly male mice by over 70%. This research highlights a potential therapeutic avenue for age-related decline, though it noted sex-specific differences in response."
     },
     {
         "category": "Finance & Business",
         "headline": "St. James's Place Leads European Wealth Managers' Tumble on AI Threat",
-        "url": "https://www.wsj.com/articles/st-james-s-place-leads-european-wealth-managers-tumble-on-ai-threat-a064d51b",
-        "reason": "This headline points to a significant macro-economic shift in the finance sector, where the perceived threat of AI is causing a substantial downturn in the wealth management industry. The article indicates that investors are quickly divesting from companies they believe are vulnerable to AI disruption, suggesting a major reallocation of capital and a potential restructuring of the financial services landscape. This signals a broad market sentiment shift driven by technological advancement."
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrk66YGQHUcH40PDnx_w2ULDyRXPn3bcklGGTEB4kiHf7-JJbci6MmopEFAhw3xnT1NZ1819k3bE1c2LVtgz39KLppzc41d7MT6bCAhzTODpVMpflSRK_JYcCt83Alu54Y3SV3Ko_YYLKyawom-3tsszMsGJhIlPAlPDzBnmmyaYV3-wgdPvmVQzNxei8wI7bT7X2I2sh41qQ=",
+        "reason": "Wealth management firms, including St. James's Place, experienced a significant drop in stock value due to concerns that AI-powered startups could disrupt the sector. This reflects a broader market anxiety about artificial intelligence's potential to displace established business models in the financial industry."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Outperforms Google and NVIDIA! Alibaba Launches RynnBrain Robotics Model: Equipping Robots with a 'Thinking Brain'",
-        "url": "https://www.alizila.com/alibaba-launches-rynnbrain-robotics-model/",
-        "reason": "This headline marks a significant breakthrough in AI and robotics by announcing Alibaba's RynnBrain model, which reportedly outperforms leading AI developers like Google and NVIDIA in embodied intelligence evaluations. The model's focus on equipping robots with perception, decision-making, and execution capabilities for autonomous task completion, including spatiotemporal memory and reasoning, represents a substantial advancement in human-robot interaction and robotic dexterity. The open-source nature of the model also suggests a move towards democratizing advanced AI capabilities in robotics."
+        "headline": "Alibaba RynnBrain AI Launch Adds New Angle For BABA Valuation Story",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRAF0wu6RMKdPAsnGGU9-aaZ4a7xSXc4BtX6KN-3ukaoJDSwbjWCEbQCy83SQ_ZNFXhnBlisK_vihsG1vfmpPbAAXuw2PJMZKhLJH7yauCfUkb8AcgUykZyRZtvNJN55-h4b_nKCfUs_4DJURP2DOtuS3y7Fl66dHrY2jnInetv0b7lzVU1AOzzPZzBvSrFtZZRqD2zVuZK3pxeiojpu-UcswaPDDPkZSxpZhp444o8G49X7OsNhjdrB3fu-prTavG3txX",
+        "reason": "Alibaba has released RynnBrain, an open-source AI foundation model specifically designed for robotics and real-world automation. This launch signals Alibaba's move into direct competition with global tech giants in the robotics and automation space, expanding its AI capabilities beyond e-commerce and cloud services."
     },
     {
         "category": "Global Progress",
-        "headline": "Developed nations may have achieved their promise of $100 billion to help developing countries cope with climate change in 2022",
-        "url": "https://www.reuters.com/business/environment/developed-nations-may-have-met-100bn-climate-finance-goal-2022-sources-2023-11-15/",
-        "reason": "While acknowledging that the $100 billion figure is far below actual needs, the article reports that developed nations may have finally met their long-standing climate finance promise for 2022. This represents a potential step forward in international climate cooperation, addressing a significant point of mistrust in past climate talks and potentially paving the way for more robust agreements to tackle climate change. The news comes ahead of the COP28 summit, highlighting its relevance to ongoing global climate discussions."
+        "headline": "Ukraine makes progress in global corruption index despite high-profile scandals",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtZo3QcIUpL-SBgh0qBv_CtNTSnSSo16wMI1aap57B-wKxDIlIYtxkS-gRsV1OtbszcW1fjf-lW3pDJQ_GZlg6wuAyFnPTphMUIz97GAJ8sXSEMkgkmGtU7xoVrfrqKCdKu1juwK_smS4ItI1dTZnl_vpd6rcED9rriMs9aGuL-WsSaLbVWNTD116e3qmM5m_PJvTJIw==",
+        "reason": "Despite facing significant corruption scandals, Ukraine has improved its standing in Transparency International's latest corruption index. This progress is attributed to the effectiveness of its anti-graft bodies in uncovering major scandals, indicating a positive step in institutional reform and governance."
     }
 ]
