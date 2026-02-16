@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Self-driving tech, AI take center stage at CES as automakers dial back EV plans",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtLG3UaaREHrO1vxQO6VxxYBjrwiazwu1YYUq5LxqXYNU7FCLPgnN-THbsnQ333SgcEwOnahVWpJFDrp5tUPtcvtOBwurWkGwZ_Ro2dyk-5_-F3bmxJKZoCaYIhl95dQlX7HFl3Od0W4HnEAfDPNmhpdIWLd2WuHYtPFS7CTlZbOs7aDTzQqegzGLGVpg7uQR6HI0ZTGWBMW90FjLS1vSk0TmpOcFmoZMxe2THJ-O8vxSDjvl9DUrAqrj3hVk4YY8tFf3e7fPnY4x5",
-        "reason": "Automakers are shifting focus from EVs to autonomous driving technology, with AI expected to invigorate an industry facing slow progress, high costs, and regulatory scrutiny. This indicates a significant pivot in automotive investment and development priorities."
+        "headline": "US investigating Tesla's full self-driving software in 2.4 million cars after fatal crash",
+        "url": "https://www.straitstimes.com/world/united-states/us-investigating-teslas-full-self-driving-software-in-24-million-cars-after-fatal-crash",
+        "reason": "The US road safety regulator has opened a preliminary evaluation into Tesla's full self-driving software following reports of crashes in low-visibility conditions, including one fatal incident. This investigation into a significant portion of Tesla's vehicles highlights ongoing safety concerns and regulatory scrutiny surrounding advanced driver-assistance systems."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Your Genes May Influence Longevity More Than Ever Before. Here's Why.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLNOWVNuFLaCLDixkK0B5hKWRcdbMewixnRmHmRkGYYB5KUFu9UVYWcMknwrwFtQwJNYiiEhm2plQgVaHRKQzShxMDuDX-DjB8jmTHYY4DDytCvYR8aOWzI4qLdSIfhXVo1rYGa4-EhfFD0_AeYWYroP6GRvcIcBUcRNyl2rIPkjbfsPGbpa6ARbzNIG8LMfvxHoVQ1oPpNRU=,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLNOWVNuFLaCLDixkK0B5hKWRcdbMewixnRmHmRkGYYB5KUFu9UVYWcMknwrwFtQwJNYiiEhm2plQgVaHRKQzShxMDuDX-DjB8jmTHYY4DDytCvYR8aOWzI4qLdSIfhXVo1rYGa4-EhfFD0_AeYWYroP6GRvcIcBUcRNyl2rIPkjbfsPGbpa6ARbzNIG8LMfvxHoVQ1oPpNRU=",
-        "reason": "A new study suggests that genetics play a much larger role in lifespan (50-55%) than previously thought, especially when extrinsic causes of death like accidents and infections are removed. This shifts the understanding of longevity towards a greater appreciation of genetic predispositions in modern, healthier societies."
+        "headline": "Scientists Extend Lifespan by over 70% in Elderly Male Mice with New Treatment",
+        "url": "https://www.generationlab.io/news/scientists-extend-lifespan-by-over-70-in-elderly-male-mice-with-new-treatment",
+        "reason": "A study published in the journal Aging found that a combination treatment of oxytocin and an Alk5 inhibitor significantly improved lifespan and healthspan in elderly male mice. This research is particularly impactful as it suggests a potential new therapeutic strategy for promoting longevity, with a noted difference in efficacy between sexes, highlighting the complexity of aging research."
     },
     {
         "category": "Finance & Business",
-        "headline": "St. James's Place Leads European Wealth Managers' Tumble on AI Threat",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Moi_o0dONjlN6WiR43ai4lX7jWWuCHrN4BLvFdXlwLU_s5mCOnCEWX6FkU3wM8M9lZNCTXyegxWIVTHc8p5kcZro0C_qgDbtBAoEzKPt4HCunYcUE2bs5xHBImMFYajwJTWkuJ35D18HvUPirVEfH2QJ3sMkx00_eZyHUtub1sG8DcdWtBnqdiUbVIPGuycK13AMdgG52w==",
-        "reason": "Wealth management firms are experiencing a significant stock market downturn due to the perceived threat of AI-powered startups. This highlights a major disruption in the financial services sector, where traditional business models are being challenged by rapid advancements in artificial intelligence."
+        "headline": "Snowflake and OpenAI enter $200M partnership to accelerate agentic AI deployment for enterprises",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BSrF-NhVDf0zBo4xHyxJmd7-lBzuLCwFLOMNka22xwCgvJcAMy8jZib8d8yFLiP_kodx4dgF2gGXp3ebHQ91-jcNlRUh_yAQCZ8dnWZRzoHLvernYOZ3Zh1IqVvqXrKvWsdJzj90Q_gc2IMgyt0D4P4M",
+        "reason": "This significant $200 million partnership integrates OpenAI's advanced models into Snowflake's Data Cloud, enabling businesses to build autonomous AI agents that can securely analyze proprietary data and execute complex workflows. This collaboration addresses a critical market need for secure, enterprise-grade 'agentic AI' solutions, signaling a major shift in how businesses will leverage AI for decision-making and operations."
     },
     {
         "category": "AI & Robotics",
         "headline": "Boston Dynamics Utilizes AI to Train Humanoid Robots for Industrial Roles",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2MNqyscHI2xMumsS-K-b9xBGnhMMEngwF8SBO6YMLpZK8eVLW6wQxshGP2oy8hC_Mjt8D8KIMTlJci_Rn7ChJFhAtZEpuyh6BYNFbot9J4UGC0pwoGdiOMfatA0bXGs5vN5VN0SWMS_h8NrWQPalZ3gA=",
-        "reason": "Boston Dynamics is leveraging advanced AI, including reinforcement learning, to train its humanoid robots, like the electric Atlas model, for complex industrial tasks. This represents a significant leap in robotics, enabling robots to adapt to dynamic environments and perform autonomous labor, moving beyond rigid programming."
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BSrF-NhVDf0zBo4xHyxJmd7-lBzuLCwFLOMNka22xwCgvJcAMy8jZib8d8yFLiP_kodx4dgF2gGXp3ebHQ91-jcNlRUh_yAQCZ8dnWZRzoHLvernYOZ3Zh1IqVvqXrKvWsdJzj90Q_gc2IMgyt0D4P4M",
+        "reason": "Boston Dynamics is employing advanced AI, specifically reinforcement learning and large-scale training, to equip its new Atlas humanoid robots with the ability to perform complex, autonomous tasks in industrial settings. This breakthrough allows robots to adapt to dynamic environments and unexpected challenges, marking a significant step towards practical, real-world deployment of highly capable humanoid robots."
     },
     {
         "category": "Global Progress",
-        "headline": "India is poised to drive world's economic growth, emerge new engine of global progress: PM Modi",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3wRPZdIHMVyhoUarI0DrPRr4AfKKvfB5HJU2duerpOkKENT4hh3aMN18bYDrJkPviGNwkEvUQZ-RWp0CDwTr7mHWsQ0sz6t4Dp2k-F0QqKC_g3XyZhaRl3DeXDOurdkKp5OmOnT7AnS1cPwB0wyEp-UoC1NR4wgDutfcTtvqkU8zYMIVCnk0psbwWUvNlLndSZUmoD0wjNG0hXjesi5rS3kCHanu4H5KASgeT_HtpS8bMf1Sxu58s9J3e45vm4rCd6GSiPFGnr2wHwMy5ZceJ52nYFsWjZMc=",
-        "reason": "Prime Minister Narendra Modi stated that India is now a significant contributor to global growth (16%) and is positioned to be a leading force in driving the world's economic expansion. This indicates a positive shift in global economic dynamics, with India emerging as a key player in fostering progress."
+        "headline": "Scientists Discover What Lies Beneath Antarctica's Ice More Clearly Than Ever",
+        "url": "https://www.ndtv.com/world-news/scientists-discover-what-lies-beneath-antarcticas-ice-more-clearly-than-ever-3816878",
+        "reason": "Recent advancements in scientific technology and methodology are providing unprecedentedly clear views of what lies beneath Antarctica's ice sheets. This enhanced understanding is crucial for monitoring climate change impacts, ice sheet stability, and potentially discovering new ecosystems, contributing to our global knowledge of Earth's most remote and critical environments."
     }
 ]
