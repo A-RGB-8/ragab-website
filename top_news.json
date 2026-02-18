@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "US investigating Tesla's full self-driving software in 2.4 million cars after fatal crash",
-        "url": "https://www.straitstimes.com/world/united-states/us-investigating-teslas-full-self-driving-software-in-24-million-cars-after-fatal-crash",
-        "reason": "The US road safety regulator has opened a preliminary evaluation into Tesla's full self-driving software following reports of crashes in low-visibility conditions, including one fatal incident. This investigation into a significant portion of Tesla's vehicles highlights ongoing safety concerns and regulatory scrutiny surrounding advanced driver-assistance systems."
+        "headline": "XPENG Demonstrates Real-World AI Driving to Global Delegates at UN Vehicle Regulation Harmonization Forum in China",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECBlRr6ztSIKgPJyF74MgzQjG1KtQ2X0CWsTadkatCTEidm2DEuOHrBsTcFUioOBum9w8Q_YKivOvTLXJsWx7q_Dvh1JMDeWP0WB589g9N70U2BSMo0i1eppnqPPIEsJRYuAV-FQ4E1NhILCxDNPobd4sn2VCgUHGibt0n8XiGeVIwkj7t5hunNTXA6uxwj0FOnVquO9SP1WGLakH7LIPhX6WI",
+        "reason": "XPENG showcased its AI-driven ADAS system through live road demonstrations to global delegates at a UN working group session. This event signifies international collaboration and validation of advanced driver-assistance systems, crucial for the progression towards higher levels of driving automation. It highlights practical, real-world application and regulatory engagement in the autonomous driving space."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Scientists Extend Lifespan by over 70% in Elderly Male Mice with New Treatment",
-        "url": "https://www.generationlab.io/news/scientists-extend-lifespan-by-over-70-in-elderly-male-mice-with-new-treatment",
-        "reason": "A study published in the journal Aging found that a combination treatment of oxytocin and an Alk5 inhibitor significantly improved lifespan and healthspan in elderly male mice. This research is particularly impactful as it suggests a potential new therapeutic strategy for promoting longevity, with a noted difference in efficacy between sexes, highlighting the complexity of aging research."
+        "headline": "Gut Hormones Linked to Longevity Potential",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR1jD6Nyn9o2bL7c68VmCLPANwnCnnq0kmQ8ZH_JeTJT80mQyeruJYBXrouCyNr9uqhHkWl5aYLMu-_a6mcohfbfGPxYxdYnK-2eJ7csH-n-GBL4qs4PgrIH77S4fAMGat03fJbGpyFZwcHr1tRMby_FkVjssfM_mdkuVh47zVqm0N7at_ndoTPMv4P7WRWg2OwTM=",
+        "reason": "A study on fruit flies identified a gut hormone (neuropeptide F) that, when suppressed, extended lifespan by lowering insulin and juvenile hormone levels. While humans don't produce NPF, the research highlights similarities to human incretin hormones like GLP-1, suggesting potential pathways for longevity interventions. This points to actionable research in hormone regulation for extending healthspan."
     },
     {
         "category": "Finance & Business",
-        "headline": "Snowflake and OpenAI enter $200M partnership to accelerate agentic AI deployment for enterprises",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BSrF-NhVDf0zBo4xHyxJmd7-lBzuLCwFLOMNka22xwCgvJcAMy8jZib8d8yFLiP_kodx4dgF2gGXp3ebHQ91-jcNlRUh_yAQCZ8dnWZRzoHLvernYOZ3Zh1IqVvqXrKvWsdJzj90Q_gc2IMgyt0D4P4M",
-        "reason": "This significant $200 million partnership integrates OpenAI's advanced models into Snowflake's Data Cloud, enabling businesses to build autonomous AI agents that can securely analyze proprietary data and execute complex workflows. This collaboration addresses a critical market need for secure, enterprise-grade 'agentic AI' solutions, signaling a major shift in how businesses will leverage AI for decision-making and operations."
+        "headline": "Barclays: By 2035, the AI robotics sector may become a trillion-dollar market, with China taking a dominant position.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBVBnVmIH78U1gtBmJ48wGA6w3Bimxm7jwPHXbQBda9s5RvgyeieTI1dbjLTj7KY4heqBBQsfSK4ZVHzE2WaNdlBNEqsB05tyVvka8IPdbS8WSRKfSFbEFp3eD067Ifdcy8CEyY-KCjJwN-lJyPJ2tsbCSMolBI7YezZp-9AnN79kyYU-8YZCfzTl7thv1fd6nfAjZ2SSz1Ldk",
+        "reason": "A Barclays report forecasts the AI robotics market to reach a trillion dollars by 2035, driven by advancements in AI and robotics integration. The report anticipates growth from autonomous vehicles to drones and then to humanoid robots, with China expected to lead in deployment. This indicates a significant macro shift and investment theme, highlighting the rapid expansion and future dominance of AI in physical applications."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Boston Dynamics Utilizes AI to Train Humanoid Robots for Industrial Roles",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BSrF-NhVDf0zBo4xHyxJmd7-lBzuLCwFLOMNka22xwCgvJcAMy8jZib8d8yFLiP_kodx4dgF2gGXp3ebHQ91-jcNlRUh_yAQCZ8dnWZRzoHLvernYOZ3Zh1IqVvqXrKvWsdJzj90Q_gc2IMgyt0D4P4M",
-        "reason": "Boston Dynamics is employing advanced AI, specifically reinforcement learning and large-scale training, to equip its new Atlas humanoid robots with the ability to perform complex, autonomous tasks in industrial settings. This breakthrough allows robots to adapt to dynamic environments and unexpected challenges, marking a significant step towards practical, real-world deployment of highly capable humanoid robots."
+        "headline": "We can officially train robots using generated video. The most important thing that happened this week is that Google latest research paper, proving that we can use AI-generated video to train robots.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyt9L8vYWYM0yRl_B328K1oRr51wBvFLtgp5Yid1Bs53f1MSJBYaZPC8nLA6z-E7wnjvyr4TtjB2Rb5hXkFqdyxMImqqnRzSwYjWmHzg-dbrBSR3k0u3HFkBnOVgRflMg0xP-YwPywXif3JjQa2_7ok-Jiue-1y2dwqr9h9X0=",
+        "reason": "Google's latest research demonstrates that AI-generated video can be effectively used to train robots, achieving a high correlation (0.88) between simulated success rates and real-world performance. This breakthrough significantly lowers the cost and increases the scalability of robot training, potentially making video generation startups more valuable for their application in robotics development."
     },
     {
         "category": "Global Progress",
-        "headline": "Scientists Discover What Lies Beneath Antarctica's Ice More Clearly Than Ever",
-        "url": "https://www.ndtv.com/world-news/scientists-discover-what-lies-beneath-antarcticas-ice-more-clearly-than-ever-3816878",
-        "reason": "Recent advancements in scientific technology and methodology are providing unprecedentedly clear views of what lies beneath Antarctica's ice sheets. This enhanced understanding is crucial for monitoring climate change impacts, ice sheet stability, and potentially discovering new ecosystems, contributing to our global knowledge of Earth's most remote and critical environments."
+        "headline": "Talks to end global plastic pollution reach pivotal stage in Canada",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIDHwiVvbEWaIH9Rvy0I5hU2gjUJFCL85xyTVBmsGRG5RzOumWBCqJbH5cHQge1kNRdjuIeIrz-g6ErKaZ4sIBPk0hHiMhQBsf3VqKBMwfN-x9uhivOT1shnNDUcC6VhlXuinekZkb",
+        "reason": "International negotiations in Canada are reaching a critical point for a global treaty to end plastic pollution. This indicates significant diplomatic progress on a major environmental issue, highlighting global efforts to address pollution and foster sustainability, which are key components of 'good news' for global progress."
     }
 ]
