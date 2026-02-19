@@ -648,26 +648,30 @@
     <div class="fg"><label>Email <span style="color:var(--muted);font-size:.58rem">(optional)</span></label><input type="email" id="fe" placeholder="jane@example.com" /></div>
   </div>
 
-  <form class="fform rv d1" onsubmit="return false;">
+  <form class="fform rv d1" id="fform" onsubmit="send(event)">
+    <!-- Formspree honeypot — traps bots, keeps submissions clean -->
+    <input type="text" name="_gotcha" style="display:none" />
+
     <div class="fg praise" id="fgp">
       <label>What I'm doing well <span class="req">★ required</span></label>
-      <textarea id="fp" rows="4" placeholder="What stands out positively? What should I keep doing or do more of?"></textarea>
+      <textarea id="fp" name="praise" rows="4" placeholder="What stands out positively? What should I keep doing or do more of?"></textarea>
       <span class="errmsg">Please share at least one thing I'm doing well.</span>
     </div>
     <div class="fg crit" id="fgc">
       <label>What I could improve <span class="req">★ required</span></label>
-      <textarea id="fc" rows="4" placeholder="Where am I falling short? What blind spots do you see? Be direct."></textarea>
+      <textarea id="fc" name="criticize" rows="4" placeholder="Where am I falling short? What blind spots do you see? Be direct."></textarea>
       <span class="errmsg">Please share at least one area for improvement.</span>
     </div>
     <div class="fg">
       <label>Context <span style="color:var(--muted);font-size:.58rem">(optional)</span></label>
-      <input type="text" id="fx" placeholder="How do you know me? Colleague, collaborator, reader..." />
+      <input type="text" id="fx" name="context" placeholder="How do you know me? Colleague, collaborator, reader..." />
     </div>
     <div class="ffoot">
-      <button class="sbtn" onclick="send()">Submit Feedback →</button>
-      <span class="fnote">Your feedback is private — only visible to Ahmed.</span>
+      <button class="sbtn" type="submit">Submit Feedback →</button>
+      <span class="fnote">Your feedback is private and anonymous — only visible to Ahmed.</span>
     </div>
     <div id="fok">✦ Thank you — your feedback has been sent.</div>
+    <div id="ferr" style="display:none;font-family:'DM Mono',monospace;font-size:.62rem;color:#c9502a;margin-top:.8rem;">Something went wrong — please try again.</div>
   </form>
 
   <div class="cstrip rv d2">
@@ -743,21 +747,48 @@
     document.getElementById('idf').classList.toggle('show', m==='ident');
   }
 
-  /* FEEDBACK */
-  function send() {
+  /* FEEDBACK — posts to Formspree anonymously */
+  async function send(e) {
+    e.preventDefault();
     const praise = document.getElementById('fp').value.trim();
     const crit   = document.getElementById('fc').value.trim();
     let ok = true;
     document.getElementById('fgp').classList.toggle('err', !praise); if (!praise) ok=false;
     document.getElementById('fgc').classList.toggle('err', !crit);   if (!crit)   ok=false;
     if (!ok) return;
+
     const name  = document.getElementById('fn')?.value.trim() || 'Anonymous';
     const email = document.getElementById('fe')?.value.trim() || '';
     const ctx   = document.getElementById('fx').value.trim();
-    const subj  = encodeURIComponent('Feedback for Ahmed RaGaB');
-    const body  = encodeURIComponent(`From: ${name}${email?' <'+email+'>':''}\n`+(ctx?`Context: ${ctx}\n`:'')+`\n⭐ PRAISE\n${praise}\n\n⚡ IMPROVE\n${crit}`);
-    window.location.href = `mailto:ahmed@ragab.de?subject=${subj}&body=${body}`;
-    document.getElementById('fok').style.display = 'block';
+
+    const payload = {
+      name,
+      ...(email && { email }),
+      ...(ctx   && { context: ctx }),
+      praise,
+      criticize: crit
+    };
+
+    const btn = document.querySelector('.sbtn');
+    btn.textContent = 'Sending…'; btn.disabled = true;
+
+    try {
+      const res = await fetch('https://formspree.io/f/xwvnnvpn', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (res.ok) {
+        document.getElementById('fok').style.display  = 'block';
+        document.getElementById('ferr').style.display = 'none';
+        document.getElementById('fform').reset();
+      } else {
+        throw new Error('Server error');
+      }
+    } catch {
+      document.getElementById('ferr').style.display = 'block';
+      btn.textContent = 'Submit Feedback →'; btn.disabled = false;
+    }
   }
 </script>
 </body>
