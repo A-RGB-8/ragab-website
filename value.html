@@ -1,214 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relevant News | Ahmed RaGaB</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root { 
-            --navy-blue: #1e3799; 
-            --forest-green: #0a3d21; 
-            --slate-grey: #4a69bd;
-            --light-grey: #f1f2f6; 
-        }
-        body { background-color: var(--light-grey); font-family: 'Inter', sans-serif; padding-top: 100px; text-align: center; color: #2f3640; }
-        
-        .nav-link { color: #94a3b8 !important; font-weight: 500; transition: 0.2s; }
-        .nav-link.active { color: var(--navy-blue) !important; font-weight: 800 !important; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Related News | Ahmed RaGaB</title>
+  <meta name="description" content="Curated signals from R&D, tech, markets, and the human condition." />
+  <!-- Fonts loaded only after consent -->
+  <style> body { font-family: Georgia, 'Times New Roman', serif; } </style>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold:   #C9962A;
+      --goldlt: #E8B84B;
+      --cream:  #F2EBD9;
+      --bg:     #080807;
+      --bg2:    #0f0f0d;
+      --bg3:    #161612;
+      --text:   #D8D0C0;
+      --muted:  #6B6456;
+      --bdr:    rgba(201,150,42,0.18);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Outfit', sans-serif; font-weight: 300;
+      line-height: 1.7; overflow-x: hidden; cursor: none;
+      min-height: 100vh;
+    }
+    a, button { cursor: none; }
 
-        .choice-card { background: white; padding: 40px; border-radius: 20px; border: 1px solid #ddd; transition: 0.3s; cursor: pointer; height: 100%; display: flex; flex-direction: column; align-items: center; }
-        .choice-card:hover { border-color: var(--navy-blue); transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
-        .icon-big { font-size: 3rem; color: var(--navy-blue); margin-bottom: 20px; }
-        
-        #action-zone { display: none; margin-top: 30px; }
-        .timer-display { font-size: 2rem; font-weight: bold; color: var(--navy-blue); margin-bottom: 10px; }
-        .score-display { font-size: 1.2rem; color: var(--forest-green); font-weight: 600; margin-bottom: 20px; }
+    /* GRAIN */
+    body::before {
+      content: ''; position: fixed; inset: 0; z-index: 9990;
+      pointer-events: none; opacity: .03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 200px;
+    }
 
-        /* News Grid */
-        .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; text-align: left; }
-        .news-tile { background: white; border-radius: 12px; padding: 20px; border-top: 5px solid var(--navy-blue); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .news-tile h5 { font-weight: 800; color: var(--navy-blue); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px;}
-        .headline-link { display: block; font-size: 0.95rem; color: #2f3640; text-decoration: none; padding: 8px 0; transition: 0.2s; font-weight: 600; }
-        .headline-link:hover { color: var(--slate-grey); }
-        .reason-text { font-size: 0.8rem; color: #64748b; font-style: italic; margin-top: 8px; display: block; border-left: 2px solid #ddd; padding-left: 10px; }
+    /* CURSOR */
+    #cur {
+      position: fixed; top: 0; left: 0; z-index: 9999;
+      width: 10px; height: 10px; background: var(--gold); border-radius: 50%;
+      pointer-events: none; transform: translate(-50%,-50%);
+      transition: width .25s, height .25s, background .25s; mix-blend-mode: screen;
+    }
+    #cur.big { width: 44px; height: 44px; background: rgba(201,150,42,.2); border: 1px solid var(--gold); }
 
-        /* Game Controls */
-        .d-pad { display: grid; grid-template-columns: repeat(3, 50px); gap: 10px; justify-content: center; margin-top: 20px; }
-        .d-btn { width: 50px; height: 50px; background: #fff; border: 1px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; cursor: pointer; }
-        .up { grid-column: 2; } .left { grid-column: 1; grid-row: 2; } .down { grid-column: 2; grid-row: 2; } .right { grid-column: 3; grid-row: 2; }
-    </style>
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.6rem 4rem;
+      background: rgba(8,8,7,.92); backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--bdr);
+    }
+    .nlogo { font-family: 'Cormorant Garamond', serif; text-decoration: none; display: flex; align-items: baseline; }
+    .nlogo .ns { font-size: .95rem; font-weight: 300; color: var(--cream); letter-spacing: .1em; text-transform: uppercase; margin-right: .35rem; }
+    .nlogo .NL { color: var(--gold); font-size: 1.45rem; font-weight: 700; }
+    .nlogo .nl { color: var(--muted); font-size: 1.45rem; font-weight: 300; }
+    .nlinks { display: flex; gap: 2.5rem; list-style: none; }
+    .nlinks a {
+      font-family: 'DM Mono', monospace; font-size: .72rem;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--muted); text-decoration: none;
+      border-bottom: 1px solid transparent; padding-bottom: 2px;
+      transition: color .25s, border-color .25s;
+    }
+    .nlinks a:hover, .nlinks a.active { color: var(--goldlt); border-bottom-color: var(--gold); }
+
+    /* PAGE WRAPPER */
+    .page {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 8rem 4rem 6rem;
+    }
+
+    /* SELECTION SCREEN */
+    #selection-screen { width: 100%; max-width: 860px; }
+
+    .page-eyebrow {
+      font-family: 'DM Mono', monospace; font-size: .68rem;
+      letter-spacing: .22em; text-transform: uppercase; color: var(--gold);
+      margin-bottom: 1rem; text-align: center;
+    }
+    .page-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 600;
+      color: var(--cream); line-height: 1.1; margin-bottom: .6rem;
+      text-align: center;
+    }
+    .page-title em { font-style: italic; color: var(--gold); font-weight: 300; }
+    .page-sub {
+      font-size: .95rem; color: var(--muted); text-align: center;
+      margin-bottom: 4rem; line-height: 1.7;
+    }
+
+    /* CHOICE CARDS */
+    .choice-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1.5px;
+      background: var(--bdr);
+    }
+    .choice-card {
+      background: var(--bg2); padding: 3.2rem 2.8rem;
+      display: flex; flex-direction: column; align-items: flex-start;
+      position: relative; overflow: hidden;
+      transition: background .3s;
+    }
+    .choice-card:hover { background: var(--bg3); }
+    .choice-card::before {
+      content: ''; position: absolute; bottom: 0; left: 0;
+      width: 100%; height: 2px;
+      background: linear-gradient(to right, var(--gold), transparent);
+      transform: scaleX(0); transform-origin: left; transition: transform .4s ease;
+    }
+    .choice-card:hover::before { transform: scaleX(1); }
+
+    .card-icon {
+      font-size: 2.4rem; margin-bottom: 1.6rem;
+      filter: grayscale(.5) brightness(.75); transition: filter .3s;
+    }
+    .choice-card:hover .card-icon { filter: none; }
+    .card-tag {
+      font-family: 'DM Mono', monospace; font-size: .63rem;
+      letter-spacing: .2em; text-transform: uppercase; color: var(--gold);
+      margin-bottom: .8rem;
+    }
+    .card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem; font-weight: 600; color: var(--cream);
+      margin-bottom: .8rem; line-height: 1.1;
+    }
+    .card-desc { font-size: .9rem; color: var(--muted); line-height: 1.7; margin-bottom: 2rem; flex: 1; }
+
+    /* Speed buttons */
+    .speed-row { display: flex; gap: .8rem; width: 100%; }
+    .speed-btn {
+      font-family: 'DM Mono', monospace; font-size: .68rem;
+      letter-spacing: .12em; text-transform: uppercase;
+      padding: .7rem 0; flex: 1; border: 1px solid var(--bdr);
+      background: transparent; color: var(--muted);
+      transition: border-color .25s, color .25s, background .25s;
+    }
+    .speed-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .speed-btn.fast { background: var(--gold); color: var(--bg); border-color: var(--gold); }
+    .speed-btn.fast:hover { background: var(--goldlt); }
+
+    /* Quote CTA */
+    .quote-btn {
+      font-family: 'DM Mono', monospace; font-size: .68rem;
+      letter-spacing: .12em; text-transform: uppercase;
+      padding: .85rem 2rem; width: 100%;
+      background: var(--gold); color: var(--bg); border: 1px solid var(--gold);
+      transition: background .25s, transform .2s;
+    }
+    .quote-btn:hover { background: var(--goldlt); transform: translateY(-2px); }
+
+    /* ACTION ZONE */
+    #action-zone {
+      display: none; width: 100%; max-width: 860px;
+    }
+
+    /* Timer */
+    .timer-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 2rem; padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--bdr);
+    }
+    .timer-label {
+      font-family: 'DM Mono', monospace; font-size: .65rem;
+      letter-spacing: .2em; text-transform: uppercase; color: var(--muted);
+    }
+    .timer-count {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem; font-weight: 700; color: var(--gold); line-height: 1;
+    }
+    .score-badge {
+      font-family: 'DM Mono', monospace; font-size: .72rem;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--cream); display: none;
+    }
+    .score-badge span { color: var(--gold); }
+
+    /* Content area */
+    #content-area {
+      background: var(--bg2); border: 1px solid var(--bdr);
+      min-height: 420px;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 3rem;
+      position: relative;
+    }
+
+    /* Quote display */
+    .quote-display {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 400; font-style: italic;
+      color: var(--cream); line-height: 1.6; text-align: center; max-width: 600px;
+    }
+    .quote-display::before { content: '"'; color: var(--gold); font-size: 3rem; line-height: 0; vertical-align: -.4em; margin-right: .2rem; }
+    .quote-display::after  { content: '"'; color: var(--gold); font-size: 3rem; line-height: 0; vertical-align: -.4em; margin-left:  .2rem; }
+
+    /* Snake canvas */
+    #snakeCanvas {
+      display: block; margin: 0 auto;
+      border: 1px solid var(--bdr);
+      border-radius: 4px;
+    }
+
+    /* D-pad */
+    .d-pad {
+      display: grid; grid-template-columns: repeat(3, 48px);
+      gap: 8px; justify-content: center; margin-top: 1.6rem;
+    }
+    .d-btn {
+      width: 48px; height: 48px;
+      background: var(--bg3); border: 1px solid var(--bdr);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; color: var(--gold);
+      transition: background .2s, border-color .2s;
+    }
+    .d-btn:hover { background: var(--bg2); border-color: var(--gold); }
+    .d-up    { grid-column: 2; grid-row: 1; }
+    .d-left  { grid-column: 1; grid-row: 2; }
+    .d-down  { grid-column: 2; grid-row: 2; }
+    .d-right { grid-column: 3; grid-row: 2; }
+
+    /* Loading spinner */
+    .spinner {
+      width: 32px; height: 32px; border: 2px solid var(--bdr);
+      border-top-color: var(--gold); border-radius: 50%;
+      animation: spin .8s linear infinite; margin: 0 auto 1.2rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading-text {
+      font-family: 'DM Mono', monospace; font-size: .68rem;
+      letter-spacing: .16em; text-transform: uppercase; color: var(--muted);
+    }
+
+    /* NEWS GRID */
+    .news-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5px; background: var(--bdr); width: 100%;
+    }
+    .news-tile {
+      background: var(--bg3); padding: 2rem 1.8rem;
+    }
+    .news-tile-header {
+      font-family: 'DM Mono', monospace; font-size: .6rem;
+      letter-spacing: .2em; text-transform: uppercase; color: var(--gold);
+      margin-bottom: 1.2rem; padding-bottom: .8rem;
+      border-bottom: 1px solid var(--bdr);
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .headline-link {
+      display: block; font-size: .97rem; font-weight: 400;
+      color: var(--cream); text-decoration: none;
+      padding: .5rem 0; transition: color .2s; line-height: 1.5;
+    }
+    .headline-link:hover { color: var(--gold); }
+    .reason-text {
+      font-size: .8rem; color: var(--muted); font-style: italic;
+      margin-top: .6rem; display: block;
+      border-left: 2px solid var(--bdr); padding-left: .8rem;
+      line-height: 1.6;
+    }
+
+    /* Complete message */
+    .complete-msg {
+      font-family: 'DM Mono', monospace; font-size: .68rem;
+      letter-spacing: .18em; text-transform: uppercase; color: var(--gold);
+      text-align: center; margin-bottom: 2rem;
+    }
+
+    /* CONSENT BANNER */
+    #consent-banner {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 9998;
+      background: var(--bg2); border-top: 1px solid var(--bdr);
+      padding: 1.8rem 4rem;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 2rem; flex-wrap: wrap;
+      transform: translateY(100%); transition: transform .45s ease;
+      box-shadow: 0 -8px 40px rgba(0,0,0,.5);
+    }
+    #consent-banner.show { transform: translateY(0); }
+    .consent-text { flex: 1; min-width: 260px; }
+    .consent-text strong { font-family:'DM Mono',monospace; font-size:.7rem; letter-spacing:.16em; text-transform:uppercase; color:var(--cream); display:block; margin-bottom:.4rem; }
+    .consent-text p { font-size:.82rem; color:var(--muted); line-height:1.6; margin:0; }
+    .consent-text a { color:var(--gold); text-decoration:none; }
+    .consent-text a:hover { color:var(--goldlt); }
+    .consent-btns { display:flex; gap:.8rem; flex-shrink:0; flex-wrap:wrap; }
+    .cbtn-accept, .cbtn-decline { font-family:'DM Mono',monospace; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; padding:.7rem 1.6rem; border:1px solid var(--gold); transition:background .25s, color .25s; }
+    .cbtn-accept { background:var(--gold); color:var(--bg); }
+    .cbtn-accept:hover { background:var(--goldlt); }
+    .cbtn-decline { background:transparent; color:var(--gold); }
+    .cbtn-decline:hover { background:rgba(201,150,42,.1); }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg); border-top: 1px solid var(--bdr);
+      padding: 2.8rem 4rem;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1.2rem;
+    }
+    .flogo { font-family: 'Cormorant Garamond', serif; display: flex; align-items: baseline; }
+    .flogo .ns { font-size: .85rem; font-weight: 300; color: var(--muted); margin-right: .3rem; letter-spacing: .08em; }
+    .flogo .NL { color: var(--gold); font-size: 1.3rem; font-weight: 700; }
+    .flogo .nl { color: var(--muted); font-size: 1.3rem; font-weight: 300; }
+    .fcopy { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .12em; color: var(--muted); }
+    .flinks { display: flex; gap: 1.8rem; flex-wrap: wrap; align-items: center; }
+    .flinks a { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .13em; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .25s; }
+    .flinks a:hover { color: var(--gold); }
+    .cookie-pref { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .13em; text-transform: uppercase; color: var(--muted); background: none; border: none; padding: 0; transition: color .25s; }
+    .cookie-pref:hover { color: var(--gold); }
+
+    @keyframes fadeUp { from{opacity:0;transform:translateY(18px)} to{opacity:1;transform:translateY(0)} }
+
+    @media (max-width: 900px) {
+      nav { padding: 1.1rem 1.5rem; }
+      .nlinks { display: none; }
+      .page { padding: 7rem 1.5rem 4rem; }
+      .choice-grid { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; padding: 2rem 1.5rem; }
+      #consent-banner { padding: 1.5rem; flex-direction: column; align-items: flex-start; }
+    }
+  </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html" style="color: var(--navy-blue);">RaGaB.de</a>
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link px-3" href="index.html">Home</a>
-                <a class="nav-link active px-3" href="value.html">Relevant News</a>
-            </div>
-        </div>
-    </nav>
+<div id="cur"></div>
 
-    <div class="container" id="selection-screen">
-        <h2 class="mb-5 mt-4" style="font-weight: 800;">Executive Intelligence Access</h2>
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="choice-card" id="btn-game">
-                    <div class="icon-big"><i class="fa-solid fa-gamepad"></i></div>
-                    <h4>Focus Challenge</h4>
-                    <p class="text-muted small">Win a 20s round of Snake to unlock.</p>
-                    <div class="d-flex gap-2 mt-auto w-100">
-                        <button class="btn btn-outline-secondary w-50 speed-btn" data-speed="150">Slow</button>
-                        <button class="btn btn-primary w-50 speed-btn" data-speed="80">Fast</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="choice-card" onclick="startPath('quote')">
-                    <div class="icon-big"><i class="fa-solid fa-quote-left"></i></div>
-                    <h4>Mindset Protocol</h4>
-                    <p class="text-muted small">Unlock via 15s of philosophical reflection.</p>
-                    <button class="btn btn-navy text-white mt-auto w-100" style="background: var(--navy-blue);">Begin 15s Reflection</button>
-                </div>
-            </div>
+<!-- CONSENT BANNER -->
+<div id="consent-banner" role="dialog" aria-label="Cookie consent">
+  <div class="consent-text">
+    <strong>🍪 Your Privacy</strong>
+    <p>This site uses third-party services (Google Fonts, Formspree) that may process your data. <em>Accept</em> enables all features. <em>Decline</em> loads no external resources. See our <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+  <div class="consent-btns">
+    <button class="cbtn-accept" onclick="giveConsent('full')">Accept</button>
+    <button class="cbtn-decline" onclick="giveConsent('essential')">Decline</button>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nlogo">
+    <span class="ns">ahmed&nbsp;</span><!--
+    --><span class="NL">R</span><span class="nl">a</span><span class="NL">G</span><span class="nl">a</span><span class="NL">B</span>
+  </a>
+  <ul class="nlinks">
+    <li><a href="index.html#profile">My Profile</a></li>
+    <li><a href="value.html" class="active">Related News</a></li>
+    <li><a href="index.html#feedback">Give Feedback</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN PAGE -->
+<div class="page">
+
+  <!-- SELECTION SCREEN -->
+  <div id="selection-screen">
+    <div class="page-eyebrow">Executive Intelligence</div>
+    <h1 class="page-title">Related <em>News</em></h1>
+    <p class="page-sub">Curated signals from R&amp;D, tech, markets, and the human condition.<br>Choose your access protocol.</p>
+
+    <div class="choice-grid">
+
+      <!-- Game card -->
+      <div class="choice-card" id="btn-game">
+        <div class="card-icon">🎮</div>
+        <div class="card-tag">Protocol A</div>
+        <div class="card-title">Focus Challenge</div>
+        <p class="card-desc">Win a 20-second round of Snake to unlock the feed. Choose your difficulty.</p>
+        <div class="speed-row">
+          <button class="speed-btn" data-speed="150">Slow</button>
+          <button class="speed-btn fast" data-speed="80">Fast</button>
         </div>
+      </div>
+
+      <!-- Quote card -->
+      <div class="choice-card">
+        <div class="card-icon">💭</div>
+        <div class="card-tag">Protocol B</div>
+        <div class="card-title">Mindset Protocol</div>
+        <p class="card-desc">15 seconds of philosophical reflection before the feed unlocks.</p>
+        <button class="quote-btn" onclick="startPath('quote')">Begin 15s Reflection →</button>
+      </div>
+
     </div>
+  </div>
 
-    <div class="container" id="action-zone">
-        <div class="timer-display" id="timer">00:00</div>
-        <div class="score-display" id="score-box" style="display:none;">Score: <span id="current-score">0</span></div>
-        <div id="content-area" class="p-4 bg-white border rounded shadow-sm" style="min-height: 400px; display:flex; flex-direction:column; justify-content:center;">
-        </div>
+  <!-- ACTION ZONE -->
+  <div id="action-zone">
+    <div class="timer-bar">
+      <div class="timer-label">Access unlocks in</div>
+      <div class="timer-count" id="timer">00</div>
+      <div class="score-badge" id="score-box">Score <span id="current-score">0</span></div>
     </div>
+    <div id="content-area">
+      <!-- Filled dynamically -->
+    </div>
+  </div>
 
-    <script>
-        let timerInterval, gameInterval, snakeScore = 0;
+</div><!-- end .page -->
 
-        document.querySelectorAll('.speed-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                startPath('game', parseInt(btn.dataset.speed));
-            });
-        });
+<!-- FOOTER -->
+<footer>
+  <div class="flogo">
+    <span class="ns">ahmed</span>
+    <span class="NL">R</span><span class="nl">a</span><span class="NL">G</span><span class="nl">a</span><span class="NL">B</span>
+  </div>
+  <div class="fcopy">© 2025 Ahmed RaGaB · ragab.de</div>
+  <div class="flinks">
+    <a href="index.html">Home</a>
+    <a href="index.html#feedback">Give Feedback</a>
+    <a href="privacy.html">Privacy</a>
+    <button class="cookie-pref" onclick="resetConsent()">Cookie Settings</button>
+  </div>
+</footer>
 
-        async function startPath(type, speed = 100) {
-            document.getElementById('selection-screen').style.display = 'none';
-            document.getElementById('action-zone').style.display = 'block';
-            
-            let timeLeft = (type === 'quote') ? 15 : 20;
-            updateTimerDisplay(timeLeft);
+<script>
+  /* ── CURSOR ── */
+  const cur = document.getElementById('cur');
+  document.addEventListener('mousemove', e => { cur.style.left=e.clientX+'px'; cur.style.top=e.clientY+'px'; });
+  document.querySelectorAll('a,button,.choice-card').forEach(el => {
+    el.addEventListener('mouseenter', () => cur.classList.add('big'));
+    el.addEventListener('mouseleave', () => cur.classList.remove('big'));
+  });
 
-            if (type === 'quote') {
-                const res = await fetch('quotes.json');
-                const data = await res.json();
-                const q = data.quotes[Math.floor(Math.random() * data.quotes.length)];
-                document.getElementById('content-area').innerHTML = `<h3 class="fw-light italic px-md-5">"${q}"</h3>`;
-            } else {
-                document.getElementById('score-box').style.display = 'block';
-                document.getElementById('content-area').innerHTML = `
-                    <canvas id="snakeCanvas" width="300" height="300" style="background:#111; display:block; margin:auto; border-radius:10px;"></canvas>
-                    <div class="d-pad">
-                        <div class="d-btn up" id="up"><i class="fa-solid fa-caret-up"></i></div>
-                        <div class="d-btn left" id="left"><i class="fa-solid fa-caret-left"></i></div>
-                        <div class="d-btn down" id="down"><i class="fa-solid fa-caret-down"></i></div>
-                        <div class="d-btn right" id="right"><i class="fa-solid fa-caret-right"></i></div>
-                    </div>`;
-                startSnakeGame(speed);
-            }
+  /* ── SPEED BUTTONS ── */
+  document.querySelectorAll('.speed-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      startPath('game', parseInt(btn.dataset.speed));
+    });
+  });
 
-            timerInterval = setInterval(() => {
-                timeLeft--;
-                updateTimerDisplay(timeLeft);
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    clearInterval(gameInterval);
-                    revealNews();
-                }
-            }, 1000);
-        }
+  /* ── MAIN PATH LOGIC ── */
+  let timerInterval, gameInterval, snakeScore = 0;
 
-        function updateTimerDisplay(s) {
-            document.getElementById('timer').innerText = `ACCESS IN: 00:${s.toString().padStart(2, '0')}`;
-        }
+  async function startPath(type, speed = 100) {
+    document.getElementById('selection-screen').style.display = 'none';
+    const az = document.getElementById('action-zone');
+    az.style.display = 'block';
 
-        async function revealNews() {
-            const area = document.getElementById('content-area');
-            document.getElementById('score-box').style.display = 'none';
-            document.getElementById('timer').innerHTML = "PROTOCOL COMPLETE";
-            area.innerHTML = `<div class="p-5 text-center"><div class="spinner-border text-primary"></div><p class="mt-3">Syncing News Signal...</p></div>`;
+    let timeLeft = (type === 'quote') ? 15 : 20;
+    document.getElementById('timer').textContent = timeLeft;
 
-            try {
-                const res = await fetch('./top_news.json?v=' + new Date().getTime());
-                const aiNewsArray = await res.json();
-                let html = `<div class="news-grid">`;
-                const iconMap = { "Automated Driving Tech": "fa-car-side", "AI & Robotics": "fa-robot", "Finance & Business": "fa-chart-line" };
+    const area = document.getElementById('content-area');
 
-                aiNewsArray.forEach(item => {
-                    const icon = iconMap[item.category] || "fa-newspaper";
-                    html += `
-                        <div class="news-tile">
-                            <h5><i class="fa-solid ${icon} me-2"></i>${item.category}</h5>
-                            <a href="${item.url}" target="_blank" class="headline-link">${item.headline}</a>
-                            <span class="reason-text">${item.reason}</span>
-                        </div>`;
-                });
-                area.innerHTML = html + `</div>`;
-            } catch (e) {
-                area.innerHTML = `<p class="text-danger">Sync Failure. Repository offline.</p>`;
-            }
-        }
+    if (type === 'quote') {
+      try {
+        const res  = await fetch('quotes.json');
+        const data = await res.json();
+        const q    = data.quotes[Math.floor(Math.random() * data.quotes.length)];
+        area.innerHTML = `<p class="quote-display">${q}</p>`;
+      } catch {
+        area.innerHTML = `<p class="quote-display">The only real failure is the failure to try.</p>`;
+      }
+    } else {
+      document.getElementById('score-box').style.display = 'block';
+      area.style.padding = '2rem 1rem';
+      area.innerHTML = `
+        <canvas id="snakeCanvas" width="300" height="300" style="background:#0a0a08;"></canvas>
+        <div class="d-pad">
+          <button class="d-btn d-up"    id="d-up">▲</button>
+          <button class="d-btn d-left"  id="d-left">◀</button>
+          <button class="d-btn d-down"  id="d-down">▼</button>
+          <button class="d-btn d-right" id="d-right">▶</button>
+        </div>`;
+      startSnakeGame(speed);
+    }
 
-        function startSnakeGame(speed) {
-            const canvas = document.getElementById("snakeCanvas");
-            const ctx = canvas.getContext("2d");
-            const box = 20;
-            let snake = [{x: 8 * box, y: 8 * box}], d, food = {x: 40, y: 40};
-            snakeScore = 0;
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      document.getElementById('timer').textContent = timeLeft;
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        clearInterval(gameInterval);
+        revealNews();
+      }
+    }, 1000);
+  }
 
-            const updateScore = () => document.getElementById('current-score').innerText = snakeScore;
+  /* ── REVEAL NEWS ── */
+  async function revealNews() {
+    const area = document.getElementById('content-area');
+    document.getElementById('score-box').style.display = 'none';
+    document.getElementById('timer').textContent = '✦';
 
-            document.addEventListener("keydown", e => {
-                if(e.keyCode==37 && d!="RIGHT") d="LEFT"; if(e.keyCode==38 && d!="DOWN") d="UP";
-                if(e.keyCode==39 && d!="LEFT") d="RIGHT"; if(e.keyCode==40 && d!="UP") d="DOWN";
-            });
+    area.style.padding = '3rem';
+    area.innerHTML = `
+      <div class="spinner"></div>
+      <div class="loading-text">Syncing intelligence feed…</div>`;
 
-            ['up','down','left','right'].forEach(id => {
-                document.getElementById(id).addEventListener('click', () => {
-                    const dir = id.toUpperCase();
-                    if(dir=="UP" && d!="DOWN") d="UP"; if(dir=="DOWN" && d!="UP") d="DOWN";
-                    if(dir=="LEFT" && d!="RIGHT") d="LEFT"; if(dir=="RIGHT" && d!="LEFT") d="RIGHT";
-                });
-            });
+    try {
+      const res  = await fetch('./top_news.json?v=' + Date.now());
+      const news = await res.json();
 
-            gameInterval = setInterval(() => {
-                ctx.fillStyle = "#111"; ctx.fillRect(0,0,300,300);
-                for(let i=0; i<snake.length; i++){
-                    ctx.fillStyle = i==0 ? "#1e3799" : "#4a69bd";
-                    ctx.fillRect(snake[i].x, snake[i].y, box-2, box-2);
-                }
-                ctx.fillStyle = "#2ecc71"; ctx.fillRect(food.x, food.y, box-2, box-2);
-                
-                let headX = snake[0].x, headY = snake[0].y;
-                if(d=="LEFT") headX-=box; if(d=="UP") headY-=box; if(d=="RIGHT") headX+=box; if(d=="DOWN") headY+=box;
+      const iconMap = {
+        'Automated Driving Tech': '⚙',
+        'AI & Robotics':          '🤖',
+        'Finance & Business':     '📈'
+      };
 
-                // Continuous Wall logic
-                if (headX < 0) headX = 280; if (headX >= 300) headX = 0;
-                if (headY < 0) headY = 280; if (headY >= 300) headY = 0;
+      let tilesHTML = news.map(item => `
+        <div class="news-tile">
+          <div class="news-tile-header">
+            <span>${iconMap[item.category] || '◈'}</span>
+            ${item.category}
+          </div>
+          <a href="${item.url}" target="_blank" rel="noopener" class="headline-link">${item.headline}</a>
+          <span class="reason-text">${item.reason}</span>
+        </div>`).join('');
 
-                if(headX==food.x && headY==food.y) {
-                    snakeScore += 10;
-                    updateScore();
-                    food = {x: Math.floor(Math.random()*14+1)*box, y: Math.floor(Math.random()*14+1)*box};
-                } else if(d) {
-                    snake.pop();
-                }
-                
-                if(d) snake.unshift({x:headX, y:headY});
-            }, speed);
-        }
-    </script>
+      area.style.padding = '0';
+      area.style.display = 'block';
+      area.innerHTML = `
+        <div class="complete-msg" style="padding:1.5rem 2rem 0">◈ Protocol Complete — Intelligence Unlocked</div>
+        <div class="news-grid">${tilesHTML}</div>`;
+
+    } catch {
+      area.innerHTML = `<p style="font-family:'DM Mono',monospace;font-size:.72rem;letter-spacing:.1em;color:#c9502a;text-transform:uppercase;">Feed sync failed — repository may be offline.</p>`;
+    }
+  }
+
+  /* ── SNAKE GAME ── (logic identical to original) ── */
+  function startSnakeGame(speed) {
+    const canvas = document.getElementById('snakeCanvas');
+    const ctx    = canvas.getContext('2d');
+    const box    = 20;
+    let snake    = [{x: 8*box, y: 8*box}];
+    let d, food  = {x: 40, y: 40};
+    snakeScore   = 0;
+
+    const updateScore = () => {
+      document.getElementById('current-score').textContent = snakeScore;
+    };
+
+    document.addEventListener('keydown', e => {
+      if (e.keyCode===37 && d!=='RIGHT') d='LEFT';
+      if (e.keyCode===38 && d!=='DOWN')  d='UP';
+      if (e.keyCode===39 && d!=='LEFT')  d='RIGHT';
+      if (e.keyCode===40 && d!=='UP')    d='DOWN';
+    });
+
+    ['up','down','left','right'].forEach(id => {
+      const el = document.getElementById('d-' + id);
+      if (!el) return;
+      el.addEventListener('click', () => {
+        const dir = id.toUpperCase();
+        if (dir==='UP'    && d!=='DOWN')  d='UP';
+        if (dir==='DOWN'  && d!=='UP')    d='DOWN';
+        if (dir==='LEFT'  && d!=='RIGHT') d='LEFT';
+        if (dir==='RIGHT' && d!=='LEFT')  d='RIGHT';
+      });
+    });
+
+    gameInterval = setInterval(() => {
+      /* Clear */
+      ctx.fillStyle = '#0a0a08';
+      ctx.fillRect(0, 0, 300, 300);
+
+      /* Draw snake */
+      snake.forEach((seg, i) => {
+        ctx.fillStyle = i === 0 ? '#C9962A' : '#6B6456';
+        ctx.fillRect(seg.x, seg.y, box-2, box-2);
+      });
+
+      /* Draw food */
+      ctx.fillStyle = '#E8B84B';
+      ctx.fillRect(food.x, food.y, box-2, box-2);
+
+      /* Move head */
+      let hx = snake[0].x, hy = snake[0].y;
+      if (d==='LEFT')  hx -= box;
+      if (d==='UP')    hy -= box;
+      if (d==='RIGHT') hx += box;
+      if (d==='DOWN')  hy += box;
+
+      /* Wrap walls */
+      if (hx < 0)   hx = 280; if (hx >= 300) hx = 0;
+      if (hy < 0)   hy = 280; if (hy >= 300) hy = 0;
+
+      /* Eat food */
+      if (hx === food.x && hy === food.y) {
+        snakeScore += 10; updateScore();
+        food = { x: Math.floor(Math.random()*14+1)*box, y: Math.floor(Math.random()*14+1)*box };
+      } else if (d) {
+        snake.pop();
+      }
+      if (d) snake.unshift({x: hx, y: hy});
+
+    }, speed);
+  }
+
+  /* ── GDPR CONSENT ── */
+  const CONSENT_KEY = 'ragab_consent';
+  const FONTS_URL   = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@200;300;400;500&display=swap';
+
+  function loadFonts() {
+    ['https://fonts.googleapis.com','https://fonts.gstatic.com'].forEach(href => {
+      const l = document.createElement('link'); l.rel = 'preconnect'; l.href = href;
+      if (href.includes('gstatic')) l.crossOrigin = '';
+      document.head.appendChild(l);
+    });
+    const l = document.createElement('link'); l.rel = 'stylesheet'; l.href = FONTS_URL;
+    document.head.appendChild(l);
+  }
+
+  function giveConsent(level) {
+    localStorage.setItem(CONSENT_KEY, level);
+    document.getElementById('consent-banner').classList.remove('show');
+    if (level === 'full') loadFonts();
+  }
+
+  function resetConsent() {
+    localStorage.removeItem(CONSENT_KEY);
+    document.getElementById('consent-banner').classList.add('show');
+  }
+
+  (function () {
+    const stored = localStorage.getItem(CONSENT_KEY);
+    if (!stored) {
+      setTimeout(() => document.getElementById('consent-banner').classList.add('show'), 600);
+    } else if (stored === 'full') {
+      loadFonts();
+    }
+  })();
+</script>
 </body>
 </html>
