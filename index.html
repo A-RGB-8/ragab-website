@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ahmed RaGaB | R&D Leader & World Citizen</title>
   <meta name="description" content="Ahmed RaGaB — R&D Leader, Fitness Coach, Finance Enthusiast, World Citizen." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <!-- Fonts loaded only after consent via JS below -->
+  <style>
+    body { font-family: Georgia, 'Times New Roman', serif; }
+  </style>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -92,7 +93,6 @@
       opacity: .3; animation: flicker 4s ease-in-out infinite;
     }
     @keyframes flicker { 0%,100%{opacity:.3} 50%{opacity:.5} }
-
     .h-eyebrow {
       font-family: 'DM Mono', monospace; font-size: .7rem;
       letter-spacing: .22em; text-transform: uppercase; color: var(--gold);
@@ -148,7 +148,6 @@
     .rv.on { opacity: 1; transform: translateY(0); }
     .d1 { transition-delay: .12s; }
     .d2 { transition-delay: .25s; }
-    .d3 { transition-delay: .4s; }
 
     /* SECTION */
     .sec { padding: 7rem 4rem; }
@@ -168,8 +167,6 @@
 
     /* PROFILE */
     #profile { background: var(--bg2); }
-
-    /* Foundation band */
     .foundation {
       border: 1px solid var(--bdr); border-left: 3px solid var(--gold);
       background: linear-gradient(108deg, rgba(201,150,42,.07) 0%, rgba(201,150,42,.02) 55%, transparent 100%);
@@ -187,18 +184,15 @@
     .fnum { font-family: 'Cormorant Garamond', serif; font-size: 2.1rem; font-weight: 700; color: var(--gold); line-height: 1; }
     .flbl { font-family: 'DM Mono', monospace; font-size: .58rem; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); margin-top: .2rem; }
 
-    /* ── PILLARS ── */
+    /* PILLARS */
     .pillars {
       display: grid; grid-template-columns: 1.55fr 1fr 1fr;
       grid-template-rows: auto auto; gap: 1.5px; background: var(--bdr);
     }
-
-    /* Each pillar is a clickable button-like card */
     .pillar {
       background: var(--bg3); padding: 2.8rem 2.6rem;
       position: relative; overflow: hidden;
       transition: background .3s, transform .2s;
-      cursor: none;
     }
     .pillar:hover { background: #1d1d17; transform: translateY(-2px); }
     .pillar::after {
@@ -207,120 +201,72 @@
       opacity: 0; transition: opacity .4s; pointer-events: none;
     }
     .pillar:hover::after { opacity: 1; }
-
-    /* Bottom gold line reveal on hover */
     .pillar::before {
       content: ''; position: absolute; bottom: 0; left: 0;
       width: 100%; height: 2px;
       background: linear-gradient(to right, var(--gold), transparent);
-      transform: scaleX(0); transform-origin: left;
-      transition: transform .4s ease;
+      transform: scaleX(0); transform-origin: left; transition: transform .4s ease;
     }
     .pillar:hover::before { transform: scaleX(1); }
-
     .p-eng  { grid-column:1; grid-row:1/3; border-left:2px solid var(--gold); }
     .p-mind { border-left:2px solid #7b8cde; }
     .p-fin  { border-left:2px solid #4caf7d; }
     .p-fit  { border-left:2px solid #c9502a; grid-column:2/4; }
-
     .ptag { font-family:'DM Mono',monospace; font-size:.63rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); margin-bottom:1rem; }
     .p-eng .ptitle { font-family:'Cormorant Garamond',serif; font-size:clamp(2.1rem,3.4vw,3.3rem); font-weight:700; color:var(--cream); line-height:1.05; margin-bottom:1.2rem; }
     .ptitle { font-family:'Cormorant Garamond',serif; font-size:1.55rem; font-weight:700; color:var(--cream); line-height:1.1; margin-bottom:.8rem; }
     .picon { font-size:1.8rem; display:block; margin-bottom:1.2rem; filter:grayscale(.5) brightness(.75); transition:filter .3s; }
     .pillar:hover .picon { filter:none; }
-
-    /* Teaser text — always visible */
     .pteaser { font-size:.95rem; color:var(--muted); line-height:1.75; margin-bottom:1.6rem; }
     .p-eng .pteaser { font-size:1rem; }
-
-    /* "Read more" CTA */
     .pmore {
       display: inline-flex; align-items: center; gap: .6rem;
       font-family: 'DM Mono', monospace; font-size: .68rem;
       letter-spacing: .14em; text-transform: uppercase; color: var(--gold);
-      transition: gap .25s, opacity .25s;
-      margin-top: auto;
+      transition: gap .25s;
     }
     .pmore .arrow { transition: transform .25s; }
     .pillar:hover .pmore { gap: 1rem; }
     .pillar:hover .pmore .arrow { transform: translateX(4px); }
 
-    /* ── MODAL OVERLAY ── */
+    /* MODAL */
     .modal-overlay {
       position: fixed; inset: 0; z-index: 500;
       background: rgba(4,4,3,.92); backdrop-filter: blur(14px);
-      display: flex; align-items: center; justify-content: center;
-      padding: 2rem;
-      opacity: 0; pointer-events: none;
-      transition: opacity .35s ease;
+      display: flex; align-items: center; justify-content: center; padding: 2rem;
+      opacity: 0; pointer-events: none; transition: opacity .35s ease;
     }
     .modal-overlay.open { opacity: 1; pointer-events: all; }
-
     .modal-box {
-      background: var(--bg2);
-      border: 1px solid var(--bdr);
-      max-width: 780px; width: 100%;
-      max-height: 88vh; overflow-y: auto;
-      position: relative;
-      transform: translateY(24px);
-      transition: transform .35s ease;
+      background: var(--bg2); border: 1px solid var(--bdr);
+      max-width: 780px; width: 100%; max-height: 88vh; overflow-y: auto;
+      position: relative; transform: translateY(24px); transition: transform .35s ease;
     }
     .modal-overlay.open .modal-box { transform: translateY(0); }
-
     .modal-header {
-      padding: 2.4rem 2.8rem 1.6rem;
-      border-bottom: 1px solid var(--bdr);
+      padding: 2.4rem 2.8rem 1.6rem; border-bottom: 1px solid var(--bdr);
       position: sticky; top: 0; background: var(--bg2); z-index: 2;
       display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;
     }
-    .modal-header-left {}
-    .modal-tag {
-      font-family: 'DM Mono', monospace; font-size: .62rem;
-      letter-spacing: .2em; text-transform: uppercase; color: var(--gold);
-      margin-bottom: .6rem;
-    }
-    .modal-title {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700;
-      color: var(--cream); line-height: 1.1;
-    }
+    .modal-tag { font-family:'DM Mono',monospace; font-size:.62rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); margin-bottom:.6rem; }
+    .modal-title { font-family:'Cormorant Garamond',serif; font-size:clamp(1.8rem,4vw,2.8rem); font-weight:700; color:var(--cream); line-height:1.1; }
     .modal-close {
       background: none; border: 1px solid var(--bdr); color: var(--muted);
-      font-family: 'DM Mono', monospace; font-size: .7rem;
-      letter-spacing: .1em; padding: .5rem 1rem;
-      transition: border-color .25s, color .25s; flex-shrink: 0; margin-top: .3rem;
+      font-family: 'DM Mono', monospace; font-size: .7rem; letter-spacing: .1em;
+      padding: .5rem 1rem; transition: border-color .25s, color .25s; flex-shrink: 0; margin-top: .3rem;
     }
     .modal-close:hover { border-color: var(--gold); color: var(--cream); }
-    .modal-body {
-      padding: 2.4rem 2.8rem;
-    }
-    .modal-body h4 {
-      font-family: 'DM Mono', monospace; font-size: .7rem;
-      letter-spacing: .18em; text-transform: uppercase; color: var(--gold);
-      margin: 1.8rem 0 .7rem;
-    }
-    .modal-body h4:first-child { margin-top: 0; }
-    .modal-body p { font-size: .97rem; color: var(--text); line-height: 1.8; margin-bottom: .9rem; }
-    .modal-body p strong { color: var(--cream); }
-    .modal-body ul { list-style: none; display: flex; flex-direction: column; gap: .55rem; margin-bottom: 1rem; }
-    .modal-body ul li {
-      font-family: 'DM Mono', monospace; font-size: .72rem;
-      letter-spacing: .06em; color: var(--text);
-      display: flex; align-items: flex-start; gap: .65rem;
-    }
-    .modal-body ul li::before { content: '▸'; color: var(--gold); flex-shrink: 0; }
-    .modal-body ul li strong { color: var(--cream); }
-    .modal-highlight {
-      background: rgba(201,150,42,.07);
-      border-left: 3px solid var(--gold);
-      padding: 1.2rem 1.5rem; margin: 1.4rem 0;
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.1rem; font-style: italic; color: var(--cream); line-height: 1.6;
-    }
-    .modal-grid {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin: 1rem 0;
-    }
-    .modal-grid ul { margin: 0; }
+    .modal-body { padding: 2.4rem 2.8rem; }
+    .modal-body h4 { font-family:'DM Mono',monospace; font-size:.7rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); margin:1.8rem 0 .7rem; }
+    .modal-body h4:first-child { margin-top:0; }
+    .modal-body p { font-size:.97rem; color:var(--text); line-height:1.8; margin-bottom:.9rem; }
+    .modal-body p strong { color:var(--cream); }
+    .modal-body ul { list-style:none; display:flex; flex-direction:column; gap:.55rem; margin-bottom:1rem; }
+    .modal-body ul li { font-family:'DM Mono',monospace; font-size:.72rem; letter-spacing:.06em; color:var(--text); display:flex; align-items:flex-start; gap:.65rem; }
+    .modal-body ul li::before { content:'▸'; color:var(--gold); flex-shrink:0; }
+    .modal-body ul li strong { color:var(--cream); }
+    .modal-highlight { background:rgba(201,150,42,.07); border-left:3px solid var(--gold); padding:1.2rem 1.5rem; margin:1.4rem 0; font-family:'Cormorant Garamond',serif; font-size:1.1rem; font-style:italic; color:var(--cream); line-height:1.6; }
+    .modal-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; margin:1rem 0; }
 
     /* FEEDBACK */
     #feedback { background: var(--bg); }
@@ -349,11 +295,34 @@
     .sbtn { font-family:'DM Mono',monospace; font-size:.72rem; letter-spacing:.13em; text-transform:uppercase; color:var(--bg); background:var(--gold); border:none; padding:1rem 2.4rem; transition:background .25s, transform .2s; }
     .sbtn:hover { background:var(--goldlt); transform:translateY(-2px); }
     #fok { display:none; font-family:'DM Mono',monospace; font-size:.72rem; letter-spacing:.1em; color:var(--gold); margin-top:.8rem; }
+    #ferr { display:none; font-family:'DM Mono',monospace; font-size:.62rem; color:#c9502a; margin-top:.8rem; }
     .fnote { font-family:'DM Mono',monospace; font-size:.62rem; letter-spacing:.1em; color:var(--muted); }
     .cstrip { margin-top:4rem; padding-top:3rem; border-top:1px solid var(--bdr); display:flex; gap:3.5rem; flex-wrap:wrap; }
     .cslbl { font-family:'DM Mono',monospace; font-size:.62rem; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); margin-bottom:.4rem; }
     .cslink { font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:var(--cream); text-decoration:none; display:block; transition:color .25s; }
     .cslink:hover { color:var(--gold); }
+
+    /* CONSENT BANNER */
+    #consent-banner {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 9998;
+      background: var(--bg2); border-top: 1px solid var(--bdr);
+      padding: 1.8rem 4rem;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 2rem; flex-wrap: wrap;
+      transform: translateY(100%); transition: transform .45s ease;
+      box-shadow: 0 -8px 40px rgba(0,0,0,.5);
+    }
+    #consent-banner.show { transform: translateY(0); }
+    .consent-text { flex: 1; min-width: 260px; }
+    .consent-text strong { font-family:'DM Mono',monospace; font-size:.7rem; letter-spacing:.16em; text-transform:uppercase; color:var(--cream); display:block; margin-bottom:.4rem; }
+    .consent-text p { font-size:.82rem; color:var(--muted); line-height:1.6; margin:0; }
+    .consent-text a { color:var(--gold); text-decoration:none; }
+    .consent-text a:hover { color:var(--goldlt); }
+    .consent-btns { display:flex; gap:.8rem; flex-shrink:0; flex-wrap:wrap; }
+    .cbtn-accept { font-family:'DM Mono',monospace; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; background:var(--gold); color:var(--bg); border:1px solid var(--gold); padding:.7rem 1.6rem; transition:background .25s; }
+    .cbtn-accept:hover { background:var(--goldlt); }
+    .cbtn-essential { font-family:'DM Mono',monospace; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase; background:transparent; color:var(--muted); border:1px solid var(--bdr); padding:.7rem 1.6rem; transition:border-color .25s, color .25s; }
+    .cbtn-essential:hover { border-color:var(--gold); color:var(--cream); }
 
     /* FOOTER */
     footer { background:var(--bg); border-top:1px solid var(--bdr); padding:2.8rem 4rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.2rem; }
@@ -362,9 +331,11 @@
     .flogo .NL { color:var(--gold); font-size:1.3rem; font-weight:700; }
     .flogo .nl { color:var(--muted); font-size:1.3rem; font-weight:300; }
     .fcopy { font-family:'DM Mono',monospace; font-size:.62rem; letter-spacing:.12em; color:var(--muted); }
-    .flinks { display:flex; gap:1.8rem; }
+    .flinks { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
     .flinks a { font-family:'DM Mono',monospace; font-size:.62rem; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); text-decoration:none; transition:color .25s; }
     .flinks a:hover { color:var(--gold); }
+    .cookie-pref { font-family:'DM Mono',monospace; font-size:.62rem; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); background:none; border:none; padding:0; transition:color .25s; }
+    .cookie-pref:hover { color:var(--gold); }
 
     @keyframes fadeUp { from{opacity:0;transform:translateY(22px)} to{opacity:1;transform:translateY(0)} }
     @keyframes fadeIn { from{opacity:0} to{opacity:1} }
@@ -379,17 +350,30 @@
       .pillars { grid-template-columns:1fr; }
       .p-eng, .p-fit { grid-column:1; grid-row:unset; }
       #idf { grid-template-columns:1fr; }
+      .modal-box { max-height:95vh; }
+      .modal-header, .modal-body { padding:1.6rem; }
+      .modal-grid { grid-template-columns:1fr; }
       footer { flex-direction:column; text-align:center; padding:2rem 1.5rem; }
       .h-scroll { display:none; }
-      .modal-box { max-height:95vh; }
-      .modal-header, .modal-body { padding: 1.6rem; }
-      .modal-grid { grid-template-columns:1fr; }
+      #consent-banner { padding:1.5rem; flex-direction:column; align-items:flex-start; }
     }
   </style>
 </head>
 <body>
 
 <div id="cur"></div>
+
+<!-- CONSENT BANNER -->
+<div id="consent-banner" role="dialog" aria-label="Cookie consent">
+  <div class="consent-text">
+    <strong>🍪 Your Privacy</strong>
+    <p>This site uses third-party services (Google Fonts, Formspree) that may process your data. <em>Accept</em> enables all features. <em>Essential only</em> loads no external resources. See our <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+  <div class="consent-btns">
+    <button class="cbtn-accept" onclick="giveConsent('full')">Accept</button>
+    <button class="cbtn-essential" onclick="giveConsent('essential')">Essential only</button>
+  </div>
+</div>
 
 <!-- NAV -->
 <nav id="nav">
@@ -428,7 +412,6 @@
   <h2 class="stitle rv">Four Pillars, <em>One Person</em></h2>
   <p class="sintro rv">These are not chapters or phases — they are dimensions I carry simultaneously and build on continuously. Click any pillar to go deeper.</p>
 
-  <!-- Foundation band -->
   <div class="foundation rv">
     <div class="ftext">
       I grew up in Egypt wanting to build <strong>autonomous intelligent systems</strong> — robots that operate with precision and minimal human intervention. That idea never left. It became a career developing commercial vehicle <em>ADAS</em> at WABCO (ZF), and a leadership philosophy rooted in one principle: <strong>lead through credibility, not title.</strong> I have built this across cultures, languages, and financial uncertainty — and every reset along the way compounded into an advantage.
@@ -445,76 +428,55 @@
     </div>
   </div>
 
-  <!-- PILLARS — teasers only -->
   <div class="pillars">
 
-    <!-- 01 Engineering -->
-    <div class="pillar p-eng rv" onclick="openModal('eng')" role="button" tabindex="0" aria-label="Open Engineering details">
+    <div class="pillar p-eng rv" onclick="openModal('eng')" role="button" tabindex="0">
       <div class="ptag">01 · Main Pillar</div>
       <div class="p-eng ptitle">Engineering</div>
-      <p class="pteaser">
-        Since 2009, my work has been about one thing: building systems that don't just function — they endure. From microcontrollers in a Cairo lab to safety-critical ADAS at WABCO (ZF), engineering isn't what I do. It's how I think.
-      </p>
+      <p class="pteaser">Since 2009, my work has been about one thing: building systems that don't just function — they endure. From microcontrollers in a Cairo lab to safety-critical ADAS at WABCO (ZF), engineering isn't what I do. It's how I think.</p>
       <div class="pmore">Explore my engineering philosophy <span class="arrow">→</span></div>
     </div>
 
-    <!-- 02 Growth Mindset -->
-    <div class="pillar p-mind rv d1" onclick="openModal('mind')" role="button" tabindex="0" aria-label="Open Growth Mindset details">
+    <div class="pillar p-mind rv d1" onclick="openModal('mind')" role="button" tabindex="0">
       <span class="picon">🧠</span>
       <div class="ptag">02 · Pillar</div>
       <div class="ptitle">Growth Mindset</div>
-      <p class="pteaser">
-        I've left a secure job, moved countries with zero language skills, lost money, failed a company, and sat the CFA in my 40s. Each one was a choice. Discover the six pivots that shaped who I am.
-      </p>
+      <p class="pteaser">I've left a secure job, moved countries with zero language skills, lost money, failed a company, and sat the CFA in my 40s. Each one was a choice. Discover the six pivots that shaped who I am.</p>
       <div class="pmore">The six pivots <span class="arrow">→</span></div>
     </div>
 
-    <!-- 03 Finance -->
-    <div class="pillar p-fin rv d2" onclick="openModal('fin')" role="button" tabindex="0" aria-label="Open Finance details">
+    <div class="pillar p-fin rv d2" onclick="openModal('fin')" role="button" tabindex="0">
       <span class="picon">📈</span>
       <div class="ptag">03 · Pillar</div>
       <div class="ptitle">Finance</div>
-      <p class="pteaser">
-        I didn't learn finance from books. I took an unpaid internship, renovated properties with my own hands, and acquired real estate across Germany. Then I passed the CFA — first attempt. Find out how I see money.
-      </p>
+      <p class="pteaser">I didn't learn finance from books. I took an unpaid internship, renovated properties with my own hands, and acquired real estate across Germany. Then I passed the CFA — first attempt. Find out how I see money.</p>
       <div class="pmore">My financial philosophy <span class="arrow">→</span></div>
     </div>
 
-    <!-- 04 Fitness & Nutrition -->
-    <div class="pillar p-fit rv d1" onclick="openModal('fit')" role="button" tabindex="0" aria-label="Open Fitness details">
+    <div class="pillar p-fit rv d1" onclick="openModal('fit')" role="button" tabindex="0">
       <span class="picon">🏋️</span>
       <div class="ptag">04 · Pillar</div>
       <div class="ptitle">Fitness &amp; Nutrition</div>
-      <p class="pteaser">
-        For five years I was the player who almost didn't make the team. Then I became a key scorer — scouted for the First Team. No talent required. Find out what relentlessness actually looks like over a decade.
-      </p>
+      <p class="pteaser">For five years I was the player who almost didn't make the team. Then I became a key scorer — scouted for the First Team. No talent required. Find out what relentlessness actually looks like over a decade.</p>
       <div class="pmore">The full story <span class="arrow">→</span></div>
     </div>
 
   </div>
 </section>
 
-<!-- ═══ MODALS ═══ -->
-
-<!-- Engineering Modal -->
-<div class="modal-overlay" id="modal-eng" onclick="closeOnBg(event, 'eng')">
+<!-- MODAL: Engineering -->
+<div class="modal-overlay" id="modal-eng" onclick="closeOnBg(event,'eng')">
   <div class="modal-box">
     <div class="modal-header">
-      <div class="modal-header-left">
-        <div class="modal-tag">01 · Main Pillar</div>
-        <div class="modal-title">Engineering</div>
-      </div>
+      <div><div class="modal-tag">01 · Main Pillar</div><div class="modal-title">Engineering</div></div>
       <button class="modal-close" onclick="closeModal('eng')">✕ Close</button>
     </div>
     <div class="modal-body">
       <h4>The Architect's Origin</h4>
       <p>Since childhood, my answer to "what do you want to be when you grow up?" was unconventional: <strong>"I want to be a God."</strong> Not out of ego — out of a fascination with autonomous intelligent systems. The moment I brought my first microcontroller to life in undergrad, my mission was set: building intelligent systems that protect people. Today, I lead R&amp;D for commercial vehicle ADAS — designing systems that save lives.</p>
-
       <h4>Systems Engineering Philosophy</h4>
-      <p>Since 2009, I have evolved a core belief: I don't just lead teams — I build <strong>robust development architectures</strong>. My approach is rooted in the V-Model of both software and people, ensuring that scalability is baked into the process from day one. I act as the high-bandwidth bridge between strategic vision and the tactical reality of the engineering floor — and I maintain my technical edge deliberately. I never ask for an output I don't fundamentally understand.</p>
-
+      <p>Since 2009, I have evolved a core belief: I don't just lead teams — I build <strong>robust development architectures</strong>. My approach is rooted in the V-Model of both software and people, ensuring scalability is baked in from day one. I act as the high-bandwidth bridge between strategic vision and the tactical reality of the engineering floor — and I never ask for an output I don't fundamentally understand.</p>
       <div class="modal-highlight">"A leader must remain functional in the field. The moment you stop understanding what your team builds, you stop being an engineer — and start being a passenger."</div>
-
       <h4>By the Numbers</h4>
       <div class="modal-grid">
         <ul>
@@ -528,31 +490,23 @@
           <li><strong>Global reach</strong> — coordinating hundreds of FTEs for Tier-1 OEMs</li>
         </ul>
       </div>
-
-      <div style="margin-top:1.8rem">
-        <a href="AhmedRagabCV.pdf" class="btn-g" download>Download Full CV →</a>
-      </div>
+      <div style="margin-top:1.8rem"><a href="AhmedRagabCV.pdf" class="btn-g" download>Download Full CV →</a></div>
     </div>
   </div>
 </div>
 
-<!-- Growth Mindset Modal -->
-<div class="modal-overlay" id="modal-mind" onclick="closeOnBg(event, 'mind')">
+<!-- MODAL: Growth Mindset -->
+<div class="modal-overlay" id="modal-mind" onclick="closeOnBg(event,'mind')">
   <div class="modal-box">
     <div class="modal-header">
-      <div class="modal-header-left">
-        <div class="modal-tag">02 · Pillar</div>
-        <div class="modal-title">Growth Mindset</div>
-      </div>
+      <div><div class="modal-tag">02 · Pillar</div><div class="modal-title">Growth Mindset</div></div>
       <button class="modal-close" onclick="closeModal('mind')">✕ Close</button>
     </div>
     <div class="modal-body">
       <h4>Beyond the Theory</h4>
       <p>You can read books about the Growth Mindset and believe in the theory, but you cannot advocate for it until you have been tested. To me, it isn't a soft skill — it is a <strong>calculated risk adventure</strong>. I allow myself and the people around me to make mistakes, but only once. A mistake is a data point. A repetition is a system failure.</p>
-
       <h4>Curiosity as a Competitive Advantage</h4>
       <p>If I have one talent, it is curiosity. I leverage it to make difficult decisions that others avoid. Every high-stakes pivot in my life was rewarded — though often preceded by significant work and suffering. That is the price of the adventure.</p>
-
       <h4>The Six Pivots</h4>
       <div class="modal-grid">
         <ul>
@@ -562,67 +516,54 @@
         </ul>
         <ul>
           <li><strong>The Gamble</strong> — invested every dime in real estate to learn the mechanics firsthand</li>
-          <li><strong>The Failure</strong> — started a drop-shipping company that failed but taught me Business 101</li>
-          <li><strong>The Grind</strong> — sat the CFA in my 40s, balancing fatherhood and an ADAS career</li>
+          <li><strong>The Failure</strong> — drop-shipping company that failed but taught me Business 101</li>
+          <li><strong>The Grind</strong> — CFA in my 40s, balancing fatherhood and an ADAS career</li>
         </ul>
       </div>
-
       <div class="modal-highlight">I am curious. I learn. I fail. I learn even more. Then, and only then, I grow. Growth is a system — and like every system, it must be examined continuously.</div>
     </div>
   </div>
 </div>
 
-<!-- Finance Modal -->
-<div class="modal-overlay" id="modal-fin" onclick="closeOnBg(event, 'fin')">
+<!-- MODAL: Finance -->
+<div class="modal-overlay" id="modal-fin" onclick="closeOnBg(event,'fin')">
   <div class="modal-box">
     <div class="modal-header">
-      <div class="modal-header-left">
-        <div class="modal-tag">03 · Pillar</div>
-        <div class="modal-title">Finance</div>
-      </div>
+      <div><div class="modal-tag">03 · Pillar</div><div class="modal-title">Finance</div></div>
       <button class="modal-close" onclick="closeModal('fin')">✕ Close</button>
     </div>
     <div class="modal-body">
       <h4>From Saving to Systems</h4>
       <p>I grew up in a classic Egyptian middle-class household. My father, a chemical engineer, taught me that security comes from a well-paying job and disciplined saving. I have a visceral hatred for waste — whether it is inefficient code or unnecessary luxury. But I realized that saving alone doesn't scale wealth. It only preserves it.</p>
-
       <h4>The Analytical Deep-Dive</h4>
-      <p>To understand the difference between rich and middle-class, I did what any engineer would do: I <strong>reverse-engineered the system</strong>. I didn't just read books — I took an unpaid internship at a real estate firm, renovated homes with my own hands to understand the hardware of property, and eventually acquired multiple investment objects in Germany.</p>
-
+      <p>To understand the difference between rich and middle-class, I did what any engineer would do: I <strong>reverse-engineered the system</strong>. I didn't just read books — I took an unpaid internship at a real estate firm, renovated homes with my own hands, and eventually acquired multiple investment objects in Germany.</p>
       <h4>CFA Level 1 — First Attempt</h4>
-      <p>I codified this knowledge by challenging the <strong>CFA Level 1 exam</strong> and passing on the first attempt. This isn't just a certificate — it's a commitment to professional-grade analytical rigour. I now view every engineering R&amp;D roadmap through the Investment Triangle:</p>
+      <p>I passed the <strong>CFA Level 1 exam</strong> on the first attempt. I now view every R&amp;D roadmap through the Investment Triangle:</p>
       <ul>
         <li><strong>Risk</strong> — what can go wrong, and what's the exposure?</li>
         <li><strong>Return</strong> — what is the measurable upside?</li>
         <li><strong>Time-to-Value</strong> — when does this compound?</li>
       </ul>
-
       <div class="modal-highlight">"In the lab, money is not for spending — it is a resource to be allocated for maximum system growth."</div>
     </div>
   </div>
 </div>
 
-<!-- Fitness Modal -->
-<div class="modal-overlay" id="modal-fit" onclick="closeOnBg(event, 'fit')">
+<!-- MODAL: Fitness -->
+<div class="modal-overlay" id="modal-fit" onclick="closeOnBg(event,'fit')">
   <div class="modal-box">
     <div class="modal-header">
-      <div class="modal-header-left">
-        <div class="modal-tag">04 · Pillar</div>
-        <div class="modal-title">Fitness &amp; Nutrition</div>
-      </div>
+      <div><div class="modal-tag">04 · Pillar</div><div class="modal-title">Fitness &amp; Nutrition</div></div>
       <button class="modal-close" onclick="closeModal('fit')">✕ Close</button>
     </div>
     <div class="modal-body">
       <h4>The Restless Engine</h4>
-      <p>My mother always described me as "restless." I had a biological need to move — always. I started sports at age six and haven't stopped since. After five years of Karate and reaching a brown belt, I hit a wall: a three-year wait for the black belt. Being too restless to wait, I pivoted to Handball at age 11. That is where my real training began.</p>
-
+      <p>My mother always described me as "restless." I had a biological need to move — always. I started sports at age six and haven't stopped since. After five years of Karate and reaching a brown belt, I pivoted to Handball at age 11. That is where my real training began.</p>
       <h4>The Five-Year Breakthrough</h4>
       <p>I'll be honest: I was the talentless player. Fit enough to make the team, making enough mistakes to be the target of frustration. I spent five years training relentlessly — gym sessions, basketball, tennis, volleyball, Judo, Kung Fu — all to find the missing edge. One day, the work paid off. I became a key high-scorer for the U18s and was scouted for the First Team.</p>
-
       <div class="modal-highlight">Consistency eventually overcomes a lack of initial calibration. I have tested this thesis across every domain of my life — and it has never failed.</div>
-
       <h4>Certified Optimization</h4>
-      <p>After moving to Germany, I decided to codify this experience. I became a <strong>Certified Fitness &amp; Nutrition Coach</strong> specializing in <strong>Functional Training</strong>. Today, I apply the same high-performance logic to individuals and teams that I apply to my engineering projects.</p>
+      <p>After moving to Germany, I became a <strong>Certified Fitness &amp; Nutrition Coach</strong> specializing in <strong>Functional Training</strong>. Today, I apply the same high-performance logic to individuals and teams that I apply to my engineering projects.</p>
       <ul>
         <li>Karate · Handball · Judo · Kung Fu · Basketball · Tennis · Volleyball</li>
         <li>Certified Fitness &amp; Nutrition Coach</li>
@@ -649,9 +590,7 @@
   </div>
 
   <form class="fform rv d1" id="fform" onsubmit="send(event)">
-    <!-- Formspree honeypot — traps bots, keeps submissions clean -->
     <input type="text" name="_gotcha" style="display:none" />
-
     <div class="fg praise" id="fgp">
       <label>What I'm doing well <span class="req">★ required</span></label>
       <textarea id="fp" name="praise" rows="4" placeholder="What stands out positively? What should I keep doing or do more of?"></textarea>
@@ -671,7 +610,7 @@
       <span class="fnote">Your feedback is private and anonymous — only visible to Ahmed.</span>
     </div>
     <div id="fok">✦ Thank you — your feedback has been sent.</div>
-    <div id="ferr" style="display:none;font-family:'DM Mono',monospace;font-size:.62rem;color:#c9502a;margin-top:.8rem;">Something went wrong — please try again.</div>
+    <div id="ferr">Something went wrong — please try again or email ahmed@ragab.de directly.</div>
   </form>
 
   <div class="cstrip rv d2">
@@ -692,6 +631,8 @@
     <a href="AhmedRagabCV.pdf" download>CV</a>
     <a href="value.html">Related News</a>
     <a href="#feedback">Feedback</a>
+    <a href="privacy.html">Privacy</a>
+    <button class="cookie-pref" onclick="resetConsent()">Cookie Settings</button>
   </div>
 </footer>
 
@@ -700,8 +641,8 @@
   const cur = document.getElementById('cur');
   document.addEventListener('mousemove', e => { cur.style.left=e.clientX+'px'; cur.style.top=e.clientY+'px'; });
   document.querySelectorAll('a,button,.pillar,.foundation').forEach(el => {
-    el.addEventListener('mouseenter',()=>cur.classList.add('big'));
-    el.addEventListener('mouseleave',()=>cur.classList.remove('big'));
+    el.addEventListener('mouseenter', () => cur.classList.add('big'));
+    el.addEventListener('mouseleave', () => cur.classList.remove('big'));
   });
 
   /* NAV */
@@ -735,26 +676,25 @@
       });
     }
   });
-  /* Keyboard support for pillar cards */
   document.querySelectorAll('.pillar[role="button"]').forEach(el => {
     el.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') el.click(); });
   });
 
   /* IDENTITY TOGGLE */
   function setM(m) {
-    document.getElementById('ba').classList.toggle('on', m==='anon');
-    document.getElementById('bi').classList.toggle('on', m==='ident');
-    document.getElementById('idf').classList.toggle('show', m==='ident');
+    document.getElementById('ba').classList.toggle('on', m === 'anon');
+    document.getElementById('bi').classList.toggle('on', m === 'ident');
+    document.getElementById('idf').classList.toggle('show', m === 'ident');
   }
 
-  /* FEEDBACK — posts to Formspree anonymously */
+  /* FEEDBACK — Formspree anonymous POST */
   async function send(e) {
     e.preventDefault();
     const praise = document.getElementById('fp').value.trim();
     const crit   = document.getElementById('fc').value.trim();
     let ok = true;
-    document.getElementById('fgp').classList.toggle('err', !praise); if (!praise) ok=false;
-    document.getElementById('fgc').classList.toggle('err', !crit);   if (!crit)   ok=false;
+    document.getElementById('fgp').classList.toggle('err', !praise); if (!praise) ok = false;
+    document.getElementById('fgc').classList.toggle('err', !crit);   if (!crit)   ok = false;
     if (!ok) return;
 
     const name  = document.getElementById('fn')?.value.trim() || 'Anonymous';
@@ -787,9 +727,46 @@
       }
     } catch {
       document.getElementById('ferr').style.display = 'block';
-      btn.textContent = 'Submit Feedback →'; btn.disabled = false;
+      btn.textContent = 'Submit Feedback →';
+      btn.disabled = false;
     }
   }
+
+  /* GDPR CONSENT */
+  const CONSENT_KEY = 'ragab_consent';
+  const FONTS_URL = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@200;300;400;500&display=swap';
+
+  function loadFonts() {
+    ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'].forEach(href => {
+      const l = document.createElement('link');
+      l.rel = 'preconnect'; l.href = href;
+      if (href.includes('gstatic')) l.crossOrigin = '';
+      document.head.appendChild(l);
+    });
+    const l = document.createElement('link');
+    l.rel = 'stylesheet'; l.href = FONTS_URL;
+    document.head.appendChild(l);
+  }
+
+  function giveConsent(level) {
+    localStorage.setItem(CONSENT_KEY, level);
+    document.getElementById('consent-banner').classList.remove('show');
+    if (level === 'full') loadFonts();
+  }
+
+  function resetConsent() {
+    localStorage.removeItem(CONSENT_KEY);
+    document.getElementById('consent-banner').classList.add('show');
+  }
+
+  (function () {
+    const stored = localStorage.getItem(CONSENT_KEY);
+    if (!stored) {
+      setTimeout(() => document.getElementById('consent-banner').classList.add('show'), 600);
+    } else if (stored === 'full') {
+      loadFonts();
+    }
+  })();
 </script>
 </body>
 </html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Ahmed RaGaB</title>
+  <meta name="description" content="Privacy Policy for ragab.de — how your data is handled." />
+  <!-- No third-party fonts on this page — system fonts only, no consent required -->
+  <style>
+    /* System font stack — no external requests */
+    body { font-family: Georgia, 'Times New Roman', serif; }
+    .nlogo, .stitle, .page-title, .modal-title, .ftext, .fnum, .cslink, .flogo,
+    h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; }
+    .nlinks a, .ptag, .slbl, .flbl, .tbtn, .sbtn, .fnote, .cslbl,
+    .fcopy, .flinks a, .cookie-pref, code, .psec-title, .page-eyebrow, .page-meta,
+    .psec ul li, .tp-table th, .tp-table td { font-family: 'Courier New', Courier, monospace; }
+  </style>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold:   #C9962A;
+      --goldlt: #E8B84B;
+      --cream:  #F2EBD9;
+      --bg:     #080807;
+      --bg2:    #0f0f0d;
+      --bg3:    #161612;
+      --text:   #D8D0C0;
+      --muted:  #6B6456;
+      --bdr:    rgba(201,150,42,0.18);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Outfit', sans-serif; font-weight: 300;
+      line-height: 1.7; overflow-x: hidden;
+    }
+
+    /* GRAIN */
+    body::before {
+      content: ''; position: fixed; inset: 0; z-index: 9990;
+      pointer-events: none; opacity: .03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 200px;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.6rem 4rem;
+      background: rgba(8,8,7,.92); backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--bdr);
+    }
+    .nlogo { font-family: 'Cormorant Garamond', serif; text-decoration: none; display: flex; align-items: baseline; }
+    .nlogo .ns { font-size: .95rem; font-weight: 300; color: var(--cream); letter-spacing: .1em; text-transform: uppercase; margin-right: .35rem; }
+    .nlogo .NL { color: var(--gold); font-size: 1.45rem; font-weight: 700; }
+    .nlogo .nl { color: var(--muted); font-size: 1.45rem; font-weight: 300; }
+    .nlinks { display: flex; gap: 2.5rem; list-style: none; }
+    .nlinks a {
+      font-family: 'DM Mono', monospace; font-size: .72rem;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--muted); text-decoration: none;
+      border-bottom: 1px solid transparent; padding-bottom: 2px;
+      transition: color .25s, border-color .25s;
+    }
+    .nlinks a:hover { color: var(--goldlt); border-bottom-color: var(--gold); }
+
+    /* PAGE */
+    .page {
+      max-width: 760px; margin: 0 auto;
+      padding: 10rem 2rem 6rem;
+    }
+
+    /* HEADER */
+    .page-eyebrow {
+      font-family: 'DM Mono', monospace; font-size: .68rem;
+      letter-spacing: .22em; text-transform: uppercase; color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .page-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 700;
+      color: var(--cream); line-height: 1.05; margin-bottom: .6rem;
+    }
+    .page-title em { font-style: italic; color: var(--gold); font-weight: 300; }
+    .page-meta {
+      font-family: 'DM Mono', monospace; font-size: .65rem;
+      letter-spacing: .14em; color: var(--muted); margin-bottom: 4rem;
+    }
+    .page-meta span { color: var(--gold); }
+
+    /* DIVIDER */
+    .divider {
+      width: 100%; height: 1px;
+      background: linear-gradient(to right, var(--gold), transparent);
+      opacity: .3; margin: 3rem 0;
+    }
+
+    /* SECTIONS */
+    .psec { margin-bottom: 3rem; }
+    .psec-title {
+      font-family: 'DM Mono', monospace; font-size: .7rem;
+      letter-spacing: .2em; text-transform: uppercase; color: var(--gold);
+      margin-bottom: 1rem; display: flex; align-items: center; gap: .8rem;
+    }
+    .psec-title::after { content: ''; flex: 1; height: 1px; background: var(--bdr); }
+
+    .psec h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem; font-weight: 600; color: var(--cream);
+      margin-bottom: .8rem; margin-top: 1.6rem;
+    }
+    .psec h3:first-of-type { margin-top: 0; }
+
+    .psec p { font-size: .97rem; color: var(--text); line-height: 1.85; margin-bottom: .9rem; }
+    .psec p strong { color: var(--cream); font-weight: 500; }
+    .psec p a { color: var(--gold); text-decoration: none; transition: color .2s; }
+    .psec p a:hover { color: var(--goldlt); }
+
+    .psec ul { list-style: none; display: flex; flex-direction: column; gap: .55rem; margin-bottom: 1rem; }
+    .psec ul li {
+      font-size: .93rem; color: var(--text); line-height: 1.7;
+      display: flex; align-items: flex-start; gap: .7rem;
+    }
+    .psec ul li::before { content: '▸'; color: var(--gold); flex-shrink: 0; margin-top: .15rem; }
+    .psec ul li strong { color: var(--cream); }
+
+    /* HIGHLIGHT BOX */
+    .highlight {
+      background: rgba(201,150,42,.06);
+      border-left: 3px solid var(--gold);
+      padding: 1.2rem 1.6rem; margin: 1.4rem 0;
+      font-size: .93rem; color: var(--text); line-height: 1.8;
+    }
+    .highlight strong { color: var(--cream); }
+
+    /* THIRD-PARTY TABLE */
+    .tp-table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; }
+    .tp-table th {
+      font-family: 'DM Mono', monospace; font-size: .62rem;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--gold); text-align: left;
+      padding: .7rem 1rem; border-bottom: 1px solid var(--bdr);
+    }
+    .tp-table td {
+      font-size: .88rem; color: var(--text);
+      padding: .8rem 1rem; border-bottom: 1px solid rgba(201,150,42,.08);
+      vertical-align: top; line-height: 1.6;
+    }
+    .tp-table tr:last-child td { border-bottom: none; }
+    .tp-table a { color: var(--gold); text-decoration: none; }
+    .tp-table a:hover { color: var(--goldlt); }
+
+    /* BACK BUTTON */
+    .back-btn {
+      display: inline-flex; align-items: center; gap: .6rem;
+      font-family: 'DM Mono', monospace; font-size: .7rem;
+      letter-spacing: .14em; text-transform: uppercase;
+      color: var(--gold); text-decoration: none;
+      border: 1px solid var(--bdr); padding: .75rem 1.6rem;
+      transition: border-color .25s, color .25s; margin-top: 2rem;
+      display: inline-block;
+    }
+    .back-btn:hover { border-color: var(--gold); color: var(--goldlt); }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg); border-top: 1px solid var(--bdr);
+      padding: 2.8rem 4rem;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1.2rem;
+    }
+    .flogo { font-family: 'Cormorant Garamond', serif; display: flex; align-items: baseline; }
+    .flogo .ns { font-size: .85rem; font-weight: 300; color: var(--muted); margin-right: .3rem; letter-spacing: .08em; }
+    .flogo .NL { color: var(--gold); font-size: 1.3rem; font-weight: 700; }
+    .flogo .nl { color: var(--muted); font-size: 1.3rem; font-weight: 300; }
+    .fcopy { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .12em; color: var(--muted); }
+    .flinks { display: flex; gap: 1.8rem; flex-wrap: wrap; }
+    .flinks a {
+      font-family: 'DM Mono', monospace; font-size: .62rem;
+      letter-spacing: .13em; text-transform: uppercase;
+      color: var(--muted); text-decoration: none; transition: color .25s;
+    }
+    .flinks a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1.1rem 1.5rem; }
+      .nlinks { display: none; }
+      .page { padding: 8rem 1.5rem 4rem; }
+      footer { flex-direction: column; text-align: center; padding: 2rem 1.5rem; }
+      .tp-table th:last-child, .tp-table td:last-child { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nlogo">
+    <span class="ns">ahmed&nbsp;</span><!--
+    --><span class="NL">R</span><span class="nl">a</span><span class="NL">G</span><span class="nl">a</span><span class="NL">B</span>
+  </a>
+  <ul class="nlinks">
+    <li><a href="index.html#profile">My Profile</a></li>
+    <li><a href="value.html">Related News</a></li>
+    <li><a href="index.html#feedback">Give Feedback</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="page">
+
+  <div class="page-eyebrow">Legal</div>
+  <h1 class="page-title">Privacy <em>Policy</em></h1>
+  <div class="page-meta">Last updated: <span>February 2026</span> · ragab.de</div>
+
+  <div class="highlight">
+    <strong>The short version:</strong> This is a personal website with no advertising, no user accounts, and no analytics tracking. The only data collected is feedback you voluntarily submit. Third-party services are only loaded if you consent.
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 1. WHO -->
+  <div class="psec">
+    <div class="psec-title">01 · Controller</div>
+    <p>This website is operated by:</p>
+    <p>
+      <strong>Ahmed RaGaB</strong><br />
+      Germany<br />
+      <a href="mailto:ahmed@ragab.de">ahmed@ragab.de</a>
+    </p>
+    <p>As the operator of this website, Ahmed RaGaB is the data controller under the EU General Data Protection Regulation (GDPR), Art. 4(7).</p>
+  </div>
+
+  <!-- 2. WHAT DATA -->
+  <div class="psec">
+    <div class="psec-title">02 · What Data Is Collected</div>
+
+    <h3>A. Feedback submissions</h3>
+    <p>When you use the <strong>Give Feedback</strong> form, you may optionally provide:</p>
+    <ul>
+      <li>Your name (optional — you can submit anonymously)</li>
+      <li>Your email address (optional — only if you want a follow-up)</li>
+      <li>Your feedback text (praise and criticism fields)</li>
+      <li>Context about how you know the site owner (optional)</li>
+    </ul>
+    <p>This data is transmitted to <strong>Formspree Inc.</strong> (see Section 4) and forwarded to ahmed@ragab.de. It is not stored on ragab.de itself, shared with any other party, or used for marketing.</p>
+
+    <h3>B. Server logs</h3>
+    <p>Like all websites, ragab.de's hosting provider may automatically log technical data when your browser visits, including your IP address, browser type, and pages accessed. These logs are used solely for security and technical diagnostics and are not linked to your identity.</p>
+
+    <h3>C. No cookies set by this site</h3>
+    <p>ragab.de does not set any tracking or advertising cookies. A single entry is stored in your browser's <strong>localStorage</strong> to remember your cookie consent preference. This data never leaves your browser.</p>
+  </div>
+
+  <!-- 3. WHY -->
+  <div class="psec">
+    <div class="psec-title">03 · Legal Basis & Purpose</div>
+    <ul>
+      <li><strong>Feedback submissions</strong> — processed on the basis of your explicit consent (GDPR Art. 6(1)(a)) and the legitimate interest of the site owner in receiving professional feedback (Art. 6(1)(f)).</li>
+      <li><strong>Server logs</strong> — processed on the basis of legitimate interest in maintaining website security (Art. 6(1)(f)).</li>
+      <li><strong>Google Fonts</strong> — loaded only after your explicit consent (Art. 6(1)(a)).</li>
+    </ul>
+  </div>
+
+  <!-- 4. THIRD PARTIES -->
+  <div class="psec">
+    <div class="psec-title">04 · Third-Party Services</div>
+    <p>The following third-party services are used. They are only activated after you give consent via the cookie banner, <strong>except for Formspree</strong> which is only activated when you submit the feedback form.</p>
+
+    <table class="tp-table">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+          <th>Data sent</th>
+          <th>Privacy policy</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google Fonts</strong></td>
+          <td>Display custom typography</td>
+          <td>Your IP address is sent to Google's servers when fonts load</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy ↗</a></td>
+        </tr>
+        <tr>
+          <td><strong>Formspree</strong></td>
+          <td>Deliver anonymous feedback</td>
+          <td>Feedback text + optional name/email you choose to provide</td>
+          <td><a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener">Formspree Privacy Policy ↗</a></td>
+        </tr>
+        <tr>
+          <td><strong>GitHub Pages</strong></td>
+          <td>Website hosting</td>
+          <td>IP address and browser information via server logs</td>
+          <td><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub Privacy Policy ↗</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>None of these services are used for advertising or sold to data brokers.</p>
+  </div>
+
+  <!-- 5. YOUR RIGHTS -->
+  <div class="psec">
+    <div class="psec-title">05 · Your Rights Under GDPR</div>
+    <p>As an EU resident you have the following rights:</p>
+    <ul>
+      <li><strong>Right of access</strong> — request a copy of any personal data held about you</li>
+      <li><strong>Right to erasure</strong> — request deletion of your personal data</li>
+      <li><strong>Right to rectification</strong> — request correction of inaccurate data</li>
+      <li><strong>Right to object</strong> — object to processing based on legitimate interest</li>
+      <li><strong>Right to withdraw consent</strong> — withdraw consent at any time via the Cookie Settings link in the footer</li>
+      <li><strong>Right to lodge a complaint</strong> — with your national data protection authority (in Germany: <a href="https://www.bfdi.bund.de" target="_blank" rel="noopener">BfDI ↗</a>)</li>
+    </ul>
+    <p>To exercise any of these rights, contact: <a href="mailto:ahmed@ragab.de">ahmed@ragab.de</a>. Requests will be responded to within 30 days.</p>
+  </div>
+
+  <!-- 6. RETENTION -->
+  <div class="psec">
+    <div class="psec-title">06 · Data Retention</div>
+    <p>Feedback submitted via the form is retained in the Formspree dashboard and the site owner's email inbox for as long as it is relevant. You may request deletion at any time by emailing <a href="mailto:ahmed@ragab.de">ahmed@ragab.de</a> with details of your submission.</p>
+    <p>Server logs are retained by GitHub Pages according to their own retention policy. Your consent preference (stored in localStorage) remains in your browser until you clear it via Cookie Settings or your browser's storage controls.</p>
+  </div>
+
+  <!-- 7. CHANGES -->
+  <div class="psec">
+    <div class="psec-title">07 · Changes to This Policy</div>
+    <p>This policy may be updated occasionally. The date at the top of this page reflects the most recent revision. Continued use of the site after changes constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <a href="index.html" class="back-btn">← Back to ragab.de</a>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="flogo">
+    <span class="ns">ahmed</span>
+    <span class="NL">R</span><span class="nl">a</span><span class="NL">G</span><span class="nl">a</span><span class="NL">B</span>
+  </div>
+  <div class="fcopy">© 2025 Ahmed RaGaB · ragab.de</div>
+  <div class="flinks">
+    <a href="index.html">Home</a>
+    <a href="value.html">Related News</a>
+    <a href="index.html#feedback">Give Feedback</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+</footer>
+
+</body>
+</html>
