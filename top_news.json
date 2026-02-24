@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "CES 2026: Autonomous Driving Hits an Inflection Point, with Robotaxis Leading L4 Autonomy",
-        "url": "https://www.globalxetfs.com/ces-2026-autonomous-driving-hits-an-inflection-point/",
-        "reason": "This headline signifies a critical advancement in autonomous driving, specifically highlighting the progress towards Level 4 (L4) autonomy, with robotaxis being at the forefront. It indicates that the technology is moving beyond theoretical discussions and pilot programs towards more widespread real-world application and commercialization, driven by hardware and software advancements in the AI ecosystem."
+        "headline": "Japan's Nissan tests driverless vehicles in city streets filled with cars and people.",
+        "url": "https://www.independent.co.uk/news/world/asia/japan-nissan-driverless-vehicles-city-streets-b2720818.html",
+        "reason": "This headline signifies a real-world test of driverless vehicles in a complex urban environment, indicating progress beyond controlled testing grounds. It suggests advancements in sensor fusion, path planning, and decision-making capabilities necessary for Level 4/5 autonomy."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Minding the gap: Market forces shaping the shift from longevity to healthspan",
-        "url": "https://www.euromonitor.com/minding-the-gap-market-forces-shaping-the-shift-from-longevity-to-healthspan/report",
-        "reason": "This article discusses a significant market shift where supplement brands are repositioning their products from 'longevity' (lifespan extension) to 'healthspan' (increasing the number of healthy years lived). This reflects a growing consumer and industry focus on quality of life in aging, supported by increasing scientific understanding of cellular health and metabolism, and leading to new product launches and investment in this area."
+        "headline": "Generation Lab emerges from stealth with new biological age test.",
+        "url": "https://www.kron4.com/news/business/generation-lab-raises-funding-and-emerges-from-stealth-mode/",
+        "reason": "This news highlights a tangible step in making longevity research more actionable for individuals. The development of a biological age test, based on biomedical evidence, allows for personalized insights and action plans to potentially slow or reverse aging, focusing on measurable outcomes."
     },
     {
         "category": "Finance & Business",
-        "headline": "Small business owners are heading into a year of nonstop change, with AI becoming 'table stakes'",
-        "url": "https://www.wolterskluwer.com/en/solutions/cch-connections/business-ideas-2026",
-        "reason": "This headline points to a major business trend where Artificial Intelligence is no longer a niche advantage but a fundamental requirement for businesses of all sizes to remain competitive. It signifies a broad adoption of AI for efficiency, marketing, and customer service, creating opportunities for consultants and service providers who can help businesses integrate these technologies."
+        "headline": "Trump threatens 'more powerful and obnoxious' tariffs, amid confusion in UK and EU; Wall Street drops",
+        "url": "https://www.theguardian.com/business/live/2026/feb/24/markets-trump-tariffs-trade-news-live",
+        "reason": "This headline points to a significant macro-economic shift driven by geopolitical trade policy. Trump's threat of increased tariffs creates uncertainty, directly impacting global markets and causing Wall Street to drop, indicating a broad business sentiment shift due to potential trade disruptions."
     },
     {
         "category": "AI & Robotics",
-        "headline": "A Paragraph is All It Takes: Rich Robot Behaviors from Interacting, Trusted LLMs",
-        "url": "https://arxiv.org/abs/2412.10179",
-        "reason": "This research demonstrates a breakthrough in robotics by using interacting Large Language Models (LLMs) to generate complex robot behaviors. The key innovation is the use of natural language for inter-LLM communication, allowing for observable reasoning and easy behavioral biasing with English rules, which could lead to more capable and alignable robots."
+        "headline": "Microsoft Launches Vision-Language-Action Model for Robots.",
+        "url": "https://www.ai-business.net/robotics/",
+        "reason": "This announcement represents a significant AI and robotics breakthrough. A vision-language-action model allows robots to understand commands given in natural language, process visual information, and execute corresponding actions, fundamentally improving human-robot interaction and enabling more versatile robotic deployments."
     },
     {
         "category": "Global Progress",
-        "headline": "As climate diplomacy stalls, the economics are racing ahead, forcing the transition to carbon-neutrality",
-        "url": "https://koreatimes.co.kr/www/opinion/2026/01/137_365221.html",
-        "reason": "Despite political gridlock in climate negotiations, this article highlights that the economics of climate change are driving the transition to carbon-neutrality. Market forces, including corporate balance sheets, credit ratings, and insurance markets, are making inaction more expensive than action, accelerating the adoption of renewables and low-carbon technologies globally."
+        "headline": "Talks to end global plastic pollution reach pivotal stage in Canada.",
+        "url": "https://www.independent.co.uk/climate-change/news/global-plastic-pollution-treaty-talks-canada-b2720448.html",
+        "reason": "This headline signifies high-impact 'good news' in the category of environmental progress. Reaching a pivotal stage in talks to end global plastic pollution indicates a significant step towards a coordinated international effort to address a major environmental challenge, contributing to a more sustainable future."
     }
 ]
