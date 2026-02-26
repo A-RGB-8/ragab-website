@@ -42,9 +42,10 @@
       position: fixed; top: 0; left: 0; z-index: 9999;
       width: 10px; height: 10px; background: var(--gold); border-radius: 50%;
       pointer-events: none; transform: translate(-50%,-50%);
-      transition: width .25s, height .25s, background .25s; mix-blend-mode: screen;
+      transition: width .2s, height .2s, background .2s;
+      will-change: transform;
     }
-    #cur.big { width: 44px; height: 44px; background: rgba(201,150,42,.2); border: 1px solid var(--gold); }
+    #cur.big { width: 40px; height: 40px; background: transparent; border: 1px solid var(--gold); }
 
     /* NAV */
     nav {
@@ -420,9 +421,19 @@
 </footer>
 
 <script>
-  /* ── CURSOR ── */
+  /* CURSOR — rAF throttled for smooth performance */
   const cur = document.getElementById('cur');
-  document.addEventListener('mousemove', e => { cur.style.left=e.clientX+'px'; cur.style.top=e.clientY+'px'; });
+  let mx = 0, my = 0, rafPending = false;
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    if (!rafPending) {
+      rafPending = true;
+      requestAnimationFrame(() => {
+        cur.style.transform = `translate(calc(${mx}px - 50%), calc(${my}px - 50%))`;
+        rafPending = false;
+      });
+    }
+  });
   document.querySelectorAll('a,button,.choice-card').forEach(el => {
     el.addEventListener('mouseenter', () => cur.classList.add('big'));
     el.addEventListener('mouseleave', () => cur.classList.remove('big'));
