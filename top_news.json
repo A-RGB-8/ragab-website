@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "BMW Removes Level 3 Self-Driving Tech From New 7-Series in Favor of Simpler Level 2 Setup",
-        "url": "https://carscoops.com/bmw-removes-level-3-self-driving-tech-from-new-7-series/",
-        "reason": "BMW's decision to scale back from Level 3 to Level 2 autonomy in its upcoming 7-Series highlights the current practical challenges and costs associated with advanced self-driving systems, including the need for expensive LiDAR sensors and complex validation. This move indicates a broader industry trend of prioritizing more accessible and less regulated driver-assistance features over full L3/L4 capabilities for mass-market adoption, demonstrating a pragmatic approach to the complex landscape of autonomous vehicle development and regulation."
+        "headline": "BMW Removes Level 3 Self-Driving Tech From New 7-Series in Favor of Level 2 System",
+        "url": "https://www.carscoops.com/2026/02/bmw-removes-level-3-self-driving-tech-from-new-7-series-in-favor-of-level-2-system/",
+        "reason": "BMW's decision to scale back from Level 3 to Level 2 autonomous driving in its new 7-Series highlights the significant cost and regulatory hurdles associated with more advanced self-driving systems. The reliance on expensive LiDAR sensors and complex validation processes for Level 3 has made it less commercially viable, indicating a current industry trend of prioritizing more accessible and cost-effective driver-assistance features over full autonomy in consumer vehicles."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Study Suggests Lifespan May Be 50% Heritable, Challenging Conventional Wisdom on Lifestyle Factors",
-        "url": "https://www.merinohomesnews.com/lifespan-may-be-50-heritable-study-suggests/",
-        "reason": "A groundbreaking study published in 'Science' suggests that approximately 50% of an individual's lifespan is determined by their genetic makeup, challenging the long-held belief that lifestyle factors are the primary drivers of longevity. This finding has significant implications for our understanding of aging and could reshape public health policy and research priorities, emphasizing the crucial role of genetics in determining lifespan."
+        "headline": "Rapamycin Remains Most Reliable Lifespan Extender Across Sexes, Combination Therapies Show Promise",
+        "url": "https://www.xandrolab.com/news/june-2025-longevity-newsletter",
+        "reason": "A comprehensive review of the National Institute of Aging's Intervention Testing Program over two decades indicates that rapamycin is the most consistently effective compound for extending lifespan in mammals. The research also suggests that combination therapies targeting multiple aging pathways may offer amplified benefits. This points towards a shift in longevity research towards more targeted and combinatorial approaches for human healthspan extension."
     },
     {
         "category": "Finance & Business",
-        "headline": "India Inc Projects 9.1% Salary Hike in 2026 Amidst M&A Surge and GDP Growth",
-        "url": "https://economictimes.indiatimes.com/et-finance/et-cfo/news/india-inc-projects-9-1-salary-hike-in-2026-amidst-ma-surge-and-gdp-growth/articleshow/116051989.cms",
-        "reason": "This headline signifies robust economic confidence in India, with companies forecasting a significant salary hike for 2026. This optimism is bolstered by a surge in billion-dollar M&A deals and a projected GDP growth crossing 8% in Q3 FY26. It indicates a strong business environment and investment in human capital."
+        "headline": "OpenAI Secures $110 Billion in Funding from Amazon, Nvidia, and SoftBank, Valued at $850 Billion",
+        "url": "https://www.theinformation.com/articles/openai-to-raise-an-additional-10-billion-in-funding-from-financial-investors",
+        "reason": "This massive funding round, with OpenAI potentially raising an additional $10 billion to reach a total of $110 billion from investors including Amazon, Nvidia, and SoftBank, underscores the immense commercial interest and investment in advanced AI capabilities. The valuation of $850 billion signals a significant financial shift, indicating that AI infrastructure and development are becoming a dominant force in the business and investment landscape."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Google Reabsorbs Intrinsic: Accelerating the Push for Physical AI Amidst Global Robotics Race",
-        "url": "https://www.futunn.com/post/google-reabsorbs-intrinsic-accelerating-the-push-for-physical-ai",
-        "reason": "Google's decision to reintegrate its robotics software subsidiary Intrinsic back into Google signifies a strategic acceleration in its 'physical AI' efforts. This move occurs as global tech giants like Amazon and Tesla are rapidly advancing their robotics platforms, highlighting the intense competition and the growing importance of embedding AI into physical systems for manufacturing, logistics, and beyond."
+        "headline": "AI Surgeon Performs Gallbladder Removals With 100% Accuracy; Humanoid Robots Compete in Football Tournament",
+        "url": "https://www.youtube.com/watch?v=0b0_p4lX0m4",
+        "reason": "Recent breakthroughs demonstrate AI's rapidly advancing capabilities in both critical medical procedures and complex physical tasks. An AI-powered surgical robot achieving perfect accuracy in gallbladder removals signifies a major leap towards autonomous surgery, while humanoid robots participating in a football tournament highlights progress in human-robot interaction and dexterity in dynamic environments."
     },
     {
         "category": "Global Progress",
-        "headline": "UN Talks End in Rome with Nations Backing $200 Billion a Year Plan to Protect Nature",
-        "url": "https://www.independent.co.uk/news/world/world-news/un-talks-rome-nature-plan-a9356126.html",
-        "reason": "This headline represents a significant positive development in global environmental efforts, with nations committing substantial funding to protect nature. The agreement signals a collective global commitment to addressing environmental degradation and biodiversity loss, offering a hopeful outlook for conservation and sustainable development."
+        "headline": "World Leaders Urged to Reset Global Water Agenda Amid 'Water Bankruptcy' Reality",
+        "url": "https://unu.edu/publications/articles/world-enters-era-of-global-water-bankruptcy-un-scientists-formally-define-new-post-crisis-reality-for-billions",
+        "reason": "UN scientists have formally defined a state of 'global water bankruptcy,' indicating that long-term overuse and degradation have irreversibly damaged critical water systems worldwide. This designation highlights a severe and interconnected global challenge, urging world leaders to use upcoming UN milestones to reset the global water agenda and address water scarcity as a bridge for peace, climate action, and food security."
     }
 ]
