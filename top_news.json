@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Texas Instruments and NVIDIA Fuse AI and Sensing for 'Physical AI' Revolution in Humanoid Robots",
-        "url": "https://www.sec.gov/Archives/edgar/data/90943/000119312526079801/dex10k20251231.htm",
-        "reason": "This collaboration between Texas Instruments and NVIDIA integrates real-time control, sensing, and power products with NVIDIA's robotics computing and simulation technologies. This fusion aims to accelerate the development and mass production of humanoid robots and other 'Physical AI' devices, by creating a more comprehensive, secure, and scalable robotic intelligent infrastructure at the foundational technology stack, which is a significant step towards enabling real-world applications for humanoid robots."
+        "headline": "Carmakers are advancing Level 3 autonomous driving systems that allow drivers to look away from the road under limited conditions, usually on highways.",
+        "url": "https://www.youtube.com/watch?v=4OQ6-n1Q068",
+        "reason": "This headline signifies a major shift towards 'eyes-off' driving, moving beyond current driver-assist features (Level 2) into more advanced autonomous capabilities, albeit with limitations. The significant development costs and safety concerns highlight the complexities and industry-wide push to overcome hurdles in achieving higher levels of automation."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Yale University Develops SystemsAge: A Novel Blood Test for Biological Age of 11 Organ Systems",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3ptoC65tqVo-eNynMiwIwJtabBGKCmXx0D2UJt2MwiIYyDUNIfLBplrH6mgPgxGhnxAVLCRvxTnD9745YYCzGzYhdZXF-8GQR8k0WGgTHgNiB21wrljbyWVCEr7XzqiNybRfNshbgbB_xCs4zwuM=,https://www.nature.com/articles/s43587-025-00053-4",
-        "reason": "Yale University has developed SystemsAge, a novel blood test that assesses the biological age of 11 different organ systems from a single DNA methylation assay. This breakthrough represents a significant step towards personalized and preventive medicine, enabling targeted interventions based on the specific aging patterns of organs. The test is described as more cost-effective than existing panels and ready for clinical use."
+        "headline": "A longevity drug that could help people live healthier for longer had once seemed like a pipe dream.",
+        "url": "https://time.com/6930473/bioage-labs-longevity-drug/",
+        "reason": "This headline points to BioAge Labs' progress in translating academic longevity research into actual drugs targeting age-related diseases. The focus on extending 'healthspan' (years spent in good health) rather than just lifespan, and the mention of potential applications for cardiovascular disease and neurodegenerative disorders, indicate a significant step towards actionable interventions."
     },
     {
         "category": "Finance & Business",
-        "headline": "Dyna.Ai Raises Eight-Figure Series A to Deploy Agentic AI in Financial Services",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtrlO7f88NRdGjBoSMimOhnjV5QJWvF5w_ehYdRqhzmfLa27vx4GjEOipeeg1TWz3Q-LZgO3TEezqaXekKr6A8AH-2v2DtD73-CYySKZs_ufG_tG3o-zknlGmDFUHpPQ79rnFHeRgA",
-        "reason": "Dyna.Ai has secured an eight-figure Series A funding round to implement agentic AI within financial services. This development highlights a growing trend of AI integration in finance, focusing on creating AI agents that can automate complex tasks and decision-making processes within the sector."
+        "headline": "TELUS CEO's Parting Shot: '$2 Billion in AI Revenue by 2028' Is the Number He Wants Investors to Remember",
+        "url": "https://247wallst.com/technology/2026/03/10/telus-ceos-parting-shot-2-billion-in-ai-revenue-by-2028-is-the-number-he-wants-investors-to-remember/",
+        "reason": "This headline highlights a significant financial target for AI revenue within a major telecommunications company, signaling a strategic shift towards AI infrastructure and monetization. The projected substantial growth from $800 million to $2 billion by 2028 indicates a strong market trend and investment focus on AI capabilities."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Generative AI Analyzes Medical Data Faster Than Human Research Teams",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV3-UuqOOj3ZOSOPx8lT8inHvwRvvFF7Jf6q40hZu4N6iSFWg1kOVh1cQ0wEzu1EMM9A0RYIbXZU54DurX6vTqezxN4QMmUjFQrcj84dCSnEh9_afAti8DPxe1KqyHHJKMgPGYwJqs_bKkQ-IShfs9UO-viZg=",
-        "reason": "New research indicates that generative AI systems can now analyze complex medical datasets with a speed and accuracy that matches or even surpasses human experts. In some cases, AI has outperformed teams that spent months developing prediction models, showcasing a significant leap in AI's capability for medical data analysis and accelerating diagnostic and research processes."
+        "headline": "OpenAI robotics leader resigns over concerns about Pentagon AI deal",
+        "url": "https://wusfnews.wusf.usf.edu/science-tech/2026-03-08/openai-robotics-leader-resigns-over-concerns-about-pentagon-ai-deal",
+        "reason": "The resignation of a senior OpenAI robotics leader due to ethical concerns about a Pentagon AI partnership is a highly impactful headline. It underscores the critical intersection of advanced AI development, national security, and the ethical considerations surrounding lethal autonomy and surveillance, raising significant questions about oversight and responsible AI deployment."
     },
     {
         "category": "Global Progress",
-        "headline": "Groundbreaking UN Report Reveals Powerful Link Between Poverty and Climate Crisis",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG74-d7bCWDhnnIMLEEZHKkIGkzsh2JcN8Usjp2d9_sQHAvaxkw3INNWULPGnPonv06weYok7fqOJbZq6qQdITkyRbuiBjWBdVKwm0Bx7aGEnguNpuLVOC9dOQX-4vuNTgkHxcEsjfMBaJeN97y58sExXchoTqLOjJlSHvhHMlt3JBXjZ2uMVqXOzEruqOtdYFrofxe6g=",
-        "reason": "A new United Nations report, combining climate data with poverty metrics, reveals that 80% of the world's poor (887 million people) live in regions exposed to extreme climate hazards like heat, flooding, and drought. This highlights the disproportionate impact of climate change on vulnerable populations and underscores the urgent need for global action to address both poverty and the climate crisis simultaneously."
+        "headline": "Trump says Iran war could be over soon, but oil disruption would trigger harsher US strikes.",
+        "url": "https://apnews.com/article/iran-war-trump-oil-prices-middle-east-f7e9c8b2c6b110a06f7a1b1d65b04e46",
+        "reason": "While not purely 'good news,' this headline represents a potential de-escalation in a major global conflict. Trump's suggestion of the war ending soon, coupled with a warning against oil disruption, indicates a complex geopolitical situation where diplomatic signals and economic pressures are being used to steer towards a resolution, which could lead to reduced global instability and economic strain."
     }
 ]
