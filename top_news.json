@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Carmakers are advancing Level 3 autonomous driving systems that allow drivers to look away from the road under limited conditions, usually on highways.",
-        "url": "https://www.youtube.com/watch?v=4OQ6-n1Q068",
-        "reason": "This headline signifies a major shift towards 'eyes-off' driving, moving beyond current driver-assist features (Level 2) into more advanced autonomous capabilities, albeit with limitations. The significant development costs and safety concerns highlight the complexities and industry-wide push to overcome hurdles in achieving higher levels of automation."
+        "headline": "Mercedes-Benz shifts autonomous driving tech in 2026 S-Class",
+        "url": "https://www.wardsauto.com/technology/mercedes-benz-shifts-autonomous-driving-tech-2026-s-class",
+        "reason": "The US market will see Mercedes-Benz's Drive Pilot (previously intended as Level 3) replaced by the newer Level 2++ MB Drive Assist Pro system, indicating a near-term recalibration of advanced driver-assistance features in production vehicles."
     },
     {
         "category": "Longevity Lab",
-        "headline": "A longevity drug that could help people live healthier for longer had once seemed like a pipe dream.",
-        "url": "https://time.com/6930473/bioage-labs-longevity-drug/",
-        "reason": "This headline points to BioAge Labs' progress in translating academic longevity research into actual drugs targeting age-related diseases. The focus on extending 'healthspan' (years spent in good health) rather than just lifespan, and the mention of potential applications for cardiovascular disease and neurodegenerative disorders, indicate a significant step towards actionable interventions."
+        "headline": "Generation Lab Introduces First Platform that Measures Aging & Treatment Efficacy to Help Extend the Human Healthspan",
+        "url": "https://www.generationlab.com/press-releases/generation-lab-emerges-from-stealth-mode",
+        "reason": "Generation Lab has launched a platform that measures aging speed, disease biomarkers, and aging factors, offering personalized plans for cellular regeneration to slow or reverse aging. This represents a significant step towards actionable, personalized longevity interventions."
     },
     {
         "category": "Finance & Business",
-        "headline": "TELUS CEO's Parting Shot: '$2 Billion in AI Revenue by 2028' Is the Number He Wants Investors to Remember",
-        "url": "https://247wallst.com/technology/2026/03/10/telus-ceos-parting-shot-2-billion-in-ai-revenue-by-2028-is-the-number-he-wants-investors-to-remember/",
-        "reason": "This headline highlights a significant financial target for AI revenue within a major telecommunications company, signaling a strategic shift towards AI infrastructure and monetization. The projected substantial growth from $800 million to $2 billion by 2028 indicates a strong market trend and investment focus on AI capabilities."
+        "headline": "AI Robotics Startup Rhoda Hits US$1.7 Billion Valuation after Successful Funding Round",
+        "url": "https://www.bnnbloomberg.ca/ai-robotics-startup-rhoda-hits-us-1-7-billion-valuation-after-successful-funding-round-1.2434361",
+        "reason": "Rhoda AI's substantial Series A funding and valuation indicate strong investor confidence in AI-driven robotics, particularly its approach to training robots using vast amounts of online video data to enhance adaptability in real-world industrial environments. This signifies a potential shift in how robots are developed and deployed."
     },
     {
         "category": "AI & Robotics",
-        "headline": "OpenAI robotics leader resigns over concerns about Pentagon AI deal",
-        "url": "https://wusfnews.wusf.usf.edu/science-tech/2026-03-08/openai-robotics-leader-resigns-over-concerns-about-pentagon-ai-deal",
-        "reason": "The resignation of a senior OpenAI robotics leader due to ethical concerns about a Pentagon AI partnership is a highly impactful headline. It underscores the critical intersection of advanced AI development, national security, and the ethical considerations surrounding lethal autonomy and surveillance, raising significant questions about oversight and responsible AI deployment."
+        "headline": "OpenAI Launches GPT-5.4, Surpassing Humans on Desktop Task Benchmarks",
+        "url": "https://www.crescendo.ai/news/openai-launches-gpt-5-4-surpassing-humans-on-desktop-task-benchmarks",
+        "reason": "GPT-5.4's reported performance exceeding human benchmarks on desktop task simulations signifies a major leap in AI's capability to act as an autonomous digital coworker, moving beyond conversational tools to executing complex workflows and knowledge-based tasks."
     },
     {
         "category": "Global Progress",
-        "headline": "Trump says Iran war could be over soon, but oil disruption would trigger harsher US strikes.",
-        "url": "https://apnews.com/article/iran-war-trump-oil-prices-middle-east-f7e9c8b2c6b110a06f7a1b1d65b04e46",
-        "reason": "While not purely 'good news,' this headline represents a potential de-escalation in a major global conflict. Trump's suggestion of the war ending soon, coupled with a warning against oil disruption, indicates a complex geopolitical situation where diplomatic signals and economic pressures are being used to steer towards a resolution, which could lead to reduced global instability and economic strain."
+        "headline": "Tanzanian School Launches Energy Club to Promote Clean Cooking",
+        "url": "https://www.ipsnews.net/2026/03/tanzanian-school-launches-energy-club-promote-clean-cooking/",
+        "reason": "This initiative highlights a grassroots effort towards sustainable energy solutions and improved living conditions in Tanzania, addressing health and environmental issues through education and practical application of clean cooking methods."
     }
 ]
