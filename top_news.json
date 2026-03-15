@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Carmakers Are Advancing Level 3 Autonomous Driving Systems That Allow Drivers to Look Away From the Road Under Limited Conditions",
-        "url": "https://www.youtube.com/watch?v=sJ6Lw9bN0rU",
-        "reason": "This headline signifies a significant step towards higher levels of autonomy (Level 3) in consumer vehicles, where drivers can disengage from monitoring the road in specific scenarios. This has implications for driver behavior, vehicle design, and regulatory frameworks, even as safety and responsibility concerns remain."
+        "headline": "Vision-only FSD vs. sensor fusion: Tesla's eyes vs. Nvidia's arsenal \u2014 who's winning the self-driving wars?",
+        "url": "https://gulfnews.com/technology/vision-only-fsd-vs-sensor-fusion-teslas-eyes-vs-nvidias-arsenal--whos-winning-the-self-driving-wars-1.106131741643029073",
+        "reason": "This article delves into the ongoing debate and technological advancements in autonomous driving, contrasting Tesla's vision-only approach with sensor fusion methods championed by Nvidia. It highlights key differences in their AI architectures and sensor strategies, with Nvidia's CEO praising Tesla's vision-only system while also promoting their own versatile platform for the broader industry. The discussion points to the strategic importance of cost and scalability in achieving widespread autonomous vehicle deployment."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Rapamycin May Extend Lifespan Almost as Effectively as Dieting",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-api/redirect/AUZIYQH8GhCOdXQLMSUv381IQNapOzurtJSfQmDeKCW4aQcz396D9mK4obvjMuYmFh6uivPdBT4jh0GgXWfNzVlkyTbpT3dEoBGaahx-OKZbfiGzIBUEiB_mpgHIUvuwMm0WUpT_AU7hfjIsjIcTLt7YbaXGszVUGVVt5Kd1dTYw4FkrApxGu7vNP_pI-PmNEDj60zwhdo0m",
-        "reason": "This finding from a review of multiple animal studies suggests a pharmaceutical intervention (rapamycin) could rival established longevity interventions like calorie restriction. It highlights a potential actionable protocol for extending lifespan, moving beyond purely lifestyle-based approaches."
+        "headline": "Top 10 Longevity & Anti-Aging Breakthroughs of 2025: What the Year Taught Us About Extending Human Healthspan",
+        "url": "https://www.anti-aging-news.com/2025/12/29/top-10-longevity-anti-aging-breakthroughs-2025/",
+        "reason": "This review synthesizes the most impactful longevity research from 2025, highlighting key findings such as rapamycin's continued reliability as a lifespan extender, the promise of SGLT2 inhibitors for telomere length, and the amplified benefits of combination therapies. It emphasizes the consistent targeting of metabolic resilience, stress response, and immune/inflammation regulation in lifespan-extending compounds, setting the stage for future human trials and drug development."
     },
     {
         "category": "Finance & Business",
-        "headline": "Wall Street Week Ahead: Investors await Fed rate outlook as Iran war keeps markets on edge",
-        "url": "https://pulse.zerodha.com/latest-news/wall-street-week-ahead-investors-await-fed-rate-outlook-as-iran-war-keeps-markets-on-edge",
-        "reason": "This headline points to a significant macro shift. The combination of anticipated Federal Reserve interest rate decisions and the geopolitical tension of the Iran war creates a dual uncertainty that is heavily influencing market sentiment and investor strategy, indicating a period of heightened volatility and cautiousness."
+        "headline": "Energy company shares treading water while Iran war lifts crude oil above $100",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/energy-company-shares-treading-water-while-iran-war-lifts-crude-oil-above-100/articleshow/108498169.cms",
+        "reason": "This headline indicates a significant macro market shift driven by geopolitical events. The rise in crude oil prices above $100 due to the Iran war is directly impacting energy company shares, creating a divergence in market performance. This suggests a broader economic ripple effect from the conflict, influencing investment sentiment and sector-specific trends."
     },
     {
         "category": "AI & Robotics",
-        "headline": "AI Adviser Helps Robotic Lab Discover Advanced Electronic Materials 60x Faster",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api/redirect/AUZIYQEYDtcFMqeCv-kPmItuEL8-3eLURr9HDM0egD7Lk2s7kuLGyS_LfEwS_uvK2uTd2kqNbwmX_MS8pofvvwHvxaKq8qtPcr82ljgLLRYSiIvS34QZ_m3WkiRaK53ZzSJRk8rf0VKAyXP71Fgy301LnVcEfkalzHWZcND7JDlggCfR7YioEDQ",
-        "reason": "This development showcases a significant advancement in AI's application in scientific discovery, specifically within robotics and materials science. The '60x faster' metric indicates a breakthrough in accelerating research and development, with potential to fast-track the creation of new technologies."
+        "headline": "Boston Dynamics Utilizes AI to Train Humanoid Robots for Industrial Roles",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfJplADweBevwNZy3TnwVHQUxeFGmxJv-dgRoFdbDEL_s-96CQOsgQH2BpXVNaxpQAh0ntiAMz9dyAYuGRFXwNV5R1FUjBjq3tkktCV7EQmdUKmtDHvM_LtnbcdtT5Qhy1lnT6wwL22_1uQrdoHm6z1_Si",
+        "reason": "This news highlights a significant advancement in AI and robotics, specifically focusing on the deployment of humanoid robots in industrial settings. By using reinforcement learning and AI training, Boston Dynamics' new electric Atlas model can perform complex, autonomous tasks and adapt to changing environments. This signifies a move towards more capable and versatile robots in real-world applications, moving beyond rigid programming to intelligent adaptation."
     },
     {
         "category": "Global Progress",
-        "headline": "Global survey reveals 'truly astonishing' consensus for stronger climate action",
-        "url": "https://news.un.org/en/story/2024/06/1209687",
-        "reason": "This news indicates a strong, unified global public demand for decisive action on climate change, transcending geopolitical differences. The 'astonishing consensus' suggests a powerful mandate for leaders to prioritize and implement ambitious climate policies, which is a positive indicator for global cooperation on a critical issue."
+        "headline": "The overwhelming majority of people around the world want an end to geopolitical differences when it comes to fighting climate change, the results of a landmark public opinion poll conducted by the UN Development Programme (UNDP) has shown.",
+        "url": "https://news.un.org/en/story/2024/06/1150816",
+        "reason": "This headline points to a significant global consensus on climate action, demonstrating a powerful 'good news' element by highlighting a shared desire for international cooperation on a critical issue. The UNDP poll reveals that 80% of respondents support more ambitious climate action and want leaders to transcend differences, indicating a strong public mandate for addressing the climate crisis collaboratively."
     }
 ]
