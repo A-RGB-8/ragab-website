@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Vision-only FSD vs. sensor fusion: Tesla's eyes vs. Nvidia's arsenal \u2014 who's winning the self-driving wars?",
-        "url": "https://gulfnews.com/technology/vision-only-fsd-vs-sensor-fusion-teslas-eyes-vs-nvidias-arsenal--whos-winning-the-self-driving-wars-1.106131741643029073",
-        "reason": "This article delves into the ongoing debate and technological advancements in autonomous driving, contrasting Tesla's vision-only approach with sensor fusion methods championed by Nvidia. It highlights key differences in their AI architectures and sensor strategies, with Nvidia's CEO praising Tesla's vision-only system while also promoting their own versatile platform for the broader industry. The discussion points to the strategic importance of cost and scalability in achieving widespread autonomous vehicle deployment."
+        "headline": "Carmakers are advancing Level 3 autonomous driving systems that allow drivers to look away from the road under limited conditions, usually on highways.",
+        "url": "https://www.youtube.com/watch?v=i0j1d07Kq6s",
+        "reason": "This headline indicates a significant shift towards 'eyes-off' driving capabilities in Level 3 autonomous systems, a technical milestone that brings cars closer to full autonomy but also introduces new safety and responsibility challenges."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Top 10 Longevity & Anti-Aging Breakthroughs of 2025: What the Year Taught Us About Extending Human Healthspan",
-        "url": "https://www.anti-aging-news.com/2025/12/29/top-10-longevity-anti-aging-breakthroughs-2025/",
-        "reason": "This review synthesizes the most impactful longevity research from 2025, highlighting key findings such as rapamycin's continued reliability as a lifespan extender, the promise of SGLT2 inhibitors for telomere length, and the amplified benefits of combination therapies. It emphasizes the consistent targeting of metabolic resilience, stress response, and immune/inflammation regulation in lifespan-extending compounds, setting the stage for future human trials and drug development."
+        "headline": "Scientists Extend Lifespan by over 70% in Elderly Male Mice with New Treatment.",
+        "url": "https://www.scitechdaily.com/scientists-extend-lifespan-by-over-70-in-elderly-male-mice-with-new-treatment/",
+        "reason": "This research on mice, combining oxytocin with an Alk5 inhibitor, shows a significant extension in both lifespan and healthspan, offering a potential breakthrough in understanding and treating aging, though it highlights sex-specific differences in response."
     },
     {
         "category": "Finance & Business",
-        "headline": "Energy company shares treading water while Iran war lifts crude oil above $100",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/energy-company-shares-treading-water-while-iran-war-lifts-crude-oil-above-100/articleshow/108498169.cms",
-        "reason": "This headline indicates a significant macro market shift driven by geopolitical events. The rise in crude oil prices above $100 due to the Iran war is directly impacting energy company shares, creating a divergence in market performance. This suggests a broader economic ripple effect from the conflict, influencing investment sentiment and sector-specific trends."
+        "headline": "SBI mobilises Rs 6,051 crore from Tier II bonds to fund biz growth.",
+        "url": "https://pulse.zerodha.com/news/sbi-mobilises-rs-6051-crore-from-tier-ii-bonds-to-fund-biz-growth",
+        "reason": "This indicates a substantial capital raise by a major Indian bank, signaling a robust financing activity and growth plans within the financial sector, potentially reflecting broader economic confidence or strategic maneuvering in response to market conditions."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Boston Dynamics Utilizes AI to Train Humanoid Robots for Industrial Roles",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfJplADweBevwNZy3TnwVHQUxeFGmxJv-dgRoFdbDEL_s-96CQOsgQH2BpXVNaxpQAh0ntiAMz9dyAYuGRFXwNV5R1FUjBjq3tkktCV7EQmdUKmtDHvM_LtnbcdtT5Qhy1lnT6wwL22_1uQrdoHm6z1_Si",
-        "reason": "This news highlights a significant advancement in AI and robotics, specifically focusing on the deployment of humanoid robots in industrial settings. By using reinforcement learning and AI training, Boston Dynamics' new electric Atlas model can perform complex, autonomous tasks and adapt to changing environments. This signifies a move towards more capable and versatile robots in real-world applications, moving beyond rigid programming to intelligent adaptation."
+        "headline": "Nvidia CEO Jensen Huang has called OpenClaw \"the single most important piece of software, probably ever,\" and this year's GTC showed just how serious the Nvidia CEO is about adopting the viral agentic tool.",
+        "url": "https://www.vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLm5L6ernvUHGKT3aFqnkWadzuZP7mLN8-KTxLFtE046CTeJuC2R8X9DgoVOvUpf9oqAncDE132MpJTO60Rc0EADkvtOB79C3MXRXoMvQNaDbr2jCqYYKllnAAwU6n93Rd9w1j3wnuGFX-tAk7YcU=",
+        "reason": "Nvidia's endorsement of OpenClaw as a pivotal software for AI agents signifies a major development in the field, potentially accelerating the adoption and capabilities of agentic AI across various industries."
     },
     {
         "category": "Global Progress",
-        "headline": "The overwhelming majority of people around the world want an end to geopolitical differences when it comes to fighting climate change, the results of a landmark public opinion poll conducted by the UN Development Programme (UNDP) has shown.",
-        "url": "https://news.un.org/en/story/2024/06/1150816",
-        "reason": "This headline points to a significant global consensus on climate action, demonstrating a powerful 'good news' element by highlighting a shared desire for international cooperation on a critical issue. The UNDP poll reveals that 80% of respondents support more ambitious climate action and want leaders to transcend differences, indicating a strong public mandate for addressing the climate crisis collaboratively."
+        "headline": "UN talks end in Rome with nations backing $200 billion a year plan to protect nature.",
+        "url": "https://www.independent.co.uk/news/world/world-news/un-talks-rome-protect-nature-200-billion-dollars-a-year-b2499365.html",
+        "reason": "This headline represents a significant international agreement with substantial financial commitment towards environmental protection, signaling global cooperation on a critical issue."
     }
 ]
