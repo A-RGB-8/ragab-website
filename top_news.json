@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Waymo Still the Gold Standard for Safety, Robustness, and Smooth Decision-Making in Autonomous Driving, While Tesla's FSD v12 and Beyond Represents a Bold End-to-End Neural Architecture.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErsjfuaolOG2olFl8Jb5RWu6YxQvhy1s9-LXrJ-_qJ8h6w-OQHn4olyZa7XKPFn_TkxFB9EeubKagCH3XxMOlMqn5E0td8o2HkfTmJuHgGad-Dnhb3IOVow2GnotK2nY08U-WQ_2we0C1Qi9WBaTpr4yhhHSjhby-32d9BcmXcJ8uUiNpiE6u61Wtm969cOdg=",
-        "reason": "This headline highlights the differing approaches and current standings of leading autonomous driving companies, focusing on technical aspects like sensor fusion, decision-making, and system architecture, rather than market hype. Waymo is recognized for its mature sensor fusion and robust decision-making, while Tesla's end-to-end neural network approach is noted for its innovation and reliance on fleet data."
+        "headline": "Waymo Expands Self-Driving Car Testing to 10 More U.S. Cities in 2025",
+        "url": "https://www.krdo.com/news/technology/waymo-self-driving-cars-testing-10-more-us-cities-2025/1639951118",
+        "reason": "Waymo's expansion to 10 new cities signifies a significant step forward for autonomous vehicle (AV) technology, indicating that after years of technical hurdles, AVs are finally gaining momentum and moving closer to widespread adoption."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Rapamycin Remains the Single Most Reliable Lifespan Extender Across Sexes, and Combination Therapies May Outperform Single Interventions in Longevity Research.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4P3hFlDo_K2MCBzQnAJYGI2oguYHjrOTeGBZ0qVtGvabVLHLKG5PdxKNqbAXf-sBXD-vCcDd-6TWHbOltWq59pkaSif-LdGM3IneJWKrW_aiBBFmkb2f_D_um6Fv6MN3zD4SnEgpcXNErdSe1Ed37Ee6mj-vncN2u72SibUsxmyW_a8F8iCOL5LBVdk_PK-UC5VGhJVDt-n5pTBM=",
-        "reason": "This finding from a review of the NIA Interventions Testing Program emphasizes rapamycin's consistent effectiveness in extending lifespan in mammals and suggests that combining interventions could yield even greater benefits. It focuses on actionable research findings relevant to human healthspan and longevity protocols."
+        "headline": "Scientists Extend Lifespan by Over 70% in Elderly Male Mice with New Treatment",
+        "url": "https://www.generationlab.io/news/scientists-extend-lifespan-by-over-70-in-elderly-male-mice-with-new-treatment",
+        "reason": "This study demonstrates a significant breakthrough in longevity research by extending the lifespan of elderly male mice by over 70% using a combination treatment, highlighting potential for future human healthspan applications."
     },
     {
         "category": "Finance & Business",
-        "headline": "Stock Rotation Hits Tech Giants as Small Caps Rise Amidst Concerns Over AI's Impact on Software Businesses.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1O-15-wyZMzd4D503u4bsv97CZWZrkDrK_ZoempLW25GuGhd1HTPOpUnCE594JuzEswOCm-DQC-F2TfWqP2zKyJu_voe_nkG-U5FohuRP1urlDi9QtbM2z8zzGBg9SgMvq74Z-zI=",
-        "reason": "This headline signifies a major shift in market sentiment, moving away from tech megacaps towards smaller companies. The underlying 'why' is the growing concern about AI's disruptive potential on established software businesses, indicating a significant macro shift in investment strategy and a re-evaluation of tech valuations."
+        "headline": "Nvidia-Backed Startup Reflection Eyes $25 Billion Valuation for Open-Source AI Models",
+        "url": "https://www.morningstar.com/us/news/dow-jones-top-company-headlines-at-11-pm-et-nvidia-backed-startup-seeking-to-counter-chinese-ai-eyes-25-billion-valuation/",
+        "reason": "The significant valuation sought by Reflection, a startup focused on countering Chinese AI with open-source models, underscores the immense investor confidence and competitive landscape in the AI sector, with Nvidia's backing highlighting its potential impact."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Google DeepMind Unveils 'Thinking AI' Models (Gemini Robotics 1.5 and Gemini Robotics-ER 1.5) Enabling Robots to Perform Complex, Multi-Step Tasks and Reason in Unprecedented Ways.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYcaFPFyTpY4M2v69NOYL3c8Rkz0Blb1uwKVTj60nuh1lIH0IIMpTcDhN2VKM7AQ_NPcznVP2_5yyvEec5r9N2gNaLRu97c_Z4Z56XKuVu9IwcsoYUwvOWdJFzn1epP-PSNu0JVobhIH8l67KszBY_1Epqocz4g7LmyFnaSsdbnDgk1qoeJP_y8m07ar_OmThFaX_qLl9Xa_ElChagVBC7pUODjB5h32Rhp5eiAsM3EXBjh3lyYBicSJMUHaBon1MRF0_VNcSILe4_HpMUjyG1p5cfG8hC6dV_O1TIPcAnydB7BYuhspNJGqLH5RnFqicLVvk=",
-        "reason": "This represents a significant breakthrough in AI and robotics, as new models allow robots to perform complex, multi-step tasks and exhibit reasoning capabilities previously unachievable. The ability for robots to perform actions beyond simple commands, exemplified by sorting fruit, indicates a major advancement in human-robot interaction and real-world applicability."
+        "headline": "Melania Trump Unveils AI-Powered Robot Figure 3 at the White House",
+        "url": "https://www.krdo.com/news/technology/melania-trump-brings-ai-powered-robot-to-the-white-house-and-says-there-could-be-more-of-them-soon/1639962852",
+        "reason": "The introduction of an AI-powered humanoid robot, Figure 3, at the White House signifies a notable public demonstration of advanced robotics and AI in a high-profile setting, signaling the growing integration of such technologies into societal functions and discussions about AI's future role."
     },
     {
         "category": "Global Progress",
-        "headline": "EU Emissions Plummeted by 8% in 2023, Driven by Renewables, and Advanced Economies Saw Emissions Drop to a 50-Year Low.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP8ydOWAofaieVtNX-7wAhAXj4FIB5zMWF0WC_noruUdEtpov589O8pOfhLH_SE6i-e9FpnvG0o9UxCTCO7gf_RxrPf4nEPA9XltCSmqxaP8Rn29dGM3IneJWKrW_aiBBFmkb2f_D_um6Fv6MN3zD4SnEgpcXNErdSe1Ed37Ee6mj-vncN2u72SibUsxmyW_a8F8iCOL5LBVdk_PK-UC5VGhJVDt-n5pTBM=",
-        "reason": "This headline highlights substantial positive progress in reducing greenhouse gas emissions. The significant drop in EU emissions and the 50-year low in advanced economies demonstrate effective climate action through the closure of coal plants and the rapid rollout of renewables, contributing to global efforts against climate change."
+        "headline": "Iran Rejects US Ceasefire Plan, Submits Its Own Amid Push for Talks",
+        "url": "https://www.theguardian.com/world/live/2026/mar/25/iran-war-middle-east-latest-news-updates",
+        "reason": "The diplomatic maneuvering between Iran and the US regarding a ceasefire proposal indicates a critical juncture in the ongoing conflict, with Iran's rejection of the US plan and submission of its own submission highlighting complex geopolitical negotiations and the potential for de-escalation or further conflict."
     }
 ]
