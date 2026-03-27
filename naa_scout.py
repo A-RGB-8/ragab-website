@@ -11,8 +11,8 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-# CHANGE: Moving to 2.5 Flash-Lite (the 2026 Free Tier Standard)
-model_id = "gemini-2.5-flash-lite" 
+# CHANGE: Moving to 2.5 Flash
+model_id = "gemini-2.5-flash"
 
 prompt = """
 Perform a deep-scan of the web for the last 24 hours and identify the single most impactful headline for each of these 5 categories. 
