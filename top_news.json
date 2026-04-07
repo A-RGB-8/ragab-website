@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Xpeng CEO He Xiaopeng Praises Tesla's FSD 14.2 for 'Near-Level 4' Performance, Sets Benchmark for Xpeng's Autonomy Goals",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ7Ct0Y96WNvxB0sZ2JbvVOlKWaeFt4a4v72m0gDqMrnnTUkE82d6CI178KD7xWIwEz8mtNhfVSeFPi0rjSTtX9YQ359UDqYIOxnlg_DZAUy6tp7lB5cQqF0Evx46Buqn7JPSjlsz_uHuDJ6sZCAaler8jpAvn-6uHB7ggD9ihEKSijqb-1gwUYDMpor9-nykD",
-        "reason": "This headline signals a significant milestone in automated driving technology as a competitor's CEO acknowledges Tesla's Full Self-Driving (FSD) system reaching 'near-Level 4' capabilities. It suggests advancements in AI architecture and sensor fusion that are pushing the boundaries of autonomous vehicles and setting a new industry benchmark for achieving higher levels of autonomy."
+        "headline": "New AI Architecture Gives Self-Driving Cars Perfect 3D Vision with DriveTok System",
+        "url": "https://www.youtube.com/watch?v=s0b1S4B2gYw",
+        "reason": "This breakthrough introduces DriveTok, an AI architecture that unifies multi-camera views into a coherent 3D map using 'scene tokenization,' allowing autonomous vehicles to better understand depth and distance. This advancement addresses a core challenge in self-driving systems, moving closer to human-like perception and more reliable robotaxis."
     },
     {
         "category": "Longevity Lab",
-        "headline": "GLP-1 Drugs and Muscle Loss: The Body Recomposition Guide Offers Actionable Protocols to Preserve Lean Mass",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-3ilj-wsY2XPm0N9CYzdwnU72k09r8PYvWbn-IxsjwlV5oVab5Y1e5Eyr4kxaUZZ9hVYV8nw73r0syRV8-P3yM5TeqMWgMIFsu5kDcLzyARgrA0JACjg=",
-        "reason": "This headline is impactful for longevity research as it addresses a crucial, human-centric aspect of weight loss drugs like GLP-1 agonists (e.g., Ozempic). It highlights the critical concern of muscle loss alongside fat loss and, importantly, provides actionable protocols and a guide for individuals to preserve lean body mass while on these medications, directly impacting healthspan and long-term well-being based on clinical data."
+        "headline": "Buck Institute Launches Healthspan Horizons to Turn Long-Term Health Data into Actionable Healthspan Insights",
+        "url": "https://www.buckinstitute.org/news/buck-institute-launches-healthspan-horizons/",
+        "reason": "Healthspan Horizons aims to create a new research infrastructure that links real-world longitudinal health data with deep discovery science, utilizing AI to understand and extend the years of life spent in good health. This initiative focuses on identifying drivers of human healthspan over time and earlier signals for disease prevention, which is critical as people live longer but often with chronic diseases."
     },
     {
         "category": "Finance & Business",
-        "headline": "Market Rotation in Early 2026 Favors Industrials, Boosts Clearfield, Signaling Broadening Market Leadership",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0EMlx6V-uk6PefRegr3VMKJaJPGLRWRUZ8P0y8gYsH4y3dKWfLOLnj4XtF_AEddt84tOMeVQIrPdfj6gwRX_CkXGuZhyS02K4jtfIAwBYFn1XLvmGJcEg1xOP4M6zMr2Mj-f5sxEcydX86-NdGrBZYwDfjsXZLZlTNfReINPlO0k1rb6blvW_DrlvsrO5VtXJMufBMv85mxCqBQ==",
-        "reason": "This headline identifies a significant macro stock market shift, indicating a divergence from technology-focused funds towards industrial and consumer staples sectors in early 2026. This market rotation, coupled with a broadening of market leadership, suggests a shift in investor sentiment and economic drivers beyond a narrow group of tech giants, with companies like Clearfield benefiting from these new trends and government funding."
+        "headline": "Wall Street Ends Higher as Traders Price in De-escalation Hopes in Middle East",
+        "url": "https://seekingalpha.com/news/4094038-wall-street-ends-higher-as-traders-price-in-deescalation-while-iran-rejects-ceasefire-proposal",
+        "reason": "U.S. stocks finished higher, with the Nasdaq Composite, S&P 500, and Dow all closing positively. This market shift was primarily driven by investor optimism regarding potential de-escalation in the Middle East, despite ongoing geopolitical complexities, impacting oil prices and overall market sentiment."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Quantum Systems Deploys Receptor AI for Autonomous Target Recognition in Drones, Enhancing AI-Enabled Warfare Capabilities",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk3mRsBLNrKSkJyZPCSl1xNTKeUWGr2u7aVRyNFf9ktJyqi3-2NpCvQ45b_Iq_cccTKtTS4KGas3WAFhLUH6QG-3gnGhO786Ze1u-2IrFMFgAPo4-3H49iKQoF2cAIwXN51OnLDh-e7SdbNJ_Q1ZrdQk7kzyLeBGLQvg-Sys-Yq6md96w5pRZDlPCRGcVQlH4vbhL88R-5vrmMHOYUv8JBGlrlSavsElmJj29Tag==",
-        "reason": "This headline represents a breakthrough in robotics features and AI deployment by showcasing the implementation of Receptor AI for autonomous target recognition in drones. This advancement significantly enhances the capabilities of AI-enabled systems in real-world scenarios, particularly in defense applications, by automating critical functions and improving real-time situational awareness."
+        "headline": "Speculative Decoding Significantly Improves Local LLM Usability",
+        "url": "https://www.xda-developers.com/speculative-decoding-local-llm-usable/",
+        "reason": "A significant breakthrough in LLM behavior, speculative decoding, has made local large language models (LLMs) 'actually usable' by drastically improving inference speed. Instead of relying on a single large model for every token, a smaller, faster model drafts responses that the larger model then verifies, reducing wasted computational effort and enhancing practical deployment."
     },
     {
         "category": "Global Progress",
-        "headline": "China Expresses Optimism as Taliban-Pakistan Talks Progress Under Beijing's Mediation, Signifying Geopolitical De-escalation",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7DINzcoD8p9e67HPGqn7UxH8LKl5wfs8i7LogonguiQ8lMuZobwP3-qvHZDbuAs5Yx_W2iSzChnX13OAha4ZXVl3xkrgonlIZh-I6CWOe9Uj5I9yZSr8ruMJCNYmnXZGe",
-        "reason": "This headline is significant good news regarding geopolitical de-escalation. China's positive assessment of progressing talks between the Taliban and Pakistan, and the willingness of both sides to return to negotiations under Beijing's mediation, indicates a constructive effort to reduce tensions and potentially resolve ongoing border clashes and regional instability."
+        "headline": "The Volatility Thaw: VIX Retreats as Geopolitical Shadows Recede with 'Muscat Protocol'",
+        "url": "https://seekingalpha.com/article/4688467-volatility-thaw-vix-retreats-as-geopolitical-shadows-recede",
+        "reason": "The VIX (CBOE Volatility Index) retreated significantly, signaling a decrease in market fear and uncertainty, primarily due to the surprise signing of the 'Muscat Protocol.' This diplomatic breakthrough established a 'Green Channel' for maritime traffic through the Strait of Hormuz, easing global concerns about oil supply disruptions and broader geopolitical tensions in the Middle East."
     }
 ]
