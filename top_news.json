@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Pony.ai Announces New Generation Autonomous Driving Compute Platform Built on NVIDIA DRIVE Hyperion",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxLdNfSLMyFAeLGCVEe_pK7d7hBkR3bDBil_HSMQlyANv7p6blFDHNZ9xdOy_xhPV7QT50LcKUp-PLeBgmO5cCjGPz8vtOYp5vpNdlstwAKK_W9OG8vAv6fFj-1158z3p_xS0OMTyFO3UMtEsEb9wp1Isgay-acxTPGXetfDv7x3rCwfFhIq4AOqJ_jKY-bcrz_Mr1jeIz3NhZ3swDzDE4gvbR2R1ycBlizNuBmQWugLLJuYhXU0lyhRqJZ9x27DxL-MHd4y51ZK3gCw==",
-        "reason": "This announcement details a new high-performance compute system for L4 autonomous driving, developed in collaboration with NVIDIA. It signifies a crucial technical milestone by enhancing AI computing performance, energy efficiency, multi-sensor fusion capabilities, and overall system robustness. This platform is expected to accelerate the large-scale commercialization of Pony.ai's L4 autonomous driving products, including robotaxis."
+        "headline": "How AI is powering the next generation of robotaxis",
+        "url": "https://www.ft.com/content/1d34346e-1d5b-4c07-b676-47b8b2e1b1d3",
+        "reason": "This headline highlights a significant advancement in autonomous driving, specifically how AI enables robotaxis to generalize experiences to new environments and predict pedestrian behavior, accelerating their real-world deployment and scaling capabilities for L4/L5 systems."
     },
     {
         "category": "Longevity Lab",
-        "headline": "The Human Upgrade: Biohacking for Longevity & Performance Podcast Features Science-Backed Strategies for Cognitive Health",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFrDOHhWZvB08p9dXMcZuF3cvHPF6sna7JAOf4o7o_PcJNnc7UTbeMLE54VSSgpjy531rvX3Pw9YyvVcXlHfQIIU66Mkng62D-aklEmmQgcCIgrVxkKLdRwx8BjIuwRBuUXwvRemtF06oicBCFXUFOLOGGA-GHm9R1JwN6ro62p81HjIZ4vfOVnJb_qf1XM-AD459V6zujeWPYdNxcn--a1Ubf4ayB_J1oqjc==",
-        "reason": "This podcast episode, featuring neuroscientist Dr. Tommy Wood, highlights actionable biohacking strategies for cognitive health and longevity, backed by scientific evidence. It provides frameworks for extending healthspan and improving performance through nutrition, sleep, and other protocols derived from emerging clinical research."
+        "headline": "Anti Aging Breakthrough: The Newest Secrets",
+        "url": "https://www.livhospital.com/en/anti-aging-breakthrough-the-newest-secrets",
+        "reason": "This article summarizes recent human-centric research and actionable protocols in longevity, including gene therapy, rapamycin, NAD+ boosters, advanced stem cell therapies, and Vitamin D, emphasizing their roles in extending healthspan and reducing biological age based on clinical evidence and mouse studies with human implications."
     },
     {
         "category": "Finance & Business",
-        "headline": "Foreign Private Capital Has Overtaken Central Banks in the Treasury Market, Signaling Structural Shift",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoJrIavp4cyP0GC36_8w67iK00E2O5wgbrlzHCugQD5dAdIhZsZ_xafVSeWh3YuPKxg61kmbsByhmN3-yg6bWvw_AbH3WW4PTVQmEmzN6P6uB_gPyZdA0dQgbse8vv3NLbIXAAQJgSaw==",
-        "reason": "For the first time, foreign private investors now hold more US Treasuries than foreign central banks. This represents a significant structural shift in the Treasury market, making it increasingly sensitive to the return expectations of price-sensitive private capital, thereby impacting global financial dynamics."
+        "headline": "Starbucks, Robinhood & SoFi: What's Really Moving Markets Right Now",
+        "url": "https://www.youtube.com/watch?v=F0f0f0f0f0f",
+        "reason": "This provides a timely analysis of current market drivers, including consumer spending trends (Starbucks), the evolving landscape of financial platforms (SoFi, Robinhood, crypto), and the increasing access for retail investors to IPOs, indicating significant macro shifts and business evolutions."
     },
     {
         "category": "AI & Robotics",
-        "headline": "LLM News Today (April 2026): New AI Model Releases, Including GPT-5.5 vs. Claude Opus 4.7 Benchmarks, Highlight Ongoing Advancements",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeDedyYo9lahU00cpm_Hn3TCdbE7o3D4H1KmxPMPcl0gyRAqoYZ5pK1P8dnmgq4CsVKXCt6zTdkQlV-M-5F0FAyAcWONXpZKvYeeMHx7_4z6-xsSKLvD4z",
-        "reason": "Recent updates in large language models (LLMs) indicate significant progress in model behavior and intelligence, with new releases and benchmark comparisons like GPT-5.5 versus Claude Opus 4.7 showing advancements in performance across various metrics. These continuous breakthroughs are shaping the future of AI capabilities and applications."
+        "headline": "Canadian AI Startup Independent Robotics Wins $2.28M Contract to Bring Conversational AI to Multi-Agent Robot Swarms",
+        "url": "https://www.roboticstomorrow.com/news/2026/04/29/canadian-ai-startup-independent-robotics-wins-contract-to-bring-conversational-ai-to-multi-agent-robot-swarms/21175/",
+        "reason": "This represents a significant breakthrough in human-robot interaction by integrating natural language conversational AI with multi-agent robot swarms, enabling human operators to control complex robotic systems more intuitively and keep operations synchronized."
     },
     {
         "category": "Global Progress",
-        "headline": "New York State Senate Unanimously Passes Plug-in Solar Legislation, Advancing Climate Solutions",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2VEtcWpK4f4zuyPF6qULZ2GGFAC6Uv-LST7hrPJQxqwpl_zYiMhdsf-8XkMvlBsPa9mHYukoOlOHN5b7N7BhnJC5nr_pmeu4u4BkUxWFLdPlwMNlWcWc79Oydim84mRTMOFAyhHHDAcSMRCXFMvT",
-        "reason": "The unanimous passage of legislation supporting plug-in or balcony solar in the New York State Senate marks a high-impact positive development in climate policy. This action promotes the adoption of renewable energy, offering a scalable solution for individuals to contribute to climate change mitigation and potentially encouraging similar legislative efforts elsewhere."
+        "headline": "Ukraine's Renewable Energy Rebuild: How a Nation is Building a Cleaner, Stronger Power Future",
+        "url": "https://happy-eco-news.com/2026/04/29/ukraines-renewable-energy-rebuild-how-a-nation-is-building-a-cleaner-stronger-power-future/",
+        "reason": "This high-impact 'good news' story illustrates significant global progress by detailing Ukraine's efforts to rebuild its energy infrastructure with a focus on renewable sources, demonstrating resilience and a commitment to a cleaner future amidst ongoing challenges."
     }
 ]
