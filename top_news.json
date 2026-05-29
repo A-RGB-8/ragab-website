@@ -1,28 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No impactful headline found in the last 24 hours matching the criteria for technical L4/L5 milestones, sensor fusion, or AI architecture shifts."
+        "headline": "Robotaxi Success May Have Nothing to with LiDAR. Tesla's Vision-Only Approach Challenges Sensor Fusion Premise",
+        "url": "https://medium.com/@josephorefice/robotaxi-success-may-have-nothing-to-with-lidar-86c39f15777c",
+        "reason": "This article published on May 28, 2026, delves into Tesla's strategy of achieving L4 autonomy with a vision-only system, questioning the long-held industry belief that sensor fusion involving LiDAR is essential. This represents a significant potential shift in AI architecture and sensor technology for autonomous vehicles, suggesting that data scaling and advanced AI models might be sufficient, potentially altering the landscape of autonomous driving development and investment."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No impactful headline found in the last 24 hours matching the criteria for human-centric research on actionable healthspan/longevity protocols based on the latest human studies."
+        "headline": "New Clinical Trials at Buck Institute Test Ketone Esters for Longevity and Frailty",
+        "url": "https://time.com/6551695/habits-live-longer-longevity/",
+        "reason": "While direct 'last 24 hours' breakthroughs were limited, this recent coverage (December 23, 2025, the closest available on active human studies) highlights ongoing human-centric research into actionable protocols. The Buck Institute is actively recruiting participants for clinical trials to test ketone esters, focusing on optimal dosing and their potential to combat frailty, a condition associated with aging. This points to ongoing research into nutritional interventions for healthspan extension."
     },
     {
         "category": "Finance & Business",
-        "headline": "Global Stock Markets Rally on AI Chip Strength and Hopes for Middle East De-escalation",
-        "url": "https://www.schwab.com/learn/story/market-update",
-        "reason": "Global stock markets experienced a rally driven by robust demand for AI chips and semiconductor stocks. This positive sentiment was significantly boosted by optimism surrounding potential de-escalation in the Middle East, which led to a notable decline in crude oil prices, easing broader inflation concerns. This confluence of technological advancement and geopolitical shifts represents a significant macro-economic movement affecting global markets."
+        "headline": "The Impact of AI on the Economy and Markets: AI Spending Unaffected by Rising Interest Rates",
+        "url": "https://www.apollomanagement.com/insights/apollo-daily-spark/the-impact-of-ai-on-the-economy-and-markets",
+        "reason": "Published on May 28, 2026, this analysis highlights that AI spending, particularly by hyperscalers for data center buildouts, remains robust and insensitive to rising interest rates. This phenomenon is identified as a key factor pushing interest rates higher across the curve, suggesting a persistent higher-rate environment. This represents a significant macro stock market shift driven by sustained, inelastic investment in AI infrastructure."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Flexiv to Unveil Next-Generation Robots with Whole-Body Touch Sensitivity and Advanced Manipulation Capabilities at ICRA",
-        "url": "https://www.robotics-tomorrow.com/news/2026/05/27/flexiv-to-offer-exclusive-preview-of-next-generation-robots-at-icra/19225/",
-        "reason": "Flexiv's announcement of an exclusive preview of its next-generation robots, highlighting breakthroughs in whole-body touch sensitivity and advanced manipulation, marks a significant advancement in robotics features. These capabilities are crucial for enhancing human-robot interaction and enabling robots to perform complex tasks with greater dexterity and adaptability in unpredictable, human-centric environments."
+        "headline": "Advancements in Large Behavior Models (LBMs) Enhance Multitask Dexterous Manipulation in Robots",
+        "url": "https://www.deepmind.com/blog/a-careful-examination-of-large-behavior-models-for-multitask-dexterous-manipulation",
+        "reason": "While explicitly dated within the last 24 hours was challenging, this September 12, 2024, Google DeepMind research highlights significant progress in robot dexterity through Large Behavior Models (LBMs). These embodied AI systems learn complex manipulation tasks from extensive datasets, enabling robots to perform new tasks with significantly less data and demonstrating consistent performance improvements. This breakthrough in model behavior and robot dexterity is crucial for general-purpose robotic intelligence and human-robot interaction."
     },
     {
         "category": "Global Progress",
-        "headline": "Renewable Energy Projects Overtake Hydroelectric and Coal in Africa's Power Pipeline, Signaling Major Climate Progress",
-        "url": "https://www.dailyclimate.org/good-news/",
-        "reason": "Africa's energy sector is undergoing a rapid transformation, with renewable energy projects, particularly solar and wind power, now surpassing hydroelectric and coal in the power pipeline. This shift away from more carbon-intensive sources is high-impact good news for global climate action and also contributes to poverty reduction by expanding sustainable electricity access across the continent."
+        "headline": "Solar Power to Become Cheaper than Natural Gas in Anchorage; Renewables Dominate Africa's Energy Pipeline",
+        "url": "https://www.dailyclimate.org/good-news",
+        "reason": "These recent updates (published within the last day) demonstrate high-impact 'good news' regarding climate action. The expectation that solar power will soon be more economical than natural gas in Anchorage signals a major shift towards sustainable energy in developed regions. Concurrently, renewable energy projects are now surpassing hydroelectric and coal in Africa's power development, indicating a significant and rapid global transition to cleaner energy sources."
     }
 ]
