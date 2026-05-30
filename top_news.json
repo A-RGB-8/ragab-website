@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Robotaxi Success May Have Nothing to with LiDAR. Tesla's Vision-Only Approach Challenges Sensor Fusion Premise",
-        "url": "https://medium.com/@josephorefice/robotaxi-success-may-have-nothing-to-with-lidar-86c39f15777c",
-        "reason": "This article published on May 28, 2026, delves into Tesla's strategy of achieving L4 autonomy with a vision-only system, questioning the long-held industry belief that sensor fusion involving LiDAR is essential. This represents a significant potential shift in AI architecture and sensor technology for autonomous vehicles, suggesting that data scaling and advanced AI models might be sufficient, potentially altering the landscape of autonomous driving development and investment."
+        "headline": "BYD Unveils Next-Generation 'God's Eye' Self-Driving Tech with Mass-Produced 4nm Chip, Enabling L3/L4 Autonomy Across Vehicles",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC2wCfpnS4fG8VlgdwsRlGG8aQO8zJw5InGwNkogIOfsIwnuS3c651G-__-Ix367-bkIJ3N3WSu7f-kEDyATO8RazT_Y2MxiW9YWwFy2qHS_mwDUujfHgsrL36W8zFinbDXlzHs9_8lHh0b9sBojGRNWpEorSjzrUCLJ_0A_fRLEIVgnCUd3g_5UAZ3v9r8F31f2WsUOO66ew=",
+        "reason": "BYD's announcement of its self-developed 4nm intelligent driving chip, the Xuanji A3, capable of supporting Level 3 and Level 4 autonomous driving, marks a significant technical milestone and an architectural shift in automated driving technology. The integration of this 'God's Eye' system into all its vehicles, alongside a commitment to 1-year liability coverage for urban navigation, signals a major stride towards widespread deployment of advanced autonomous capabilities."
     },
     {
         "category": "Longevity Lab",
-        "headline": "New Clinical Trials at Buck Institute Test Ketone Esters for Longevity and Frailty",
-        "url": "https://time.com/6551695/habits-live-longer-longevity/",
-        "reason": "While direct 'last 24 hours' breakthroughs were limited, this recent coverage (December 23, 2025, the closest available on active human studies) highlights ongoing human-centric research into actionable protocols. The Buck Institute is actively recruiting participants for clinical trials to test ketone esters, focusing on optimal dosing and their potential to combat frailty, a condition associated with aging. This points to ongoing research into nutritional interventions for healthspan extension."
+        "headline": "Harvard Publishes 'Pathways to Longevity' Report, Bringing Healthspan Science to the Mainstream with Actionable Protocols",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHElwpek_dvAn_RxwvI1CXPZ4NNDeC7THtEacZW_xcvR94-7nG2y9suFWN5a45mWYWQclrrH35JqwrX2fVjE0jwAimDMXpCBdXfSCZrpRzyWLl-1Kbxm8Flxmd0U6rBmAWio_MPfNxSsIaixQcxW-EWuGILYgo15hcnzeKx74QxLgJxLl8pVxIsJbFf",
+        "reason": "Harvard Health Publishing's 'Pathways to Longevity' report is a crucial development in human-centric longevity research, translating complex medical research into actionable advice for the general public. The report emphasizes scientifically-backed protocols for nutrition, exercise (including balance), and alcohol consumption, signaling the field's maturity and its entry into mainstream awareness for improving healthspan."
     },
     {
         "category": "Finance & Business",
-        "headline": "The Impact of AI on the Economy and Markets: AI Spending Unaffected by Rising Interest Rates",
-        "url": "https://www.apollomanagement.com/insights/apollo-daily-spark/the-impact-of-ai-on-the-economy-and-markets",
-        "reason": "Published on May 28, 2026, this analysis highlights that AI spending, particularly by hyperscalers for data center buildouts, remains robust and insensitive to rising interest rates. This phenomenon is identified as a key factor pushing interest rates higher across the curve, suggesting a persistent higher-rate environment. This represents a significant macro stock market shift driven by sustained, inelastic investment in AI infrastructure."
+        "headline": "Anthropic's Valuation Reaches 'Mind-Boggling' $965 Billion, Eclipsing OpenAI in Latest Funding Round",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzUMX6nzFLALHDycc9KRrbI60UX_9bdiJMfgdvwtJzuXyH3sZdY2O_ZVc2SyJFofYSiDs7RjKQvepmUW_AkmzzPMoZKyD0yHFx9xQZ8bW-l8LaVktDNueFFI8w7KX6yRAV2Yg45WY=",
+        "reason": "Anthropic's latest funding round has propelled its valuation to an astonishing $965 billion, surpassing rival OpenAI and highlighting the immense investor confidence and 'deep bets' being made in artificial intelligence as a revolutionary technology. This significant macro shift in the valuation of an AI startup reflects the top trending business idea of AI and its perceived transformative potential in the global economy."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Advancements in Large Behavior Models (LBMs) Enhance Multitask Dexterous Manipulation in Robots",
-        "url": "https://www.deepmind.com/blog/a-careful-examination-of-large-behavior-models-for-multitask-dexterous-manipulation",
-        "reason": "While explicitly dated within the last 24 hours was challenging, this September 12, 2024, Google DeepMind research highlights significant progress in robot dexterity through Large Behavior Models (LBMs). These embodied AI systems learn complex manipulation tasks from extensive datasets, enabling robots to perform new tasks with significantly less data and demonstrating consistent performance improvements. This breakthrough in model behavior and robot dexterity is crucial for general-purpose robotic intelligence and human-robot interaction."
+        "headline": "Pudu Robotics Unveils Embodied Intelligence Foundation Model PuduFM 1.0 and AI Agent Platform PuduAgent to Globalize Physical AI for Enterprise Robots",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwJyY0H-5brXKhwVqiFj7UqYVmpYAbd5Ofaf8glzRnux8MuUL7fN27k4rVdgLFEBMLTTAmxFUUPRjro8WseP7fBVsCSs07zDZay-OmzWYGaK5VxoVYkhAaJcLlmBg3RU9RkojMAgnnD-wEiiBCMsF8sFNMrbxqz-ZA1m92HfGvuvhT4JdELvVPTpHVXxyFTnAwQ04IBGSTb9Wdy-mTIdqmEzhMjmsZJTi7d-WevE_U_HHuLbp1S1FaT5f_s6pcS9l-4YDPRydTyMrm4caWP4PlEi2_IhpJADJyrYgGXsgtzBpOWeWbsMF-UmIHCKEq3wdL_qAyugaA7fi5P59J1tr_MrkyiA-8vf_4qb4w",
+        "reason": "Pudu Robotics' introduction of its embodied intelligence foundation model PuduFM 1.0 and the general embodied AI agent platform PuduAgent represents a significant breakthrough in AI and robotics, particularly in robotics features and deployment. This 'One Brain, Multiple Embodiments' architecture strengthens the integration of AI models, autonomous mobility, and real-world task execution, paving the way for a multi-form ecosystem of specialized, semi-humanoid, and humanoid robots optimized for diverse environments and applications."
     },
     {
         "category": "Global Progress",
-        "headline": "Solar Power to Become Cheaper than Natural Gas in Anchorage; Renewables Dominate Africa's Energy Pipeline",
-        "url": "https://www.dailyclimate.org/good-news",
-        "reason": "These recent updates (published within the last day) demonstrate high-impact 'good news' regarding climate action. The expectation that solar power will soon be more economical than natural gas in Anchorage signals a major shift towards sustainable energy in developed regions. Concurrently, renewable energy projects are now surpassing hydroelectric and coal in Africa's power development, indicating a significant and rapid global transition to cleaner energy sources."
+        "headline": "US-Iran Draft Agreement Includes End to Lebanon War and Broader Regional De-escalation, Boosting Hopes for Middle East Peace",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFQCVzEM6ZBh2e_-3YJAVC6qcn0dqqjHVGMQGbRl_JVkO3YdliefA7haGfWmyuf1zh8NiW_b1pD7-qEUPu3-1PtIElKkvFo_QM_kdVKWTTCe8K7DyJnTm5W_NvJt1_HjDjQZ-5X1bVFLL7usPuMQVmmsflrR6M7UZME0kTTMO4-62LAg7-KypX9j6SLH-ohKNYhHWgg5WKJzB7sK2brA==",
+        "reason": "A senior source has disclosed a draft agreement between the United States and Iran that encompasses an end to hostilities in Lebanon, signaling a broader and highly impactful regional de-escalation. This development positively influences various Middle East conflicts, including the Israel-Hezbollah front, and is seen as a crucial component of the ongoing US-Iran negotiations, offering significant 'good news' regarding geopolitical stability."
     }
 ]
