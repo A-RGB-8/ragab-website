@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No highly impactful technical L4/L5 milestones, sensor fusion, or AI architecture shifts reported within the last 24 hours.",
-        "url": "N/A",
-        "reason": "A comprehensive scan of web sources for the last 24 hours (June 3, 2026, 8:39 AM UTC to June 4, 2026, 8:39 AM UTC) did not yield any headlines detailing technical L4/L5 milestones, significant sensor fusion advancements, or major AI architecture shifts in automated driving technology. News in this highly specialized field often takes longer to be widely reported or announced publicly. The most recent relevant, but older, discussions centered on end-to-end AI and sensor fusion."
+        "headline": "What are the latest advances in radar and LiDAR technologies for sensor fusion: part 3",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3g2sJxnJfZ7iQvhnD-LCKNeZpWVGPYGDV2tbgi8leZ-0EH8hNYWRCGqu4ngUfvtRXC5Ld8TvlEaJd7QRUp80pXsaT5G5xUpdxTJBzfI_gFyQ22nVBYg0r36osZYhG-xZSgcWAgA3732h2ONE_N4RqLC9xemfrUGS6l45TKWMY77pr_1Ojp_w4DssSvm7oCVmPJp79l8H08QDJ4w1uKpU4_-ApAGmbwRCT26G7WJwWpESMWw==",
+        "reason": "This article highlights ongoing advances in sensor fusion for autonomous driving, including the integration of artificial intelligence (AI) and machine learning (ML) to process complex sensor data. These advancements are crucial for achieving higher levels of autonomous driving and improving decision-making in various environmental conditions."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No new human-centric research on actionable longevity protocols (nutrition, sleep, supplements) based on the latest human studies was reported within the last 24 hours.",
-        "url": "N/A",
-        "reason": "A deep-scan for the last 24 hours (June 3, 2026, 8:39 AM UTC to June 4, 2026, 8:39 AM UTC) did not identify any single most impactful headline concerning new human-centric research on healthspan or longevity, specifically focusing on actionable protocols related to nutrition, sleep, or supplements based on the latest human studies. The available search results discussed existing longevity programs or older research findings."
+        "headline": "Longevity: Daily multi-ingredient supplement improves vascular aging",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyrN2xemjG8SXWQKtw1FKaJQzWBK-8VTW3nSXcf9LOI2B45TCx9eGGO8cIimHatiRelb-ZydfPTE4hqUmaJC9WDc40yVSFZXGM-iObkP96FAhEFvPQP_HJT4IinApmi1rRZ5pi3k_r2ZT0Ro7J4u_Xm9XJe6vrqJQHACWsOLOYbhIJF4bJ5YbYLMhyf8C3OEzy23MOsf7VKzwe41-ROaq_zsJWIt-dVssPruSVGcYamKuMw-iG3rTRjCHYCW8JTjxV2hrw==",
+        "reason": "A new clinical trial has found that a daily multi-ingredient longevity supplement may improve markers of vascular aging, such as arterial flexibility and healthy blood pressure support. This represents an actionable protocol derived from a human study, offering potential benefits for healthspan and longevity."
     },
     {
         "category": "Finance & Business",
-        "headline": "AI's Power Crunch Is Putting Uranium Energy Back on Investors' Watchlists",
-        "url": "https://www.marketbeat.com/stock-market-news/ais-power-crunch-is-putting-uranium-energy-back-on-investors-watchlists-2026-06-03/",
-        "reason": "This headline highlights a significant trending business idea driven by a major macroeconomic shift: the increasing energy demands of artificial intelligence. The 'why' is clear \u2013 as AI infrastructure expands, so does the need for reliable power, making uranium a focus for investors. This indicates a potential shift in energy investment trends linked directly to the booming AI sector."
+        "headline": "Bitcoin treasury firms shed $62B in market value as crypto rout deepens",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJsh32LcfEcAkMyuG9vXXNM7rBLroNRc_qjBjTkMgIGUhcw7iDp4Wqzsm9wWy8b7IBnhkje02QBJE9XCFlgFnvil42zhmYxGZHv7BHET_8P5UljX8=",
+        "reason": "This headline indicates a significant macro shift in the financial market, specifically a substantial decline in the crypto market, resulting in a $62 billion loss in market value for Bitcoin treasury firms. This highlights a major market movement and its impact on a specific sector."
     },
     {
         "category": "AI & Robotics",
-        "headline": "No major breakthroughs in LLM model behavior or robotics features (human-robot interaction, dexterity, deployment) were reported within the last 24 hours.",
-        "url": "N/A",
-        "reason": "A search for the last 24 hours (June 3, 2026, 8:39 AM UTC to June 4, 2026, 8:39 AM UTC) did not reveal any single most impactful headlines detailing breakthroughs in Large Language Model (LLM) behavior, human-robot interaction, robotics dexterity, or deployment. While there are recent discussions on advancements in physical AI and large behavior models, the specific reporting of these as new breakthroughs within the strict 24-hour window was not found."
+        "headline": "Physics AI Becomes Extremely Popular Overnight Due to Its Ability to \u201cMove Bricks\u201d",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExGauI0ICPRhoFLEVdwBH7ohil3hJFclf7ChhtxZoAnj4I-h3O6z9uY0Hwtj5eG1NW6rStrvhnnRwdwy62ZlaNcBfJOAoTBV_oLdQdd5XVc5qiwJQ1dgPzZOvuHL2jgB9gcIAl",
+        "reason": "This article discusses the rise of 'Physical AI,' which integrates large language models (LLMs) with world models and vision-language-action (VLA) models. This breakthrough enables robots to independently execute complex tasks in open environments, marking a significant advancement in robot dexterity and real-world deployment."
     },
     {
         "category": "Global Progress",
-        "headline": "Developed Nations May Have Achieved $100 Billion Climate Finance Promise for 2022, Recent Data Shows",
-        "url": "https://twitter.com/Reuters/status/1797825595995572869",
-        "reason": "This headline represents high-impact 'good news' regarding climate efforts. Although the achievement itself is from 2022, the 'recent data shows' and its appearance in a 'Sustainable Switch' update on June 3, 2026, frames it as a current and positive development. It signifies a potential, albeit overdue, step towards fulfilling climate finance pledges to developing nations, offering a glimmer of hope amidst ongoing climate challenges."
+        "headline": "GEF Approves Adaptation Funds Strengthen Resilience in Vulnerable Countries",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrhDP3YHFJCUMwdGt9DwuKO6leYel6mgVwclxLcpvIpEO7qFFvpPK_EXmiq1bo9ZJ9XcEMJyEMByhQg9lKyaAsWNskWXOZLhSD4l05jrFCTAzQ3pbLMz1Zxcrfw9PbjSAbG8Qpjw==",
+        "reason": "The Global Environment Facility (GEF) has approved over USD 67 million in new funding to help strengthen climate resilience in eight vulnerable countries. This represents high-impact 'good news' regarding concrete action against climate change and efforts to mitigate its effects in regions most susceptible to environmental challenges."
     }
 ]
