@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "What are the latest advances in radar and LiDAR technologies for sensor fusion: part 3",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3g2sJxnJfZ7iQvhnD-LCKNeZpWVGPYGDV2tbgi8leZ-0EH8hNYWRCGqu4ngUfvtRXC5Ld8TvlEaJd7QRUp80pXsaT5G5xUpdxTJBzfI_gFyQ22nVBYg0r36osZYhG-xZSgcWAgA3732h2ONE_N4RqLC9xemfrUGS6l45TKWMY77pr_1Ojp_w4DssSvm7oCVmPJp79l8H08QDJ4w1uKpU4_-ApAGmbwRCT26G7WJwWpESMWw==",
-        "reason": "This article highlights ongoing advances in sensor fusion for autonomous driving, including the integration of artificial intelligence (AI) and machine learning (ML) to process complex sensor data. These advancements are crucial for achieving higher levels of autonomous driving and improving decision-making in various environmental conditions."
+        "headline": "Large Video Planner Enables Generalizable Robot Control to Advance Robotic Capabilities",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRaAAHzIYclSbQedJ7GBeMdHpWVgPBaN4_qoeRtT6C2F7u3G1N3AATROYCR2kVc_q-0GGZTra4xc_1-z4rMMX4frB97LsniCWupumADsetuDbtMCb6vzk9KeR3X62F_Wwf04lljfBpKQQDKQ==",
+        "reason": "Researchers are developing robot foundation models by extending multimodal large language models (MLLMs) with action outputs, creating vision-language-action (VLA) systems. This breakthrough enables general-purpose robots to make decisions and generalize across diverse tasks and environments, representing a significant shift in AI architecture for autonomous systems, including self-driving vehicles."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Longevity: Daily multi-ingredient supplement improves vascular aging",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyrN2xemjG8SXWQKtw1FKaJQzWBK-8VTW3nSXcf9LOI2B45TCx9eGGO8cIimHatiRelb-ZydfPTE4hqUmaJC9WDc40yVSFZXGM-iObkP96FAhEFvPQP_HJT4IinApmi1rRZ5pi3k_r2ZT0Ro7J4u_Xm9XJe6vrqJQHACWsOLOYbhIJF4bJ5YbYLMhyf8C3OEzy23MOsf7VKzwe41-ROaq_zsJWIt-dVssPruSVGcYamKuMw-iG3rTRjCHYCW8JTjxV2hrw==",
-        "reason": "A new clinical trial has found that a daily multi-ingredient longevity supplement may improve markers of vascular aging, such as arterial flexibility and healthy blood pressure support. This represents an actionable protocol derived from a human study, offering potential benefits for healthspan and longevity."
+        "headline": "Living Longer, Living Stronger: Longevity Biomarkers and Women's Health Focuses on Actionable Clinical Strategies",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzsEszRpL1X4EqSst5IW03jYYrlVhM5WBds56QL4tLJUMqZFoRaJMAModPBkzmh5QjByNf1hUVHW74jaCw1fUN7fnmiZ7r7CuuRSrFkrvNdKDfU0yg1QkXyfAx0cbp9zQr6GU4Db0uM-fGmIOuNl8VhwaJ7N5Q--dVj-05v8EIBecruQT1XQuFpmg33z6nOz7240-hQw==",
+        "reason": "A recent focus in longevity research emphasizes translating aging biomarkers into actionable clinical strategies to enhance patient healthspan, particularly for women. This includes designing protocols for sustainable vitality, immune resilience, and inflammation management in midlife, building on insights from studies on the longevity gap and chronic health issues in women."
     },
     {
         "category": "Finance & Business",
-        "headline": "Bitcoin treasury firms shed $62B in market value as crypto rout deepens",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJsh32LcfEcAkMyuG9vXXNM7rBLroNRc_qjBjTkMgIGUhcw7iDp4Wqzsm9wWy8b7IBnhkje02QBJE9XCFlgFnvil42zhmYxGZHv7BHET_8P5UljX8=",
-        "reason": "This headline indicates a significant macro shift in the financial market, specifically a substantial decline in the crypto market, resulting in a $62 billion loss in market value for Bitcoin treasury firms. This highlights a major market movement and its impact on a specific sector."
+        "headline": "Nasdaq Posts Worst Drop Since April 2025 as Strong Jobs Data Ignites Rate Hike Bets",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoklHvVyjUCQsavdzJtt45IUabg3H1q4ldtGZnHHV8M5Mj4W2r59mT9Pp1h4ZcKnFJ_pyX4YCwlYvK_HOYiVlsHMZk9H2sopYeKWjFiTDDRw3Z",
+        "reason": "The Nasdaq experienced its steepest decline since April 2025, with the S&P 500 and Dow also falling significantly. This market shift is attributed to stronger-than-expected May jobs data, which has fueled concerns that the Federal Reserve will maintain elevated interest rates to combat inflation, impacting investor sentiment and valuations."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Physics AI Becomes Extremely Popular Overnight Due to Its Ability to \u201cMove Bricks\u201d",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExGauI0ICPRhoFLEVdwBH7ohil3hJFclf7ChhtxZoAnj4I-h3O6z9uY0Hwtj5eG1NW6rStrvhnnRwdwy62ZlaNcBfJOAoTBV_oLdQdd5XVc5qiwJQ1dgPzZOvuHL2jgB9gcIAl",
-        "reason": "This article discusses the rise of 'Physical AI,' which integrates large language models (LLMs) with world models and vision-language-action (VLA) models. This breakthrough enables robots to independently execute complex tasks in open environments, marking a significant advancement in robot dexterity and real-world deployment."
+        "headline": "Structural Action Transformer (SAT) Proposed for Achieving Human-Level Dexterity in Robots",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqJMBAjmargxu4FhUqD-RHpKTtR7Qqssvb9NYfixR2QDNPwrqw9kKPZzrBzeBqaaHAJnkHDcQo_5M7xQwpuRAhKdndRKtH_Vf0jy9EVwCdigRktDB3IIa-POn_xSPwBCwVfSN1p_xS3X5d_Q==",
+        "reason": "A new paper presented at CVPR 2026 introduces the Structural Action Transformer (SAT), a novel 3D dexterous manipulation policy. This research directly addresses the challenge of achieving human-level dexterity in robots through imitation learning, especially for high-degree-of-freedom robotic hands, representing a significant breakthrough in robotics features."
     },
     {
         "category": "Global Progress",
-        "headline": "GEF Approves Adaptation Funds Strengthen Resilience in Vulnerable Countries",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrhDP3YHFJCUMwdGt9DwuKO6leYel6mgVwclxLcpvIpEO7qFFvpPK_EXmiq1bo9ZJ9XcEMJyEMByhQg9lKyaAsWNskWXOZLhSD4l05jrFCTAzQ3pbLMz1Zxcrfw9PbjSAbG8Qpjw==",
-        "reason": "The Global Environment Facility (GEF) has approved over USD 67 million in new funding to help strengthen climate resilience in eight vulnerable countries. This represents high-impact 'good news' regarding concrete action against climate change and efforts to mitigate its effects in regions most susceptible to environmental challenges."
+        "headline": "Hopes for Israel-Lebanon Ceasefire and US War Powers Resolution Signal Geopolitical De-escalation",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSY2xRQQ7bfCBi059JbacRDbZ_ldXz2utLzS54pUEwAJOiLnt2XLlF0pq8BQq5S2DjB8x2nwZc7AgGwgUdk1bcAbM64tXCBzVWVslvjAjhDyQ6VUblW_fFOgEC5azLQWLk7nE8QYMwt1gjbjKvVZZRay9XXf2aWPtaBfoNe6FeIVrsjBBwcMPmmNtDuTG1nOv-DpHqNAfTyvSX74d47qWSShFThpHzox8ejTxSxHg==",
+        "reason": "Amidst rising oil prices, market sentiment found support in renewed hopes for a ceasefire between Israel and Lebanon, aiming to reduce broader regional instability. Further de-escalation signals came from the US House of Representatives approving a war powers resolution to limit military operations against Iran, reinforcing commitment to diplomacy."
     }
 ]
