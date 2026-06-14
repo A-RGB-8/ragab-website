@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No impactful headline found within the last 24 hours for L4/L5 milestones, sensor fusion, or AI architecture shifts.",
-        "url": "N/A",
-        "reason": "The search results did not yield any technical breakthroughs or significant shifts in automated driving technology reported within the past 24 hours. Most relevant articles were from earlier dates in 2026 or prior years."
+        "headline": "No impactful headline found within the last 24 hours for this category.",
+        "url": "",
+        "reason": "Searches for technical L4/L5 milestones, sensor fusion advancements, or AI architecture shifts in automated driving within the last 24 hours did not yield any significant breakthroughs."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No impactful headline found within the last 24 hours for human-centric research on healthspan/longevity with actionable protocols.",
-        "url": "N/A",
-        "reason": "The search results did not provide any recent human-centric research on actionable longevity protocols (nutrition, sleep, supplements) based on the latest human studies within the past 24 hours. Mentions of 'Longevity Lab' were either for services or older research."
+        "headline": "No impactful headline found within the last 24 hours for this category.",
+        "url": "",
+        "reason": "Despite searching for human-centric research on healthspan/longevity, actionable protocols, or latest human studies, no new impactful headlines were published within the last 24 hours."
     },
     {
         "category": "Finance & Business",
-        "headline": "User Entrepreneurship's Signaling Value in Startup Financing Highlighted as Crucial for External Capital",
-        "url": "https://www.tandfonline.com/doi/full/10.1080/1350678X.2026.2227187",
-        "reason": "A recent academic article, published on June 7, 2026, emphasizes that for innovative startups, merely being innovative is insufficient; the signaling value of user entrepreneurship, particularly professional user experience, is critical in attracting external capital by reducing information asymmetry for investors. This suggests a trending insight into startup funding strategies, which is a significant aspect of business development."
+        "headline": "SpaceX Debut Helps Lift Market Sentiment After Volatile Week",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6qhCPGkr22pq7TGPtgomiN5qI53CJP4tRMAHYfhgfonlx--xildShSxRm0I6RWb1g2d9rDfRAk0QZVpaWjrxz3JDuE-i3XCLI5ZbupnG8qbaWOZi0CqmuiBO9xXpPKs0IYNefJDFL0w==",
+        "reason": "SpaceX's blockbuster stock market debut helped boost investor sentiment on Friday (June 12, 2026), easing concerns after a volatile week and contributing to a broader market rally also fueled by hopes for a US-Iran peace deal."
     },
     {
         "category": "AI & Robotics",
-        "headline": "No impactful headline found within the last 24 hours for breakthroughs in model behavior (LLMs) or robotics features.",
-        "url": "N/A",
-        "reason": "The search results did not identify any significant breakthroughs in AI model behavior, LLMs, or robotics features (such as human-robot interaction, dexterity, or deployment) reported within the past 24 hours. Most relevant articles were from earlier in 2026 or prior years."
+        "headline": "Breakthroughs that Made Language Models Work: Introducing Conceptron, a new AI Architecture with Concepts as Volumes",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ8hYU1Kq-Ad9OfKxjmSQXibL8MO-TVjTI_QZ__72l1JoMkMhTBMN_ZeSm9aCXWkrRqertgk842jQxQqkLh0uP86SKLxXKOLo0W_DKhuEyA-Gf7lr53tWws4k5prBE1tn5XbdaUA==",
+        "reason": "This report discusses a new AI architecture called Conceptron, where traditional vectors representing words in LLMs are replaced by 'volumes' that represent concepts. This fundamental shift in how language models process information could lead to significant advancements in model behavior and understanding."
     },
     {
         "category": "Global Progress",
-        "headline": "No impactful 'good news' headline found within the last 24 hours regarding climate, poverty, or geopolitical de-escalation.",
-        "url": "N/A",
-        "reason": "The search results within the last 24 hours did not yield high-impact positive news related to climate action, poverty reduction, or geopolitical de-escalation. Most global news snippets either discussed older events or highlighted ongoing challenges rather than significant positive progress."
+        "headline": "UAE Prepares Up to $20 Billion Payout to Iran to Guarantee Regional De-escalation",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsNtLshTdVu4kyzZXNtklmfZpvfRVF0g85egnp23MYxUrxWCCoCa0iT6dPVHrK-AtBIp5WJOa-467ZvrK4h9wlqvMk8I7YnxzZqYXopzocOb1PNwAF7wD6RcmqAhs=",
+        "reason": "The United Arab Emirates is reportedly preparing a substantial financial package for Iran, estimated between $10 billion and $20 billion, with over $3 billion already transferred, as a strategic move to defuse geopolitical tensions across the Middle East and secure global energy shipping lanes. This initiative coincides with broader US-Iran negotiations, aiming for regional de-escalation."
     }
 ]
