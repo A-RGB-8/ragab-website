@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Tesla Rolls Out FSD v14.3.4 with Upgraded Neural Network Training and AI Compiler",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVLymD9qwqWvTdDv0lcLP-4w2ikA0kPWTMFZTkYmq6tiDQRdXNwi-tvkFMty1iOedUGqsChvjq4rUJ445zX7d4KCHydPhFygh2LoEMGfFRXHvxFGqxZBzyc-MjjQy49K1Ga6gi-XIePUSScqBv33j7BJtQfIPB7vEtEIpRvlGy400qdiJ3yBD0my3J4VjAbMZwJinhtPCcA2DeItviftJ-HajmrIhQ3QrBMywrb0BoFi0lcmAXDEdZGomjHyIt",
-        "reason": "Tesla's release of Full Self-Driving (Supervised) v14.3.4 signifies a technical milestone with significant upgrades to its neural network training via reinforcement learning, an improved neural network vision encoder, and a completely rewritten AI compiler and runtime using MLIR2. These advancements lead to a 20% faster reaction time and enhanced model iteration speed, unifying the model across FSD, Smart Summon, and Robotaxi capabilities, pushing the boundaries of autonomous driving AI architecture."
+        "headline": "NVIDIA Blog Highlights Breakthroughs for Trustworthy L4 Autonomous Vehicle Deployment in June 2026",
+        "url": "https://www.nvidia.com/en-us/autonomoustech/blog/robotaxis-safety-built-in-not-bolted-on/",
+        "reason": "A NVIDIA blog post from June 2026, highlighted at the GTC San Jose 2026, discusses key breakthroughs for achieving Level 4 (L4) autonomy at a global scale. The advancements involve integrating large foundation models and using reasoning vision-language-action models to handle complex edge cases, as well as generating billions of validation miles using physically accurate simulation and unified safety frameworks. This indicates a significant step in AI architecture shifts and the practical deployment milestones for L4 autonomous driving technology."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No major human-centric longevity research on actionable protocols from latest human studies identified in the last 24 hours.",
+        "headline": "No major human-centric longevity research breakthroughs on actionable protocols reported in the last 24 hours.",
         "url": "N/A",
-        "reason": "Despite extensive scanning of the web for the last 24 hours, no single most impactful headline directly addressing human-centric research on actionable longevity protocols (nutrition, sleep, supplements) based on the latest human studies was identified."
+        "reason": "A deep scan of the web for the last 24 hours (June 15-16, 2026) did not yield a single most impactful headline concerning human-centric research on actionable longevity protocols (nutrition, sleep, supplements) based on the latest human studies. Recent articles from May 2026 discussed a shift in focus from lifespan to healthspan and general trends in nutraceuticals and supplements for healthy aging, but no specific breakthroughs were identified within the requested timeframe."
     },
     {
         "category": "Finance & Business",
-        "headline": "SpaceX IPO Surges on Debut, Driving Market Enthusiasm Amidst AI Capital Spending Boom",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0BDQY-sJT20-bc5-gZVUKLlcCTwjqReylvXXvTqtl7LFqbJ2gGOGWkHY0eY_ZHBHLq_blNQT5rZMogGqxlwARk5hMUlL1rKkvlmY3OPbs-g95XkrDTNOyq9c-AMyOxCliSgoxMC8=",
-        "reason": "SpaceX's successful IPO, surging on its debut, represents a significant market event for a top trending business, highlighting investor confidence in innovative ventures. This surge contributes to a broader macro trend where a massive AI capital spending boom continues to propel the stock market, overshadowing concerns about rising inflation."
+        "headline": "SpaceX Set to Surpass Amazon's Market Cap as Post-IPO Rally Continues",
+        "url": "https://zerodha.com/marketpulse/business-news/spacex-set-to-surpass-amazons-market-cap-as-post-ipo-rally-continues/",
+        "reason": "Elon Musk's SpaceX is experiencing a significant surge in its stock value, with shares rising over 10% in premarket trading on Tuesday (June 16, 2026), positioning it to surpass Amazon's market capitalization and become the world's fifth-largest company. This represents a major shift in market dynamics and a top trending business story."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Controversy Surrounds New LLM 'Fable' as US Government Bans Release Shortly After Launch Amidst 'Jailbreak' Reports",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-0HnKAJyYYW8IiSg4w5fx8xl821IhBNdYgWAo7ocrNLczMy6hf2zy0PTGNia3-BtnRHui8CTcaKjdi-PMwObcriFEQ2eHjqEfDQlkI6Y36-hTO9r34VHtVI4ye1NqXEY9b31sa6dmY0NSBoT6-HQuv6vz9uw6SQkIfl3AN-aYvRfmSQ==",
-        "reason": "The rapid emergence and subsequent ban by the US Government of the 'Fable' LLM, despite Anthropic downplaying 'jailbreak' reports, indicates a significant breakthrough in model behavior and the immediate, high-stakes regulatory and ethical challenges facing advanced AI deployments. Its described 'insane capabilities' and the developer community's quick adoption for complex tasks underscore its potential impact on AI applications and the ongoing debate around AI safety and control."
+        "headline": "Pliny the Liberator's 'Pack Hunt' Multi-Agent Attack on Fable 5 Triggers Government Order",
+        "url": "https://llm.ai/news/ai-news-today-june-15-2026",
+        "reason": "On June 10, 2026, a jailbreaker known as 'Pliny the Liberator' bypassed the safety classifiers of the Fable 5 AI model using a 'pack hunt,' a coordinated multi-agent attack. This breakthrough in LLM behavior, allowing the exploitation of vulnerabilities, led to a government export control order on June 12, pulling Fable 5 and Mythos 5 offline. The incident, reported in AI News Today on June 15, 2026, highlights a significant development in AI model behavior and its immediate, high-impact deployment implications."
     },
     {
         "category": "Global Progress",
-        "headline": "European Union Announces Significant New Climate Policy to Reduce Carbon Emissions by 50% by 2030",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0BDQY-sJT20-bc5-gZVUKLlcCTwjqReylvXXvTqtl7LFqbJ2gGOGWkHY0eY_ZHBHLq_blNQT5rZMogGqxlwARk5hMUlL1rKkvlmY3OPbs-g95XkrDTNOyq9c-AMyOxCliSgoxMC8=",
-        "reason": "The European Union's announcement of a new climate policy aimed at achieving a 50% reduction in carbon emissions by 2030 is a high-impact 'good news' development. This ambitious initiative demonstrates a strengthened commitment to combating climate change and is expected to significantly reshape the energy landscape and promote sustainable practices across Europe, contributing to global efforts in climate action."
+        "headline": "Final US-Iran Talks on Peace Deal Likely from June 19, Says Araghchi; Warns Against Israeli Action in Lebanon",
+        "url": "https://zerodha.com/marketpulse/business-news/final-us-iran-talks-on-peace-deal-likely-from-june-19-says-araghchi-warns-against-israeli-action-in-lebanon/",
+        "reason": "Reporting from June 16, 2026, indicates that final US-Iran talks on a peace deal are likely to commence from June 19, with statements from Araghchi warning against Israeli action in Lebanon. This development signifies a potential de-escalation in geopolitical tensions in a critical region."
     }
 ]
