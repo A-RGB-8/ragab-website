@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "NVIDIA Blog Highlights Breakthroughs for Trustworthy L4 Autonomous Vehicle Deployment in June 2026",
-        "url": "https://www.nvidia.com/en-us/autonomoustech/blog/robotaxis-safety-built-in-not-bolted-on/",
-        "reason": "A NVIDIA blog post from June 2026, highlighted at the GTC San Jose 2026, discusses key breakthroughs for achieving Level 4 (L4) autonomy at a global scale. The advancements involve integrating large foundation models and using reasoning vision-language-action models to handle complex edge cases, as well as generating billions of validation miles using physically accurate simulation and unified safety frameworks. This indicates a significant step in AI architecture shifts and the practical deployment milestones for L4 autonomous driving technology."
+        "headline": "PlusAI's SuperDrive\u2122 Level 4 Autonomous Driving System Named a 2026 World Changing Idea for Commercial Freight",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp5fo3njbd6EVXiwNEdl8mNziIYRr1ZX_KaUt5tBGzbAnId8GVouSnuPr7RC8Y6jpUhTCpoyyFg4Zd8iGI7Xh4WN4Jo8f6pUyULqm7b66zZ38NqHH77l44vf8UYuEF98czjJANCtncC72Kysv6gFRWKTdplSPFomCqDNywx0Fg-4GPDAvhqkWUES9vdQtz",
+        "reason": "PlusAI's Level 4 autonomous driving system for commercial trucks, SuperDrive\u2122, has been recognized for its world-changing potential. This highlights significant technical milestones, including advanced capabilities like nighttime driving and construction zone handling in SuperDrive 6.0, alongside critical collaborations with NVIDIA on AI reasoning (NVIDIA Alpamayo foundation model) and hardware integration (NVIDIA DRIVE Hyperion), paving the way for large-scale commercial deployment of factory-built autonomous trucks by 2027."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No major human-centric longevity research breakthroughs on actionable protocols reported in the last 24 hours.",
-        "url": "N/A",
-        "reason": "A deep scan of the web for the last 24 hours (June 15-16, 2026) did not yield a single most impactful headline concerning human-centric research on actionable longevity protocols (nutrition, sleep, supplements) based on the latest human studies. Recent articles from May 2026 discussed a shift in focus from lifespan to healthspan and general trends in nutraceuticals and supplements for healthy aging, but no specific breakthroughs were identified within the requested timeframe."
+        "headline": "Yale University Develops 'SystemsAge' Blood Test for Personalized Organ-System Biological Age Assessment",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwBjLv6t4TkCZy3T--StiehP7pPft8zMKwtBcdOlqF71EIeTjIeLBvD_rEFSeqOh0FxI20pCLKtr54o9zFrUOnjSf-EfQnugx7UiqV1yqdDIab0LgGQcbm-R9YTSvTN0FIjMuvQkrkDWHhTq9pjw=",
+        "reason": "Researchers at Yale University have introduced 'SystemsAge', a novel blood test that assesses the biological age of 11 different organ systems from a single DNA methylation assay. This represents a major leap forward in personalized and preventive medicine, enabling targeted interventions based on which organs are aging most rapidly, offering actionable insights for healthspan optimization."
     },
     {
         "category": "Finance & Business",
-        "headline": "SpaceX Set to Surpass Amazon's Market Cap as Post-IPO Rally Continues",
-        "url": "https://zerodha.com/marketpulse/business-news/spacex-set-to-surpass-amazons-market-cap-as-post-ipo-rally-continues/",
-        "reason": "Elon Musk's SpaceX is experiencing a significant surge in its stock value, with shares rising over 10% in premarket trading on Tuesday (June 16, 2026), positioning it to surpass Amazon's market capitalization and become the world's fifth-largest company. This represents a major shift in market dynamics and a top trending business story."
+        "headline": "Global Markets Rally as US-Iran Peace Framework Triggers Oil Sell-Off and Weakens Dollar",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnUHWfs37zU2XFMQ8zCUgkthey2b1e_RIN7WBk7FQgIvlLTJZT2pc0CrLmoJ3BSM-krwjmkeJkii6Wkr0E7xQsTKEuzgortuarS8TMGAGu0iakAPQy68CHll6YG7dz2ZjnCom5qUiuDrNoqo8B_4gDVVvrKzJyK3xHM-Eg3a5I8BhHNvGOKB8mUrbVqD9bd0FqVh2ajUtnLRtDzm7HfZYJr_T-yG4xxCPXYMmiMrserSol4zqukmDAp4jx61ITAA==",
+        "reason": "Global financial markets reacted positively to news of a preliminary peace framework between the United States and Iran, leading to a significant macro shift. This agreement, which includes the anticipated reopening of the Strait of Hormuz, caused oil prices to tumble and the US dollar to retreat, while boosting appetite for risk-sensitive assets. The de-escalation eases concerns over global supply disruptions and inflation, prompting investors to reallocate capital."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Pliny the Liberator's 'Pack Hunt' Multi-Agent Attack on Fable 5 Triggers Government Order",
-        "url": "https://llm.ai/news/ai-news-today-june-15-2026",
-        "reason": "On June 10, 2026, a jailbreaker known as 'Pliny the Liberator' bypassed the safety classifiers of the Fable 5 AI model using a 'pack hunt,' a coordinated multi-agent attack. This breakthrough in LLM behavior, allowing the exploitation of vulnerabilities, led to a government export control order on June 12, pulling Fable 5 and Mythos 5 offline. The incident, reported in AI News Today on June 15, 2026, highlights a significant development in AI model behavior and its immediate, high-impact deployment implications."
+        "headline": "ABB Robotics and PSYONIC Collaborate to Advance Robotic Dexterity Using Human-Generated Data",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7qis1IgGjabUDAX06YITb2R865G7RmGDfcBB5lwM3ItAM5-fsJ7f4rdBiHDLSOc1cUSsky5Yrhvr4ASgQbyq2wRtBxLImjYcZrCenx1CPAnHVJpiY_IyOSlE1JLlNdBG0RZtmsX06br7L4CNYiwZloqykLow2nW4EV7hJneIN2tl2IyVqzn5GqNayP8C3jmA=",
+        "reason": "ABB Robotics has partnered with bionics company PSYONIC to revolutionize robotic gripping and dexterity. This collaboration utilizes real-world manipulation data generated from human prosthetic use, specifically combining the PSYONIC Ability Hand with an ABB GoFa\u2122 cobot. The aim is to train robots to perform complex and delicate tasks that have historically been challenging to automate, bridging the gap between human and robot dexterity and advancing physical AI in industry."
     },
     {
         "category": "Global Progress",
-        "headline": "Final US-Iran Talks on Peace Deal Likely from June 19, Says Araghchi; Warns Against Israeli Action in Lebanon",
-        "url": "https://zerodha.com/marketpulse/business-news/final-us-iran-talks-on-peace-deal-likely-from-june-19-says-araghchi-warns-against-israeli-action-in-lebanon/",
-        "reason": "Reporting from June 16, 2026, indicates that final US-Iran talks on a peace deal are likely to commence from June 19, with statements from Araghchi warning against Israeli action in Lebanon. This development signifies a potential de-escalation in geopolitical tensions in a critical region."
+        "headline": "Vast Areas of Coral Reefs Identified as Climate-Resilient in New Study Presented at Our Ocean Conference",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVz9cdMd6B5dts6125bfMMmcSJ64Sbtq5hd3PT4agCzSqcM62onIBJZBEGhdAUndyB6txoazlcxlt9nyj4w7GKXYz9fNLGevO3MnW5pxuBS1DJmie5-hWXCVwh4r3h",
+        "reason": "A new study presented at the Our Ocean Conference in Mombasa, Kenya, has identified 166,000 square kilometers of the world's coral reefs \u2013 approximately a third of the total \u2013 as 'climate-resilient'. This discovery represents a significant piece of good news in the ongoing battle against climate change, offering hope that substantial portions of these vital marine ecosystems possess the potential to survive through major ocean warming events."
     }
 ]
