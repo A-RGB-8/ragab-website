@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "MicroVision's Sensor Fusion: A milestone for Next-Gen Driving Systems",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW7zZrcP_DDDxKCYtTokJl1r2NWNMHvx_0D7J2sebMHkGtMWzvLf1_ASP89SNIdgu5BXtCnpDqIuTTCLPs5R9J85mlkFHsgIZ-XowJuryxuUNFCoQnblNQ4_11toKU-Qxgfu-bpMPHTucDRGI-M519PpJIuEqDtO50or4M7D7OKqbpgFVSiCsmpuLQOCjNCXiBRMn47CTZ5V0KiuD_gPwrOqIWtm-hdyRnblYKuGXVh3iomIKS2WQ",
-        "reason": "This headline signifies a significant technical advancement in sensor fusion, a crucial component for achieving higher levels of autonomous driving (L2+ and L3). MicroVision's lidar-centric approach with a heterogeneous sensor setup provides a 360-degree field-of-view, improving obstacle detection, decision-making, and overall safety and comfort in next-generation ADAS and AD functions."
+        "headline": "Stellantis, Wayve and Uber Team Up to Develop Global Level 4 Robotaxi Services",
+        "url": "https://www.just-auto.com/news/stellantis-wayve-and-uber-team-up-to-develop-global-robotaxi-services/",
+        "reason": "This collaboration among a major automaker (Stellantis), an AI-based autonomous driving software company (Wayve), and a global ride-hailing platform (Uber) signifies a significant technical L4 milestone. The partnership focuses on integrating Wayve's AI driving software with Stellantis' L4-ready vehicle platforms for global deployment, addressing the complex challenge of autonomous navigation in diverse urban environments without city-specific mapping."
     },
     {
         "category": "Longevity Lab",
-        "headline": "First human trial of reverse-aging drug begins",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRwDycCRPvDXglL1FsxUbPksJndNIRo4f5lrKSpqeKRD1iYou3ULI_3noahYWHPah11_-rda8pqWEFSe8LVKgb8ifp6GCUL5_Rm21PQzsx1z1IrkKTItwwKJVxZcK1kzZxaW098rwpaHhxMGhTV5gR_NVJ-WTj_BvztsUW1d54sbjeNbNmYvMcH4wOo7w",
-        "reason": "This marks a major step forward in human-centric longevity research, moving beyond supplements to a pharmaceutical intervention aimed at cellular reprogramming to 'turn back time on old cells'. The FDA-approved human clinical trial, though in early stages and with caveats, represents a tangible and impactful breakthrough in the longevity industry's pursuit of extending healthspan."
+        "headline": "New Study: Alpha-Ketoglutarate Shows Potential to Lower Biological Age in Humans",
+        "url": "https://www.nmn.com/news/alpha-ketoglutarate-lower-biological-age-humans",
+        "reason": "This headline highlights a new human-centric study where a delayed-release alpha-ketoglutarate supplement was linked to a reduction in biological age among 4,260 health enthusiasts. This represents a significant advancement in actionable longevity protocols, offering a potential supplement-based strategy directly supported by human observational data."
     },
     {
         "category": "Finance & Business",
-        "headline": "IBEX 35 rallies on geopolitical de-escalation as it conquers 19000-point milestone",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ4zGTGfwhY4mz23h6XEW5J2xD51Ni9ZJHuEGY8m-VhzowHgkJLcTegWEhi2jPIWk0-yND6Z3n2ClyetqRM5s3Kp6KcLBciy6m74F5VS7zGNOXpkbYGLczghA18b6UhkG70KCB-42SsuKlW1mSHt95Jt730Qp44ObY8jXqYQezO1zycOgTT6pJ-P66Hg-aS25xf3YRZBgc7LlPbYF4-kKrhX_fM7S1P7knGtdvNeMwzbSbAI2LoxqeNoVD6JfljKGk6l4r",
-        "reason": "This headline highlights a significant macro stock market shift, with the IBEX 35 reaching a historic milestone. The direct 'why' is the agreement between the United States and Iran to end their conflict and reopen the Strait of Hormuz, easing global inflationary pressures and sparking a surge in risk appetite among investors."
+        "headline": "Fed Signals Rate Hike in 2026: What Investors Need to Know Now",
+        "url": "https://intellectia.ai/blog/fed-signals-rate-hike-in-2026/",
+        "reason": "The Federal Reserve's June 2026 meeting marked a decisive hawkish shift in monetary policy, with officials signaling potential interest rate hikes later in the year due to growing concerns about persistent inflation. This macro shift, including a sharp upward revision of PCE inflation forecasts, has profound implications for investors across all asset classes, making it a critical economic development."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Subquadratic Introduces \"Subquadratic Sparse Attention\": The First LLM To Have *Successfully* Broken Past The Quadratic Scaling Bottleneck!!",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQuza-lUQk1IbHXT4xy1Wgyp3nTucKiEeUDuyl-FLfY4Dws-MDZ2jTjokN4hA_7jPljwj1T0h3kLyP3Yiw1jDCVDGM4qPKtu5yUNJoUO-LmyrXSxlcVfj2kUBcEEdSH-eQGHA3UxyVXndQtrLi9AJljSYJ0Tx2Ii2m0HFKbZZAG6swF2jHnuNf8ZQLwE18nT3Vj5iIMmYnxgT5-xAU",
-        "reason": "This represents a fundamental breakthrough in Large Language Model (LLM) architecture. The successful introduction of 'Subquadratic Sparse Attention' directly addresses and overcomes a significant computational scaling bottleneck, promising vastly improved efficiency and enabling more powerful and accessible LLMs."
+        "headline": "A startup says it cracked the maths bottleneck holding back AI. It finally has the receipts.",
+        "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+        "reason": "The startup Subquadratic claims a fundamental mathematical breakthrough that could eliminate a core bottleneck in Large Language Model (LLM) scaling, specifically addressing the 'quadratic attention' problem that makes LLMs computationally expensive. This advancement promises to redefine LLM efficiency, enabling more powerful and less resource-intensive AI models by allowing for infinitely long context windows, thus representing a significant AI architecture shift."
     },
     {
         "category": "Global Progress",
-        "headline": "US, Iran reach ceasefire deal to reopen Strait of Hormuz",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRwDycCRPvDXglL1FsxUbPksJndNIRo4f5lrKSpqeKRD1iYou3ULI_3noahYWHPah11_-rda8pqWEFSe8LVKgb8ifp6GCUL5_Rm21PQzsx1z1IrkKTItwwKJVxZcK1kzZxaW098rwpaHhxMGhTV5gR_NVJ-WTj_BvztsUW1d54sbjeNbNmYvMcH4wOo7w",
-        "reason": "This is a high-impact 'good news' item signifying major geopolitical de-escalation. The agreement between the US and Iran to end military confrontation and reopen the Strait of Hormuz has immediate positive repercussions for global energy markets, trade, and regional stability, easing fears of broader conflict and inflationary pressures."
+        "headline": "USA and Iran Sign 14-Clause Memorandum of Understanding",
+        "url": "https://www.insightsias.com/current-affairs/usa-and-iran-sign-14-clause-memorandum-of-understanding/",
+        "reason": "The signing of a 14-clause Memorandum of Understanding between the United States and Iran represents a significant geopolitical de-escalation. This expansive diplomatic framework aims to comprehensively reshape the U.S.\u2013Iran political relationship, granting Tehran economic relief and reconstruction funds, and immediately reducing regional tensions by reopening the Strait of Hormuz and providing a pause in cross-border bombardments in flashpoints like Lebanon."
     }
 ]
