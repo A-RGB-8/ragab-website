@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No highly impactful technical L4/L5 milestones, sensor fusion, or AI architecture shifts identified in a headline from the last 24 hours.",
-        "url": "N/A",
-        "reason": "Despite a deep scan of the web for the last 24 hours, no single headline meeting the strict criteria for technical advancements in automated driving technology (L4/L5 milestones, sensor fusion, or AI architecture shifts) was identified within the specified timeframe. General robotics news from slightly older dates was found, but not directly related to autonomous driving tech in the last 24 hours."
+        "headline": "AI Breakthroughs in Robotics Enable Reasoning and Extensive Simulation Training for Physical Tasks",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHA0LXV0Gnz2pu_bWMaIrvdOSgX6liBq2eXUtzgYbqLxG-KUE9KKvTbc4F9lSlFvUQJ7a5xefVNDENRWWVcbc6We0Mx3EYR4Rx1LP5YBOtnZOYLvTE0JOD0ph_OcWbd86cm0hvMQNruI9gl9Ox_h013xsgBj1HCDerYajg4XjZdW9yEPjz558uCTh0LTMMEmhC_l0-Bx0Ms-jEf111ZqsNqdpKv67SbA==",
+        "reason": "Advancements in AI for robotics are enabling machines to reason about tasks rather than relying on fixed scripts, and allowing extensive training in highly realistic physics simulations. This allows for the transfer of learned behaviors to physical robots with minimal real-world adjustment, representing a critical development for the underlying AI architecture and deployment of advanced autonomous systems, which is foundational for future L4/L5 automated driving capabilities."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Yale University Develops SystemsAge, a Novel Blood Test for Multi-Organ Biological Aging Assessment",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSlVF-HURYRpl7nRCVmX_zA288x_f2oQyXQojm60cwQ_Q_Z-6o8eWuQWL-f76nlOt7Rbo1uTgGfQkmKIGQ4_3Xd8b6OSJg0e-o6Pey50O7hLtmmnshagpvt08uX5LdLaZn2nkhT1v6HKTJ2491dA=",
-        "reason": "This development represents a significant stride in human-centric longevity research, offering a novel blood test that can assess the biological age of 11 different organ systems from a single DNA methylation assay. This advancement paves the way for more personalized and preventive medicine, enabling targeted interventions based on which organs are aging fastest."
+        "headline": "Newer Strategies for Preserving Cognitive Function and Improving Gut Health Emerge from Latest Research",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5YgbF4veSObOuTgNWA-HV3_3_3UYEhdE07nciu-MpOQuOJY4xfchB3a8Mg7ilbSe-4TgdIisiu5MQcyWJq-4piRfs6Zg528LQPWGvvArEHBc-SwKRaYICUYp8NsydPDjQpWm-zgfdy1PcJjL5ZDwUl06wzn--geczsF5qVOSZtS9B3M2EK-ZBv0pdhWDyPRW2PXaQ5IttzetZ2TkK_phLqZ-8TSIqDwU-PAUiOIlIdreQUyy3W7fgdQsbUobkokEpi4amG",
+        "reason": "Recent human-centric studies highlight actionable protocols for healthspan and longevity, focusing on preserving cognitive function by addressing metabolic dysfunction of the brain. The research also emphasizes improving gut health through dietary changes like consuming fiber and probiotics, and managing conditions such as sleep apnea. Additionally, new cholesterol-lowering medications are showing potential links to reduced dementia risk, offering multi-faceted approaches to healthy aging."
     },
     {
         "category": "Finance & Business",
-        "headline": "No top trending startup/business ideas or significant macro stock market shifts with a brief analysis of the 'why' identified in a headline from the last 24 hours.",
-        "url": "N/A",
-        "reason": "A comprehensive search for major finance and business headlines within the last 24 hours did not yield a single, highly impactful trending startup/business idea or a significant macro stock market shift with accompanying analysis that strictly fits the specified timeframe. While some market summaries refer to 'last 24 hours' in their content, their publication dates predate the strict 24-hour window from the current time, and no singular impactful headline emerged."
+        "headline": "Emerging Market Companies Beat Profit Estimates for First Time Since 2022, Signaling Broad-Based Growth",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu8eWulXYJAquExj5wUXPaoyWJ4LP0TQgFjjGUf0k5dJVIEf_2n4UJoOfnHaLNb_rYHuwhO0UzclVMELj7r-667uCQFVjU0B4nQ0Ml2Paa1eCwWx9G0gFQYahudzGVRlVCowJW6OdmItT4qdqaRxTlpiuhL2hofliHA5DCifwid_vaLdhXtEfwrn4b_kCeVAJC3U5usPap",
+        "reason": "For the first time since April 2022, companies in the MSCI Emerging Markets index have collectively surpassed their average earnings forecasts. This marks a significant macroeconomic shift, with analysts now projecting 18% earnings growth across these markets in 2026. The growth is broadly driven by Asian tech alongside a wider spread of strength in sectors like oil refining in India and power firms in Brazil, indicating a fundamental and diversified improvement in emerging market performance."
     },
     {
         "category": "AI & Robotics",
-        "headline": "No breakthroughs in model behavior (LLMs) or robotics features (human-robot interaction, dexterity, deployment) identified in a headline from the last 24 hours.",
-        "url": "N/A",
-        "reason": "Despite a deep scan of the web, no singular, highly impactful headline detailing breakthroughs in LLM model behavior or robotics features (such as human-robot interaction, dexterity, or deployment) was found to have been published within the strict last 24-hour window. Information on robotics and AI was available, but either predated the stringent timeframe or was too general to be considered a 'breakthrough' headline."
+        "headline": "Neuro-Symbolic AI Breakthrough Promises to Eliminate LLM Hallucinations and Drastically Reduce Energy Consumption",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4Lzso3XDbEkrNmaPzB_2rc_gmgF32wSSEbVKf-8LYoQx0lRDmU3u64h5nf59Xvz32lV-b2cx-ULIjoumtp_oCkWvr8EYAMWmy2ulY599LdyvTJRtVQdyUKndgs3WPE2es62H3vdG81Gr3oFOj53oRCSFYvkRaLNLMaGq3kpwuwQM6vatJjjaEI2UDjzD0C1jNKiNf",
+        "reason": "A significant breakthrough in AI architecture, Neuro-Symbolic AI (NeSy), integrates neural perception with a symbolic logic layer to address critical limitations of Large Language Models (LLMs), notably the elimination of hallucinations. This new approach demonstrates a 95% task success rate, 94% decision explainability, and a remarkable reduction of up to 100-fold in training and operational energy expenditures, making LLMs significantly more reliable, transparent, and efficient for complex real-world applications."
     },
     {
         "category": "Global Progress",
-        "headline": "No high-impact 'good news' regarding climate, poverty, or geopolitical de-escalation identified in a headline from the last 24 hours.",
-        "url": "N/A",
-        "reason": "The search for high-impact positive news concerning climate, poverty reduction, or geopolitical de-escalation within the last 24 hours did not yield a specific, qualifying headline. Existing search results that mention 'good news' or 'progress' are from significantly older dates, falling outside the strict 24-hour timeframe for this deep-scan."
+        "headline": "US-Iran Peace Deal Fuels Optimism in Global Markets and Geopolitical De-escalation",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGINR1vyayXD0uBfqycAxhCBj6x2wp3oBddvIJ-Sre952qxfay1QPnlj4pvoge9XnOJ81m497_huMqOQKta86DN_iail_mzQ5oGNfp0e02PoC5ipnuJnpEoAzPewsPLFPhEfmecWzxQSw==",
+        "reason": "A major geopolitical de-escalation has been reported with the signing of a US-Iran peace deal, which is contributing to increased optimism in global markets. The agreement is expected to provide Iran with initial economic benefits, including sanctions waivers and the unfreezing of blocked assets. This diplomatic effort aims to move beyond military escalation to establish a durable framework for stability in the Middle East, signifying a high-impact positive development on the global stage."
     }
 ]
