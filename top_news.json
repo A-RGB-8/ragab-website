@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "XPENG Unveils X-Mind: A Future-Foresight Brain for Autonomous Driving",
-        "url": "https://www.xpeng.com/news/XPENG_Unveils_X_Mind_A_Future_Foresight_Brain_for_Autonomous_Driving/",
-        "reason": "XPENG's new X-Mind technical framework introduces a predictive World Model and a Visual Chain-of-Thought, representing a significant AI architecture shift. This breakthrough enables proactive reasoning and real-time computation, leading to a precision breakthrough in trajectory prediction and enhancing safety for human-like autonomous driving."
+        "headline": "China Co-Leads World's First Global Autonomous-Driving Regulation, Shifting Standards Power in Robotaxi Race",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSUuCdPdoRRf0i5t2kSk2xpvc12T5ArE89lJX_ZK2VUgR86soE8hYABGo4ksmy5pjG1iCU815zbjD6XypTXoRIJ2kI_53gE9K5xj1qBwSSkLtWrIfS-n5vAqMHymEnesoIrdnumcqDl6lZiZu7txCkl91MmoGfOXTBXwnlaXs-8zkGdQ82TXDA_kbEB4ec_ol_Kc1Yh1imIbO-yp5pBYJTUtEDpu4qj1snBbX41wtpCtEeDMf_rTAH9vOLlg==",
+        "reason": "This marks a crucial regulatory milestone as the United Nations adopts the first global technical regulation for autonomous driving systems, with China co-leading the process. This development is expected to accelerate the deployment of L4/L5 robotaxi and smart-driving companies by creating harmonized standards, addressing a major barrier of fragmented national rules for widespread adoption."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Yale University develops SystemsAge, a novel blood test to assess biological age of 11 organ systems",
-        "url": "https://www.longevity.technology/longevity-news-executive-summary/",
-        "reason": "The development of SystemsAge, a blood test from Yale University capable of assessing the biological age of 11 different organ systems from a single DNA methylation assay, marks a major step towards personalized and preventive medicine in longevity research. This allows for targeted interventions based on which specific organs are aging fastest."
+        "headline": "Calico targets longevity pathway with rare disease win",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFACXuJjcU59OJgftDGwuo9wWHQji7spDW6ZgyjjhOAI1E6OWmrvaiXuTMGBUhcaYHag33xRc3fu4bqGJWkQ1kEf4KwAuje6m3gYf1JqTMTIGd9HONuRRNLA1jO9rvHQMDtGP9MnJU_ol5V-7nZasxpRfS-s0dRYGy-RCKct-F95Ri0PlgLNDRgZrcUwNjANTKSW74=",
+        "reason": "Calico Life Sciences received FDA Breakthrough Therapy Designation for fosigotifator, an investigational eIF2B activator, for Vanishing White Matter (VWM) disease. While targeting a rare disorder, this highlights a mechanism (the Integrated Stress Response or ISR) that is highly relevant to geroscience and neurodegeneration research, offering a significant human-centric research insight into fundamental aging pathways with potential broader applications."
     },
     {
         "category": "Finance & Business",
-        "headline": "Tech Malaise Persists Amid AI Cost, Spending Fears",
-        "url": "https://www.schwab.com/learn/story/tech-malaise-persists-amid-ai-cost-spending-fears",
-        "reason": "This headline reflects a significant macroeconomic shift in the stock market, particularly impacting the technology sector. It highlights investor concerns over rising AI costs and a possible delay in OpenAI's initial public offering, leading to weakness in tech stocks and a rotation of investments into other sectors."
+        "headline": "Understanding the SpaceX IPO: Record Fundraising and Long-Term Growth Potential",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESjUOL11w7Wn5-e1raa64bA76ZsDcllsqjHbdfVjI0-ZAqIn4sEj2JyU1I4JLUswmZpYZT4X920UI1H9x3LlDfVWrgzSYJ17GAaO-yS8nTSop5yRCMbEFXKgKsziDBJBzZw8AtknXGg0HsFcbyRRixLCzKxC_WiU3Q6yK1bnwlkElK-wDpPblqB5Sp4ZEhgaWyFf6dshAQY0JUOe-HELrf5M3u7j5LV3-u0A==",
+        "reason": "The SpaceX IPO has generated record levels of funding and attracted exceptional investor participation, signaling a significant macro shift in the global financial landscape. This event provides substantial financial resources for future expansion in the aerospace sector and influences broader investor sentiment towards innovation and technology investments."
     },
     {
         "category": "AI & Robotics",
-        "headline": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
-        "url": "https://therobotreport.com/news/agibot-produces-15000th-robot-marking-a-milestone-in-embodied-ai-deployment/",
-        "reason": "AGIBOT reaching the milestone of producing its 15,000th robot signifies a major breakthrough in the deployment of embodied AI. This indicates a shift from development and production to large-scale real-world application of wheeled semi-humanoid robots, impacting various industries with their integrated locomotion, interaction, and manipulation intelligence."
+        "headline": "LLM Agents Get Future Vision: New Training Paradigm Teaches AI to Simulate 'What-If' Scenarios Before Acting",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJXoygfYi-Ms_QREpNm8bKLU7emH9wB2vWQxD2-7pR9IeZAWlrWif53rzw7ft2EOEEW1r69GPRxDJ_VHW6O-D5bkMKdZcV1RHNgmAQfoNtOGwFQ986Le0MtynbFRquuILIGB1zemViTSCwyzINHFfCsXhBujdmG2CvpjR1rxdv_F8A57Z8msxsbpvkFbJ8I8I=",
+        "reason": "Researchers have developed a unified training paradigm, 'Internalizing the Future,' that enables large language model (LLM) agents to internally simulate future outcomes and engage in 'what-if' reasoning. This breakthrough in model behavior allows AI to explore multiple paths and select the most promising before acting, closing a critical gap that has kept AI agents largely reactive in complex, long-horizon tasks."
     },
     {
         "category": "Global Progress",
-        "headline": "'Kind of miracle solution': How Paris is harnessing the Seine to replace air-con",
-        "url": "https://www.dailyclimate.org/good-news",
-        "reason": "This is high-impact good news regarding climate change, detailing how Paris plans to triple its system of underground pipes that distribute chilled river water. This innovative solution aims to significantly reduce the city's reliance on individual cooling units, offering a scalable and sustainable approach to urban climate resilience."
+        "headline": "'The world knows what must be done': New SDG report urges end to wars and greater investment in people",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4aQLTmRqUfMO_YcZUstCbTccGP1Q30mDD6eZNXgleFd99gLL4HF8dwVN6YQZFuHlQ_WLrwmFhw3hS6WRftsv80E_iFPcX4EWN8z-WH97nhNowv-ByKnApg-WDJKxlbS2yEkP_mo28TNl2KHhEkPvq20dVcQnUnTwcUsiRT74NHfvVkUG8O_u2iERgc2QJ4TqbH5j4JpZcg8NloE5uuixlPHQvCuPYU0SLAQbLQnnTgr6kcuTsowPShjZpvRYtaXhdxmueG4g6FFfwnXVFvfU=",
+        "reason": "A new UN Sustainable Development Goals (SDG) report highlights significant regional progress, particularly in East and South Asia (including India and China), on socio-economic indicators, internet access, and financial inclusion. This represents high-impact good news regarding poverty reduction and development across a substantial portion of the global population, despite overall uneven progress towards the 2030 Agenda."
     }
 ]
