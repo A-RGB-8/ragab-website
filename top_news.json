@@ -1,32 +1,8 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Florida's JTA Celebrates One Year of Incident-Free Autonomous Public Transportation with NAVI",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExrCgOpladgeWo9Cu_Z-dmhi7sGh6yBAzU5j7oIGeQy_K0t3lXDcW-8nsrRjYPvsCzvtRRCdng6xjhgRzNdvmZmp0nb-NZhMzhlUGtLdsrO1Vr4yAMB8RqD68iOT_shyZ6HejMoScRqZj_wwE1NXnoHnheKVtd0psNvcNJgiFY-PU_FuELDum0ku4=",
-        "reason": "The successful completion of one year of continuous, incident-free operation of a permanent autonomous public transportation service (NAVI) in Jacksonville, Florida, demonstrates a critical real-world milestone in the reliability and safety of Level 4 autonomous driving technology, fostering public trust and paving the way for wider deployment."
-    },
-    {
-        "category": "Longevity Lab",
-        "headline": "Wearable Health Tech and Copper Supplementation to Supercharge Telomere Maintenance",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2q-Xi4MmrU4-3gdpntUmVAS52H8gbn7VQOUJU_hlThUBkZGhTWLsyVsrmJnK43HTXzV9sYju_IK_oODdZ_22oWFV2xbLmsP0EInHEEz7KygYce8dd9KJ9j_w",
-        "reason": "This article highlights an actionable longevity protocol combining wearable health technology with copper supplementation, a strategy directly aimed at protecting the human genome by supporting telomere maintenance, a key aspect of longevity research."
-    },
-    {
-        "category": "Finance & Business",
-        "headline": "Azerbaijan Unveils Ambitious Digital Reform for 2026-2028, Emphasizing AI Deployment and Innovation",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFex5F2Wzcwm3HkcAjJMuvEQ5edAkmzVH7T8oi4IFFlRU3gHHJpiNB2EpK3IEFARQUhicb4rhnFB78HOeRteaPRjcNeiu859ulPVD2oq_Sbnlwo3W0gj-YXclA_UYbNPsI4YTBLX0Y=",
-        "reason": "Azerbaijan's 'Action Plan for Accelerating Digital Development for 2026-2028' represents a significant macro-economic strategy. It highlights a government-level commitment to digital transformation, AI deployment, and fostering an innovation ecosystem, which will significantly impact future business and finance within the country and potentially serve as a model for emerging economies."
-    },
-    {
-        "category": "AI & Robotics",
-        "headline": "Azerbaijan's National Digital Strategy Prioritizes AI Deployment and Innovation Ecosystem Development",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFex5F2Wzcwm3HkcAjJMuvEQ5edAkmzVH7T8oi4IFFlRU3gHHJpiNB2EpK3IEFARQUhicb4rhnFB78HOeRteaPRjcNeiu859ulPVD2oq_Sbnlwo3W0gj-YXclA_UYbNPsI4YTBLX0Y=",
-        "reason": "Azerbaijan's national action plan, focusing on integrated AI deployment and innovation capacity, is a high-impact development in terms of global AI adoption and strategic integration into national infrastructure. This addresses the 'deployment' aspect of AI and Robotics, demonstrating a significant governmental commitment to leveraging AI at scale."
-    },
-    {
-        "category": "Global Progress",
-        "headline": "U.S.-Iran De-Escalation: Islamabad MoU Temporarily Halts Military Conflict and Reopens Strait of Hormuz",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdc9zCwLEkFWvYJVNTDuZjtu2oPsrvODp05LHF5Q3HLPAN6CIfZWKJSBkkyesk8DEkYWYRsBJ7CGFzgDFiNk-QqjwyH-XE2XaQcP9-6DplD78Kht-SMA8TZA2NbH-o45vXmXThNjYXWABP9sP6bxXiGUAYgaM687ywXoX0",
-        "reason": "The interim ceasefire formalized by the Islamabad Memorandum of Understanding between the U.S. and Iran represents a significant geopolitical de-escalation, halting active military conflict and temporarily reopening the critical Strait of Hormuz, with positive implications for global stability and commodity markets."
+        "headline": "STADT:up Project Concludes With AI Breakthroughs for Automated Urban Driving",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX3eGub1E64fem1tF35FJZ0prVe_Pq7TWTzLix0z08zHC0g45FDJjKvzPJg1I3YmY4hDUrVbyjc6fAsuaW2PZKkfjUS02B9l2H5pVsU-uOdsYZnU-3utuW6ia0PIOzZDun4kcX7t8AYIjQOVyLUN6jMycIutB52Eef9GMrgGfYJWvyRGScUembzYTMddIBHWIYAwcZEaXMIgE=",
+        "reason": "A German research initiative, STADT:up, concluded with significant AI breakthroughs for automated urban driving. The project developed an AI-driven system covering the full autonomous driving workflow, including environmental perception, sensor data fusion, behavior prediction, and vehicle manoeuvre planning, specifically for complex city traffic. A key development is the AVA research vehicle, which can detect pedestrians and predict their movements, allowing for proactive responses in potentially hazardous urban scenarios. This represents a tangible technical milestone towards L4/L5 autonomy in challenging environments."
     }
 ]
