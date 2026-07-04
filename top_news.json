@@ -1,8 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "STADT:up Project Concludes With AI Breakthroughs for Automated Urban Driving",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX3eGub1E64fem1tF35FJZ0prVe_Pq7TWTzLix0z08zHC0g45FDJjKvzPJg1I3YmY4hDUrVbyjc6fAsuaW2PZKkfjUS02B9l2H5pVsU-uOdsYZnU-3utuW6ia0PIOzZDun4kcX7t8AYIjQOVyLUN6jMycIutB52Eef9GMrgGfYJWvyRGScUembzYTMddIBHWIYAwcZEaXMIgE=",
-        "reason": "A German research initiative, STADT:up, concluded with significant AI breakthroughs for automated urban driving. The project developed an AI-driven system covering the full autonomous driving workflow, including environmental perception, sensor data fusion, behavior prediction, and vehicle manoeuvre planning, specifically for complex city traffic. A key development is the AVA research vehicle, which can detect pedestrians and predict their movements, allowing for proactive responses in potentially hazardous urban scenarios. This represents a tangible technical milestone towards L4/L5 autonomy in challenging environments."
+        "headline": "XPeng CEO: China Leads Global Smart Driving; L4/L5 Autonomy Expected Within 3\u20135 Years",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAX6E1zdk3Ct_C81WFVzz-KxOnPsKD1Rw3PCu9LMZte-qsZ9-2q2LLoIDW35riy-ARG-o8fA4Rc-p9BjpUOx-iLeI2Z4ov8KmX2_D2u4gvUHNczX6zmqGtv4ycOIL_UQCsffNHle_zV9qCdHWqDo=",
+        "reason": "This headline highlights a significant projection from a major automotive industry leader, positioning China at the forefront of L4/L5 autonomous driving development. The prediction of achieving safe, efficient, and seamless L4/L5 operation within 3-5 years, accelerated by advancements in physical AI, represents a substantial technical milestone and a shift in the global leadership narrative for automated driving tech."
+    },
+    {
+        "category": "Longevity Lab",
+        "headline": "Want to Live Longer? Start With Sleep, Strength and Nutrition Before Supplements",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvZW13t4Q245Cru3IwmYM05MCvZ1sTj78MHL3iM6AEzMbLwGA6hkjSeFwvPyNJfSnJJfFH7HBfN3IIdEgAMSrniBu5A8wuwuOG9D-9qJAsjay0zjKcjPAvGVzQIxrwDLBe7m9159V4v4uIleQp6FCqm3Cdok429etOrNMYDDU57YXUIHDFyRX7GOchy1SAicSi8YVYBff1CRH3LZN-_093hpnewgQqPjfcpd4=",
+        "reason": "This headline emphasizes actionable and foundational lifestyle protocols over quick-fix supplements for healthy longevity, directly aligning with the category's focus on human-centric research and practical advice. It underscores the growing scientific consensus that fundamental habits like sleep, exercise, and nutrition are the most powerful and effective longevity tools."
+    },
+    {
+        "category": "Finance & Business",
+        "headline": "Wall Street Edges Higher as US-Iran De-escalation Eases Geopolitical Fears",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWtLdrPe8uHcRfrG_TJ5AGF4rGGHvZJrXvKCvTVMtiYaNR_RAHfV_usAwBDbv-j9eicIWpe6yIbfogBv2QkZuvF17pOuVr4Bi3hshMCu3F0YWHf7lfHZ-13EmAwuSYz8BHGfKKwn0cgdaWP-IzvrzAmcsAtJvs9fxDpjuMQwYXZWcaXtQ8woLkWuTLeYKaQnSQAB4GaWHfx97vZ_LvNrQJ8yiDFRtdWWnDee_Vd7y",
+        "reason": "This headline signifies a notable macro stock market shift driven by a positive geopolitical development. The reported de-escalation of tensions between the United States and Iran has directly contributed to cautious investor optimism and an uptick in U.S. equity markets, demonstrating the immediate and significant impact of global political events on financial markets."
+    },
+    {
+        "category": "AI & Robotics",
+        "headline": "Does intelligence 'emerge' in large language models?",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx3eEkQtSvyfAKVjJfAr_t0t7fKmcPsMNMuF8YdkISxXiHs_C92eUDwtXlGv14yDTKYOqPYfcGeE5sNLWfi5aCX-Y5D2rSG8nbvd7evDuWQSn1criKwXVeNieGRK50i1pmLoHkvzZQ8nYqa57d0jVRS1FcavWiksed7_CV1E9b_sx3MmKVmZy00cToiJT7cKMUd4Y6AA==",
+        "reason": "This headline represents a breakthrough in understanding the fundamental behavior of large language models (LLMs). By probing the concept of 'emergence' in AI, researchers are advancing the theoretical framework for how these models acquire complex, human-like skills, moving beyond mere performance metrics to a deeper conceptual understanding of AI intelligence."
+    },
+    {
+        "category": "Global Progress",
+        "headline": "US, Iran reach weeklong de-escalation understanding - Axios",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqduHdlGqqbBOSoFq6PwOV7k68elryYMeQeazgMYBRkWL08YevG56W9tQdmh2XGGbbMiXtICAiGlSDNv1w2uedT7LZLmVqet3sZMBpgQBW7mqJAEt0rZ40V1BZ1frvUmzeRrU=",
+        "reason": "This headline signifies high-impact 'good news' regarding geopolitical de-escalation. An understanding between the US and Iran to pause offensive military operations, even for a week, represents a critical step towards reducing regional tensions and potentially preventing wider conflict, illustrating a positive shift in global stability."
     }
 ]
