@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Princeton Lab Develops Self-Supervised Sparse Sensor Fusion for Enhanced Long-Range Autonomous Perception",
-        "url": "https://www.cs.princeton.edu/cass/projects/lrs4fusion",
-        "reason": "This breakthrough in sensor fusion technology, specifically 'Long Range Self-Supervised Sparse Sensor (S4) Fusion (LRS4Fusion),' addresses critical challenges in highway driving by improving perception distances to at least 250m. This advancement, which combines camera and LiDAR features into a unified sparse representation, is crucial for safe, long-distance highway travel at speeds exceeding 100 km/h, extending autonomy to heavy vehicles like 40-ton trucks, and significantly surpassing typical city driving perception ranges."
+        "headline": "KAIST Announces Breakthrough in Physical AI for Autonomous Robots, Paving Way for Next-Gen Self-Driving Vehicles",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeeMqtcZ14lFPIKaEAOWtptYkHW3Is_J6ax8lYhJqrjcYOAB_LZCVxAE2z1uoiaPxFrG1Hz8xt6FvkvHxAlL3aRCAvYkfz5QZlyH7EIdJiAw2LGt2WmC965Q32LpNX",
+        "reason": "Researchers at KAIST have developed core physical AI technologies that enable robots to accurately identify transparent objects, understand light-matter interactions, predict future events, and plan actions. These advancements are expected to be crucial for next-generation autonomous systems, including self-driving vehicles, marking a significant step in AI architecture shifts for advanced autonomous capabilities."
     },
     {
         "category": "Longevity Lab",
-        "headline": "New 155-Person Study Shows Magnesium Bisglycinate Significantly Improves Sleep Quality, Especially for those with Low Dietary Intake",
-        "url": "https://www.drbrady.com/magnesium-bisglycinate-sleep-study-2026",
-        "reason": "A brand-new study demonstrated that Magnesium Bisglycinate led to a significantly greater reduction in insomnia scores compared to a placebo, particularly for individuals with lower dietary magnesium intake. This finding reinforces magnesium supplementation as an actionable protocol for improving human healthspan through better sleep quality, given that a substantial portion of adults do not meet adequate dietary magnesium levels."
+        "headline": "Mitochondrial Health Emerges as Foundational Pillar of Healthspan Nutrition, Driven by Ubiquinol Supplementation",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJyUCb1kbsivYpvCr2WgfGwtHURw7MAMrO28QwbWZT0Gk9HO5PQs062ePDDLP6lqU-UU6NH1tiB0Jqj-APFLy9BlrjgrAQKDsvzmIPSPRUvTtPsekxxnbCS3AyuxtAZnUWZFWNFo8GBc-C3YzkGM4ylZpXA8lCv5txEfdKs8nGptp6-pXjn4MlhRsBM0hYPMdlE15_W87jiMHipl_4cA==",
+        "reason": "A new report highlights mitochondrial health as a macro trend in healthspan nutrition, with growing scientific evidence supporting its role in energy production crucial for maintaining health. Supplementation with Ubiquinol, a naturally occurring antioxidant, is noted for its ability to support mitochondrial function and reduce cellular damage, offering an actionable nutritional protocol for well-being across life stages."
     },
     {
         "category": "Finance & Business",
-        "headline": "Global Markets React to Escalating Middle East Tensions and Semiconductor Sell-off Amid AI Infrastructure Spending Concerns",
-        "url": "https://www.schwab.com/resource/market-update-july-7-2026",
-        "reason": "U.S. equity markets experienced volatility with a significant sell-off in semiconductor stocks on Tuesday, July 7, 2026, largely driven by concerns over the sustainability of robust spending on AI infrastructure, despite a record quarter from Samsung Electronics. Simultaneously, rising geopolitical tensions between the U.S. and Iran in the Strait of Hormuz led to a near 5% rise in oil prices, impacting Treasury yields and creating broader market uncertainty. This reflects a significant macro shift influenced by both technological market recalibration and international events."
+        "headline": "IMF Cuts 2026 Global Growth Forecast Amid Renewed US-Iran Conflict and Energy Shock",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3wa6nLZ_WgkrBHKXIhBSNrRxR7lJH4iK3QKBzbyUgi6FKtvmDr8g_6LUmuaoykgGhbnCoiFzcLx9KwpGfVvH5x_V3dLZfgkbti3fqWiXUXbsjqljh0jCZdjHCX112g8aTkMiXj41Qbt7Xa4QyWjc6ZK4QoO6Sy591m36Y2Y-iv951Fr3ZDDWjK2PAASx2rX7LQo0rn5XlW-2AbwIL4qE5g==",
+        "reason": "The International Monetary Fund (IMF) has once again cut its 2026 global growth projection to 3.0 percent, down from 3.1 percent, citing the 'lingering effects' of the energy shock caused by the renewed US-Iran conflict. This significant macro stock market shift is driven by heightened geopolitical tensions in the Middle East, leading to oil price spikes and disruptions in crucial waterways like the Strait of Hormuz."
     },
     {
         "category": "AI & Robotics",
-        "headline": "DeepSeek's DSpark Accelerates Large Language Model Inference by up to 85% Without Modifying Core Models",
-        "url": "https://medium.com/@deepseek.ai/deepseeks-dspark-the-breakthrough-that-makes-llms-up-to-85-faster-without-a-new-model-e0a5c4d5b24f",
-        "reason": "DeepSeek's new DSpark framework represents a significant breakthrough in Large Language Model (LLM) deployment, enabling their V4 model to generate responses 60% to 85% faster for each user without altering the output distribution or requiring a new model. This optimization, achieved by addressing hardware idle time during autoregressive generation, dramatically improves inference efficiency and reduces latency, directly impacting the practical scalability and cost-effectiveness of LLM applications."
+        "headline": "OpenAI's GPT-5.6 Receives US Government Approval for Full Commercial Deployment, Ending Restricted Release Era for Frontier AI",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ78P32bbUoJ_2YXizE9N-as7vTb0OGnIHTU1iZNdxKMSUSdDoOgABi45y9xvzy8gy_x43gF-n-ftOd_09CzgtkKmcPwu59Yj3ry9jcJrTroIKL1RIXGnq-u7kTCQE0lbNgjg7K5YQst6WkDfwSOpDOLg-LQdGj2WweA76m5FnknEYpeqn_t0C-vhVrn5sTry0-_DiAJLQGNQwZS8=",
+        "reason": "OpenAI's GPT-5.6 has transitioned from a restricted release to full commercialization after receiving formal US government approval, marking the first time a frontier AI model has completed the entire review process under the US oversight framework. This represents a significant breakthrough in AI model deployment, indicating a shift towards broader accessibility and integration of advanced large language models into commercial applications."
     },
     {
         "category": "Global Progress",
-        "headline": "Green Climate Fund Unlocks Billions by Streamlining Investment, Bolstering Global Climate Action",
-        "url": "https://www.climatechangenews.com/2026/07/03/green-climate-fund-unlocks-billions-as-board-agrees-to-spend-more-and-save-less/",
-        "reason": "On July 3, 2026, the board of the UN's flagship Green Climate Fund agreed to allow management to invest more of its money into projects in developing nations and keep less in reserve. This decision, effectively unlocking billions, signifies a high-impact move towards accelerating global climate action by increasing direct funding for crucial climate resilience and mitigation initiatives in countries most vulnerable to climate change."
+        "headline": "IMF Lowers Global Growth Forecast to 3% for 2026, Citing Renewed Middle East Conflict and Energy Shock",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3wa6nLZ_WgkrBHKXIhBSNrRxR7lJH4iK3QKBzbyUgi6FKtvmDr8g_6LUmuaoykgGhbnCoiFzcLx9KwpGfVvH5x_V3dLZfgkbti3fqWiXUXbsjqljh0jCZdjHCX112g8aTkMiXj41Qbt7Xa4QyWjc6ZK4QoO6Sy591m36Y2Y-iv951Fr3ZDDWjK2PAASx2rX7LQo0rn5XlW-2AbwIL4qE5g==",
+        "reason": "The International Monetary Fund (IMF) has reduced its 2026 global economic growth forecast to 3 percent, citing the 'uncertainty and risks' arising from the reignited US-Iran conflict and its impact on energy markets. While this represents a negative development, it is the most impactful global headline within the last 24 hours, highlighting significant challenges to global stability and economic progress."
     }
 ]
