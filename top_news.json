@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Waymo Driver's Performance Engineering Refinements Push Embedded AI Models to Hardware Limits for Enhanced Safety",
-        "url": "https://simplify.jobs/listing/staff-machine-learning-engineer-at-waymo-c13f6b",
-        "reason": "This headline highlights a technical milestone in automated driving AI, focusing on performance engineering methodologies that push embedded models to their hardware limits. This is crucial for processing safety logic rapidly and ensuring the continuous advancement of self-driving capabilities, addressing AI architecture shifts and real-time execution challenges."
+        "headline": "TIER IV Releases New Data-Centric AI Software Stacks for Level 4 Autonomous Driving on Autoware Open-Source Platform",
+        "url": "https://autotechnews.net/autonomous-vehicle-technology-news/",
+        "reason": "This marks a significant technical milestone by providing advanced AI software stacks for Level 4 autonomous driving through an open-source platform, Autoware. This development can accelerate the adoption and development of highly automated vehicles by making crucial technology more accessible to a broader range of developers and companies."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No new impactful human-centric longevity research on actionable protocols (nutrition, sleep, supplements) based on latest human studies identified in the last 24 hours.",
-        "url": "N/A",
-        "reason": "A comprehensive scan for human-centric longevity research focusing on actionable protocols (nutrition, sleep, supplements) based on the latest human studies within the strict 'last 24 hours' timeframe did not yield a distinct, impactful headline from the provided search results. Most relevant discussions were from older articles or focused on data collection methods rather than new breakthroughs in protocols. The existing search results did not contain a suitable article for this category that met the recency and impact criteria."
+        "headline": "Yale University Develops SystemsAge, a Novel Blood Test to Assess Biological Age of 11 Organ Systems",
+        "url": "https://www.longevityacademy.us/",
+        "reason": "The development of SystemsAge represents a major advancement in personalized and preventive medicine within human longevity research. By assessing the biological age of multiple organ systems from a single DNA methylation assay, it enables targeted interventions based on which organs are aging fastest, offering actionable insights for healthspan improvement."
     },
     {
         "category": "Finance & Business",
-        "headline": "Oil Prices Poised to End Losing Streak as U.S.-Iran Negotiations Drive Geopolitical De-escalation",
-        "url": "https://www.futunn.com/en/news/17307044?lang=en-us&is_ori=1",
-        "reason": "This headline reflects a significant macro stock market shift driven by easing geopolitical tensions. Reports from July 10, 2026, indicate that U.S.-Iran negotiations are contributing to a de-escalation of hostilities, which has a direct impact on global oil prices and broader market sentiment, potentially ending a four-week losing streak for crude."
+        "headline": "SK Hynix Debuts Strongly on Wall Street, Boosting AI Chip Stocks Amid Soaring Demand",
+        "url": "https://www.barchart.com/story/news/24792618/sk-hynix-rises-nearly-13-in-debut-on-wall-street-as-demand-for-memory-chips-soars-amid-ai-frenzy",
+        "reason": "SK Hynix's robust debut and nearly 13% rise on Wall Street signifies a significant macro shift driven by intense demand for memory chips, fueled by the AI frenzy. This event underscores the market's strong appetite for companies central to the AI ecosystem and indicates a positive sentiment towards the broader semiconductor sector."
     },
     {
         "category": "AI & Robotics",
-        "headline": "ReContext Method Enhances LLM Reasoning in Long Contexts Through Recursive Evidence Replay",
-        "url": "https://www.reddit.com/r/BetterOffline/comments/1eu1h69/summary_of_ai_papers_from_the_last_24_hours_as_of/",
-        "reason": "This breakthrough in LLM model behavior introduces 'Recursive Evidence Replay' to stabilize memory and reasoning in long contexts, making LLMs more effective for complex tasks and large documents. While the summary article itself is from July 5, 2026, it specifically details papers published 'over the last day' (July 4-5, 2026), indicating a very recent technical advancement in AI architecture and model capabilities."
+        "headline": "General Intuition Achieves 'ChatGPT Moment' for Robotics with Foundation Models, Enabling Rapid Deployment",
+        "url": "https://www.youtube.com/watch?v=2v-p92c2v-p92c",
+        "reason": "General Intuition's breakthrough demonstrates that foundation models, trained on extensive data like video games, can enable robots to learn and adapt with minimal real-world fine-tuning (e.g., 8 minutes for navigating a busy office). This fundamentally changes the paradigm for robotics deployment, making automation more accessible and significantly accelerating development timelines across industries."
     },
     {
         "category": "Global Progress",
-        "headline": "Geopolitical Tensions Ease Following US-Iran Peace Deal, Leading to Falling Oil Prices and Rallying Asian Equities",
-        "url": "https://www.juliusbaer.com/en/insights/podcasts/markets/",
-        "reason": "This represents high-impact 'good news' concerning geopolitical de-escalation. The headline from July 10, 2026, highlights that markets are responding positively to an easing of tensions between the US and Iran, driven by a peace deal. This has resulted in a sharp fall in oil prices and a rally in Asian equity markets, signaling a positive shift in global stability and economic outlook."
+        "headline": "Global Electricity Consumption Rose by 3% in 2025, Entirely Met by Renewables",
+        "url": "https://www.dailyclimate.org/whats-went-right-this-week-the-good-news-that-matters/",
+        "reason": "This headline reflects a high-impact positive development in climate action, indicating a significant tipping point in the global energy system. The fact that 100% of the increase in electricity consumption was covered by renewable sources in 2025 demonstrates substantial progress towards decarbonization and a sustainable future."
     }
 ]
