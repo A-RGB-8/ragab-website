@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "TIER IV Releases New Data-Centric AI Software Stacks for Level 4 Autonomous Driving on Autoware Open-Source Platform",
-        "url": "https://autotechnews.net/autonomous-vehicle-technology-news/",
-        "reason": "This marks a significant technical milestone by providing advanced AI software stacks for Level 4 autonomous driving through an open-source platform, Autoware. This development can accelerate the adoption and development of highly automated vehicles by making crucial technology more accessible to a broader range of developers and companies."
+        "headline": "Xpeng Initiates Robotaxi Fleet Testing with 'Physical AI' Strategy and Mapless L4 Platform.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4fichmrg1ekVi_BzK8-vTpCCtncHI8HrsbgHUMbEicdOUwfygwcqU_sMiQJ3CJztEgxdwOWtv9v_PwRE1rw0aLkp535Y26poFKKoZVWYYfq09v9IZpchjRbULAu-K5jhgzR7CjYrDlkWm4CfS-TOIQhEmkOys3XOwhZVQntKqDOTSrFqk-ZF-qtGYJSeYH3dL7dT7A1P3ALl_u_WT-2C-7aI2JOXv_RHMneFnnfZCGczZ-euHjQBJubvlnQwt6vOy",
+        "reason": "Xpeng has launched internal testing of its L4 autonomous Robotaxi platform, which integrates its in-house Turing AI semiconductor and a VLA2.0 vision-language-action model. This 'Physical AI' strategy enables operation without reliance on high-definition mapping or heavy LiDAR, significantly lowering capital expenditure for territorial expansion and marking a notable AI architecture shift towards generalized models in autonomous driving."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Yale University Develops SystemsAge, a Novel Blood Test to Assess Biological Age of 11 Organ Systems",
-        "url": "https://www.longevityacademy.us/",
-        "reason": "The development of SystemsAge represents a major advancement in personalized and preventive medicine within human longevity research. By assessing the biological age of multiple organ systems from a single DNA methylation assay, it enables targeted interventions based on which organs are aging fastest, offering actionable insights for healthspan improvement."
+        "headline": "New 2026 Human Studies Reinforce Lifestyle and Multivitamins as Actionable Protocols for Slower Biological Aging.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOYChVRzLAkHrRUQCaPs_JoRlp8dUu5PSX8ginimiYRsu5d5NlZ2WbKvPAbJlQ1jA1K0Lyna0Gj2y3_GsrXaJwiSCD2VDcC3UCD7gXNOAlbTuhKl4lVq5vW5HAsYo5_IbRv-GjhkqQnsPAFHW7DbFiSiqQGHS-9Trz5vscKHc5ZW4xemOu3UxT8BcZEDLw0OEzAthBONE5QIrQ5_Rw4ZA5yTsWZItyX3fZ-Ql3qJe15u1TpiqWl52uKYe3S_mM3m4ECRjVhTYuFTOEyqpLZBqHoMKn-hmRHqHPog6gJ3yuQVGghgiaqsrvtStV9IoFbauMIghb2KxZ6bC0l3a0tjyRbNVlrKmx",
+        "reason": "Recent 2026 human studies and analyses, including a COSMOS analysis and other research, continue to strengthen the evidence that foundational lifestyle factors such as diet, fitness, and adequate sleep are critical for extending healthspan. Furthermore, a daily multivitamin-mineral supplement has been shown to potentially affect DNA-based aging clocks, suggesting it as an actionable protocol alongside these lifestyle interventions for slowing biological aging."
     },
     {
         "category": "Finance & Business",
-        "headline": "SK Hynix Debuts Strongly on Wall Street, Boosting AI Chip Stocks Amid Soaring Demand",
-        "url": "https://www.barchart.com/story/news/24792618/sk-hynix-rises-nearly-13-in-debut-on-wall-street-as-demand-for-memory-chips-soars-amid-ai-frenzy",
-        "reason": "SK Hynix's robust debut and nearly 13% rise on Wall Street signifies a significant macro shift driven by intense demand for memory chips, fueled by the AI frenzy. This event underscores the market's strong appetite for companies central to the AI ecosystem and indicates a positive sentiment towards the broader semiconductor sector."
+        "headline": "\"The Great Divide\": Surge in Reverse Stock Splits Signals Widespread Corporate Distress in Mid-2026 Market.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXSy3LjqsJr89LPNcj7nqRVPtXDCeZrCFUzrS1YNxAzVGlWJR61GtkbCcweU7BWk34hWj9kGDwgbmXwNKejzZBeHL1sZSOtmcdLXCQT5LeHbb6eUVA9G849OIWzljpKO4QXF4vH1o3YyNLMXNPvJdvlP5UFmUS3FcuVSri0T7sNrpVNjpycQoUplTSlaiAv8V3ELtlDeS59vKm9LnwUhPadvLBv7t5g==",
+        "reason": "As of July 12, 2026, the financial calendar is dominated by reverse stock splits, with over two dozen scheduled in a single week. This corporate maneuver is typically associated with companies struggling to maintain minimum listing requirements or improve their stock's perceived value, indicating a broader trend of underlying weakness and widespread corporate distress, particularly among smaller-cap and highly speculative assets, rather than growth."
     },
     {
         "category": "AI & Robotics",
-        "headline": "General Intuition Achieves 'ChatGPT Moment' for Robotics with Foundation Models, Enabling Rapid Deployment",
-        "url": "https://www.youtube.com/watch?v=2v-p92c2v-p92c",
-        "reason": "General Intuition's breakthrough demonstrates that foundation models, trained on extensive data like video games, can enable robots to learn and adapt with minimal real-world fine-tuning (e.g., 8 minutes for navigating a busy office). This fundamentally changes the paradigm for robotics deployment, making automation more accessible and significantly accelerating development timelines across industries."
+        "headline": "RealDexUMI Unveiled: Wearable Interface Enables Dexterous Robot Learning and Cross-Embodiment Deployment.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiPmZYfeDKkPFJOeJ8xbf-xSlumv3Nh0KcH7uFp7LynGgUqv_aE366LVa9gUGgDI2evTbDmRWnVU1K0C5xBpwYOHToXOwBk8nPD9KAfWuqk8eAgLP2fIMeeEXbm70HJ6n4VzALea7wDg3SILxTY58uQ8CqrQnGPApfHFYiCpLSvqpYTxzeq6NOs8mOxeI=",
+        "reason": "RealDexUMI is a novel wearable universal manipulation interface that significantly advances dexterous robot learning. It uses a shared dexterous end-effector module and a palm-side isomorphic teleoperation glove, allowing human finger inputs to directly control robot-hand joint commands in real-time. This system preserves fine hand-object interactions from demonstration to deployment, enabling policies trained on RealDexUMI data to achieve high success rates across diverse tasks and transfer across different robot embodiments."
     },
     {
         "category": "Global Progress",
-        "headline": "Global Electricity Consumption Rose by 3% in 2025, Entirely Met by Renewables",
-        "url": "https://www.dailyclimate.org/whats-went-right-this-week-the-good-news-that-matters/",
-        "reason": "This headline reflects a high-impact positive development in climate action, indicating a significant tipping point in the global energy system. The fact that 100% of the increase in electricity consumption was covered by renewable sources in 2025 demonstrates substantial progress towards decarbonization and a sustainable future."
+        "headline": "Congo Integrates Climate Strategy into National Development Plan, Backed by IMF, for Sustainable Growth.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyYBTWXKJ3gEchnu_abKt7NKyvMzutIUDM4HrIwLXKoQjL7ddJe87y-KiZmYvvsWLUlgnmlGyNzbiRBKVKbti5984sy1KxStgBFMpHQry7veGDiWCAKwbKDPyY8XFPeChg8-372w56hBldMgBb3RSwy5rFJk0ma5F5S083OmUlGilB7v3MkAUaqg386pHw4g==",
+        "reason": "The Government of Congo is actively aligning its 2022\u20132026 National Development Plan with its climate strategy. This includes implementing reforms to integrate climate requirements into public investment projects, with support from the IMF, aiming to leverage natural capital like forests for wealth creation while reducing carbon emissions. This represents high-impact good news regarding climate action and sustainable development."
     }
 ]
