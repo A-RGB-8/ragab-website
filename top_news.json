@@ -1,8 +1,8 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "UN adopts the first global regulation allowing fully autonomous vehicles",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGea_cM_nWQ5crurRiBSlENxOGqFqe6-EHG1w7aah2W_tB9_1Jdce3uyzEJhzNPtHpm_F_lueKZCNXXsok-TzU-tu2RfH9TGdepbKh_Dpil7ORQ9n0o_DmAzjPxLZ3CAStWC2V1HofNK_sWvM6zPllupahTKpeTTmPD_Ml6-5ihL9RDGCXrzfTacqPL5gKHzAr7kdPhvU6YZVoXnSHXklSn33xsfrdaBmc=",
-        "reason": "This marks a significant regulatory milestone for Level 4 autonomous driving systems, providing a global framework for safety, performance, and deployment. This clarity and standardization are crucial for the widespread adoption and commercialization of advanced automated driving technologies."
+        "headline": "The Era of End-to-End Autonomy: Transitioning from Rule-Based Driving to Large Driving Models",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqAZwb_VaZBLe9fMvdYrP0CrgoTRgTqi0SxPAR5aKxMliWV-ekkqsCCjhNcqE_mEHbBEIM8-3rRut2wsHZvtTKtIF2-szirBq9NzqeiKkHea7bGLvmKiaCaG0BllkYjr1OlCdk",
+        "reason": "This paper highlights a significant architectural shift in autonomous driving, moving from traditional modular, rule-based systems to unified, learning-based end-to-end (E2E) driving systems, integrating perception, prediction, planning, and control within single frameworks. This represents a fundamental change in AI architecture for self-driving cars, with implications for improved performance in complex scenarios and scalability, as evidenced by developments like Tesla's Full Self-Driving (FSD) V12-V14."
     }
 ]
