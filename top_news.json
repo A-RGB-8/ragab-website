@@ -1,8 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "The Era of End-to-End Autonomy: Transitioning from Rule-Based Driving to Large Driving Models",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqAZwb_VaZBLe9fMvdYrP0CrgoTRgTqi0SxPAR5aKxMliWV-ekkqsCCjhNcqE_mEHbBEIM8-3rRut2wsHZvtTKtIF2-szirBq9NzqeiKkHea7bGLvmKiaCaG0BllkYjr1OlCdk",
-        "reason": "This paper highlights a significant architectural shift in autonomous driving, moving from traditional modular, rule-based systems to unified, learning-based end-to-end (E2E) driving systems, integrating perception, prediction, planning, and control within single frameworks. This represents a fundamental change in AI architecture for self-driving cars, with implications for improved performance in complex scenarios and scalability, as evidenced by developments like Tesla's Full Self-Driving (FSD) V12-V14."
+        "headline": "Nvidia's New Vera CPU Aims to Boost Agentic AI Performance, Crucial for Advanced Autonomous Driving",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHM-hR_XrdG5LdWID9v02j7EBNp9vT0IuXo7HeGSmQd9xlSOg77tAqfGyPtUFjojSUxYTQCIyabLWbA2b0CH1yJUCl694ewgJb4P_lnANrG5RELwHxwvwI_QX_dGlpzPfZipvbVMSNyKeY_yfhG2ms3nCDa0XQvUxlbsvJeD9qUvwGQI9li_EPcxSdHXNtWGfzAM_BIB8G04kj_aC7ZTFBJW0cCP7wNqXZc8ymg6rYVHT-S_5iI2HeaXw1YA==",
+        "reason": "Nvidia's announcement of the Vera CPU, featuring custom Olympus cores optimized for agentic AI workloads, signifies a pivotal shift in AI architecture. This technical advancement is critical for achieving L4/L5 autonomous driving capabilities, as it enhances the processing power needed for complex, real-time decision-making by AI agents in self-driving systems. The development directly supports the progression towards sophisticated autonomous driving platforms like Robotaxi and Cybercab."
+    },
+    {
+        "category": "Longevity Lab",
+        "headline": "Yale University Introduces SystemsAge Blood Test for Organ-Specific Biological Age; Herbal Terpenoids Emerge as Autophagy Activators for Healthspan",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_10H1y5j83bFDRwJGwx_r36fbwYpJtVsBgDN-dyPjKbP5EtrJOw6A-cJsyN93uqds8rkJLgzLEz8gMZT7U9CMk3QaHOqw9WoMheEReoGNizlcqRRxUc1KZSvNEP5JtLuoUEUu0xe2hpcc6XLrzL0==",
+        "reason": "This headline highlights two significant advancements in human-centric longevity research. Yale University's development of SystemsAge, a novel blood test, offers a high-resolution biomarker for assessing the biological age of 11 distinct organ systems, paving the way for more personalized and targeted longevity interventions. Additionally, a multi-species study identified herbal terpenoids (thymol and carvacrol) as potent activators of autophagy and mitophagy, suggesting new avenues for actionable nutrition-based strategies to improve healthspan."
+    },
+    {
+        "category": "Finance & Business",
+        "headline": "Ecer.com Revolutionizes Global B2B Trade with Mobile-First Ecosystem and 24/7 AI Translation",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoc3Ns-gd6_onO7b6xyI1GquTjGtzxnnAIqf7Mld7CBP-mA2sBsmp25R-xdBwxc0u91KlEdaL4S4QOB7r20tJ7uWwysDIfjdM3cMWP9mWYFg2mIEz8InXeNyv1rjolN_Txb2rJrRYAfKITJYMl16ur3r1x6ziBCJDzs23CY62p5aUeXuN98BHPatXW7lnLIVKms2mOEd-f7_X1xNsH2gZoQ2MlvRMOSR2T7LdbP6Lo2wr8C4238NlboGfs_pu8_WDnP27SVhMUdQdu1oLVCs_myVo==",
+        "reason": "Ecer.com's launch of a mobile-first B2B ecosystem, integrating 24/7 AI translation and interactive digital tools, represents a significant trending business idea. This innovation addresses traditional barriers in international commerce such as time-zone differences and communication lags, enabling instant global deal-making. By mobilizing critical transactional processes, the platform aims to dramatically enhance efficiency, accelerate customer acquisition, and boost transaction speeds in cross-border trade."
+    },
+    {
+        "category": "AI & Robotics",
+        "headline": "Tactile Sensing Emerges as Key Breakthrough for Real-World Robot Deployment and Dexterity",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH__QI6kFR8qr-Eiv9ZTfjbnyMIkJ8ZOdI9fOQHRsPlfT1n7360LmdEQ66fqoiXNECaQAiV5FMUW1RudmgJiu6bLVzwa8EePNVe9odf556EoyvWXNJgLiD8CvKaJ5-DfiewN5Dp8F_mJv6tLl_ezUTBxvfdk3QFRg9uXRqeVLhaTwH-uXdXndt53G2-wR0_8T8SJXzACK7vb3MWDo6x6g==",
+        "reason": "The emphasis on 'robot tactility' and the development of advanced tactile sensing, including 'five-finger integrated visuo-tactile dexterous hands,' marks a crucial breakthrough in robotics features. This allows robots to perceive physical properties like hardness and friction, significantly enhancing their dexterity and ability to perform complex manipulation tasks in real-world environments. These advancements are vital for overcoming barriers to widespread robot deployment and for enabling robots to operate effectively as skilled workers."
+    },
+    {
+        "category": "Global Progress",
+        "headline": "Ukraine Passes IMF's First Review of New $15 Billion Program, Deemed 'Broadly Satisfactory'",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNrE7l1AJM3Hwc86AMmy9JhmYvWL5FCozRlRY7pCx7b_agkqTxnqfaGHwxKkmnt6sUJBcMQGq51p9OJH5YnFsrWYYSdH2e4tGeRc7PFiEG8-D7vtN03fM=",
+        "reason": "Ukraine's successful passage of the International Monetary Fund's first review of its $15 billion program, with performance noted as 'broadly satisfactory,' represents a high-impact positive development amidst ongoing geopolitical challenges. This financial stability milestone indicates a commitment to economic reform and provides crucial support for the nation, indirectly contributing to broader recovery and potential poverty reduction efforts in the region."
     }
 ]
