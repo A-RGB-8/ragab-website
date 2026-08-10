@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "FedEx and Dexterity Expand Physical AI Deployment for Autonomous Trailer Loading at Hagerstown Hub",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv2TdOHB5ZohNNPU0BdCIlzaZhxfj66oRc8lEWdT0PxVyEAbF-ijov3bKyOrqxadnWOoXirAqqdh3BsB5Jws3TS_7B7eMglmO7XKabdb9pook6YjQQhNcOO9sWjFji3iesD3Tv7WgKA_nah1Z4WtFK3w-UHEZSqbEMYmvTW6jGU9ftWB3HdK-cKssx8DMqF-njt9ROX-NsJOv7IWRoRsLN8WplnaHF4ioo3JI=",
-        "reason": "This marks a significant L4/L5 milestone as it scales the deployment of physical AI systems for autonomous trailer loading in a high-volume logistics environment, establishing a blueprint for wider network expansion and demonstrating the technology's reliability in real-world applications."
+        "headline": "Wall Street Analyst Claims Tesla Has Achieved \"Level 4\" Self-Driving",
+        "url": "https://cleantechnica.com/2026/06/11/wall-street-analyst-claims-tesla-has-achieved-level-4-self-driving/",
+        "reason": "A prominent Wall Street analyst has asserted that Tesla's Full Self-Driving (FSD) system has effectively reached Level 4 autonomy in most conditions. This claim, if validated by broader industry consensus or regulatory bodies, marks a significant milestone in automated driving, indicating advanced capabilities beyond driver assistance where the vehicle can handle all driving tasks within specific operational domains without human intervention."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Seven Science-Backed Tips to Live Longer, from the World's Top Longevity Expert",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwLLtMUIx_3DSLYz23AhtupjYnEjCf0RYUMpDDJetmk7FgToVg3b4CaMP5ng3D7AnPJmolhbpeBLh4u2ot-SUS08se58sV875mmSSX_c8QhYXmpGVh4yD31DK2m2hW8TWSzd8NcMXL8KSXkrQXEm5K80kLoFW2QoY6sIHVzSSDffH3KLtyqIPTmvJ88pPdBpMiyEqI7RVS7eCcTHsuuxnrmW8NSbAnrOd2bzHnJexRCalk",
-        "reason": "This article highlights actionable, human-centric protocols emphasizing lifestyle choices like physical exercise for increasing healthspan and life expectancy, and mentions emerging therapies like drugs to eliminate 'zombie' cells and epigenetic reprogramming."
+        "headline": "BREAKTHROUGH Skin Age Reversal: New Enzyme Removed 40 Years Of Damage",
+        "url": "https://www.businessinsider.com/first-ever-reverse-aging-drug-injected-into-human-life-biosciences-2026-6",
+        "reason": "Scientists at Revel Pharmaceuticals utilized an AI-designed enzyme, CMLase, to reverse decades of glycation and advanced glycation end products (AGEs) in human skin tissue. This breakthrough demonstrates an actionable protocol for age reversal, reducing the biological age of 75-year-old skin to below that of 31-year-old skin on a key aging marker."
     },
     {
         "category": "Finance & Business",
-        "headline": "U.S. Equity Markets Close Higher Following Jobs Report, S&P 500 Reaches Record High",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQV02albtDgMpsVWG7BRk9kP32ZpjzkgTmME04vjloCrEE95hMkQHwRIsQ-uJhrnTYtNdbQGod0Sa__0ELz-mT2fCljxSsKWEGw7IiU8uiGbcscypC2JznldjxXf3s3ekya_4OHlEhRBXoOTBYlqpFAfvjNVvsJi6_6Y86bCwkVS0N0CfG6rsc0diSiR40mznBQ3OhSo=",
-        "reason": "This headline reflects a significant macro stock market shift where markets closed higher and the S&P 500 reached a record high, driven by a softer July jobs report that eased inflationary pressure and reduced the urgency for the Federal Reserve to hike interest rates."
+        "headline": "Markets close higher following jobs report \u2013 U.S. equity markets ended higher on Friday, with the S&P 500 reaching a record high.",
+        "url": "https://www.edwardjones.com/market-news-guidance/stock-market-news-today",
+        "reason": "U.S. equity markets, including the S&P 500, reached record highs after a jobs report showed an unexpected decline in payrolls and softer wage/hiring trends. This indicated a cooling labor market which may reduce inflationary pressure, giving the Federal Reserve less urgency to hike interest rates and boosting investor sentiment."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Google DeepMind Unveils Breakthrough 'Thinking AI' That Lets Robots Reason, Learn, and Act in Real Time",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCUum35qvUEduBS9Rul-X1z4fp0CrudnU-qaDH2FGy2zZtePhJySt1Q6lJDpkwXMLyI-CJ20F0D8DIHupVqoYXsnkCLTsHxp-rgFnV-Jlj6ZDLddxTu6bfHgs8erXLsI7h3zKeEj7_nLHaXAaD5hZbpbHKZSkWrQ9SBMpioBrsUZex8FeYcBLoqdyK_9Qk-o7tuDARDid4sp17S137-RkGjeoFDNE40zd_QFLxNT8ve7BM_QEGWlbDspjpf2pPMVXx_6eJP3feRig=",
-        "reason": "This represents a major breakthrough in AI model behavior and robotics features, with Google DeepMind's Gemini Robotics 1.5 and Gemini Robotics-ER 1.5 enabling robots to 'think through complex tasks step by step' and achieve human-like intelligence for real-time reasoning and action."
+        "headline": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "url": "https://www.deepmind.com/blog/gemini-robotics-2",
+        "reason": "Google DeepMind introduced Gemini Robotics 2, an advanced vision-language-action (VLA) model capable of controlling full humanoids with whole-body intelligence and multi-finger dexterity. This breakthrough enables robots to perform complex multi-step tasks, reason through movements, adapt quickly to new robotic bodies, and even collaborate with other robots, marking a significant step towards more adaptable and intelligent robotic systems."
     },
     {
         "category": "Global Progress",
-        "headline": "U.S. Federal Judge Orders Pentagon to Lift Freeze on Wind Power",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Y7UhqzHWFQKLFZGqUoffWPdMt4jZY4RYgH6py7hddFJi_YswmOV-_IAGXvLHNehbRTeAl8jhVIeDbcTHdqoocxuz5gI3088NS3-9xff2_3e-YxDEgPCpfMyemEy-r4hTMA==",
-        "reason": "This is high-impact good news for climate action, as a federal judge's order lifts a freeze that had stalled dozens of wind power projects nationwide since April, enabling significant progress in renewable energy development."
+        "headline": "In June, solar was the European Union's single biggest source of electricity - and, for the first time ever, it supplied a full quarter of the bloc's power.",
+        "url": "https://ecologi.com/articles/good-climate-news-july-2026",
+        "reason": "For the first time in history, solar power became the European Union's largest single source of electricity in June 2026, supplying a quarter of the bloc's power. This represents a significant positive shift in global energy production towards renewable sources, indicating substantial progress in combating climate change and reducing reliance on fossil fuels."
     }
 ]
