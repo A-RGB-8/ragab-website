@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No significant technical L4/L5 milestones, sensor fusion, or AI architecture shifts reported in the last 24 hours.",
-        "url": "N/A",
-        "reason": "Based on a deep-scan of the web for the last 24 hours (August 24-25, 2026), no publicly announced breakthroughs specifically meeting the criteria of technical L4/L5 milestones, significant sensor fusion advancements, or major AI architecture shifts in automated driving technology were identified within this strict timeframe."
+        "headline": "Autonomous Driving Reaches Inflection Point at CES 2026 with Progress Towards L4 Autonomy and Nvidia's Alpamayo Platform",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEfsP2YJHOBR8fTr8nPo_zi1Scwdz4L9CbPkyAo0h77w3fLT7zQ_o641WI0FUsr1vn1j8nxX3_9xF2jaAdiW33jLqtvXehx3UBPVgeP2CsQf90dIqqMWqNaP0HCo067CmPVYmROOFSTaUsXJMzwMhXvPvgZZfUoarcQTNKEGfHWI80ZJp9op8BMNLKIK08p9QA20I",
+        "reason": "CES 2026 highlighted significant advancements in autonomous driving, with L4 systems becoming a reality and robotaxi companies expanding services. Nvidia's Alpamayo physical AI platform was introduced to accelerate autonomous driving development through expanded real-world and simulated data, marking a clear inflection point for the mobility sector."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Too much or too little sleep may make your body age faster, new Columbia University study suggests.",
-        "url": "https://www.sciencedaily.com/releases/2026/08/260824131500.htm",
-        "reason": "A new analysis from Columbia University Irving Medical Center, published on August 24, 2026, suggests that both insufficient and excessive sleep are linked to accelerated biological aging across various bodily organs. The study, analyzing 23 biological aging clocks, found that sleeping approximately 6.4 to 7.8 hours per day was associated with the healthiest aging patterns, offering actionable insights for human healthspan and longevity."
+        "headline": "Longevity Interventions Show Strong Clinical Evidence for Healthspan Extension, with Spike in Trials in 2025",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtTdjDzguvowvRcgx1vuZjZ7nbaSTZxV3XTV-5sIczfLp6EQ-NVkcpunoNSEUwgwOlkm2gf7q7Wbds65eBGXqJcqvJz_l1a9qJ0vvjaQ8UpxZbxdyAS9CNVbdG6Qbphn8OYmNVqYsEIzAcOgOpdje37E0onRoAICZ3BP6uYWKX8N25NLYj91QBZtNbVSWBDEqYbZ30e_56uFliTo5AO9MyZxj_TnQ",
+        "reason": "A recent report indicates that several therapies, including GLP-1 receptor agonists and SGLT2 inhibitors, demonstrate strong clinical evidence for improving healthspan and slowing disease progression. The year 2025 saw a pronounced increase in longevity-focused human trials, signifying accelerated progress in actionable protocols for extending healthy life."
     },
     {
         "category": "Finance & Business",
-        "headline": "XPENG Robotics raises over US$900 million at US$6.3 billion valuation to accelerate physical AI deployment.",
-        "url": "https://www.investingnews.com/news/tech-investing/xpeng-robotics-business-raises-over-us900-million-at-a-post-money-valuation-of-over-us6-3-billion-accelerating-physical-ai-deployment/",
-        "reason": "On August 25, 2026, XPENG's robotics business announced a private financing round exceeding US$900 million, valuing the company at over US$6.3 billion. This significant investment, the largest single-round private financing in China's embodied AI industry, is set to accelerate the mass production and R&D of XPENG's humanoid robots and Physical AI models, marking a major business development in the rapidly evolving AI and robotics market."
+        "headline": "Average Recoveries Falling Across Debt Stack as Distressed Exchanges and Software Borrowers Leave Less Behind",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Z5OfoZKYcFdJ257uYJ9iVl92kMTnjXbQIPl12yvpJhrXV_ta6dRMdmDxNPql0wKo_tNih5pDAyV1m3pQg8zv0vItrKmun978JIdRxfPZR551nji1Y87xdcSka0zeyuCbClJUpCltxoyVd_j-AKQeRxEvcmu0UAfHCg",
+        "reason": "Over the past three years, average recovery rates across the debt stack have declined. This trend is driven by out-of-court distressed exchanges that reshuffled priority without real deleveraging, and an increasing proportion of asset-light software borrowers leaving creditors with limited tangible collateral, signaling a significant shift in credit market dynamics."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Robot 'Tian Gong Ultra' breaks Usain Bolt's 100m sprint world record at 2nd World Humanoid Robot Games in Beijing.",
-        "url": "https://www.koreatimes.co.kr/www/tech/2026/08/133_364115.html",
-        "reason": "At the 2nd World Humanoid Robot Games, updated on August 24, 2026, the 'Tian Gong Ultra' humanoid robot recorded a 100m sprint time of 9.39 seconds, surpassing Usain Bolt's human world record of 9.58 seconds. This achievement signifies a groundbreaking advancement in robotics features, particularly in speed, dexterity, and autonomous physical performance, pushing the boundaries of human-robot capabilities in real-world applications."
+        "headline": "NVIDIA's Jetson Orin Nano 2 Doubles Inference Performance, Enabling Frontier AI Models on Edge Robotics",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJVEbbqNiHbR3wgW5kFU8jt9shVwgFIw99lriKgGcUVRSj8rZrPv10oDZtrB2_EcozuKUHKvGbAyuHteWwkWxpogky4erZdMYUmUvyihFHG1KpcVh9qJHA__EmrARsdoV2QY6cvJFI0h2IucgP-YNrZ9WfZ0HYcdxwTK2PTOasT1dMa1GW1D9w4PEH67aLeGG1OhbdQZjN3Ahwxt3LwohnWr1pzw",
+        "reason": "The launch of NVIDIA's Jetson Orin Nano 2 significantly boosts inference performance for edge robotics. This enables the deployment of frontier AI models, such as large language models (LLMs) and vision-language models (VLMs), directly onto physical AI applications, thereby accelerating the development and deployment of advanced AI in the physical world."
     },
     {
         "category": "Global Progress",
-        "headline": "Egypt's Foreign Minister and US Advisor coordinate on de-escalation in Sudan, Libya, and Horn of Africa.",
-        "url": "https://dailynewsegypt.com/2026/08/24/egypts-foreign-minister-us-advisor-coordinate-on-de-escalation-in-sudan-libya-and-horn-of-africa/",
-        "reason": "On August 24, 2026, Egypt's Minister of Foreign Affairs, Badr Abdelatty, and Massad Boulos, Senior Advisor to the US President for Arab and African Affairs, held discussions to coordinate efforts aimed at de-escalating ongoing conflicts in Sudan, Libya, and the Horn of Africa. This collaboration highlights active diplomatic initiatives towards resolving complex regional crises and fostering geopolitical stability."
+        "headline": "Germans Could Save Over \u20ac12,000 by Switching from Gas Boilers to Solar, Battery, and Heat Pump Systems",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-gsXwQzZwLWnl0qv29c8dQ0Xf8xHE4QzUDerZ9THjwTeZ3dEZjCyqd6j8QyDfgCtLxVcGtclJxrQKJUuX_thLcG5PDX7Ks-AzFkJutpJEYKUE9FaoIBYm0x0eXsS9bI9",
+        "reason": "A recent analysis suggests that German households can achieve substantial savings, exceeding \u20ac12,000, by replacing traditional gas boilers with a combination of solar panels, battery storage, and heat pump systems. This provides a significant financial incentive for individuals to adopt climate-friendly technologies, directly contributing to decarbonization efforts."
     }
 ]
