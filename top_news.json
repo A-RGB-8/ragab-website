@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Tesla Cybercab Launches Public Robotaxi Service in Austin with No Steering Wheel or Pedals",
-        "url": "https://www.teslarati.com/tesla-cybercab-rides-public-no-steering-wheel-pedals/",
-        "reason": "This represents a significant technical L4/L5 milestone as Tesla officially deploys a purpose-built autonomous vehicle completely devoid of manual controls (steering wheel, pedals) for public ride-hailing. The launch in Austin, Texas, signals a major advancement in human-robot interaction and the scaling of fully autonomous deployment."
+        "headline": "Amazon Zoox brings steering wheel-free robotaxi to Houston",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs8tmWdVepP6ot_gNsQdHZZ3I4iOLobyXkDtWe361qbkdX5VXxY-wxxa20VN-dLGPvoJKmHYo7GM0w6IijQLHRnwCTQ07oveNeppa0SsYnh7s7vgfER_Hzg7jVQwJDKftw6LTL3Hefs-IdTft1M4aecHbSs9xhYVWorFb6wL4YO_eGCUH-QSaoD6HHZvK58nXxrxQlXvUAj2AY9JTeMtb2qlXx",
+        "reason": "This signifies a major operational and technical milestone in L4 autonomous driving. Zoox's deployment of driverless, steering wheel-free robotaxis in a new major city like Houston expands the real-world footprint of highly automated vehicles and showcases advanced vehicle design for passenger experience."
     },
     {
         "category": "Longevity Lab",
-        "headline": "No impactful headline found in the last 24 hours for human-centric longevity research with actionable protocols.",
-        "url": "N/A",
-        "reason": "The deep-scan for the last 24 hours did not yield any significant human-centric research breakthroughs focusing on actionable longevity protocols (nutrition, sleep, supplements) based on the latest human studies, as per the specified criteria."
+        "headline": "What can and can't slow down aging: New study offers clues",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxntF_IDsnBvTf8A0xnkQar19d14a_uaSGKsrGAl689HtUfQnhjZfb2c9ISUX0tKKMUCLY7dryBeW0mcEkslphW7h7cSBe-OIrziL7ly0EYjer_XT1pJRwlW3kGM9HyXloq6P_hgnMbrV0cE8gwlkP5uHrQg00x6hRFzoRO_2oDSx3vdXGtzoT-ewKZU17ky7rarqCzZed4p9gMhb9",
+        "reason": "A new study, published in Nature Medicine, offers human-centric, actionable insights into healthspan and longevity. By analyzing data from 51 anti-aging intervention studies and measuring DNA methyl biomarkers, researchers found that healthy diets (e.g., Mediterranean) and regular exercise were effective in reducing epigenetic aging, alongside some medications. Importantly, it highlighted that over-the-counter supplements showed no effect on these biomarkers."
     },
     {
         "category": "Finance & Business",
-        "headline": "Tech Stocks Lead Broad Market Rebound as Easing U.S. Treasury Yields Signal Potential Fed Rate Hold",
-        "url": "https://news1.kr/articles/?9083236",
-        "reason": "The market experienced a significant macro shift with major tech stocks and broader indices rallying on September 3rd and 4th, 2026. This rebound was primarily driven by the easing of U.S. Treasury yields and subsiding concerns over further Federal Reserve interest rate hikes, which bolstered investor sentiment."
+        "headline": "Yields jump, stocks fall after jobs report surprises to upside",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3HWHWVJWOLKd7vDknWPh8n4ZofXhsyCi25rsnWjxdJFUy-i0sm6I2Mc8A4YS6f9g-SIktMRyu-3D5TkZ00avnGR5GZjqfjBgD3HUZ9EftN3keZxLHCVTQNoglxnZYickBjRXYJD-vxX6Xoq9vcsnvn6Gz0ftRJJzq_uDtTIjOlrzc8Xoe0jORZrf1yDKw2WH7raGMBLXwS6wBh_jn63kZ0pYMHY3cQ==",
+        "reason": "This headline reflects a significant macro stock market shift. A stronger-than-expected August jobs report caused U.S. Treasury yields to jump and equity markets to fall, as it increased expectations for the Federal Reserve to raise interest rates to combat inflation. This indicates a direct market reaction to key economic data and monetary policy outlook."
     },
     {
         "category": "AI & Robotics",
-        "headline": "OpenAI Launches GPT-6 Astra, Hailed as Its 'Biggest LLM Launch of All Time' with Major Performance Leaps",
-        "url": "https://latent.space/p/gpt-6-astra",
-        "reason": "The release of OpenAI's GPT-6 Astra marks a breakthrough in LLM model behavior, demonstrating new state-of-the-art capabilities in computer use and coding, and achieving significantly improved scores on challenging benchmarks like ExploitBench and ARC-AGI-3, signifying a new generation of intelligence in large language models."
+        "headline": "GPT-6 Astra: OpenAI's biggest LLM launch of all time",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtALZrwnbf3Rt0gqircLccKQT4_1ElasEircFNvcClCVbgmc3MqYjcLcVu1Uhl_CwpXAbUsGFP3gdxiykr1MJUBFRHvgWzcEhN2srxpPRNtdwng_SyomIsDpijViiG6OMJL0zUnRrbTAqjI2bosTEaTkpOng0hVJc=",
+        "reason": "OpenAI's launch of GPT-6 Astra marks a significant breakthrough in large language model (LLM) behavior and capabilities. Positioned as an 'automated AI Engineer,' the model demonstrates advanced proficiency in computer use, software engineering, math/science, and cybersecurity, outperforming previous models on various metrics. Its 'cyber-critical' capability is particularly impactful."
     },
     {
         "category": "Global Progress",
-        "headline": "Egypt and China Call for Regional De-escalation and Stability in the Gulf and Middle East",
-        "url": "https://www.wam.ae/en/details/1395303503206",
-        "reason": "This joint statement by Egypt and China represents a high-impact diplomatic effort towards geopolitical de-escalation. Both nations urged reduced tensions, stronger dialogue, and political consensus to address security concerns in volatile regions like the Gulf and Middle East."
+        "headline": "Putin Pauses Strikes on Kyiv as Trump Envoys Visit Russia and Ukraine",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVH9Kjkjl6u2ol8eyo95_uUEuhvm24okMhnyjRMvg9I2NPZUfeyzUM4SoZbYXPTirtZEHXiLZ_NayhC_CBF8eKm3fbIRY4hmRYoCrWRDdFXrEct7vYF9N5b16lQJv5iRk-YJWmdbadJ7aPtDw5B4T7orILNnoiihMUSt6CfdNKefsmKhwH-0tn8iy-K4cAONAtdQ8OCL477wyBEg==",
+        "reason": "This represents a high-impact instance of geopolitical de-escalation. Russian President Putin's order for a 72-hour pause in strikes on Kyiv, coinciding with a visit from U.S. envoys to discuss a potential end to the Ukraine war, signifies a concrete step towards diplomatic resolution in a major global conflict."
     }
 ]
