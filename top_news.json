@@ -1,8 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Tesla Robotaxi Moving to 24/7 Service: AI Chief Confirms Round-the-Clock Rollout Soon",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo-yKifISiOPFmpCKKYzPxsK511HsxFv6kxJBrQDMfNRPVHLq7nhsS4hYXEdYBq1aZiL9K7Z7pa8xl-2xAAJLrqRaaGT3mrjp_Ucm25UPGwcb1qpBlR-Ff7YO9-Ob78_jef-l5YqNr5Hodi6uRkxFQvRdSbu1RGPmsXuemxN0RkGEAfl6BZtwip35glzaa_gyUba8g0zlaFNBLhY5yTUl2WuwmxhhkLO79gpc=",
-        "reason": "This marks a significant L4 operational milestone for Tesla's autonomous driving technology, as the company's AI Chief confirmed the impending transition to 24/7 unsupervised robotaxi service, building on the fleet's accumulation of over one million incident-free autonomous miles. This move expands the commercial viability and functional deployment of autonomous vehicles, pushing the industry closer to widespread L4 adoption."
+        "headline": "Tesla AI Chief Confirms 24/7 Robotaxi Rollout Targeted for Next Month, Hinges on \"Next Technology in v15 Plan\"",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7AzZRzimUbd1QvTUFcHm-Dwd7K4QVfCnbxYpG3J_TPZTQX68Q2h1z3cuO0K3zJEk_iAJGXNdaQrJdlmDTd6C7B-XNmkXtV9rb2ZJlBMhNGdgcLIlMyPsoj896xCsOEYGLQi25BBEoK7jIapCTKtFGEFZDXrXEx2GVV9jbxz94f6y03fnZbvz-iuy1ZpMnLC6vH2iAUJX1YbkonPG4NJ04_txHctnhAZmj3w==",
+        "reason": "This indicates a significant step towards widespread Level 4 autonomous driving, moving beyond limited operating hours and signaling the imminent deployment of Tesla's next-generation Full Self-Driving (FSD) architecture. It is a concrete, near-term operational milestone."
+    },
+    {
+        "category": "Longevity Lab",
+        "headline": "First Reverse-Aging Drug Based on Epigenetic Reprogramming Enters Human Trials",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0YTO17fyi4PN7T3FWwltxIq6ToWn30YeF3MLarZ7VYvSV-ESII01LUvv2rGEL-OmxAo1k5ISkSnVslpcbn3w0-X1OJeEcg6mX8bK8gmHav6tqc87BzuPOZBm1mII7YjgzJyQa43Oo7bxpTsfTyyStv13BmSmyuKCKskqTg00MuB49g1C7w19E",
+        "reason": "This represents a significant breakthrough in human-centric longevity research, moving from lab to human clinical trials with a therapy aimed at resetting the cellular clock through partial epigenetic reprogramming, demonstrating real potential to slow or reverse biological aging."
+    },
+    {
+        "category": "Finance & Business",
+        "headline": "Global Macro and Markets Briefing \u2013 7 September 2026: US Resilience Strengthens Case for September Rate Rise, Bond Market Imposes Tightening",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIqkhqzGW2NH3XLlN0l1Quw3saV__4q1Z7W1R6eqHN1VfGdHIamNFJc2AXkzvi_9MzTEhLYDNvSLv-kvpgI6UJXtSqTWqgXZ_T0dWTTm4d4C2Xg7BaqoUoCi0cz39dGCDMGVauWharxeae5n-yGNN7eVs-sP8hCavVB0D0-v1KyP3NAyg4C5d6aYoyViiKJr952SY=",
+        "reason": "This headline captures significant, immediate macro-economic shifts, including the strengthening case for a Federal Reserve rate hike due to US economic resilience and the bond market's tightening, providing a direct analysis of the 'why' on the specified date."
+    },
+    {
+        "category": "AI & Robotics",
+        "headline": "LLM Daily: September 07, 2026 \u2013 Community Proposes \"The Struggle Bench\" as Novel Benchmark for Agentic LLM Survival Under Real-World Constraints",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS0EwsT9-1ogOoP15CRsiex4wHi8zCrQ0EaKmTJmdHIfSo5POWxkSHRZswo7fSOorGFiskoxVP5RHgFBIciLFaOB5Ak9zPH2yJ0p67QJgoBYZYxNsEu6zjJIDtS7qJeVVsX0LxDi9ed9PWg0C8mzqM4r-o0uDZ0OKbLyrlYA==",
+        "reason": "This highlights a significant breakthrough in evaluating LLM model behavior by introducing a creative, real-world-constrained benchmark that tests agentic capabilities, pushing the boundaries of how we assess AI's practical intelligence and survival skills."
+    },
+    {
+        "category": "Global Progress",
+        "headline": "New Model for Poverty Reduction Leveraging AI and Digital Payments Presents Actionable Plan to Start Eradicating Extreme Poverty",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUrs0GKVWJ375kl7-mGUW3UcEkJPc2DIypzzAaw26B14G9K_9BgT2anf6k2fAIsR-UAAJcrp_cIhSqH9HGae_oUGtY4lq0oPQdvmUQ3rRHuT1weJBK2ThXIiqFTHHeBEOS1jScjPH7eGXUk2FSatUXAs3O2yNFptgIPEIC6wtUsRUleKnN86jdTsZ9MPye1lcYj8mMsdcqWIlj",
+        "reason": "This represents high-impact good news by outlining a concrete, actionable plan for poverty reduction through targeted cash transfers, enhanced by AI and digital payment technologies, offering a scalable approach to a persistent global challenge."
     }
 ]
