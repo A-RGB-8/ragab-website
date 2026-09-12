@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Pony.ai Starts Fully Driverless Robotaxi Passenger Tests in Zagreb",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkpIqjCbcsI_IXb6rQNrYKogoNtkmreUzCpIb5fTwH7GqFNFhNWFxpUlTmMk3eIqsa-8wU4ksCUAOeXpg8d5iN54FmpQ_MB78c1nwN_SLzxZdqdKJpYOnNXedvU4BUYP98H_gxDJV4J_9crkenFEiNHLyiU78iDrLAcQqpAPzQ41y8oop3jJKLFRX275MjVHI6VT4",
-        "reason": "This marks a significant Level 4 (L4) operational milestone as Pony.ai, in collaboration with Verne, initiates fully driverless robotaxi passenger tests on public roads in Zagreb, Croatia, without an onboard safety operator. This deployment signifies a crucial step towards scaling autonomous mobility in Europe, demonstrating the maturity of their autonomous driving technology beyond supervised operations."
+        "headline": "Waymo's Custom 5nm Chip Powers Autonomous Cars",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ_5V2cs_Ln-wm4OUqKLyqlG1CeA88D_LFjdJb8jdSo_6g1DcgUlFae5yQ7CW7dcttt14f2DvZ6ObT4dcIiOfu7R6nQ3OhPFEnc4PPu9aoVRDd8drLPBSoMwKAj5UpUyH6cXiGu3ij0H_Y5OMgsT1cq6iNZO97HG02s1-thIYIeq4iKVS7wJyff3ALpiBLKEKGlvQoC1O64nojpuPcVWclr8lmB6xtEUZkPhA1d8q34DiHGthrkscsnUPvfEoLSp3UadkXmy2_A99XEQ==",
+        "reason": "Waymo's new 5nm ASIC is a specialized machine learning powerhouse engineered to process, fuse, and run advanced neural networks on raw sensor data in real-time, delivering 1,000 TOPS (Tera Operations Per Second). This marks a significant technical advancement in computational power and efficiency for L4/L5 autonomous systems, particularly in enhancing object perception by reducing temporal noise in low-light conditions."
     },
     {
         "category": "Longevity Lab",
         "headline": "Scientists find signs of extreme aging and youth in the same 117-year-old",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2us89U8TbeR1ZYh2iCXwD1R8I5xSIuFQJWGb04N32xaHY36OrzuHygY_NmFM_jHRQc1L5plSPfqDbVo6YzP0EygzNWAgQhFcm55TviwrsT9PpCBs4jB6MJ5QRdiKW24RGE10a1KjEd3k2bpjZEo4gXe93FCApqsZV",
-        "reason": "A detailed human-centric study of Maria Branyas, who lived past 117 years, has revealed that extreme longevity involves a complex interplay of advanced aging signs and powerful biological protection. Researchers found evidence of low inflammation, beneficial gut bacteria, protective genetic features, and a biological age younger than her chronological age, offering rare insights into the fundamental biological changes of aging itself."
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhym1J8J2EFtaQAemcJUnQI8lG2HmFdTVqmY5upw0kxjAArl-snW-B4DkrNUYAEI8G7pEmfvOx7oVJQXtkuOlgzrGBb5oYpWGao1WACMR0Xg7X709_WByrG6p1p-NhBqzLKKDYHQGwlNOkXdsFZoagYDCIUYPLyw==",
+        "reason": "A detailed study of Maria Branyas, who lived past 117 years, revealed a unique combination of advanced aging signs and powerful biological protection, including low inflammation, beneficial gut bacteria, protective genetic features, and a biological age younger than her chronological age. This research provides rare insights into the biological mechanisms of extreme longevity, focusing on aging itself rather than just disease, which is crucial for developing future human-centric healthspan protocols."
     },
     {
         "category": "Finance & Business",
-        "headline": "Stock Market Today (Sept. 10, 2026): S&P 500, Nasdaq decline as Brent oil hits highest point since July",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF27CBJjcSUNUoa90Ug2gdpa_NzAEpV3Kt3iaMJRjSDOjXznisUYt2b-epjz8DVme855r086jzH5DX7bRnvOhopXdYP0OOKuKd8yDsQnPO9qQIkIPykynHakbO9DQtF6Yw1FNkLnNI8nC-GSp58toP8iBQHHT5TvcQkw1u7aMAqdqT6w1ElBsphANbjt4_h2dSTz9BHvv5DqSmS3mLi6THO3llF2SupAw==",
-        "reason": "Global stock markets, including the S&P 500, Nasdaq, and Dow, experienced declines as Brent crude oil prices surged above $100 per barrel, fueling concerns about inflation and geopolitical tensions, particularly the escalating conflict between the US and Iran. This macro shift is further underscored by climbing Treasury yields and the European Central Bank's decision to hike interest rates."
+        "headline": "Geopolitical De-escalation Sends US Stock Market to New Heights",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlJ5jigsTj3c3PkM5i9euj2rMHW9y-QVAmxoLjKtxVV9heGaOA9hA9PrjoixZj_DuRHHsMT47fLp73f8HZnu-G-uq9qKEJoJPyvTIbMdO2iNh9bYHjM6i6V1WQRkJbr5SzZwXvZw4I0hziijPhIdCqGcy4HLFeC_LFVfArcRzw_6d5BKIP3NCi_QbXhk9X-AY9qQ==",
+        "reason": "Reports of progress in peace negotiations led to a remarkable surge in the U.S. stock market, adding an estimated $1.15 trillion in market value in a single trading session. This rally reflects renewed optimism, reduced geopolitical risk, and increased confidence that a period of global uncertainty may be easing, demonstrating the market's sensitivity to geopolitical developments."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Global Forum on Mechanical Engineering 2026 Robotics Shaping Tomorrow's Industrial Ecosystem with Physical AI",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYGlJ6ZZoebAYs8ARfSxSVK0L0AzxMGT0I0D6MiA3_31bQ6gdktR34QFx8iGnZSJUGdoOS2iEuefarmXup62Bqw-bzf8Ww-rGH4739eGrOHmQ3jdxj4FfOaQ67Wcz2uhOQ08aBA9ffd61RA==",
-        "reason": "The Korea Institute of Machinery and Materials (KIMM) unveiled an upgraded version of KAIROS, its Korean AI humanoid robot, demonstrating advanced full-body motions, including complex movements inspired by traditional Korean mask dance. This breakthrough in robotics dexterity and control is aimed at expanding applications into critical sectors such as manufacturing automation, disaster response, safety, defense, and even household assistance and caregiving."
+        "headline": "AI Breakthroughs Today: Next-Gen LLMs & Reasoning Models",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuF2-DB1aad1xnokKoSBEaQNPqZ0UqFjq8F06WFnX_G6fHoozdELrBGHCpNIGluU-xw9QwUXJFTgb7eQ9zjGWl5MFPEMa0ImHZV5Qtyhy2GuZTJ1ye4TjDNwPdwHuZT8fB8EMyWk2QFPsdU8oN0UrnaCwCe1pAgZY6gu1hvvkurOMcu56Hfna_3bQ==",
+        "reason": "The latest generation of frontier Large Language Models (LLMs) is moving beyond simple next-token prediction to leverage deliberate reasoning mechanisms, enabling models to generate intermediate reasoning paths, self-correct, and explore multiple solution trees before outputting a final response. This shift, exemplified by specialized reasoning architectures and advancements in open-access models, signifies a major breakthrough in enhancing LLM 'cognitive density' and reasoning capabilities."
     },
     {
         "category": "Global Progress",
-        "headline": "The new tipping points playbook: The Earthshot Prize and the University of Exeter reveal how to make environmental repair unstoppable",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrZ4o828uCOZCt0cC081rxEDuWTpEUT1jhLg3qUYOak2Qo4xzLwIYbUCBHoig9PAwPj7VbLyokMO3l5m01A0VQuVg7Hso1u4oGSspV8mjrH5i43jfngqlQFQO2PVxyh2SV0tSAETVvD0aZB-rs1tqLIygAZsU7kK1HicD63pqHzcjBae07oOIJ8W7NKYA087spV8sLCIx0a0xZKMcU55MDX-ak6SoWVjFlOQ8FOGbcN-2mpRSaJNxfM97AECqCRKy3uhwpcns8ltrJ7QISf8rln3RVmmtfuu1wIUuikM45RhnChpE6dNjDpfXF44bjIuYGVR1Ngyjf2YAH4ZHNp2VIuke_gAzV",
-        "reason": "New landmark research from The Earthshot Prize and the University of Exeter identifies 51 environmental solutions with the potential to trigger rapid and transformative change to repair the planet within the next five years. This 'Positive Tipping Points' research provides a new, unifying agenda for positive climate action, which The Earthshot Prize will use to identify and back solutions capable of exponential progress for the planet by 2030."
+        "headline": "US exploring steps to de-escalate Russia-Ukraine war this winter: Zelenskyy",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPSkC9YxQMmv96QdkE_eM_NFRPk83hVfBxTo6mXHgmiasUWSJpzPUSwnzUD6LU1mDnA7yplI6mekQ-07jhUal4gDTC09RuqGypDpbxFA_DoGNUVLhIa8M53kc-uetOGJ7Eu7IBYMXUpWdln8uCholfMMNf8zMXhGCs7RbUnlRNG8y8RFPH4AIkDC9MkkePaZO-7cM5A9sz0hUxv5mPdjeqVHI_4=",
+        "reason": "Ukrainian President Volodymyr Zelenskyy revealed that the U.S. is exploring options to de-escalate the Russia-Ukraine war during winter and restart peace negotiations. This development signals a potential diplomatic opening and effort to prevent further escalation, offering a positive outlook for global stability."
     }
 ]
