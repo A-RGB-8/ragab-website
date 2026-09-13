@@ -1,32 +1,8 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Waymo's Custom 5nm Chip Powers Autonomous Cars",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ_5V2cs_Ln-wm4OUqKLyqlG1CeA88D_LFjdJb8jdSo_6g1DcgUlFae5yQ7CW7dcttt14f2DvZ6ObT4dcIiOfu7R6nQ3OhPFEnc4PPu9aoVRDd8drLPBSoMwKAj5UpUyH6cXiGu3ij0H_Y5OMgsT1cq6iNZO97HG02s1-thIYIeq4iKVS7wJyff3ALpiBLKEKGlvQoC1O64nojpuPcVWclr8lmB6xtEUZkPhA1d8q34DiHGthrkscsnUPvfEoLSp3UadkXmy2_A99XEQ==",
-        "reason": "Waymo's new 5nm ASIC is a specialized machine learning powerhouse engineered to process, fuse, and run advanced neural networks on raw sensor data in real-time, delivering 1,000 TOPS (Tera Operations Per Second). This marks a significant technical advancement in computational power and efficiency for L4/L5 autonomous systems, particularly in enhancing object perception by reducing temporal noise in low-light conditions."
-    },
-    {
-        "category": "Longevity Lab",
-        "headline": "Scientists find signs of extreme aging and youth in the same 117-year-old",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhym1J8J2EFtaQAemcJUnQI8lG2HmFdTVqmY5upw0kxjAArl-snW-B4DkrNUYAEI8G7pEmfvOx7oVJQXtkuOlgzrGBb5oYpWGao1WACMR0Xg7X709_WByrG6p1p-NhBqzLKKDYHQGwlNOkXdsFZoagYDCIUYPLyw==",
-        "reason": "A detailed study of Maria Branyas, who lived past 117 years, revealed a unique combination of advanced aging signs and powerful biological protection, including low inflammation, beneficial gut bacteria, protective genetic features, and a biological age younger than her chronological age. This research provides rare insights into the biological mechanisms of extreme longevity, focusing on aging itself rather than just disease, which is crucial for developing future human-centric healthspan protocols."
-    },
-    {
-        "category": "Finance & Business",
-        "headline": "Geopolitical De-escalation Sends US Stock Market to New Heights",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlJ5jigsTj3c3PkM5i9euj2rMHW9y-QVAmxoLjKtxVV9heGaOA9hA9PrjoixZj_DuRHHsMT47fLp73f8HZnu-G-uq9qKEJoJPyvTIbMdO2iNh9bYHjM6i6V1WQRkJbr5SzZwXvZw4I0hziijPhIdCqGcy4HLFeC_LFVfArcRzw_6d5BKIP3NCi_QbXhk9X-AY9qQ==",
-        "reason": "Reports of progress in peace negotiations led to a remarkable surge in the U.S. stock market, adding an estimated $1.15 trillion in market value in a single trading session. This rally reflects renewed optimism, reduced geopolitical risk, and increased confidence that a period of global uncertainty may be easing, demonstrating the market's sensitivity to geopolitical developments."
-    },
-    {
-        "category": "AI & Robotics",
-        "headline": "AI Breakthroughs Today: Next-Gen LLMs & Reasoning Models",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuF2-DB1aad1xnokKoSBEaQNPqZ0UqFjq8F06WFnX_G6fHoozdELrBGHCpNIGluU-xw9QwUXJFTgb7eQ9zjGWl5MFPEMa0ImHZV5Qtyhy2GuZTJ1ye4TjDNwPdwHuZT8fB8EMyWk2QFPsdU8oN0UrnaCwCe1pAgZY6gu1hvvkurOMcu56Hfna_3bQ==",
-        "reason": "The latest generation of frontier Large Language Models (LLMs) is moving beyond simple next-token prediction to leverage deliberate reasoning mechanisms, enabling models to generate intermediate reasoning paths, self-correct, and explore multiple solution trees before outputting a final response. This shift, exemplified by specialized reasoning architectures and advancements in open-access models, signifies a major breakthrough in enhancing LLM 'cognitive density' and reasoning capabilities."
-    },
-    {
-        "category": "Global Progress",
-        "headline": "US exploring steps to de-escalate Russia-Ukraine war this winter: Zelenskyy",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPSkC9YxQMmv96QdkE_eM_NFRPk83hVfBxTo6mXHgmiasUWSJpzPUSwnzUD6LU1mDnA7yplI6mekQ-07jhUal4gDTC09RuqGypDpbxFA_DoGNUVLhIa8M53kc-uetOGJ7Eu7IBYMXUpWdln8uCholfMMNf8zMXhGCs7RbUnlRNG8y8RFPH4AIkDC9MkkePaZO-7cM5A9sz0hUxv5mPdjeqVHI_4=",
-        "reason": "Ukrainian President Volodymyr Zelenskyy revealed that the U.S. is exploring options to de-escalate the Russia-Ukraine war during winter and restart peace negotiations. This development signals a potential diplomatic opening and effort to prevent further escalation, offering a positive outlook for global stability."
+        "headline": "Nvidia CEO Highlights 'Alpamayo' Autonomous Driving Architecture as 'World's First Reasoning and Thinking Car'",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX9rifsu7fdLN8e2cskngJEIV4yJCS0aQQA25Tksg6D39YN-hB6Mzv5ZIrBAYpZ_Sr1WY_C-BJ7nf89N_G4ih_rzfky2C5aR44It7H20uwYdjOrWg0eD_hClQoE9QGPKxMM_m5IKUrOt7wZpf-5mchFGvPLxdECUxonRU5MwRYmUQND0j6z6oxFm7b2dRAE2A1ijbKE97pgpAkN8nsiKc7tnGHKX57uIj_K4gMn8Hqs5tp9soex4Ui-6_QzTV--m1IpnZe3iNMYLnoDgru_1JnO_LOIvctHng==",
+        "reason": "Nvidia's CEO Jensen Huang highlighted the company's 'Alpamayo' architecture as a groundbreaking development, calling it the 'world's first reasoning and thinking car.' This represents a significant AI architecture shift in autonomous driving, moving beyond brute-force data collection towards real-time onboard reasoning and analysis of unfamiliar environments."
     }
 ]
