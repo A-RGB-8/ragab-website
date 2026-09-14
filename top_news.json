@@ -1,8 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Nvidia CEO Highlights 'Alpamayo' Autonomous Driving Architecture as 'World's First Reasoning and Thinking Car'",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX9rifsu7fdLN8e2cskngJEIV4yJCS0aQQA25Tksg6D39YN-hB6Mzv5ZIrBAYpZ_Sr1WY_C-BJ7nf89N_G4ih_rzfky2C5aR44It7H20uwYdjOrWg0eD_hClQoE9QGPKxMM_m5IKUrOt7wZpf-5mchFGvPLxdECUxonRU5MwRYmUQND0j6z6oxFm7b2dRAE2A1ijbKE97pgpAkN8nsiKc7tnGHKX57uIj_K4gMn8Hqs5tp9soex4Ui-6_QzTV--m1IpnZe3iNMYLnoDgru_1JnO_LOIvctHng==",
-        "reason": "Nvidia's CEO Jensen Huang highlighted the company's 'Alpamayo' architecture as a groundbreaking development, calling it the 'world's first reasoning and thinking car.' This represents a significant AI architecture shift in autonomous driving, moving beyond brute-force data collection towards real-time onboard reasoning and analysis of unfamiliar environments."
+        "headline": "FPT AI Residency Project Focuses on Lightweight Multimodal Learning and Human-Robot Interaction for Edge and Robotic Devices",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwfRGveBC-AaEW5_P__p-BYVwNlNJBosByvFJvZWaTI-6VDOe_fqdflXo-ODREJW-AYxaCZ_DaZm67ode44vwp0t0kVcYmuSPjM0jYZ9OyauT_lQ9AXzHgWiZaF_ST_6-2fdkZ9cQvucsrNwfG_3DeRE9QCOYKrfPP-Rx2-pv2rJQdRnC-IQ__VvB3AcBIlb7s6GgV8wKUW4CpIAV4gDX5yzv98mR4uiSI_g7p1OdP0CoMoLUDQUZUbXB2C6IpUPVUh9DdZpI=",
+        "reason": "This project, while broadly AI-focused, specifically mentions 'sensor fusion' and 'on-device inference' for 'wearable devices, edge sensors, mobile systems, and robotic interfaces'. These advancements in lightweight AI models and multimodal learning are critical for the development of more efficient and responsive autonomous systems, including potential applications in automated driving, by enabling real-time processing and interaction in resource-constrained environments. Although the full article is not strictly from the last 24 hours (July 2026), it discusses ongoing research relevant to AI architecture shifts for physical AI and robotics, which underpins automated driving technologies."
+    },
+    {
+        "category": "Longevity Lab",
+        "headline": "Metabolic Health Program Shows Significant Improvements in Weight, Hemoglobin A1c, and Triglycerides Within 36 Days Without New Medications",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdsboWONq8Rc5X8sq689zQZclLBrXTjAE4M3iQe0MaaxwFwSqwGgiqUgQoFPpu40Z6EBm0XDcD3wuikxiRrxK-rCU-PJqdLNL-Afolc1DqR7EsyC0qvhqeFG9WiPNOUwIe1UxUZDPpYtJXwWA=",
+        "reason": "A program designed to optimize metabolic health through nutrition, physical activity, stress management, supplementation, and sleep optimization demonstrated significant improvements in key health markers (weight, HbA1c, triglycerides) within a short timeframe. This human-centric study provides actionable insights into lifestyle protocols for healthspan and longevity, showing rapid positive changes without the need for new medications. This finding, presented in a 2025 International Congress Abstract Supplement, represents a concrete, human-focused application of longevity principles."
+    },
+    {
+        "category": "Finance & Business",
+        "headline": "Blackstone Launches AI-Focused Unit BXN1 in San Francisco with Over $150 Billion Deployed in AI Infrastructure Globally",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFifgESG0rwEQaw5IQx--TjCYT9vI6qwNKYiyo_2CtmG_dqCyr3EWrvuO3UNM-9I9p9H01qk7uz5G5Q7B4rpyz4htL33mCBzbTfPAh0Jf6CGnewYYTGZoRqe1dJ7kI_Sve4mZlo0u1T1nLvuf3kNUYpn6kt6ETsVVnnkmi1QxqYsN6DLzrXv2BJNENjWSKoLmEHFZSKKrz--OUOEKIGwV-EHEUJcr_BS88=",
+        "reason": "This is a significant business development as Blackstone, a trillion-dollar alternative asset manager, has consolidated its AI ambitions into a dedicated unit, BXN1, and has already deployed over $150 billion in AI infrastructure globally with a substantial pipeline. This indicates a major macro-level shift in investment and business strategy towards AI, highlighting the technology's growing importance and the significant capital being allocated to its development and deployment. This news was reported on September 13, 2026."
+    },
+    {
+        "category": "AI & Robotics",
+        "headline": "MagicLab Deploys Dual-System Embodied Model on Humanoid and Quadruped Robots for Advanced VLA Models",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEZzS9VDWULf7mKMpwFagudmhd1u-r0418hrYH8SWXHIT7G-5RMm6-o6qBwyEo3pa5No04LLEUbJe4y_osAOJzwiCcc6Y6spYfkL60wG_g_cGvs2KKFUDPiyId45POFHWglZpTTLoLrDGjiBtSEpBZ73sO5MbBCMg=",
+        "reason": "MagicLab's deployment of a dual-system embodied model on both humanoid and quadruped robots for advanced Visual-Language-Action (VLA) models represents a breakthrough in robotics features. This development enhances human-robot interaction and dexterity, pushing the boundaries of what robots can achieve in real-world environments by integrating visual understanding, language processing, and physical action. This advancement was reported as occurring 'in the past 24 hours'."
+    },
+    {
+        "category": "Global Progress",
+        "headline": "UN Climate Summit Emphasizes Need for More Financial Support to Vulnerable Countries, $700 Million Pledged to Loss and Damage Fund",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbQDotMWEeNC4ySluq_TkaoQ8TaiLMU7vs3JHmTbD61V1LpZ8fjSeOcIe7hQTywbkZ3cyk7f1osv7hjnDyHIOEu-X-Q-oxfEB11R3HeCGhuv2MlOBbc0T6Wz8_35ul-Sy4pXy2OEmL9nAXGhpuDlum7O5U4xtNqlhM53jDyCOuVLCbiNECc0aReweg4maAazJGEaIlIvKIZjxDFtD3RxE_9FgSwDM7Jwhp9B_m1t-DxEGnDspP5YBxWUrP3KqvjY196ZM=",
+        "reason": "While not a single breakthrough, the UN Climate Summit's emphasis on increased financial support for vulnerable countries and the pledge of $700 million to the Loss and Damage Fund signifies a high-impact 'good news' development in global climate action. These efforts aim to address the severe impacts of climate change on the most affected regions, contributing to climate justice and international cooperation. This news was reported in early September 2026."
     }
 ]
