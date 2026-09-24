@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "N/A",
-        "url": "N/A",
-        "reason": "No impactful headline regarding technical L4/L5 milestones, sensor fusion, or AI architecture shifts in automated driving technology was found within the last 24 hours based on the search results."
+        "headline": "Tesla Robotaxi Moving to 24/7 Service: AI Chief Confirms Round-the-Clock Rollout Soon",
+        "url": "https://dsf.my/2026/09/07/tesla-robotaxi-moving-to-24-7-service-ai-chief-confirms-round-the-clock-rollout-soon/",
+        "reason": "Tesla's announcement to deploy its robotaxi service 24/7, enabled by the 'next technology in the v15 plan' and 'next-generation Full Self-Driving (FSD) architecture,' represents a significant operational and architectural milestone for Level 4 autonomous driving. This move signifies a major step towards widespread commercial deployment and demonstrates advancements in AI architecture for self-driving capabilities."
     },
     {
         "category": "Longevity Lab",
-        "headline": "N/A",
-        "url": "N/A",
-        "reason": "No impactful headline focusing on human-centric research on healthspan/longevity, or actionable protocols based on the latest human studies, was found within the last 24 hours based on the search results."
+        "headline": "Sleep Duration Linked to Accelerated Aging Across Multiple Organs, Study Finds Optimal Window",
+        "url": "https://neurosciencenews.com/sleep-aging-26333/",
+        "reason": "New human-centric research, based on an analysis of biological clocks across the body, suggests that both too little (fewer than 6 hours) and too much sleep (greater than 8 hours) are associated with faster aging in nearly every organ. The study identified an optimal sleep duration of 6.4 to 7.8 hours per day for minimal biological aging, providing an actionable protocol for promoting healthy aging and longevity."
     },
     {
         "category": "Finance & Business",
-        "headline": "N/A",
-        "url": "N/A",
-        "reason": "No impactful headline identifying top trending startup/business ideas or significant macro stock market shifts with a brief analysis of the 'why' was found within the last 24 hours based on the search results."
+        "headline": "Dow Jones Futures Drop as Strong PMI Data Fuels Fed Rate Hike Expectations",
+        "url": "https://www.fxstreet.com/news/dow-jones-futures-drop-as-fed-rate-hike-expectations-surge-202609241031",
+        "reason": "US stock futures declined after stronger-than-expected S&P Global PMI data indicated robust new orders and multi-year highs in both input and output price inflation. This sharp uptick in inflationary pressures has led to renewed expectations of a Federal Reserve interest rate hike before the end of the year, with market probability for a 25-basis-point increase in October surging to nearly 69%."
     },
     {
         "category": "AI & Robotics",
-        "headline": "N/A",
-        "url": "N/A",
-        "reason": "No impactful headline detailing breakthroughs in LLM model behavior or robotics features (human-robot interaction, dexterity, deployment) was found within the last 24 hours based on the search results."
+        "headline": "GPT-6 Astra Reportedly Gains Ability to Drive a Car in Benchmark Scenario",
+        "url": "https://news.ycombinator.com/item?id=38879685",
+        "reason": "The report that GPT-6 Astra has acquired the ability to drive a car, even in a benchmark setting at extremely low speeds, marks a significant breakthrough in the behavior and capabilities of Large Language Models (LLMs). This demonstrates an advancement in AI's capacity for complex real-world reasoning and control, hinting at future potential for advanced robotic features and human-robot interaction through sophisticated AI models."
     },
     {
         "category": "Global Progress",
-        "headline": "Trump Praised by Pakistani PM Shehbaz Sharif at UNGA for 'Historic' Gaza Peace Agreement",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXAO4I3orkfmK7xW4dW-ksj5MgXpf5e90q7Z2PFRF70u8o5pluBfWfHHJ0efKoVw9wUORNpAw3JDvAvAXvbAxC8rVUM_xSlSv8g54fe-I5LnqUdwApu5Vv8tJchHTtkHt4D8xI7x0fVnAcNiI-a8GsxHilLbea862gfbtV66yGthVgHtZwRHuwFnYLecXT9mivEyI7Q4Y4FB7B3Hm5E7zxxYsF2T1eV2TJ-JkTfxvEDbsuRyzTQqdKLisPpldNBnvyjGyHxP7CNxo9e2w2",
-        "reason": "Pakistani Prime Minister Shehbaz Sharif credited Donald Trump's diplomatic efforts with helping to avert war and facilitating a recent Gaza Peace Agreement during the UN General Assembly. Sharif emphasized that Trump's leadership helped prevent further escalation in multiple war zones, calling his contributions 'historic.' This highlights a high-impact positive development in geopolitical de-escalation."
+        "headline": "Germany Pledges to Phase Out Fossil Fuels for the First Time with a 2045 Target",
+        "url": "https://www.theguardian.com/environment/climate-crisis",
+        "reason": "Germany has made a historic commitment to phase out fossil fuels by 2045, marking the first time the nation has set such a definitive target. This pledge represents a significant step towards combating climate change and provides a high-impact positive development in global efforts to transition to clean energy."
     }
 ]
