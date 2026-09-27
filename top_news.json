@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Tesla Robotaxi Moving to 24/7 Service: AI Chief Confirms Round-the-Clock Rollout Soon",
-        "url": "https://dsf.my/2026/09/07/tesla-robotaxi-moving-to-24-7-service-ai-chief-confirms-round-the-clock-rollout-soon/",
-        "reason": "Tesla's announcement to deploy its robotaxi service 24/7, enabled by the 'next technology in the v15 plan' and 'next-generation Full Self-Driving (FSD) architecture,' represents a significant operational and architectural milestone for Level 4 autonomous driving. This move signifies a major step towards widespread commercial deployment and demonstrates advancements in AI architecture for self-driving capabilities."
+        "headline": "Self-Supervised Sparse Sensor Fusion for Long Range Perception",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0TdLhMklrPnuO844YWvTK1xJ2YvrgKjHhnUdmGgBDXyTab4zRLoieS7Nqc5J-01MwtOt9ZGZPk093EP4nuP88g3LKJoX6vaNApUEUbxPvB8NvF9sEdo3n25BQGVbZIqFvrw9sSiJ0Z1lJ10GIfw==",
+        "reason": "This research introduces a breakthrough in sensor fusion technology, enabling autonomous vehicles to achieve perception distances of up to 250 meters. This advancement is critical for safe long-distance highway travel at high speeds and for extending autonomous capabilities to heavy vehicles like trucks, addressing a key technical challenge for Level 4/Level 5 autonomous driving."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Sleep Duration Linked to Accelerated Aging Across Multiple Organs, Study Finds Optimal Window",
-        "url": "https://neurosciencenews.com/sleep-aging-26333/",
-        "reason": "New human-centric research, based on an analysis of biological clocks across the body, suggests that both too little (fewer than 6 hours) and too much sleep (greater than 8 hours) are associated with faster aging in nearly every organ. The study identified an optimal sleep duration of 6.4 to 7.8 hours per day for minimal biological aging, providing an actionable protocol for promoting healthy aging and longevity."
+        "headline": "Longevity Supplements Over 55: What Science Actually Recommends for",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtlTqkkIHltK0y9E_wvhyaqMxS3JubJ5_3sLG_2PdnmlknhqCOKixW3JC6TYbWPVyvcgmHxCd4tYpwGV5wgxW8zGVKh0BuvLtpxb8S8EMMEoKersLd0PdHPayhQPd4jE2AtseX8P3-_UlSZ37_0-Ix6lzmR3XTpYysIcltmbN3kD1qRrIjooM=",
+        "reason": "This article provides actionable, science-backed protocols for healthspan extension, focusing on supplements and lifestyle. It highlights the importance of NAD precursors and senolytic compounds, and notably mentions that Vitamin D3 supplementation has been shown to substantially reduce telomere shortening, effectively preventing the equivalent of nearly three years of aging. This offers direct, human-centric guidance for improving longevity."
     },
     {
         "category": "Finance & Business",
-        "headline": "Dow Jones Futures Drop as Strong PMI Data Fuels Fed Rate Hike Expectations",
-        "url": "https://www.fxstreet.com/news/dow-jones-futures-drop-as-fed-rate-hike-expectations-surge-202609241031",
-        "reason": "US stock futures declined after stronger-than-expected S&P Global PMI data indicated robust new orders and multi-year highs in both input and output price inflation. This sharp uptick in inflationary pressures has led to renewed expectations of a Federal Reserve interest rate hike before the end of the year, with market probability for a 25-basis-point increase in October surging to nearly 69%."
+        "headline": "Geopolitical De-escalation Leads to Decline in U.S. Crude Oil Prices and Eases Inflation Concerns",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdRNIxOT9UdaQA78-7SASJdJ-32_PK6Sx482qZAY15lsp8FnoVlv9fF8RUd1nl7b_pl_MZndjCv8JXKAnwYDRP8Roa-iQHulsg6LBSEodG4kK4pxOTiwX-2SJ9pHXte3Iy759xNPx3u1dYk4rYV6bTITwuh5T0vxxOsnl5FAGWu6L1qBThSo9jG5vvPpbW12Qju5SbjPz4bcYD1ZEx3B17A2SoPjI8ABHnoetCHWgNIQUm_V1L",
+        "reason": "Rising expectations of geopolitical de-escalation have significantly impacted global markets, leading to a sharper decline in U.S. crude oil prices. This macroeconomic shift is easing margin pressures and mitigating inflation concerns, influencing currency movements and broader equity performance as risk premiums retreat."
     },
     {
         "category": "AI & Robotics",
-        "headline": "GPT-6 Astra Reportedly Gains Ability to Drive a Car in Benchmark Scenario",
-        "url": "https://news.ycombinator.com/item?id=38879685",
-        "reason": "The report that GPT-6 Astra has acquired the ability to drive a car, even in a benchmark setting at extremely low speeds, marks a significant breakthrough in the behavior and capabilities of Large Language Models (LLMs). This demonstrates an advancement in AI's capacity for complex real-world reasoning and control, hinting at future potential for advanced robotic features and human-robot interaction through sophisticated AI models."
+        "headline": "Chain of Thought Reasoning: The New LLM Breakthrough",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHROGbZ6t3UT3rH5T9bkYQhg70Ix2I1ONGbEt_t-S2Vg5LE5x7yYL7kKqUQDggx7HvpitNKDmLnzw4DkRladKld15wxBFQ36SCTpZYmNTISedCTr_exny2uzHqA6UXpxNQ80ymPxm3AlZOni7ySOWtoKReq12FW_MlSPav283egzFf6ea6i3pVVzJWbAVFBuzRkq3Mc781Ysg2oNfyFm05NttUYbqhSYxCBjW4z9w==",
+        "reason": "This breakthrough focuses on training Large Language Models (LLMs) to automatically employ 'chain of thought' reasoning, allowing them to break down complex problems, identify and correct mistakes, and explore alternative approaches. This process, akin to human thought, dramatically enhances an LLM's ability to reason and maintain coherence over extended outputs, marking a significant advancement in AI model behavior."
     },
     {
         "category": "Global Progress",
-        "headline": "Germany Pledges to Phase Out Fossil Fuels for the First Time with a 2045 Target",
-        "url": "https://www.theguardian.com/environment/climate-crisis",
-        "reason": "Germany has made a historic commitment to phase out fossil fuels by 2045, marking the first time the nation has set such a definitive target. This pledge represents a significant step towards combating climate change and provides a high-impact positive development in global efforts to transition to clean energy."
+        "headline": "Rising Expectations of Geopolitical De-escalation Drive Decline in U.S. Crude Oil Prices",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKemSOYhdPAnsSni7Mc6emnfmRw0IlUenqiuhccqAXU2ropHcNOl_FaIMERRlCmebvp9ya4Bv1BXjEf07neuCHGlPEX9_SRS2tS5MbT0d30C-vEIbD4Rvnq7WT_VprNitXq6Sqa0KQ8PpfI_QF5FwgnJNWb_VCPxS5Gqgt-JG4PDATnwbjVp6wvLhfzYrBXgtwI2vTPTMXnSmevVPoAheUC-GJnMgAc5aGX00RkA==",
+        "reason": "Increased diplomatic activity and expectations of geopolitical de-escalation are leading to a significant reduction in the geopolitical risk premium previously built into crude oil prices. This shift contributes to global economic stability by reducing energy costs and easing market anxieties, representing a positive development in global affairs."
     }
 ]
