@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "NVIDIA Seeks Senior Context Fusion AI Engineer for L3/L4 Autonomous Driving, Focusing on Learned 3D/4D World Models and Multimodal Sensor Fusion.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUsIRLsisdcE4_06vJG7HMPBl-rPCM65PBJPWECiL6jiKyXtMDcNdylzhSZTyMvXQwCo1QVs7ybVhJIuV_4P8xdG9FpLMlO1mpNzjQqbHmL7yjdr_ycA==",
-        "reason": "This job posting from NVIDIA, with application dates extending to September 2026, highlights ongoing advancements in L3/L4 autonomous driving through the development of sophisticated multimodal sensor-fusion systems. It emphasizes building learned 3D/4D world models that integrate camera, LiDAR, radar, and vehicle-state inputs with AI, indicating a significant architectural focus on advanced perception and contextual understanding for higher levels of autonomy."
+        "headline": "Self-Driving Cars Learn Mostly in Cities, and That Gap Is Now Measurable.",
+        "url": "https://bioengineer.org/self-driving-cars-learn-mostly-in-cities-and-that-gap-is-now-measurable/",
+        "reason": "A new AI & Society study highlights the critical challenge of autonomous vehicles primarily learning in urban environments, emphasizing the need for a multi-domain framework to diversify real-world exposure. This is crucial for achieving robust L4/L5 autonomy in varied conditions and ensuring equitable benefits and trust in the technology beyond controlled urban settings."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Northwestern Medicine's Human Longevity Laboratory Uncovers Ways to Slow Aging, Focusing on Practical Guidance and Clinical Studies.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA5O8LbKj6NiegBLt9waaoqHJqEqSMqYEDsOxwlO21jkhqW-s1mjpOM20eRmN5RNmuLrFjXskgp1rVHIhsWRhdDRciwOspR1KZpHG-SpV-DUviqoucQJ356fEwnTPXSAqeF9JjF5bhv2ft9qP54AKd_YxF1euWti548k8uns4CO-Jxgmb_dvjok4ddYueNliDT0AaP8k70il9R8lpTSJjDmpUl",
-        "reason": "While published in January 2026, this article details ongoing human-centric research at Northwestern Medicine's Human Longevity Laboratory, including clinical studies on how various conditions affect biological age and trials to slow aging. It highlights practical guidance for extending healthspan through actionable protocols related to sleep, diet, stress management, and social engagement, directly addressing the category's focus on human studies and actionable longevity protocols."
+        "headline": "150-year-old human might already be among us, claims Harvard scientist. His experiment may have unlocked how long we can really live.",
+        "url": "https://economictimes.indiatimes.com/news/science/150-year-old-human-might-already-be-among-us-claims-harvard-scientist-his-experiment-may-have-unlocked-how-long-we-can-really-live/articleshow/104113197.cms",
+        "reason": "Harvard research into resetting aging cells, which has produced striking results in animal models using Yamanaka factors for partial cellular reprogramming, is now moving into early human trials. This development represents a significant step towards developing actionable treatments that could potentially slow or even reverse biological aging, offering a path to dramatically extend human healthspan."
     },
     {
         "category": "Finance & Business",
-        "headline": "AI and Renewable Energy Lead as Fastest-Growing Industries for Startups in 2026, Signaling Major Market Shifts.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGykE9_vlSkL037wNUnPBUrxHgjx6wQCAU4tetcxtx89egQzF6SyZ-7Du_nN5dzYTWbR3-q4lSCTeetHJOHLkGb09TTxJK403c7rrjQ5564YrKnNxVA8MRH-RX5u3Z5aluHH_l7GPzvHfBi5iavw7ELUpamfrUG5y1goVjRJGmT2T6X54rAHaRDWN7R9RqDhpP4zIE",
-        "reason": "This analysis, though likely compiled earlier in 2026, points to AI and renewable energy as the top trending and fastest-growing sectors for startups. It highlights significant macro shifts in the startup landscape, with AI expected to grow at a 28.46% CAGR and renewable energy at 17.2% CAGR through 2030, driven by technology advancements and high demand. This indicates where significant business investment and innovation are currently concentrated."
+        "headline": "Stocks trade higher amid lower oil and stable bond yields \u2013 S&P 500 notches fresh record high.",
+        "url": "https://www.edwardjones.com/market-news-guidance/stock-market-news-today",
+        "reason": "U.S. equity markets closed higher, with the S&P 500 reaching a fresh record high on Tuesday, October 6, 2026. This significant macro shift was driven by stability in bond markets and lower oil prices, indicating strong investor confidence and a potentially positive economic outlook across various sectors."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Google DeepMind's ALOHA Unleashed and DemoStart Systems Achieve Breakthroughs in Robot Dexterity, Enabling Complex Bi-Manual Tasks.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHknlky0D4iwx6emjaZSnyGU_7LzBXlrI42x6DsxDk-3IA2yYo7E63qU0jHbqu1cA-Z9OIlLOfG0PyY9i-RAgmsIZKbeuW7CvX3U0E7ZGzcEUWfeRYTdUpyb00cJUTURTe-9l5NlDjgLsbT72_-F6ljOxP_s0zIH_7bcVQekAOjdK-4aVDOHAaY3979hBTnec6cw0zc",
-        "reason": "This report from September 2024 details Google DeepMind's advancements with ALOHA Unleashed and DemoStart, which significantly improve robot dexterity. These systems enable robots to perform complex two-armed manipulation tasks, such as tying shoelaces and repairing other robots, representing a major breakthrough in human-robot interaction and the practical deployment of advanced robotics features."
+        "headline": "Boston Dynamics unveils new dexterous hands for Atlas humanoid robot.",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp2DINnqGiVN8Y01McFmKhs3xBAjVdWlo-U8lUzZIWwB9I9IA0ClJfs6i-TBKlAGfbdru3ZEE_9b1TsQlXXt4tvw7AmSJtcOz7ilFNTaK3Ec6bPedM_qswBaUQ_Tan_DOjmEwi84p44HvCBwQvzlpajMXneRaOMZwEAXu7R0_V_jCfvRVjb_AZ1M_wKOKiS7WwOjrDPs8QHqLbx8k84H6ne6Qx",
+        "reason": "Boston Dynamics announced new four-finger hands for its Atlas humanoid robot, featuring 13 degrees of freedom and direct actuation with dense tactile pressure sensors. This technical breakthrough significantly enhances Atlas's dexterity, enabling complex manipulation tasks like in-hand object reorientation and tool operation, pushing the boundaries of human-robot interaction and robot capabilities in real-world environments."
     },
     {
         "category": "Global Progress",
-        "headline": "Global Society News Highlights Critical Water Issues, Including Coastal Aquifer Salinization and Groundwater Depletion, Emphasizing Environmental Sustainability Challenges.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW_gtNiGaxOjOm-ZXN4Jvr1DpftLWAknz6R2S3SF4Qa2X4htJ8NL66J4gyjdOdvpMtVrkhOiRfAXyGFa1exA1qBk3Wbax6DLj2JtguVEFaCvwgrGksVKhmPxZG0iFFcw== ",
-        "reason": "Published on October 4, 2026, this news update from Global Society Earth covers pressing environmental issues such as coastal aquifer salinization and groundwater depletion. While not 'good news' in the traditional sense, it represents high-impact reporting on climate-related challenges and the ongoing efforts to address them, which is crucial for global progress discussions and sustainable initiatives."
+        "headline": "Tugboat powered by ammonia sails for the first time, showing how to cut emissions from shipping.",
+        "url": "https://apnews.com/hub/climate-and-environment",
+        "reason": "The successful maiden voyage of a tugboat powered by ammonia marks a crucial milestone in decarbonizing the global shipping industry. This innovation demonstrates a viable pathway to significantly reduce greenhouse gas emissions from maritime transport, contributing substantially to climate change mitigation efforts and promoting global environmental progress."
     }
 ]
