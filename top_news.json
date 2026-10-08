@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Self-Driving Cars Learn Mostly in Cities, and That Gap Is Now Measurable.",
-        "url": "https://bioengineer.org/self-driving-cars-learn-mostly-in-cities-and-that-gap-is-now-measurable/",
-        "reason": "A new AI & Society study highlights the critical challenge of autonomous vehicles primarily learning in urban environments, emphasizing the need for a multi-domain framework to diversify real-world exposure. This is crucial for achieving robust L4/L5 autonomy in varied conditions and ensuring equitable benefits and trust in the technology beyond controlled urban settings."
+        "headline": "Robotaxi Fleets Could Scale to 1.5 Million Vehicles Worldwide by 2036 with End-to-End AI and Large Driving Models",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTjsEwLkn5c6RVzThkkZG36BqRu01xUht7vPgr7TY7TTRBvL8nD6A6dIxB3a3KWZAMhGK6tYHYz8zm8O0zSeEF7bLmj83TfKmrlqrG_5cDZpjRkQHGt_woHYkW8pe8DfsRAITzkaGv1fgMagi3QaJKt-ecOeuf7uR1j9VbZZA1zzy4-ClVt3bTML1z4AOC6p1saO5JyYQzDJEtRPwarka29-O5n9xqCjc=",
+        "reason": "This headline signals a significant shift in AI architecture for autonomous driving, moving towards end-to-end AI and large driving models that could drastically reduce dependence on manually specified rules and improve generalization across diverse driving environments. This architectural change is crucial for the widespread, scalable deployment of L4/L5 autonomous robotaxi fleets, with projections reaching 1.5 million vehicles by 2036."
     },
     {
         "category": "Longevity Lab",
-        "headline": "150-year-old human might already be among us, claims Harvard scientist. His experiment may have unlocked how long we can really live.",
-        "url": "https://economictimes.indiatimes.com/news/science/150-year-old-human-might-already-be-among-us-claims-harvard-scientist-his-experiment-may-have-unlocked-how-long-we-can-really-live/articleshow/104113197.cms",
-        "reason": "Harvard research into resetting aging cells, which has produced striking results in animal models using Yamanaka factors for partial cellular reprogramming, is now moving into early human trials. This development represents a significant step towards developing actionable treatments that could potentially slow or even reverse biological aging, offering a path to dramatically extend human healthspan."
+        "headline": "No specific actionable protocols from human-centric research within the last 24 hours.",
+        "url": "N/A",
+        "reason": "Despite a thorough search, no specific headlines emerged within the last 24 hours detailing actionable human-centric research on healthspan or longevity, focusing on nutrition, sleep, or supplements based on the latest human studies. The most relevant information found was from earlier in 2026 or 2025."
     },
     {
         "category": "Finance & Business",
-        "headline": "Stocks trade higher amid lower oil and stable bond yields \u2013 S&P 500 notches fresh record high.",
-        "url": "https://www.edwardjones.com/market-news-guidance/stock-market-news-today",
-        "reason": "U.S. equity markets closed higher, with the S&P 500 reaching a fresh record high on Tuesday, October 6, 2026. This significant macro shift was driven by stability in bond markets and lower oil prices, indicating strong investor confidence and a potentially positive economic outlook across various sectors."
+        "headline": "US500 Stock Market Index Falls to 7769 Points, Losing 0.43% Amid Global Economic Pressures",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEP94LLwoj0WghCvaFQFnJgV96mELs8kpz9IY41EnxUztrV-j45jRvJPtyCm74fZoyngU4xht6UOV9CniymO7j9xE4VBaAUxoZAhmkL7c98WEs_Yen-zGDtQDVmrPN3tnP8o9ofbrrY45pL0xoP5U_1UaY=",
+        "reason": "The US500 stock market index experienced a notable decline on October 8, 2026, dropping 0.43% from the previous session to 7769 points. This movement, coupled with the Dow Jones Index also falling 0.68%, indicates a broader macro shift in the stock market. Analysis suggests these shifts are influenced by factors such as fluctuating oil prices, elevated bond yields, and ongoing geopolitical uncertainties, leading investors to a more cautious stance after recent highs."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Boston Dynamics unveils new dexterous hands for Atlas humanoid robot.",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp2DINnqGiVN8Y01McFmKhs3xBAjVdWlo-U8lUzZIWwB9I9IA0ClJfs6i-TBKlAGfbdru3ZEE_9b1TsQlXXt4tvw7AmSJtcOz7ilFNTaK3Ec6bPedM_qswBaUQ_Tan_DOjmEwi84p44HvCBwQvzlpajMXneRaOMZwEAXu7R0_V_jCfvRVjb_AZ1M_wKOKiS7WwOjrDPs8QHqLbx8k84H6ne6Qx",
-        "reason": "Boston Dynamics announced new four-finger hands for its Atlas humanoid robot, featuring 13 degrees of freedom and direct actuation with dense tactile pressure sensors. This technical breakthrough significantly enhances Atlas's dexterity, enabling complex manipulation tasks like in-hand object reorientation and tool operation, pushing the boundaries of human-robot interaction and robot capabilities in real-world environments."
+        "headline": "AI Agents Advance to Long-Horizon, Cross-Domain Workflows with 'Raven, The Harness of Harnesses'",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc8NPEFvWA_L9JehI9VTt7Gn3VCJg1SFURIP7QPPcmw_7tWz-tjyTIM7y3zvAOhr2fufhyjFpE6bTIIDpKpSWCA36ZBgK95IhR42vSKZpUPwRCjp7YqHD3H-Xm9lORMAiF",
+        "reason": "A significant breakthrough in LLM behavior highlights AI agents moving beyond isolated tasks to manage long-horizon, cross-domain workflows. The introduction of 'Raven, The Harness of Harnesses,' signals a major architectural shift aimed at autonomously constructing, improving, and orchestrating specialized AI harnesses. This development addresses the escalating complexity and limited generality of previous AI agent designs, promising more adaptive and versatile autonomous systems."
     },
     {
         "category": "Global Progress",
-        "headline": "Tugboat powered by ammonia sails for the first time, showing how to cut emissions from shipping.",
-        "url": "https://apnews.com/hub/climate-and-environment",
-        "reason": "The successful maiden voyage of a tugboat powered by ammonia marks a crucial milestone in decarbonizing the global shipping industry. This innovation demonstrates a viable pathway to significantly reduce greenhouse gas emissions from maritime transport, contributing substantially to climate change mitigation efforts and promoting global environmental progress."
+        "headline": "Solar Power Helps Global South Bypass Fossil Fuels, Accelerating Climate Action",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1dgDyL9LBvZb4EL73eDfaf9c7NtnmaLy75cEcSAEZgcUogOl8YD6z8wQuDkYzGRK54iafJqzEge8mwis4IuAaWtW5Mb6DqkRRmzsTbgzaqjPZ6yqaZpfZoTZ2CTJypXnnjQ==",
+        "reason": "This positive climate news indicates a crucial step towards global sustainability, with solar power becoming a primary energy source in the Global South. This trend allows developing nations to leapfrog fossil fuel dependency, contributing significantly to reduced carbon emissions and fostering a cleaner energy future. The increasing affordability and accessibility of renewable electricity are key drivers of this high-impact progress."
     }
 ]
