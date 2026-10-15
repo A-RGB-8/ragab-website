@@ -1,32 +1,8 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Tier IV brings Autoware to Arm's physical AI network to accelerate autonomous driving deployment",
-        "url": "https://www.automotiveworld.com/news-releases/tier-iv-brings-autoware-to-arms-physical-ai-network/",
-        "reason": "This move represents a significant AI architecture shift for autonomous driving, aiming to make the open-source Autoware software readily deployable on Arm-based processors and in-vehicle computers. This collaboration could accelerate the transition of autonomous driving systems from pilot projects to large-scale production by providing ready-to-use hardware and software configurations, addressing a persistent barrier in deployment costs for L4/L5 goals."
-    },
-    {
-        "category": "Longevity Lab",
-        "headline": "Mount Sinai Scientists to Send Human Tissue Models Into Space to Study Brain, Heart Health, and Aging in Microgravity",
-        "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-scientists-to-send-human-tissue-models-into-space-to-study-brain-heart-health-and-aging-in-microgravity",
-        "reason": "This human-centric research involves sending bioengineered human brain and cardiovascular tissue models into space to study the effects of microgravity and radiation on accelerated aging. By investigating how human tissue responds and identifying genetic risk factors and biomarkers, the project aims to develop countermeasures that protect brain and heart health, with direct implications for understanding and potentially reversing aging processes on Earth."
-    },
-    {
-        "category": "Finance & Business",
-        "headline": "Threat of AI share crash puts world financial stability at risk, says IMF",
-        "url": "https://www.theguardian.com/business/2026/oct/13/threat-of-ai-share-crash-puts-world-financial-stability-at-risk-says-imf",
-        "reason": "The International Monetary Fund (IMF) has warned that the soaring valuations, increasing debt, concentrated exposures, and 'circular financing' in the AI sector could trigger a global financial stability risk if an AI share price correction occurs. This analysis highlights a significant macro-economic concern with potential widespread implications for investors and global markets, beyond just individual stock movements."
-    },
-    {
-        "category": "AI & Robotics",
-        "headline": "Benewake Brings NOVA20 Near-Field LiDAR to Embodied Robots for Safer Physical Interaction",
-        "url": "https://www.prnewswire.com/news-releases/benewake-brings-nova20-near-field-lidar-to-embodied-robots-for-safer-physical-interaction-302377778.html",
-        "reason": "This breakthrough introduces a solid-state near-field multi-point LiDAR system designed to enhance the safety and effectiveness of embodied robots in real-world physical interactions. By providing real-time distance measurements in close proximity, NOVA20 directly addresses critical safety requirements for human-robot interaction and deployment, enabling pre-contact deceleration and collision avoidance for moving limbs and body parts."
-    },
-    {
-        "category": "Global Progress",
-        "headline": "Federal government supports conservation of northern Ontario's taiga forests and peatlands, conserving an area 1.3 times the size of Toronto",
-        "url": "https://www.canada.ca/en/environment-climate-change/news/2026/10/federal-government-supports-conservation-of-northern-ontarios-taiga-forests-and-peatlands-conserving-an-area-13-times-the-size-of-toronto.html",
-        "reason": "Canada's federal government is investing over $13 million to protect more than 81,400 hectares of taiga forests and peatlands. This high-impact 'good news' contributes significantly to climate action by conserving carbon-rich boreal forests and peatlands that store over 30 million tonnes of carbon and supports biodiversity by providing habitat for various species, including those at risk."
+        "headline": "Agentic Loop Architecture Turns Automotive Data Overload Into Continuous Engineering Intelligence",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIjVYTThyFLq9hsT4gmc8w7p3FE1DVV-RPjOB04CS1ta2gdh3hcx8YwEG8HzP8RVUMrYlEeUrE5M_5j2eCYa_1cJobqUq4ChEtPIV1peLcuH1XUpPMwEsiiIrxz-uKf_AEnWv0-oxC4r0tNB9zOhidxQt8f0LIeXnnQWMJFx-BBQ__wD1PON_ZVE3UNSdbsg6UW-yvjVJ_T0Zj-XvknVGEypxsQYp14-c8d3p0wy71tjbUL2KTJPO-8coaDMIiVgAnzIYTTzSu6y-ckKyhwQ==",
+        "reason": "This new agentic loop AI architecture redefines automotive intelligence by enabling vehicles to convert massive telemetry streams into actionable insights and continuously learn from their experiences. This self-improving system represents a significant shift in AI architecture, crucial for advancing L4/L5 autonomous driving capabilities by making systems more adaptive and intelligent over time."
     }
 ]
