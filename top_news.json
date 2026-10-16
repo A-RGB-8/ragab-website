@@ -1,8 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Agentic Loop Architecture Turns Automotive Data Overload Into Continuous Engineering Intelligence",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIjVYTThyFLq9hsT4gmc8w7p3FE1DVV-RPjOB04CS1ta2gdh3hcx8YwEG8HzP8RVUMrYlEeUrE5M_5j2eCYa_1cJobqUq4ChEtPIV1peLcuH1XUpPMwEsiiIrxz-uKf_AEnWv0-oxC4r0tNB9zOhidxQt8f0LIeXnnQWMJFx-BBQ__wD1PON_ZVE3UNSdbsg6UW-yvjVJ_T0Zj-XvknVGEypxsQYp14-c8d3p0wy71tjbUL2KTJPO-8coaDMIiVgAnzIYTTzSu6y-ckKyhwQ==",
-        "reason": "This new agentic loop AI architecture redefines automotive intelligence by enabling vehicles to convert massive telemetry streams into actionable insights and continuously learn from their experiences. This self-improving system represents a significant shift in AI architecture, crucial for advancing L4/L5 autonomous driving capabilities by making systems more adaptive and intelligent over time."
+        "headline": "Tesla Cybercab and Robotaxi's Real Advantage Won't Be the Ride Service, But Passenger Productivity",
+        "url": "https://evworld.com/2026/10/16/tesla-cybercab-and-robotaxis-real-advantage-wont-be-the-ride-service/",
+        "reason": "This article highlights a significant shift in the perceived value proposition of L4/L5 autonomous vehicles, moving beyond mere transportation to integrate AI for enhanced passenger productivity during travel, effectively redefining the market's architectural focus for self-driving technology."
+    },
+    {
+        "category": "Longevity Lab",
+        "headline": "TimeTeller GmbH Measures Human Circadian Rhythm with AI for Optimal Treatment Timing",
+        "url": "https://www.kucoin.com/news/2026-startup-battlefield-top-20-announced-spanning-organs-to-space",
+        "reason": "TimeTeller GmbH is developing a method using molecular diagnostics and AI to measure individual human circadian rhythms, aiming to determine the optimal timing for medical treatments. This research is human-centric and promises an actionable protocol for enhancing treatment efficacy and reducing side effects, directly impacting healthspan."
+    },
+    {
+        "category": "Finance & Business",
+        "headline": "Risk Sentiment Reverses as AI Investment Concerns and Higher US CPI Trigger Market Shift",
+        "url": "https://www.admisichina.com/day-ahead-15-october-2026-marc-ostwald-admisi/",
+        "reason": "Over the past 24 hours, global markets experienced a significant shift in risk sentiment. This was driven by higher-than-expected US CPI, which initially caused a rise in Treasury yields, followed by a sell-off in tech stocks due to disappointment over OpenAI's Q3 revenue and widening AI corporate CDS prices."
+    },
+    {
+        "category": "AI & Robotics",
+        "headline": "Autonomous Tech Breakthroughs Wire Foundation Models Directly into Humanoid Systems, Rewriting Robotics Benchmarks",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt4KpSSL_qBUFkrB_gX90Q_PY5JwbPH9Yo9zbat8KKriO5vkNZeu36j5_PDoL7OUZz6ChoYkuSvdNeB-GfchBZPa1hbp2AiS4Ko0Uj5ejT1PHNU0yOhhgpf6tHXc4VPki6-g==",
+        "reason": "This development signifies a major advancement in robotics, where researchers are bypassing traditional abstraction layers to directly integrate sophisticated foundation AI models with humanoid systems. This monumental shift is expected to redefine benchmarks for human-robot interaction and dexterity, enabling more natural and capable robotic behaviors."
+    },
+    {
+        "category": "Global Progress",
+        "headline": "AI and Clean Energy Pact Delivers 15 Gigawatts for AI Operations",
+        "url": "https://www.facebook.com/MubarakHussainOfficial/posts/ai-and-clean-energy-pact-delivers-15-gigawatts-for-ai-summarized-by-ai-from-the-/709392271375107/",
+        "reason": "A significant pact has been formed to provide 15 gigawatts of clean energy specifically for AI operations. This initiative represents a high-impact positive step towards mitigating the substantial environmental footprint of rapidly expanding AI technologies and advancing global climate goals."
     }
 ]
