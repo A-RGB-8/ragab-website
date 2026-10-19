@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No singular most impactful technical L4/L5 milestone, sensor fusion, or AI architecture shift identified within the last 24 hours.",
-        "url": "N/A",
-        "reason": "While there is news about automotive companies leveraging AI and robotics for other applications, such as consumer robots, no specific breakthroughs directly related to L4/L5 automated driving technical milestones, advanced sensor fusion techniques, or significant AI architecture shifts for self-driving vehicles were prominently reported within the last 24 hours according to the deep web scan."
+        "headline": "Volvo Cars and Mercedes-Benz Build Next Automated Driving Systems on NVIDIA Technology, Targeting Eyes-Off and Mind-Off Driving",
+        "url": "https://evinfrastructurenews.com/volvo-cars-and-mercedes-benz-build-next-automated-driving-systems-on-nvidia-technology/",
+        "reason": "On October 19, 2026, Volvo Cars and Mercedes-Benz announced expanded partnerships with NVIDIA to develop next-generation driver-assistance and automated driving systems. This collaboration aims for future SAE Level 4 applications, including capabilities for \"eyes-off\" and \"mind-off\" driving, by integrating NVIDIA's Hyperion compute and sensor architecture, Alpamayo Stack driving software, and Halos safety system. This represents a significant technical and strategic shift towards highly autonomous mobility."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Experimental Skin Cream Linked to 2-Year Drop in Biological Age in Early Study",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoG6xtRFKFEiJ6fa2RQEUGOh44dBu8wkUqwxNzdBR5PlYtQ7v39HAJiyFclZdeD6VYm9mQ8pcL1dQrK1QrdyI4Bht5FQrXdq5IHyu24ucU3QyHSB1mlx7MTQrJQJumkw7wDxrHpyLvdDohX7zBgBghjATQj65g5Sx1zhcHmCFsYaM209ep7zCN_Y3TRikagw3b85GtLQs5ElltTT2V-cBHxRoLyK7ilVWIgoI",
-        "reason": "Rubedo Life Sciences reported that its experimental skin cream, RLS-1496, cleared senescent cells, boosted collagen by 10%, and reduced skin age in a four-week trial study. This represents a significant, human-centric research finding in healthspan, demonstrating an actionable protocol (a topical application) linked to a measurable reduction in biological age, paving the way for larger trials."
+        "headline": "Scientists Find Hidden Brain Protein Driving Aging and Simple Amino Acid Restores Memory in Mice, Hinting at New Longevity Pathways",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261012111059.htm",
+        "reason": "Published on October 12, 2026, this research, while primarily conducted in mice, revealed that declining levels of a brain protein called Menin may be a hidden driver of aging. Its restoration reversed several age-related changes, and supplementing with the amino acid D-serine improved memory and learning. Although not an actionable human protocol yet, this discovery offers a significant breakthrough in understanding aging mechanisms and potential future interventions for human healthspan, particularly in addressing age-related cognitive decline."
     },
     {
         "category": "Finance & Business",
-        "headline": "Market Volatility and 'AI Cracks' Lead to Sell-Off in AI Stocks and Reversal in Yields",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT024zVWzsrvFcob6_T_gHQ1Lh646nfe23YXBed6YgMf-KeOSh7WoiL9aNLabIGHfCRvAJ86Yu--jtqMbSE1cej5rtv0q7OuQEuYmXUnO4tiLlPg7wxjbPirKRrMvmHZZtBD_IuMKtaHI8EHPLhBcgL2rP7wElMVjHA3L5c5_XsnUvAzey",
-        "reason": "The week ending October 16th saw unusual market volatility, including a 35% spike in the VIX and a significant reversal in 10-year US Treasury yields. The proximate cause for this shift was identified as a sell-off in AI stocks and AI-related credit, alongside Federal Reserve officials cooling expectations for an October rate hike. This indicates a significant macroeconomic shift driven by investor sentiment regarding the AI sector and monetary policy."
+        "headline": "U.S. Stock Markets Close Lower as Tech Sector Sell-off Deepens Amid Inflation Concerns and Shift to Value Stocks",
+        "url": "https://www.morningstar.com/markets/news-analysis/stocks/2026/10/19/us-markets-company-earnings-stock-market-trends-market-news",
+        "reason": "As of October 19, 2026, major U.S. stock indexes concluded the week mostly lower, driven by a significant sell-off in artificial intelligence (AI)-related stocks, higher-than-expected inflation data, and the commencement of third-quarter earnings season. This macro shift led to investors rotating away from large-cap growth stocks towards more value-oriented and defensive market segments."
     },
     {
         "category": "AI & Robotics",
-        "headline": "AiMOGA Robotics to Debut Consumer-Grade Humanoid Robot 'Mobo' for Home Companionship, Opening Global Pre-Orders",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUMO0qDf4ZC-QXOTOYKyb7DBEzSW64hOVSuAMj3Is12EJ2Fut1DZOd1n8cvr2Bu5PUjej5GxZ8-akTJXxP49LJ7sv7sSclUxTbAu-dE_NVJbX3yYbERvjeChyB-l1yulKc_zanTxt-SUyLxLDZ_Olv7naTkke9nX4Z8xZHR47jxyAYoC0IC2HSrgFAa5qaxcdPevdTmcgsV4IqJMCwxpv0KN4OfR1NyNtBkIM0-T2Quz21QtoSVqiO8WgltMG71TZHq3OMknVBCDoedXcLI4mGaAE0wjoqwbhUk5RR8Kbg6YKoXQ==",
-        "reason": "AiMOGA Robotics, an ecosystem partner of OMODA & JAECOO, is set to globally launch Mobo, a consumer-grade humanoid robot designed for home companionship, with pre-orders opening soon. This signifies a breakthrough in robotics features focused on human-robot interaction and a notable deployment of embodied AI moving from automotive expertise into the consumer market, indicating progress in making advanced robotics accessible for everyday life."
+        "headline": "Elorian's First AI Model Aims to Reason With Images, Not Just About Them, Marking a New LLM Breakthrough",
+        "url": "https://pricepertoken.com/ai-llm-news/new-models-today",
+        "reason": "Reported on October 16, 2026, Elorian's new AI model represents a significant advancement in large language model (LLM) capabilities, aiming to 'reason with images, not just about them.' This breakthrough signifies a move towards more sophisticated multimodal AI, enhancing its ability to understand and interpret visual information in a way that could lead to more nuanced human-robot interaction and broader real-world deployment of AI systems."
     },
     {
         "category": "Global Progress",
-        "headline": "US Small-Scale Solar Generation Quadruples in Last Decade, Signaling Positive Climate Action",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9zfq5ZkICvyzm4l2y2TKOaDvuS1q_6Z3zx_k6Gsz3R6rtOlCtfFLWqZrca4jHHmNHSjX97hH2hY_iCaCcZ0pqhoEecEGsu5JtyQbgHJU1gESsW3qCd7WNtTLlSuoOMwisxCELISjXJAk7TZ3UNd38khfzqew-oKe2jlaa01By",
-        "reason": "The US Department of Energy estimates that generation from small solar photovoltaic (PV) systems (under 1 MW) has quadrupled in the last decade, increasing from 18,812 GWh to 92,979 GWh. This substantial growth in decentralized renewable energy production represents high-impact good news regarding climate, demonstrating tangible progress in transitioning away from fossil fuels and expanding clean energy infrastructure."
+        "headline": "New AI Tech Is Changing the Game for Wildfire Recovery",
+        "url": "https://www.goodnews.org/good-news-for-the-environment/",
+        "reason": "Published on October 17, 2026, this headline highlights an impactful positive development in environmental progress. It details the application of new AI technology to significantly improve wildfire recovery efforts, offering tangible solutions to a pressing global environmental challenge. This innovation contributes to climate resilience and the restoration of affected ecosystems."
     }
 ]
