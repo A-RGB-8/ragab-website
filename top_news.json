@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "How Sub\u2011Millisecond AI is Revolutionizing Factories, Trucks, and Cars in 2026",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa2Y4za_yICoLizRRj8PFsVHWtyZEaXfSXg3DkF4SSWKkOnHzO8IKc7u4BeXa62iMV2I7D7JkcjZFvMNBwCug2QEeN748Fsk94nfXbDt3FlasMN6QzibXk-pcYz-mNj-5hxg2ir2EcNoSev5wphkI9cyKAG2fC-EuF5hWSo5HozSfOD3XZzx6GBQCQZnGq-3goyLljd27TX_tHUm3FyhKi7skzodX5Ng==",
-        "reason": "This headline highlights a significant AI architecture shift to Decoupled Predictive Decision-Making (DPDM) that achieves sub-millisecond decision loops, adopted by Waymo for autonomous vehicles. This technical milestone is revolutionizing latency, enabling modular updates, and influencing new regulatory frameworks by NHTSA and the EU."
+        "headline": "Tesla's Austin Robotaxi Service Nears 24/7 Operation with Expanded Hours, Aiming for Full Autonomy by End of 2026",
+        "url": "https://basenor.com/blogs/news/tesla-austin-robotaxi-expands-to-21-hours-5-details-that-matter",
+        "reason": "This marks a significant L4/L5 deployment milestone, as Tesla methodically expands the operational window of its driverless robotaxi service in Austin, with a stated goal of achieving 24/7 autonomy by the end of 2026. The expansion of operating hours directly reflects technical progress in real-world autonomous system performance and reliability."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Six Overlooked Longevity Tools Redefining How We Age in 2026",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiyvY-uVCJ7eHB--z6539uhjw0I-SWj1gQjs1wDSlQ3b9PWs6UdUWhGNYTn8t9wRzJJNXACp-P1yRRKV58sQOnkVKXmZD7KG3gmqhIGcJ9XDEavFPBdmFz4AT6aJKcGlfHiepsOYie3-8rOGiDAIoxNGqP9SKFXMHfWVNj6jpo4kYYcJxw-YoP",
-        "reason": "This article focuses on accessible, evidence-informed interventions for longevity, including portable vagus nerve stimulators and methylene blue. Clinical research suggests that regular vagus nerve stimulation can improve heart rate variability, reduce inflammatory markers, and enhance emotional regulation, offering an actionable protocol for healthspan based on emerging human-centric data."
+        "headline": "Insilico Medicine Open-Sources 'Longevity Grok' AI System for Personalized Healthspan Interventions",
+        "url": "https://www.eurekalert.org/news-releases/1010350",
+        "reason": "The open-source release of Longevity Grok (PLSI) by Insilico Medicine, in collaboration with David Sinclair, represents a breakthrough in making human-centric longevity research actionable. This AI system unifies personal health data, tracks biological analysis, and formulates personalized lifestyle, nutritional, or longevity interventions, allowing individuals to proactively manage their healthspan based on predictive health states and aging research."
     },
     {
         "category": "Finance & Business",
-        "headline": "Why Is the Stock Market Down Today? Nov. 6, 2026",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG50VgHxgTrOStEI_J6CZZ5r-Y5t5rkg-EbEvzHQd093sLlT9BD31wzCrM9jhexT8Nxg-iQh5_tzwrTFnuq-1tRNNhnBZ4kkavb-AdXGj1Ih0l5L6t8Y9rTB_bMaoTIat4U4dHfjYOwycnCLs5c90ugaThkoDQrMxrIurEBoKefJRU2SYnu",
-        "reason": "The stock market experienced a significant macro shift on November 5, 2026, with the Nasdaq falling over 5% and the S&P 500 losing over 4%. This correction was driven by investor concerns about massive AI spending, potential changes to data-center regulations following midterm elections, high stock valuations, and rising oil costs."
+        "headline": "Global Stock Markets Plunge as Fears Mount Over AI Investment Sustainability and Post-Election Policy Shifts",
+        "url": "https://www.share-talk.com/what-happened-overnight-friday-6th-november-2026/",
+        "reason": "A significant macro stock market shift occurred with a global equity sell-off, primarily driven by concerns surrounding the sustainability of massive AI investments, potential policy changes affecting data centers post-US midterm elections, and rising financing costs. The Nasdaq fell nearly 5%, and Asian markets experienced heavy losses, wiping trillions from valuations as investors questioned the justification for current AI spending and stock prices."
     },
     {
         "category": "AI & Robotics",
-        "headline": "RobotWorld 2026 | How PaXini's Full-Stack Tactile Technologies Support Real-World Robotics",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8wzvEGk9eDZCWxEbHx8KXNS6eGj1mi2R425bGdl7GM9RaumkzKccaiGy_c9XsF2goUdKwVVj3Wsxqf97_EU5QkeaUAO3fZ2uyRP4Xw3nH84042KB6R51dGgwH45vcYz3Hunbb7e6IwEIXyys8PXLDTLMKxOsolbyX1zYVdkGofjA95UTenq1reBP7Xs83LxvSMRRDda08PGu058O60zlNYWv0ilzsuEAn8Q0D5XCo99tTrAQr3DbAXtN39YRE_rw=",
-        "reason": "This headline signifies a breakthrough in robotics features, specifically in human-robot interaction and dexterity. PaXini AI demonstrated full-stack tactile technologies at RobotWorld 2026, enabling TORA-series humanoid robots to perform complex tasks like precision assembly and dynamic grasping through advanced tactile sensing and force control, crucial for reliable real-world deployment."
+        "headline": "Researchers Unveil 'Handroid,' a Desktop Robotic Hand Advancing Dexterity and Adaptable Mechanical Design",
+        "url": "https://humanoid.guide/updates/handroid/",
+        "reason": "The announcement of 'Handroid,' a desktop robotic hand developed by researchers at UNC Chapel Hill and Stanford University, represents a direct breakthrough in robotics features. Its fully 3D printed plastic structure and compact modular actuators focus on enhancing dexterity and adaptable mechanical design, crucial for advancing human-robot interaction and deployment capabilities."
     },
     {
         "category": "Global Progress",
-        "headline": "India rewrites its poverty story, 496 million people move beyond poverty line",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGYaayni1huEebE64-bV84sxuV_gG8kSmCpj9WYHxKNs33Sp9uBv7PTt-WafEQdvnrJer0jDvCWvi36wteEcixxPtKEVMvvNH4D3v6i0Gw9rfhIkokQLJT63hnDR7H0ZhhQ-WAGIJbz-GJqxxF6NglMlCWDll3sMIU2w-udf3dUDgebKnNyNtShYIEB42R-TSPi6x2iJQTlio4_TDv7QAr",
-        "reason": "This is a high-impact 'good news' story regarding poverty reduction. World Bank figures indicate that nearly 496 million people in India moved above the lower-middle-income poverty threshold between 2011\u201312 and 2023\u201324, with extreme poverty falling from 27.1% to 2.6%. This marks one of the most significant poverty reductions in recent history."
+        "headline": "WHO at COP31 Unveils Climate-Health Actions Projected to Save 1.6 Million Lives Annually and Yield $24 Return for Every Dollar Invested",
+        "url": "https://www.who.int/news/item/06-11-2026-who-at-cop31-health-day-opens-two-weeks-of-activities-to-deliver-on-climate-change-and-health",
+        "reason": "This is a high-impact 'good news' item regarding climate and health. The World Health Organization, at COP31, announced a new technical analysis identifying six priority climate-health actions that could collectively save 1.6 million lives per year globally and provide an exceptional return on investment of US$24 for every dollar spent. This offers a concrete, actionable plan with significant positive implications for global well-being and climate resilience."
     }
 ]
