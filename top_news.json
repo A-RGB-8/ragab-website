@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Sensor Fusion and the Next Generation of Autonomous Driving Systems",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjPbNXoIG_ursWuJQCpcsTJjC4JT8OTAhQ2hLf6JZwoXlWrV2dB6agS6kb6ldgoCRJCNqLZ0UMKkLDkYm9ILrDDQ1xo7cAfyur-Npmsu5hXKFjuvyiuSGsSI2y2tdT2SOIitcB0zxzlpkChE2neAgyQX-VxaolRN61QknS2GI-9pr1KjhnfU0oE5d9RC2SSfeFIp7MdcO_GUtVsJs=",
-        "reason": "While not strictly within the last 24 hours (published April 22, 2025), this article represents the most impactful and recent technical discussion found on sensor fusion in autonomous driving, which is crucial for advancing L4/L5 capabilities. It details how combining inputs from multiple sensors with sophisticated algorithms and AI architecture is enabling the next generation of autonomous vehicles."
+        "headline": "Autobrains Expands Nvidia Partnership, Enabling Real-Time On-Vehicle Inference Without Running Full-Scale Models",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQMX0XFgH7SbVRpH-9zjR1UNb_bGJxUgyGNi9heWMHUoLJtmEHkgoWDmiGFuy2WSY_bnLpxBj9yTRtKS1fkqhyIhj4Jpso9PBR8aQWpw5RUbc2w08UoSXXY9ktVJ9PgCdzhV5ev3CqRH3caDvMrjRD3r4Mcu8PjJ4KVoqAfeM=",
+        "reason": "This expanded partnership between Autobrains and Nvidia represents a significant technical advancement in autonomous driving AI architecture. By training specialized driving agents for specific scenarios and enabling real-time on-vehicle inference without requiring a full large model, it addresses computational efficiency and adaptability, crucial for L4/L5 milestones. The approach breaks down a 'general-purpose large model' into multiple specialized agents, with vehicles selecting the appropriate one based on current road conditions."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Longevity Supplement Improved Blood Vessels in a Human Trial",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlyjpuPsM6Fcr_5n51-VmGh0lZkTFOKfNiav_KOPNmM-Qji81PglyT__7qs8ad0L_MAxRI0mNXXSta8vsG-MFuBBFIMZ4DCtzoWVNvibxxXOwUOh2AEJ7EEhPegGdqi8GASWKHfrM7s8Y6rLkEbb9b2fHEM6q9LiszfdDwqvxaEsLkNKFl-Iieo4nh",
-        "reason": "Published on November 6, 2026, this headline reports on a human clinical trial demonstrating that a longevity supplement improved vascular function. This is a significant finding in human-centric research, offering an actionable protocol (supplementation) based on scientific study to enhance healthspan."
+        "headline": "We may have finally found the real cause of ageing (and how to slow it)",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvSqRvcS4nCA5FuDOZJ0l7Jy8aw6JZTuH09nZRVDR_jxpJ13o7wqZU2ZWSPZuaVbkPEs_WCG-i6Fyjc1UjRVcBwgcGCufZqSfxDFHLLrM0r-jFuSa6OL0S4hTgS-uiiSRIGDgekIdcUDbIr9RPbTouLyHoKWbmFeHIjb-QS2HzJEM5jC6q_C4=",
+        "reason": "This headline points to a shift in understanding aging, moving beyond the breakdown of multiple systems to a 'coordination theory' \u2013 where aging is caused by the loss of coordination between body systems. This human-centric research, built on decades of study and supported by UK Biobank data, suggests that good health is not merely the absence of damage, but the body's ability to coordinate thousands of systems. This foundational understanding could lead to new actionable protocols for healthspan and longevity."
     },
     {
         "category": "Finance & Business",
-        "headline": "Markets close lower on hotter-than-expected CPI report",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBgnXd-v9o-q1yGlCvy8mrsaob0SYWvVlCeFRyDkPRXWBNpYgzP-G7KACVPEhBzSROcXwN3w045wuIDoonXDIa-ffX8ikkHGtsb8CfX8trS31IjmiGKgi7LrXDpY1B-HOCVYg0Wm-m7kpKR3Lbda7KUqbPGOgDsqMUJcKS3ovlB_glhWNaIzHuxNGMoxKqLnw3mN6olA==",
-        "reason": "This headline, reported on November 10, 2026, signifies a significant macro stock market shift. Equity markets closed lower following an October Consumer Price Index (CPI) report that showed inflation rising faster than anticipated. This indicates market sensitivity to inflation data and potential implications for future Federal Reserve policy."
+        "headline": "Brent crude falls below $90 for first time since August on Iran war de-escalation hopes",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbqMu5PwP96YgTtJBnoQvQ7UY3z3ukD2f2xdoZ_30oPznvtNjeIKn96cAzrP255WDzpa4psNGqkoOLZuy9P0zJYPCe4HCGTxgbfQh1iZ2hZgtzV42_bivQ_KyNMq_TaVWFAB5ZHVpseL_dBJDYX8EHP7mhIhqh678rqzAuzUDXniO2g-MRSMyJWIL9-eNzOvYlLJ2LG0SzoNQdaI5hUcwlYjVAomlVuAAMucshS5ARqDUdV7YwOo=",
+        "reason": "The significant drop in Brent crude oil prices below $90 for the first time since August signals a major macro stock market shift. This decline is attributed to growing expectations of de-escalation in the conflict between the US and Iran, along with reports that Iran may be softening its stance on controlling the Strait of Hormuz. This development reduces geopolitical risk premiums built into oil prices and indicates potential relief for global energy markets and inflation."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Dexterity and Motion Control Advance Across Quadrupeds and Humanoid Robots",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkSKtcdEXerY4iOjsak9114RTJFxchVmc4nB6z4BseMM9tfNF9UJOM8-DbSHNOCyGaGaj84v29-LpGKUlzTro7TerZV0-IfXSRsMLIZAPwI6HfTb1N7p6mAMyjXdDrtwU_AuuT2oU1xTPmupdy6fgLJvaDwxY3AypjCqz74rsOogquj6Phn27mxB10",
-        "reason": "While not strictly within the last 24 hours (published October 26, 2026), this article details recent breakthroughs in robotics, specifically in dexterity and motion control. It highlights how robots, including quadrupeds, are achieving intricate physical manipulation and dynamic mobility, such as a four-legged robot solving a Rubik's Cube with its feet. This demonstrates significant advancements in robotics features and dexterity."
+        "headline": "NVIDIA GR00T 2: New AI Robots Learn Human Skills and Master Complex Tasks Faster",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWtvpsG9IM_0tBy-rj6eZ0q703dgoTjRn3k76yHCNMB_vQ_nWzfk98HXKClpuy4ixoYbyW3iaOcnEYtx9ZJZWQTRu0ERWJE786m0aO1krl1G835zBl1NSvm3uMcOIPZQge1hqNMFtEaCZ2JAR49Oz6FyFShWJ7q9TY",
+        "reason": "NVIDIA's introduction of GR00T 2 at CoRL represents a breakthrough in robotics features, specifically in human-robot interaction and dexterity. This technology allows AI systems to learn manipulation skills from human demonstrations and transfer knowledge between different robot designs, enabling them to master complex physical tasks faster. The ability to complete 95% of tasks after just five demonstrations with minimal data highlights a significant leap in robot learning, adaptability, and potential for deployment in various industrial and service environments."
     },
     {
         "category": "Global Progress",
-        "headline": "Modi's Diplomatic Outreach: PM Speaks To Zelenskyy, Jaishankar Holds Talks With Russia's Lavrov",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2DagsQkOV0YVG6pXmT81a9ZUO5Lsraokd0vt_mk7qdEZpyTue1GbXY3tQVmPUEzbYLhlZACBs3QzwSy7Qs3NDmh7NWhnqhv023HSrOj-Y-3cJkRdJoqDwFAvfa19IKbADdFsong==",
-        "reason": "Reported on November 10, 2026, this headline signifies high-impact 'good news' regarding geopolitical de-escalation. It highlights the commencement of a fresh round of Russia-Ukraine peace negotiations in Abu Dhabi, mediated by the United States, along with India's diplomatic efforts to encourage dialogue and a peaceful resolution to the conflict."
+        "headline": "New Map Reveals Natural Forest Regeneration in Tropical Regions Could Absorb 23 Years of Global Emissions",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rBBNr5_HW3zNkPYUBhk9P2aIgpDgxvqcAhr51FKVozuad4MLePXpT8cUTLKr2efP8nBT8-TRLPDnmm0NucE5SGsdLk2B_K3tgBI5BB-mGUhxkkU=",
+        "reason": "This discovery offers high-impact good news regarding climate progress. A new map revealing the vast potential of natural forest regeneration in tropical regions suggests that these efforts could absorb the equivalent of 23 years of global emissions. This provides a significant, nature-based solution to climate change, highlighting the power of ecological restoration to mitigate carbon in the atmosphere and offering a tangible pathway for global climate action."
     }
 ]
