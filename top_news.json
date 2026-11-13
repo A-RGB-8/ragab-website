@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Autobrains Expands Nvidia Partnership, Enabling Real-Time On-Vehicle Inference Without Running Full-Scale Models",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQMX0XFgH7SbVRpH-9zjR1UNb_bGJxUgyGNi9heWMHUoLJtmEHkgoWDmiGFuy2WSY_bnLpxBj9yTRtKS1fkqhyIhj4Jpso9PBR8aQWpw5RUbc2w08UoSXXY9ktVJ9PgCdzhV5ev3CqRH3caDvMrjRD3r4Mcu8PjJ4KVoqAfeM=",
-        "reason": "This expanded partnership between Autobrains and Nvidia represents a significant technical advancement in autonomous driving AI architecture. By training specialized driving agents for specific scenarios and enabling real-time on-vehicle inference without requiring a full large model, it addresses computational efficiency and adaptability, crucial for L4/L5 milestones. The approach breaks down a 'general-purpose large model' into multiple specialized agents, with vehicles selecting the appropriate one based on current road conditions."
+        "headline": "GXO, Apptronik Plan Potential Deployment of Up to 1,000 Humanoid Robots in Logistics",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBPxsZlwyuCRRn5_CWE6_AWsGsKehc212wSidAv1zC0g99o1TpqquaF67jGtd7DGccB6bxtYCOz8FMoNX_VpSiJb2XRuLOXv5xy9VDwEZ36adBISYG7HR6f7p6P7VZWh2pScBRNY8D-jBi5EdE2VgsaxFq8Nmcm1S1mV2LyUoa0qvPxWC_QjhYNt7Y9mJ18oXsSZWZfU69K3oG4Cw6zSghwBs5p_Hq",
+        "reason": "While not directly L4/L5 autonomous vehicles, this announcement signifies a major leap in the deployment of physical AI and humanoid robotics in autonomous systems within a real-world, large-scale environment like logistics. The increasing dexterity and planned large-scale deployment represent a significant 'AI architecture shift' in practical autonomous capabilities beyond traditional industrial robots."
     },
     {
         "category": "Longevity Lab",
-        "headline": "We may have finally found the real cause of ageing (and how to slow it)",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvSqRvcS4nCA5FuDOZJ0l7Jy8aw6JZTuH09nZRVDR_jxpJ13o7wqZU2ZWSPZuaVbkPEs_WCG-i6Fyjc1UjRVcBwgcGCufZqSfxDFHLLrM0r-jFuSa6OL0S4hTgS-uiiSRIGDgekIdcUDbIr9RPbTouLyHoKWbmFeHIjb-QS2HzJEM5jC6q_C4=",
-        "reason": "This headline points to a shift in understanding aging, moving beyond the breakdown of multiple systems to a 'coordination theory' \u2013 where aging is caused by the loss of coordination between body systems. This human-centric research, built on decades of study and supported by UK Biobank data, suggests that good health is not merely the absence of damage, but the body's ability to coordinate thousands of systems. This foundational understanding could lead to new actionable protocols for healthspan and longevity."
+        "headline": "HHS Funnels Funding and Research Toward Ibogaine and Other Psychedelics, With Mark Cuban's Help",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiIBNaR3eUKZg1kYPmklOx9yGvQ2nKOYw77yz_EKXQreaqYwdr-t321fmiSdSGv8Y_nMG09UPF5gk-BbjFidxndrcEaVj-HJkCkn5JM6Toze_Y",
+        "reason": "This marks a significant governmental and private investment in a novel area of human-centric research for healthspan and longevity. Exploring psychedelics like ibogaine for therapeutic applications, potentially including mental health and addiction which deeply impact healthspan, represents a notable shift in research focus and potential actionable protocols."
     },
     {
         "category": "Finance & Business",
-        "headline": "Brent crude falls below $90 for first time since August on Iran war de-escalation hopes",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbqMu5PwP96YgTtJBnoQvQ7UY3z3ukD2f2xdoZ_30oPznvtNjeIKn96cAzrP255WDzpa4psNGqkoOLZuy9P0zJYPCe4HCGTxgbfQh1iZ2hZgtzV42_bivQ_KyNMq_TaVWFAB5ZHVpseL_dBJDYX8EHP7mhIhqh678rqzAuzUDXniO2g-MRSMyJWIL9-eNzOvYlLJ2LG0SzoNQdaI5hUcwlYjVAomlVuAAMucshS5ARqDUdV7YwOo=",
-        "reason": "The significant drop in Brent crude oil prices below $90 for the first time since August signals a major macro stock market shift. This decline is attributed to growing expectations of de-escalation in the conflict between the US and Iran, along with reports that Iran may be softening its stance on controlling the Strait of Hormuz. This development reduces geopolitical risk premiums built into oil prices and indicates potential relief for global energy markets and inflation."
+        "headline": "Nvidia CEO Jensen Huang Resigns Amid Probe, Impacting AI Stocks and Broader Market",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQQGtgpvA1HZCFH_AK-tOeqA8xelvFP-k7W6H3-EXsPxS5LEYAfHsM3e3PIlu1_sn1cCO4sRnpdqDVHj0b5RLFsqX9GyUjMpMcPkl_uFDahhufMpPT",
+        "reason": "The unexpected resignation of Jensen Huang, the visionary CEO of Nvidia, a company at the heart of the AI revolution, has sent shockwaves through the technology sector and the broader stock market. This leadership crisis in a key AI player, coupled with ongoing government investigations, represents a significant macro stock market shift and introduces uncertainty into the rapidly evolving AI landscape."
     },
     {
         "category": "AI & Robotics",
-        "headline": "NVIDIA GR00T 2: New AI Robots Learn Human Skills and Master Complex Tasks Faster",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWtvpsG9IM_0tBy-rj6eZ0q703dgoTjRn3k76yHCNMB_vQ_nWzfk98HXKClpuy4ixoYbyW3iaOcnEYtx9ZJZWQTRu0ERWJE786m0aO1krl1G835zBl1NSvm3uMcOIPZQge1hqNMFtEaCZ2JAR49Oz6FyFShWJ7q9TY",
-        "reason": "NVIDIA's introduction of GR00T 2 at CoRL represents a breakthrough in robotics features, specifically in human-robot interaction and dexterity. This technology allows AI systems to learn manipulation skills from human demonstrations and transfer knowledge between different robot designs, enabling them to master complex physical tasks faster. The ability to complete 95% of tasks after just five demonstrations with minimal data highlights a significant leap in robot learning, adaptability, and potential for deployment in various industrial and service environments."
+        "headline": "JudgeMix: Judge-Guided Mixed-Rollout Data Synthesis for LLM Agents - arXiv",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUTaYbSU8CnHpZrslxeshKLRTPWNqujH-SyvbFmk_d3kIKTm3i3Q0jSxXNCnirsaHWCDPvpcPH2zjO_jqFSNKp9PMXLuxTzEdWM4G8pBlXRtUNIjW6X5SCFeihAH6g",
+        "reason": "This new arXiv paper describes a technical breakthrough in improving the behavior and reliability of Large Language Model (LLM) agents through 'judge-guided mixed-rollout data synthesis'. This research is directly relevant to enhancing LLM model behavior by optimizing how they learn and recover from failures, pushing the boundaries of autonomous AI agent capabilities."
     },
     {
         "category": "Global Progress",
-        "headline": "New Map Reveals Natural Forest Regeneration in Tropical Regions Could Absorb 23 Years of Global Emissions",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8rBBNr5_HW3zNkPYUBhk9P2aIgpDgxvqcAhr51FKVozuad4MLePXpT8cUTLKr2efP8nBT8-TRLPDnmm0NucE5SGsdLk2B_K3tgBI5BB-mGUhxkkU=",
-        "reason": "This discovery offers high-impact good news regarding climate progress. A new map revealing the vast potential of natural forest regeneration in tropical regions suggests that these efforts could absorb the equivalent of 23 years of global emissions. This provides a significant, nature-based solution to climate change, highlighting the power of ecological restoration to mitigate carbon in the atmosphere and offering a tangible pathway for global climate action."
+        "headline": "UN Secretary-General Urges Climate Justice Pact at COP31, Calls for Taxing Fossil Fuel Companies",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkjzPFmQBInSU-iq_L3C2nZM26tuARsGefrP1vZ-yLlA0-hHjHNGQ9SwHHnNPVOA98B_lTarmEOs-Wi0L5HushKWqfSpzFZPdiI7llHEJuL_RmrREXsE62pV0TDrXsCO78igZUFn2cSxwHJhhd5tu2z8lY72cl4Y1g5yu5Of5233fD_VozVtAqcczgqHOc2LR2It4BSwWzdAHaZvxLIm_MPpF1ihPEXDYdoIBt-dflPUzN7OcERw==",
+        "reason": "Speaking at COP31, the UN Secretary-General's impassioned call for a new global climate justice agreement, including taxing fossil fuel companies to aid affected nations, is a high-impact 'good news' development. It signals continued high-level commitment and proposes concrete, albeit challenging, mechanisms to address climate change and support vulnerable countries."
     }
 ]
