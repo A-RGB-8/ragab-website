@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "AI-Based Architectures for Global Autonomous Driving: NIO Presents World Models & Reinforcement Learning for L2+ Driver Assistance",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYRmSPorNOaboY_dVzskAxlq720GEP9ABRhuGHH5Z0DH7XneCjZVMh2UujJzv07wCWZ4laHaIkigAh2Zf5kTdoy25e-t4-RC_GmgT1yHdo_sekJEkpbNw7v2T5yz5x-o3PzdSVoug=",
-        "reason": "NIO's presentation at AutoSens demonstrates a significant technical shift in autonomous driving AI architecture from rule-based systems to advanced world models and reinforcement learning. This development is crucial for achieving higher levels of autonomy (L2+ with implications for L4/L5) and has shown cross-cultural adaptability with testing in European traffic, marking a key milestone for widespread and robust deployment."
+        "headline": "Autonomous Driving Breakthrough: Autobrains Expands Nvidia Partnership, Enabling Real-Time On-Vehicle Inference Without Running Full-Scale Models",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMuDYz4VnDC8WDf8pwSRA7oVXm7kurVsZwHU-tbeLlmQw6GOfZMUuCTezU_GBQCJkRNEi2y7FvwdR4rGCar0YMloF88aq3xkxz0BQY2wBbFWTE_o7ruYO6cXut-Ofub2B2jvGI3Gb-_5jGRcpXckTKwEXl8hK9LQicenGGnWA=",
+        "reason": "This breakthrough addresses a key challenge in L4 autonomous driving by enabling real-time on-vehicle inference using specialized driving agents, rather than requiring full large models. This reduces computing burden and improves latency, accelerating commercialization of high-level autonomous driving."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Biohacking360 Summit Highlights Actionable Protocols for Longevity, Featuring Ketogenic Pioneer Dr. Annette Bosworth",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMETWkG2BsIrMnSh4GptcZUfJRAwcUe7rQorXJRvjm1mu_s_J0q5V6bjQZXU-Kcj-UEDUbKgeS5IDheueNb5N9WnuRI1iRNV3Hu0ZMzG6ng-bYQ6sM",
-        "reason": "The Biohacking360 Summit, held on November 14, 2026, emphasizes '6+ hours of actionable protocols to upgrade your body, mind, and longevity.' Featuring world-renowned experts like Dr. Annette Bosworth, a pioneer in ketogenic medicine, the summit focuses on practical, human-centric strategies in nutrition, sleep, and overall health optimization, aligning directly with the category's demand for actionable insights based on the latest human studies."
+        "headline": "Yale scientists reveal what really slows aging and what doesn't",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVTDqw3VZaghuR6JINm6OyvTTiCE1d8HUb1E_qJVwURhItprKJCeBlwyfUYkmYEFHZVo6Yxgenz3m5L98i76InP7dr09XB9lBRWH4SpHgb7pK_nNOYkPNKd3A_UrQQ7bWn3zOq3jQ2HGfNPB3jRt9FS70yg0xOcKAa",
+        "reason": "New research from Yale, published in Nature Medicine, identifies prescription medications (like metformin and semaglutide), healthy eating, and exercise as effective in reducing biological age markers. Crucially, it finds popular anti-aging supplements largely ineffective, providing actionable, human-centric protocols based on robust analysis of 51 studies."
     },
     {
         "category": "Finance & Business",
-        "headline": "Wall Street Sees S&P 500 and Nasdaq Post First Weekly Gain in Five Weeks Despite AI Chip Sector Sell-Off Triggered by Nvidia CEO's Departure",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_xwzS4EnwhBlX3fE8xYiqrRMgNNYHi54D9bX9hrdQ0qSkCfNiXUK9OripVXvV8sHO7y0oXrCSUKeDs3_hlhkW755ru4Ly1YGNn__31CtQdz9SnLEnP6KradBtkycFNooaTzt6-RbOaGNQYtMJbmUXsWYByhucIBdM-UEPl-xfMw==",
-        "reason": "Despite a significant sell-off in AI and chip stocks following the unexpected resignation of Nvidia CEO Jensen Huang, the S&P 500 and Nasdaq Composite still managed to snap four-week losing streaks and post their first weekly gains since early October. This complex market movement highlights a significant macro shift where broader investor movements, including shifts into consumer staples, communication services, and energy, provided support, even as turmoil at a critical AI infrastructure supplier like Nvidia raised questions about the resilience of the AI boom's foundational systems."
+        "headline": "This Week in Review | Market Volatility, Q3 Earnings, US Inflation (Nov. 13, 2026)",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNOsGqZDpR-nS2szhjK_gZHKjXLUMp8C6qHpJ2zdMwokJCxQhaijRqFRXt-IMcbttCrUeNBL1noTeTTGms-o1U3RhHZzlelSIGJaTZPtQcLE-BK89LPnUtjjN7DTTnPKmLfeAHk48=",
+        "reason": "This report provides a concise overview of significant macroeconomic shifts including recent market volatility driven by factors like Q3 earnings and US inflation data. It offers analysis on why these movements are occurring, detailing how strong corporate results are met with skepticism and the implications of higher-than-expected inflation."
     },
     {
         "category": "AI & Robotics",
-        "headline": "Multiverse Computing Demonstrates Quantum Neural Networks Replacing Transformer Blocks in 30B LLM, Maintaining Accuracy",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXgziaCEmW-VY9y3-bsVagr7hkAtJHNqLSD7OaXMdb8oFNOgplDYhIyn_BH39z9NukRPm1HmvRwDdep9v-jwPE0qAgGMhHwSQk1ydYeH_HBblMoY0nqenVimJNAkgsW0E8AOqp59KTmugEnSGJhlVlyMY3NHYzbnbUaCqbvfOXKRHmoABVaX7rsg==",
-        "reason": "This report details a significant breakthrough in large language model (LLM) architecture, where researchers successfully demonstrated the use of multi-head quantum neural networks (QNNs) to replace transformer blocks within a 30-billion-parameter LLM while maintaining accuracy. This advancement, run on a 156-qubit IBM Heron processor, indicates a novel approach to LLM design and deployment, potentially paving the way for more efficient and powerful AI models through quantum integration."
+        "headline": "OpenAI Scraps Standalone Robotics Team as General-Purpose Models \"Take Over\" the Embodied AI Race",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY3_rsPcKIj5kWzQUgzqrZ_zFlB9b1PGBTsl7JYNuV63YacwHC20k55zEG5tOTul1p7mxxYemkcRtqydCqbbwgkjNPF-PNIkzIj8g0mv_4iQ7ZQUV_Pwps9H9ehm76Z442DHs5thMI1qP-Vo2pg7mZu8Q3DoAOOouUHxFOvW4=",
+        "reason": "OpenAI has dissolved its dedicated robotics research team, integrating staff into core research as general-purpose models like GPT-6 Astra demonstrate the ability to directly control robots. This signals a major architectural shift where foundational AI models are expected to drive robotics, accelerating development in embodied AI and highlighting the growing capabilities of LLMs in physical environments."
     },
     {
         "category": "Global Progress",
-        "headline": "NASA Science Reports A Global Rebound for Mangroves After Decades of Decline",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9GzPEONJ6qnWJQk9ePUXuSdbwqXtW9UOa9KHZmUDUFAB4jpHG_aK7ttlM3vK3iC622XWVdqscZwYIRW25YFuipSxH3XrEsP3RfgkGN-r3qwI76GUz5WPuKPFPz__17pAS1kxqD7LKV62rjCnxhuDSD7eJ9sz1HOzw_Jq5uKBXo5PvJ6TStlXO3OMY",
-        "reason": "This headline represents high-impact 'good news' regarding climate and environmental progress. After decades of decline, NASA's Earth Observatory images from November 13, 2026, confirm a global rebound for ecologically vital mangrove forests. This recovery is a tangible success story for biodiversity conservation and climate resilience, underscoring that focused conservation efforts and reduced deforestation can lead to significant positive environmental impacts."
+        "headline": "Carney unveils forest pledge after skipping two COP summits",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgtNrez9aUMqbIP3UHmG-wU4s20rbt6pR3gzesgo_G-QRavA8tsTcbBO7oIctQ_YhuUcoeoRJNJbl-CKbHCT_A-M_9FF-yvvMcAsIM6Lg5daF_ulh6lBJnc4zhCXIYVrozuBN854Z92JZ8bqqnzUHRxLLpSXv-P_3s2jCj5jlu157oge8uBDFwshfwZ203WEv5VZ-GRAVHHawX3aB6Gp8BmuKy",
+        "reason": "Canada's Prime Minister Mark Carney announced a significant pledge of up to $560 million over four years to the Tropical Forest Forever Facility, a new international fund aimed at protecting tropical forests and biodiversity in over 70 countries. This represents a high-impact positive development for climate action and global environmental conservation."
     }
 ]
