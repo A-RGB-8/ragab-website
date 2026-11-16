@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "Autonomous Driving Breakthrough: Autobrains Expands Nvidia Partnership, Enabling Real-Time On-Vehicle Inference Without Running Full-Scale Models",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMuDYz4VnDC8WDf8pwSRA7oVXm7kurVsZwHU-tbeLlmQw6GOfZMUuCTezU_GBQCJkRNEi2y7FvwdR4rGCar0YMloF88aq3xkxz0BQY2wBbFWTE_o7ruYO6cXut-Ofub2B2jvGI3Gb-_5jGRcpXckTKwEXl8hK9LQicenGGnWA=",
-        "reason": "This breakthrough addresses a key challenge in L4 autonomous driving by enabling real-time on-vehicle inference using specialized driving agents, rather than requiring full large models. This reduces computing burden and improves latency, accelerating commercialization of high-level autonomous driving."
+        "headline": "Kakao Mobility and Nvidia Partner to Develop Level 4 Autonomous Driving System for Kia's PV5",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL9-SvF4VOm-VEdpYfveE6ox2KinLz2Fudi-lY2S5m2YG3QJJJ8IlRw4olacMVFSGcLiZl-aCcRQ7Jj04dd9p8cbefrW_epxuCupJRvZP7HoI5QfgQwCXks1_ma2I9ufDC7nIAE36BbSWrOGCiWBoZH5N3qJauH3ZdGiR3COI7I_w3azuqkAtjE49YBV8pFtLsjWB30SBiK6mQgGyeT4n7-qBhqYe4meSBe5-DKkZ9bp4mZrf8zzK_1w9esCR0dXmAuSjil4rU67rFPwinXUpaaWHPW_gTYLiw9_dy3he6ZMW3xJjOovKKs7zBK1f_Tn4eKS27idIUDzWTwSNanRoj",
+        "reason": "This collaboration marks a significant Level 4 autonomous driving milestone, combining Kakao's AI models with Nvidia's compute infrastructure for a concrete deployment on Kia's purpose-built vehicles. It signifies a tangible step towards advanced autonomous mobility with a clear path to real-world integration."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Yale scientists reveal what really slows aging and what doesn't",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVTDqw3VZaghuR6JINm6OyvTTiCE1d8HUb1E_qJVwURhItprKJCeBlwyfUYkmYEFHZVo6Yxgenz3m5L98i76InP7dr09XB9lBRWH4SpHgb7pK_nNOYkPNKd3A_UrQQ7bWn3zOq3jQ2HGfNPB3jRt9FS70yg0xOcKAa",
-        "reason": "New research from Yale, published in Nature Medicine, identifies prescription medications (like metformin and semaglutide), healthy eating, and exercise as effective in reducing biological age markers. Crucially, it finds popular anti-aging supplements largely ineffective, providing actionable, human-centric protocols based on robust analysis of 51 studies."
+        "headline": "First Human Trial of Epigenetic Reprogramming for Anti-Aging Receives FDA Clearance in 2026",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1Y1vbL9vX3G160O99NPJm_5am2BjCQ-uRJ1An9zKHJEkMoNyff7TVxNIXI0ObScaFxnlZwHIZeTLSbJmK-IfPPwBxrwGOC8TFAHkCjDrt5HU7u5Bk45GdyWm6cF8fvtI2dwMjTrb8d99qyEf7hPvc1jlFajbOqw==",
+        "reason": "This breakthrough represents the first-ever FDA clearance for a human trial of a cellular reprogramming technology (ER-100), aiming to test an epigenetic reprogramming therapy using Yamanaka factors. This is a crucial step for human-centric longevity research, moving a highly promising and actionable protocol into clinical evaluation with built-in safety mechanisms."
     },
     {
         "category": "Finance & Business",
-        "headline": "This Week in Review | Market Volatility, Q3 Earnings, US Inflation (Nov. 13, 2026)",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNOsGqZDpR-nS2szhjK_gZHKjXLUMp8C6qHpJ2zdMwokJCxQhaijRqFRXt-IMcbttCrUeNBL1noTeTTGms-o1U3RhHZzlelSIGJaTZPtQcLE-BK89LPnUtjjN7DTTnPKmLfeAHk48=",
-        "reason": "This report provides a concise overview of significant macroeconomic shifts including recent market volatility driven by factors like Q3 earnings and US inflation data. It offers analysis on why these movements are occurring, detailing how strong corporate results are met with skepticism and the implications of higher-than-expected inflation."
+        "headline": "U.S. Stock Futures Sink Amid Geopolitical Shockwaves, Tech Uncertainty, and Nvidia CEO Turmoil",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcTxFtiu17Aky9RTFCZXxsyHBG5VhFzhP5eSQosfIO3MQ0tJePa067BbbJWdvbYk5v3Fx-htqew77ohQKW4pnB5-egDooesTpPAsqWp8tCw1aPEqRGBLlN2dBiE86FCYduv749P-oLQ4tNhaoe9ZakJq3HHYfwxSbzRtIYJGU42N6KpCn5M5Sjy4mjG5cLg-9eN3WBb9enDL5LFJ_BO7yL4KJiDyGxITe0nbj5kcJ5",
+        "reason": "The sinking U.S. stock futures on November 16, 2026, reflect significant macro market shifts driven by a confluence of factors including ongoing geopolitical instability, broad uncertainty in the tech sector, and specifically, the turmoil surrounding Nvidia's CEO resignation and potential succession. This indicates a notable shift in market sentiment and capital allocation."
     },
     {
         "category": "AI & Robotics",
-        "headline": "OpenAI Scraps Standalone Robotics Team as General-Purpose Models \"Take Over\" the Embodied AI Race",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY3_rsPcKIj5kWzQUgzqrZ_zFlB9b1PGBTsl7JYNuV63YacwHC20k55zEG5tOTul1p7mxxYemkcRtqydCqbbwgkjNPF-PNIkzIj8g0mv_4iQ7ZQUV_Pwps9H9ehm76Z442DHs5thMI1qP-Vo2pg7mZu8Q3DoAOOouUHxFOvW4=",
-        "reason": "OpenAI has dissolved its dedicated robotics research team, integrating staff into core research as general-purpose models like GPT-6 Astra demonstrate the ability to directly control robots. This signals a major architectural shift where foundational AI models are expected to drive robotics, accelerating development in embodied AI and highlighting the growing capabilities of LLMs in physical environments."
+        "headline": "Melexis Unveils MLX90901 Tactile Fingertip Module, Bringing True 3D Force Sensing to Humanoid Robots",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpNYcorhMaccCJj-chFZly-ShgfoydsiJUxpn2rM2-fnXcY4iQP65G6YXi7o0utAc-4svsQjmJnC6UIPSGR-RVNjExpl5mJDw4zByeUZ2h7Yg2Gs-qcriuYaFqXgYMsSw0ItMbYPbOnSrtua4=",
+        "reason": "This module provides humanoid robots with true 3D force sensing (normal and shear), a critical advancement in tactile feedback. This directly enhances robot dexterity, enabling more reliable physical interaction, improved grasp stability, and precise manipulation, which are essential features for advancing human-robot interaction and deployment in complex environments."
     },
     {
         "category": "Global Progress",
-        "headline": "Carney unveils forest pledge after skipping two COP summits",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgtNrez9aUMqbIP3UHmG-wU4s20rbt6pR3gzesgo_G-QRavA8tsTcbBO7oIctQ_YhuUcoeoRJNJbl-CKbHCT_A-M_9FF-yvvMcAsIM6Lg5daF_ulh6lBJnc4zhCXIYVrozuBN854Z92JZ8bqqnzUHRxLLpSXv-P_3s2jCj5jlu157oge8uBDFwshfwZ203WEv5VZ-GRAVHHawX3aB6Gp8BmuKy",
-        "reason": "Canada's Prime Minister Mark Carney announced a significant pledge of up to $560 million over four years to the Tropical Forest Forever Facility, a new international fund aimed at protecting tropical forests and biodiversity in over 70 countries. This represents a high-impact positive development for climate action and global environmental conservation."
+        "headline": "India Lifts Nearly 500 Million People Out of Extreme Poverty Between 2011 and 2023, Poverty Rate Drops to 2.6%",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3PT-C6VEmEyfsg3Jq4n6papW7WVUzClBEETBAfJlhjQN4MPkCHx_UMfhKX9kQfeERhvQLnFdq_wHJILm5jWk7zFhjnxKc_w835OEbBHkuYXvECPIEqhz30yeO0eKet9Nb6IvHlZT8DBKZOuVh",
+        "reason": "Reported on November 15, 2026, this headline highlights an 'impressive' reduction in extreme poverty in India, with the rate plummeting from 27.1% to 2.6% over 12 years, lifting approximately 496 million people above the poverty line. This represents high-impact 'good news' demonstrating substantial global progress in poverty reduction on an unprecedented scale."
     }
 ]
