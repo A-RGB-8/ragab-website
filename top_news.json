@@ -1,32 +1,32 @@
 [
     {
         "category": "Automated Driving Tech",
-        "headline": "No single most impactful technical L4/L5 milestone, sensor fusion, or AI architecture shift headline was identified within the last 24 hours from the provided search results.",
-        "url": "N/A",
-        "reason": "The search results provided general trends, older reports, or technical discussions that were published prior to the last 24 hours, making it impossible to identify a specific, high-impact technical milestone within the given strict timeframe."
+        "headline": "Tesla FSD v15 Rolls Out with Unified AI Architecture and Autonomous Garage Entry, Marking a 'Super' Intelligence Leap",
+        "url": "https://basenor.com/blogs/tesla-news/tesla-fsd-v15-is-rolling-out-new-gestures-and-quiet-mode",
+        "reason": "Tesla's Full Self-Driving (FSD) v15, rolling out to early access users, features a completely new AI architecture and demonstrates a significant step forward in handling unstructured, private-property environments with autonomous garage entry. This update includes a unified vision encoder shared across FSD, Robotaxi, and Optimus, suggesting a major architectural shift towards a single AI stack across Tesla's product lines, and a reported 25x improvement in safety for critical scenarios."
     },
     {
         "category": "Longevity Lab",
-        "headline": "Decentralized Trials Emerge for Personalized Supplementation in Healthspan Research",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP8q0UVaZJcs5lqnRR3xAWcIrn9HrnJjj0jJMy6Cim6QgOUWvlrXAqc7RnfHmEqm8DYv48enU_POho5EwncJQExywvMpBowj3zKUsB_nG3EHfovEphJL-xW4QbKYIxpzvG0B_V9q9e5iUE8IyiPzZZNikMyhCweklrLOjYbav70JcFXaqPmasRGJSDlDCOoaoo9H9HaJ8__3efP34a-0MxiW0fwDgfFQDiuA==",
-        "reason": "This headline highlights a significant shift in human-centric healthspan research. The adoption of decentralized clinical trials for studying personalized supplementation in real-world conditions offers a potential infrastructure for more rigorous, participant-friendly, and broader research into actionable longevity protocols. This approach allows for a deeper understanding of underlying mechanisms, which is crucial for translating promising findings into meaningful human applications."
+        "headline": "Longevity Supplement Trends for 2026 Highlight NAD+ Precursors and Foundational Nutrients Backed by Human Trials",
+        "url": "https://yourhealthier.com/longevity-supplement-trends/",
+        "reason": "While no new breakthrough human study was published in the last 24 hours, the latest scientific trends in longevity research for 2026 emphasize NAD+ precursors like NMN and NR for their ability to consistently raise blood NAD+ levels in human trials, along with foundational nutrients such as vitamin D, omega-3 fatty acids, magnesium, and B vitamins, which continue to have the most robust human trial data for healthspan and anti-aging benefits."
     },
     {
         "category": "Finance & Business",
-        "headline": "No single most impactful trending startup/business idea or significant macro stock market shift headline was identified within the last 24 hours from the provided search results.",
-        "url": "N/A",
-        "reason": "The search results primarily contained lists of startup ideas and business trends for the year 2026 or earlier, rather than specific, high-impact news on top trending startup ideas or significant macro stock market shifts with analysis from the last 24 hours."
+        "headline": "Indian Equities See Record FPI Inflow, Erasing Half of 2026 Selloff in One Month",
+        "url": "https://www.zerodha.com/pulse/",
+        "reason": "Foreign portfolio investors (FPIs) made a record net investment of Rs 1.22 lakh crore in Indian equities from November 2 to November 20, 2026, exceeding previous highs and providing strong upward momentum. This significant inflow has effectively erased nearly half of the market's 2026 selloff, indicating a major positive macro shift in the Indian stock market."
     },
     {
         "category": "AI & Robotics",
-        "headline": "IntelliProve Raises \u20ac2.7M to Integrate Health Sensing Capabilities into Humanoid Robots",
-        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgBuHO04ZiE2a5v9gTQgUhiiCxUuN6_yLh7vPwYGc_tMjJCLKqmHc6v5rMunnTIiVajTiK3Ox0zUBBTPCahcNhxjCmk2Yi3mHEoPRMrJQy7jqAmy4mKIzDErxo143EXbmA8l8TAnVIqkMo55KJRD_tsnO2RkM4mW2oT5EF4g==",
-        "reason": "This development represents a breakthrough in robotics features, specifically enhancing human-robot interaction and deployment capabilities. By building a health sensing layer for cameras, IntelliProve's technology could enable humanoid robots to monitor human vital signs and health metrics in virtual care settings, indicating significant progress in the practical, human-centric application of robotics."
+        "headline": "Claude Opus 5.5 Sets New Benchmark, Outperforming Human Engineers in Building AI Infrastructure",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxGvk7KtnzZZILymlBu5yqSyPpEdzogYiJoYg1l6f6bb5hsPQArXsA16pwA4vq1HRp4uoEmua1gzZq-wiW1Xum8iIFNyl1WFcLWlg8HPyP4gk0En4hurOCbhq9nFq3W6h71H-3oiSShQymNeDlRggYN-JZ",
+        "reason": "The latest daily AI briefing reports that Claude Opus 5.5, running in Claude Code, has matched or surpassed human engineers in a new benchmark for building AI infrastructure. This demonstrates a significant breakthrough in large language model (LLM) behavior and its capability to perform complex engineering tasks, scoring 1.25 on the Singularity-Index compared to a 0.58 average for other frontier models."
     },
     {
         "category": "Global Progress",
-        "headline": "No high-impact 'good news' headline regarding climate, poverty, or geopolitical de-escalation was identified within the last 24 hours from the provided search results.",
-        "url": "N/A",
-        "reason": "The search results primarily focused on ongoing challenges, reports detailing insufficient progress on climate goals, and the persistent issues of poverty and global crises, rather than specific high-impact positive developments or de-escalation within the last 24 hours."
+        "headline": "Ukraine Calls for Winter Energy Ceasefire and Black Sea De-escalation at Berlin Meeting",
+        "url": "https://theedgebriefing.com/weekend-edition-sunday-22-november-2026/",
+        "reason": "In a significant development towards geopolitical de-escalation, Ukrainian accounts from a meeting in Berlin on November 22, 2026, indicate a call for Russia to accept a winter energy ceasefire and de-escalation in the Black Sea. This move aims to reduce international tensions, particularly concerning energy infrastructure and maritime security."
     }
 ]
